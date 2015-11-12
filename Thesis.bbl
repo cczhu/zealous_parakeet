@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Fryer} {et~al.}(2010){Fryer}, {Ruiter}, {Belczynski}, {Brown},
+  {Bufano}, {Diehl}, {Fontes}, {Frey}, {Holland}, {Hungerford}, {Immler},
+  {Mazzali}, {Meakin}, {Milne}, {Raskin}, \& {Timmes}}]{frye+10}
+{Fryer}, C.~L., {Ruiter}, A.~J., {Belczynski}, K., {et~al.} 2010, \apj, 725,
+  296
+
+\bibitem[{{Raskin} {et~al.}(2014){Raskin}, {Kasen}, {Moll}, {Schwab}, \&
+  {Woosley}}]{rask+14}
+{Raskin}, C., {Kasen}, D., {Moll}, R., {Schwab}, J., \& {Woosley}, S. 2014,
+  \apj, 788, 75
+
+\end{thebibliography}

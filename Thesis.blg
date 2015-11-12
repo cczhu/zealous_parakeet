@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: introduction/introduction.aux
+A level-1 auxiliary file: chapter2/chapter2.aux
+A level-1 auxiliary file: chapter3/chapter3.aux
+A level-1 auxiliary file: conclusion/conclusion.aux
+The style file: apj.bst
+Database file #1: AutoBibliography.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 2 entries,
+            3085 wiz_defined-function locations,
+            653 strings with 4923 characters,
+and the built_in function-call counts, 1162 in all, are:
+= -- 83
+> -- 111
+< -- 0
++ -- 37
+- -- 42
+* -- 112
+:= -- 231
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 14
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 38
+empty$ -- 56
+format.name$ -- 42
+if$ -- 219
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 10
+num.names$ -- 8
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 31
+stack$ -- 0
+substring$ -- 39
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 7
+width$ -- 0
+write$ -- 23
