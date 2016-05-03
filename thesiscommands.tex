@@ -8,7 +8,7 @@
 \newcommand{\charles}{\color{magenta}\bf}
 
 % Define math environment
-\newcommand{\domm}[1]{\ifmmode #1\else$#1$\fi}
+\DeclareRobustCommand{\domm}[1]{\ifmmode #1\else$#1$\fi}
 
 % Shorthands
 \let\apx\approx

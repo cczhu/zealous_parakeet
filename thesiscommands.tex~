@@ -8,10 +8,13 @@
 \newcommand{\charles}{\color{magenta}\bf}
 
 % Define math environment
-\newcommand{\domm}[1]{\ifmmode #1\else$#1$\fi}
+\DeclareRobustCommand{\domm}[1]{\ifmmode #1\else$#1$\fi}
 
 % Shorthands
 \let\apx\approx
+\newcommand{\qc}{\emph}
+\newcommand{\eqbegin}{\begin{equation}}
+\newcommand{\eqend}{\end{equation}}
 
 % Commonly used units
 \newcommand{\Msun}{\domm{M_{\odot}}}

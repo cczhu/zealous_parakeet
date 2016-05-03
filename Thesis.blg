@@ -2,9 +2,12 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: chapter2_zhu+13/chapter2.aux
+A level-1 auxiliary file: chapter2_zhu+13/chapter2_variation.aux
+A level-1 auxiliary file: chapter2_zhu+13/chapter2_discussion.aux
 The style file: apj.bst
 Database file #1: AutoBibliography.bib
 Warning--I didn't find a database entry for "loreig09"
+Warning--I didn't find a database entry for "paxt+11"
 Warning--I didn't find a database entry for "pakm+11"
 Warning--I didn't find a database entry for "pakm+12"
 Warning--I didn't find a database entry for "saion98"
@@ -28,10 +31,33 @@ Warning--I didn't find a database entry for "timms00"
 Warning--I didn't find a database entry for "pakm+10"
 Warning--I didn't find a database entry for "tremb09"
 Warning--I didn't find a database entry for "eggl83"
+Warning--I didn't find a database entry for "dsou+06"
+Warning--I didn't find a database entry for "lairs94"
+Warning--I didn't find a database entry for "uryue98"
+Warning--I didn't find a database entry for "piro11"
+Warning--I didn't find a database entry for "balbh91"
+Warning--I didn't find a database entry for "spru02"
+Warning--I didn't find a database entry for "shaks73"
+Warning--I didn't find a database entry for "bars+95"
+Warning--I didn't find a database entry for "hama97"
+Warning--I didn't find a database entry for "haye+06"
+Warning--I didn't find a database entry for "seit+09"
+Warning--I didn't find a database entry for "woos+11"
+Warning--I didn't find a database entry for "mazumw77"
+Warning--I didn't find a database entry for "woos+09"
+Warning--I didn't find a database entry for "saion85"
+Warning--I didn't find a database entry for "aspd+11"
+Warning--I didn't find a database entry for "seitcr11"
+Warning--I didn't find a database entry for "maed+10a"
+Warning--I didn't find a database entry for "maed+10b"
+Warning--I didn't find a database entry for "taub+09"
+Warning--I didn't find a database entry for "spri10"
+Warning--I didn't find a database entry for "duffm11"
+Warning--I didn't find a database entry for "brow+11"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 12 entries,
             3085 wiz_defined-function locations,
-            758 strings with 7683 characters,
+            784 strings with 7928 characters,
 and the built_in function-call counts, 6232 in all, are:
 = -- 483
 > -- 485
@@ -70,4 +96,4 @@ warning$ -- 0
 while$ -- 44
 width$ -- 0
 write$ -- 123
-(There were 24 warnings)
+(There were 48 warnings)

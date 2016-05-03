@@ -254,7 +254,7 @@ I'd like to thank the academy for choosing me...
 \input{chapter2_zhu+13/chapter2_intro.tex}
 \input{chapter2_zhu+13/chapter2_gasoline.tex}
 \input{chapter2_zhu+13/chapter2_results.tex}
-%\include{chapter2_zhu+13/chapter2_variation}
+\include{chapter2_zhu+13/chapter2_variation}
 %\include{chapter2_zhu+13/chapter2_discussion}
 %ch3
 %\include{chapter3/chapter3}
