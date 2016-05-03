@@ -1,10 +1,77 @@
+% Citation tricks
+\defcitealias{vkercj10}{vK10}
+\defcitealias{zhu+13}{Z13}
+\defcitealias{zhu+15}{Z15}
+\newcommand{\citeal}{\citetalias}
+
+% Charles highlighting
+\newcommand{\charles}{\color{magenta}\bf}
+
+% Define math environment
 \newcommand{\domm}[1]{\ifmmode #1\else$#1$\fi}
 
-\newcommand{\azero}{\domm{a_0}}
+% Shorthands
+\let\apx\approx
+\newcommand{\qc}{\emph}
+\newcommand{\eqbegin}{\begin{equation}}
+\newcommand{\eqend}{\end{equation}}
+
+% Commonly used units
 \newcommand{\Msun}{\domm{M_{\odot}}}
 \newcommand{\Rsun}{\domm{R_{\odot}}}
-\newcommand{\Mch}{\domm{M_{\rm Ch}}}
-\newcommand{\Ni}{\hbox{$^{56}$Ni}}
 \newcommand{\pyr}{\domm{{\rm yr}^{-1}}}
 \newcommand{\psec}{\domm{{\rm s}^{-1}}}
 \newcommand{\gcc}{\domm{{\rm g\,cm}^{-3}}}
+
+% Commonly used nomenclature
+\newcommand{\Mch}{\domm{M_{\rm Ch}}}
+\newcommand{\Ni}{\hbox{$^{56}$Ni}}
+
+% Merger stuff
+\newcommand{\azero}{\domm{a_0}}
+\newcommand{\dmax}{\domm{\delta_{\rm max}}}
+\newcommand{\Md}{\domm{M_{\rm d}}}
+\newcommand{\Ma}{\domm{M_{\rm a}}}
+\newcommand{\Ra}{\domm{R_{\rm a}}}
+\newcommand{\Mtot}{\domm{{\rm tot}}}
+\newcommand{\qm}{\domm{q_\mathrm{m}}}
+\newcommand{\Omegamax}{\domm{\Omega_{\rm max}}}
+\newcommand{\MencTmax}{\domm{M_{\rm enc}(T_{\rm max})}}
+\newcommand{\zMencTmax}{\domm{M_{\rm enc}(T^{\rm z}_{\rm max})}}
+\newcommand{\rhomax}{\domm{\rho_{\rm max}}}
+\newcommand{\rhocrat}{\domm{\rho_{\rm c,d}/\rho_{\rm c,a}}}
+\newcommand{\rhoc}{\domm{\rho_{\rm c}}}
+\newcommand{\rhocd}{\domm{\rho_{\rm c,d}}}
+\newcommand{\rhoca}{\domm{\rho_{\rm c,a}}}
+\newcommand{\qrho}{\domm{q_\rho}}
+\newcommand{\coremass}{\domm{M_{\rm a}(\rho > \rho_{c,d})}}
+\newcommand{\MMfifty}{\domm{M_{\rm enc}(\frac{1}{2}M_{\rm d})}}
+\newcommand{\MMthick}{\domm{\Delta M_{\rm enc}(M_{\rm d})}}
+\newcommand{\Mrem}{\domm{M_{\rm ce}}}
+\newcommand{\Mdisk}{\domm{M_{\rm disk}}}
+\newcommand{\Mc}{\domm{M_{\rm c}}}
+\newcommand{\Tmax}{\domm{T_{\rm max}}} 
+\newcommand{\zTmax}{\domm{T^{\rm z}_{\rm max}}} 
+\newcommand{\rhoTmax}{\domm{\rho(T_{\rm max})}}
+\newcommand{\zrhoTmax}{\domm{\rho(T^{\rm z}_{\rm max})}}
+\newcommand{\MEthermfifty}{\domm{M_{\rm enc}(\frac{1}{2}E_{\rm th})}}
+\newcommand{\MEthermthick}{\domm{\Delta M_{\rm enc}(E_{\rm th})}}
+\newcommand{\MencOmax}{\domm{M_{\rm enc}(\Omega_{\rm max})}}
+\newcommand{\Omegaorb}{\domm{\Omega_{\rm orb}}}
+\newcommand{\MErotfifty}{\domm{M_{\rm enc}(\frac{1}{2}E_{\rm rot})}}
+\newcommand{\MErotthick}{\domm{\Delta M_{\rm enc}(E_{\rm rot})}}
+\newcommand{\Epot}{\domm{E_{\rm pot}}}
+\newcommand{\Erot}{\domm{E_{\rm rot}}}
+\newcommand{\EFermiErot}{\domm{E_{\rm deg}/E_{\rm rot}}}
+\newcommand{\EthermErot}{\domm{E_{\rm th}/E_{\rm rot}}}
+\newcommand{\hz}{\domm{h_\mathrm{z}}}
+\newcommand{\hxy}{\domm{h_\varpi}}
+\newcommand{\rhocrhoct}{\domm{\rho_{\rm c}$/$\rho_{\rm c,a}}}
+\newcommand{\Tc}{\domm{T_{\rm c}}}
+\newcommand{\Omegac}{\domm{\Omega_{c}}}
+\newcommand{\Lrat}{\domm{L_{\rm ce}/L_{\rm tot}}}
+\newcommand{\alignment}[1]{\begin{align}#1\end{align}} 
+\newcommand{\mrm}{\mathrm}
+\newcommand{\rxy}{$\varpi$}
+\newcommand{\fdon}{\domm{f_{\rm d}}}
+\newcommand{\fratio}{\domm{(f_{\rm d}/f_{\rm a})_{\rm cc}}}

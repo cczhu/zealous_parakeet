@@ -1,50 +1,73 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: introduction/introduction.aux
-A level-1 auxiliary file: chapter2/chapter2.aux
-A level-1 auxiliary file: chapter3/chapter3.aux
-A level-1 auxiliary file: conclusion/conclusion.aux
+A level-1 auxiliary file: chapter2_zhu+13/chapter2.aux
 The style file: apj.bst
 Database file #1: AutoBibliography.bib
+Warning--I didn't find a database entry for "loreig09"
+Warning--I didn't find a database entry for "pakm+11"
+Warning--I didn't find a database entry for "pakm+12"
+Warning--I didn't find a database entry for "saion98"
+Warning--I didn't find a database entry for "yoonpr07"
+Warning--I didn't find a database entry for "segrcm97"
+Warning--I didn't find a database entry for "kube+10"
+Warning--I didn't find a database entry for "shen+12"
+Warning--I didn't find a database entry for "schw+12"
+Warning--I didn't find a database entry for "mona05"
+Warning--I didn't find a database entry for "rask+12"
+Warning--I didn't find a database entry for "dan+12"
+Warning--I didn't find a database entry for "marsns04"
+Warning--I didn't find a database entry for "fulll12"
+Warning--I didn't find a database entry for "shig+92"
+Warning--I didn't find a database entry for "sim+10"
+Warning--I didn't find a database entry for "wadssq04"
+Warning--I didn't find a database entry for "hernk89"
+Warning--I didn't find a database entry for "guerig04"
+Warning--I didn't find a database entry for "dan+11"
+Warning--I didn't find a database entry for "timms00"
+Warning--I didn't find a database entry for "pakm+10"
+Warning--I didn't find a database entry for "tremb09"
+Warning--I didn't find a database entry for "eggl83"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 2 entries,
+You've used 12 entries,
             3085 wiz_defined-function locations,
-            653 strings with 4923 characters,
-and the built_in function-call counts, 1162 in all, are:
-= -- 83
-> -- 111
-< -- 0
-+ -- 37
-- -- 42
-* -- 112
-:= -- 231
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 14
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 38
-empty$ -- 56
-format.name$ -- 42
-if$ -- 219
+            758 strings with 7683 characters,
+and the built_in function-call counts, 6232 in all, are:
+= -- 483
+> -- 485
+< -- 4
++ -- 158
+- -- 171
+* -- 557
+:= -- 1170
+add.period$ -- 12
+call.type$ -- 12
+change.case$ -- 70
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 248
+empty$ -- 368
+format.name$ -- 184
+if$ -- 1241
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 10
-num.names$ -- 8
-pop$ -- 15
+missing$ -- 10
+newline$ -- 40
+num.names$ -- 49
+pop$ -- 81
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 70
 quote$ -- 0
-skip$ -- 31
+skip$ -- 217
 stack$ -- 0
-substring$ -- 39
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 279
+swap$ -- 20
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 108
 warning$ -- 0
-while$ -- 7
+while$ -- 44
 width$ -- 0
-write$ -- 23
+write$ -- 123
+(There were 24 warnings)

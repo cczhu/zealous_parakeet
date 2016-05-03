@@ -1,15 +1,61 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Fryer} {et~al.}(2010){Fryer}, {Ruiter}, {Belczynski}, {Brown},
-  {Bufano}, {Diehl}, {Fontes}, {Frey}, {Holland}, {Hungerford}, {Immler},
-  {Mazzali}, {Meakin}, {Milne}, {Raskin}, \& {Timmes}}]{frye+10}
-{Fryer}, C.~L., {Ruiter}, A.~J., {Belczynski}, K., {et~al.} 2010, \apj, 725,
-  296
+\bibitem[{{Abbott} {et~al.}(2016){Abbott}, {Abbott}, {Abbott}, {Abernathy},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, \&
+  et~al.}]{ligo16}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2016, Physical Review
+  Letters, 116, 131102
 
-\bibitem[{{Raskin} {et~al.}(2014){Raskin}, {Kasen}, {Moll}, {Schwab}, \&
-  {Woosley}}]{rask+14}
-{Raskin}, C., {Kasen}, D., {Moll}, R., {Schwab}, J., \& {Woosley}, S. 2014,
-  \apj, 788, 75
+\bibitem[{{Andronov} {et~al.}(2006){Andronov}, {Pinsonneault}, \&
+  {Terndrup}}]{andrpt06}
+{Andronov}, N., {Pinsonneault}, M.~H., \& {Terndrup}, D.~M. 2006, \apj, 646,
+  1160
+
+\bibitem[{{Justham} {et~al.}(2014){Justham}, {Podsiadlowski}, \&
+  {Vink}}]{justpv14}
+{Justham}, S., {Podsiadlowski}, P., \& {Vink}, J.~S. 2014, \apj, 796, 121
+
+\bibitem[{{Kaiser} {et~al.}(2010){Kaiser}, {Burgett}, {Chambers}, {Denneau},
+  {Heasley}, {Jedicke}, {Magnier}, {Morgan}, {Onaka}, \& {Tonry}}]{kais+10}
+{Kaiser}, N., {Burgett}, W., {Chambers}, K., {et~al.} 2010, in \procspie, Vol.
+  7733, Ground-based and Airborne Telescopes III, 77330E
+
+\bibitem[{{Knigge} {et~al.}(2009){Knigge}, {Leigh}, \& {Sills}}]{knigs09}
+{Knigge}, C., {Leigh}, N., \& {Sills}, A. 2009, \nat, 457, 288
+
+\bibitem[{{LSST Science Collaboration} {et~al.}(2009){LSST Science
+  Collaboration}, {Abell}, {Allison}, {Anderson}, {Andrew}, {Angel}, {Armus},
+  {Arnett}, {Asztalos}, {Axelrod}, \& et~al.}]{lsst09}
+{LSST Science Collaboration}, {Abell}, P.~A., {Allison}, J., {et~al.} 2009,
+  ArXiv e-prints, arXiv:0912.0201
+
+\bibitem[{{Nandez} {et~al.}(2014){Nandez}, {Ivanova}, \& {Lombardi}}]{nandil14}
+{Nandez}, J.~L.~A., {Ivanova}, N., \& {Lombardi}, Jr., J.~C. 2014, \apj, 786,
+  39
+
+\bibitem[{{Rau} {et~al.}(2009){Rau}, {Kulkarni}, {Law}, {Bloom}, {Ciardi},
+  {Djorgovski}, {Fox}, {Gal-Yam}, {Grillmair}, {Kasliwal}, {Nugent}, {Ofek},
+  {Quimby}, {Reach}, {Shara}, {Bildsten}, {Cenko}, {Drake}, {Filippenko},
+  {Helfand}, {Helou}, {Howell}, {Poznanski}, \& {Sullivan}}]{rau+09}
+{Rau}, A., {Kulkarni}, S.~R., {Law}, N.~M., {et~al.} 2009, \pasp, 121, 1334
+
+\bibitem[{{Rosswog}(2015)}]{ross15}
+{Rosswog}, S. 2015, International Journal of Modern Physics D, 24, 1530012
+
+\bibitem[{{Tylenda} {et~al.}(2011){Tylenda}, {Hajduk}, {Kami{\'n}ski},
+  {Udalski}, {Soszy{\'n}ski}, {Szyma{\'n}ski}, {Kubiak}, {Pietrzy{\'n}ski},
+  {Poleski}, {Wyrzykowski}, \& {Ulaczyk}}]{tyle+11}
+{Tylenda}, R., {Hajduk}, M., {Kami{\'n}ski}, T., {et~al.} 2011, \aap, 528, A114
+
+\bibitem[{{van Kerkwijk} {et~al.}(2010){van Kerkwijk}, {Chang}, \&
+  {Justham}}]{vkercj10}
+{van Kerkwijk}, M.~H., {Chang}, P., \& {Justham}, S. 2010, \apjl, 722, L157
+
+\bibitem[{{Yungelson}(2005)}]{yung05}
+{Yungelson}, L.~R. 2005, in American Institute of Physics Conference Series,
+  Vol. 797, Interacting Binaries: Accretion, Evolution, and Outcomes, ed.
+  L.~{Burderi}, L.~A. {Antonelli}, F.~{D'Antona}, T.~{di Salvo}, G.~L.
+  {Israel}, L.~{Piersanti}, A.~{Tornamb{\`e}}, \& O.~{Straniero}, 1--10
 
 \end{thebibliography}

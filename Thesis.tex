@@ -95,8 +95,8 @@
 \fi
 
 % symbols & math
-%\usepackage{latexsym}
-%\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{amssymb}
 
 % hyperlinks within document
 \usepackage{hyperref}
@@ -113,6 +113,7 @@
 % fonts
 \usepackage[sc]{mathpazo}
 \usepackage[T1]{fontenc}
+\usepackage{color}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                    %%
@@ -246,10 +247,22 @@ I'd like to thank the academy for choosing me...
 
 %% *** Include chapter files here. ***
 
+%intro
 \include{introduction/introduction}
-\include{chapter2/chapter2}
-\include{chapter3/chapter3}
-\include{conclusion/conclusion}
+%ch2
+\include{chapter2_zhu+13/chapter2}
+\input{chapter2_zhu+13/chapter2_intro.tex}
+\input{chapter2_zhu+13/chapter2_gasoline.tex}
+\input{chapter2_zhu+13/chapter2_results.tex}
+%\include{chapter2_zhu+13/chapter2_variation}
+%\include{chapter2_zhu+13/chapter2_discussion}
+%ch3
+%\include{chapter3/chapter3}
+%%ch4
+%\include{chapter3/chapter3}
+%%ch5
+%%conclusion
+%\include{conclusion/conclusion}
 
 %% This adds a line for the Bibliography in the Table of Contents.
 \addcontentsline{toc}{chapter}{Bibliography}
@@ -268,145 +281,30 @@ I'd like to thank the academy for choosing me...
 
 \end{document}
 
-%citation{frye+10}{2010ApJ...725..296F}	%Fryer double degenerate light curves.
-%citation{rask+14}{2014ApJ...788...75R}	%Cody's tamped explosion models.
-%citation{bigness+15}{2015ApJ...788..BIG}
+%%%%%%%%%%%% REFERENCE ADS HANDLES %%%%%%%%%%%
+%%% Categorized, then sorted alphabetically
 
+%%%% Core works (includes Marten's) %%%%
+%citation{vkercj10}{2010ApJ...722L.157V} % vKCJ channel
+%citation{zhu+13}{2013ApJ...767..164Z}
+%citation{zhu+15}{2015ApJ...806L...1Z}
+%citation{pakm+16}{2016MNRAS.455.1134P}
 
-%citation{badem12}{2012ApJ...749L..11B} %Badenes and Moaz's paper on galactic WD merger rate from SDSS
-%citation{saioj00}{2000MNRAS.313..671S}	%saio and jeffrey He - He merger
-%citation{justph11}{2011MNRAS.410..984J} %stephen's sdO star from He - He merger
-%citation{webb84}{1984ApJ...277..355W} %Webbink was one of the first to suggest He - CO -> RCB
-%citation{saioj02}{2002MNRAS.333..121S}	%saio and jeffrey He - CO merger
-%citation{clay+07}{2007ApJ...662.1220C} %Clayton's 18O/16O abundance and mergers making RCB stars
-%citation{clay13}{2013ASPC..469..133C} %Clayton's review on mergers making rCB stars
-%citation{segrcm97}{1997ApJ...481..355S} %SPH simulation
-%citation{garc+12}{2012ApJ...749...25G} %garcia-berro et al. on white dwarf mergers generating strong magnetic fields
-%citation{kule+13}{2013MNRAS.431.2778K} %kulebi's disk/remnant coupling model, which attempts to predict final HFMWD spins
-%citation{dunlc15}{2015ASPC..493..547D} %bart and chris's work published in conference proceeding
-%citation{saion85}{1985A&A...150L..21S} % edge-lit ignition
-%citation{abdi+10}{2010PhRvD..81d4012A} %GR simulation of AIC
-%citation{maozmn14}{2014ARA&A..52..107M} %Maoz's review paper
-%citation{hill+13}{2013FrPhy...8..116H}	%hillebrandt's recent SN Ia review paper
+%%%% WD binary statistics, merger rates and merger stability %%%%
 
+%%%% Explosion modeling %%%%
+%citation{rask+14}{2014ApJ...788...75R}	% Cody's tamped explosion models.
+%citation{frye+10}{2010ApJ...725..296F}	% Fryer double degenerate light curves.
 
-%citation{dist10}{2010ApJ...719..474D}
-%citation{loreig09}{2009A&A...500.1193L}
-%citation{mann+05}{2005A&A...433..807M}
-%citation{maozsg10}{2010ApJ...722.1879M}
-%citation{menn+10}{2010ASPC..435...33M}
-%citation{mona05}{2005RPPh...68.1703M}
-%citation{pakm+10}{2010Natur.463...61P}
-%citation{pakm+11}{2011A&A...528A.117P}
-%citation{paxt+11}{2011ApJS..192....3P}
-%citation{ries+98}{1998AJ....116.1009R}
-%citation{vkercj10}{2010ApJ...722L.157V}
-%citation{wadssq04}{2004NewA....9..137W}
-%citation{perl+99}{1999ApJ...517..565P}
-%citation{ruitbf09}{2009ApJ...699.2026R}
-%citation{sim+10}{2010ApJ...714L..52S}
-%citation{dan+11}{2011ApJ...737...89D}
-%citation{yoonpr07}{2007MNRAS.380..933Y}
-%citation{guerig04}{2004A&A...413..257G}
-%citation{timms00}{2000ApJS..126..501T}
-%citation{mona92}{1992ARA&A..30..543M}
-%citation{segrcm97}{1997ApJ...481..355S}
-%citation{marsns04}{2004MNRAS.350..113M}
-%citation{marsns04}{2004MNRAS.350..113M}
-%citation{mars11}{2011CQGra..28i4019M}
-%citation{eggl83}{1983ApJ...268..368E}
-%citation{geroh89}{1989ApJS...70..661G}
-%citation{maoz10}{2010AIPC.1314..223M}
-%citation{ruit+11}{2011MNRAS.417..408R}
-%citation{nomoi85}{1985ApJ...297..531N}
-%citation{guil+10}{2010ApJ...709L..64G}
-%citation{justph11}{2011MNRAS.410..984J}
-%citation{woosk11}{2011ApJ...734...38W}
-%citation{fink+10}{2010A&A...514A..53F}
-%citation{saion98}{1998ApJ...500..388S}
-%citation{kube+10}{2010A&A...524A..36K}
-%citation{dan+12}{2012MNRAS.422.2417D}
-%citation{rask+12}{2012ApJ...746...62R}
-%citation{benz+90}{1990ApJ...348..647B}
-%citation{krom+10}{2010ApJ...719.1067K}
-%citation{dsou+06}{2006ApJ...643..381D}
-%citation{lairs94}{1994ApJ...437..742L}
-%citation{uryue98}{1998ApJS..118..563U}
-%citation{fulll12}{2012MNRAS.421..426F}
-%citation{piro11}{2011ApJ...740L..53P}
-%citation{shen+12}{2012ApJ...748...35S}
-%citation{gera+07}{2007ApJ...661..995G}
-%citation{stei+10}{2010ApJ...716L.146S}
-%citation{brow+11}{2011ApJ...737L..23B}
-%citation{seit+09}{2009ApJ...696..515S}
-%citation{schw+12}{2012MNRAS.427..190S}
-%citation{balbh91}{1991ApJ...376..214B}
-%citation{spru02}{2002A&A...381..923S}
-%citation{shaks73}{1973A&A....24..337S}
-%citation{maed+10}{2010ApJ...708.1703M}
-%citation{frye+10}{2010ApJ...725..296F}
-%citation{vker13}{2013RSPTA.37120236V}
-%citation{haye+06}{2006ApJS..165..188H}
-%citation{tremb09}{2009ApJ...696.1755T}
-%citation{spri10a}{2010ARA&A..48..391S} %SPH review
-%citation{gilfb10}{2010Natur.463..924G}
-%citation{rappds94}{1994ApJ...426..692R}
-%citation{bloo+12}{2012ApJ...744L..17B}
-%citation{bars+95}{1995MNRAS.277..971B}  % RE 
-%citation{hama97}{1997IAUS..180...91H} % [WR] wind mass loss rates
-%citation{saion85}{1985A&A...150L..21S} % edge-lit ignition
-%citation{woos+09}{2009ApJ...704..255W} % deflagration, density effects
-%citation{woos+11}{2011ApJ...734...37W} % ...
-%citation{aspd+11}{2011ApJ...738...94A} % rising deflagration bubbles
-%citation{maed+10a}{2010ApJ...708.1703M} % nebular, offset dense stuff
-%citation{maed+10b}{2010Natur.466...82M} % idem
-%citation{taub+09}{2011MNRAS.412.2735T} % slow-moving superchandrasekhar
-%citation{spri10b}{2010MNRAS.401..791S} % AREPO
-%citation{duffm11}{2011ApJS..197...15D} % TESS
-%citation{shig+92}{1992ApJ...386L..13S}  % sub-Ch -> right nucleosyn/energetics
-%citation{mazumw77}{1977ApJ...213..518M}
-%citation{hernk89}{1989ApJS...70..419H}	%Gasoline's kernel
-%citation{seitcr11}{2011MNRAS.414.2709S}
-
-%citation{ji+13}{2013ApJ...773..136J}
-%citation{dan+14}{2014MNRAS.438...14D}
-%citation{rask+13}{2013arXiv1312.3649R}	%Part 2 of Cody's merger work
-%citation{moll+14}{2014ApJ...785..105M}	%Part 1 of Cody's merger work
-%citation{pakm+13}{2013ApJ...770L...8P} %ruediger's helium paper
-%citation{zhu+13}{2013ApJ...767..164Z} %my sph paper
-%citation{pakm+12}{2012ApJ...747L..10P} $ruediger's sph paper
-%citation{dehna12}{2012MNRAS.425.1068D}
-%citation{voge+12}{2012MNRAS.425.3024V} %arepo explicit refinement for maintaining fixed mass
-%citation{nels+13}{2013MNRAS.429.3353N} %Gas accretion in cosmo sims
-%citation{pakmv13}{2013MNRAS.432..176P}
-%citation{marips14}{2014MNRAS.437.1750M} %Galaxy formation in cosmo sims
-%citation{hayw+13}{2013arXiv1309.2942H}	%Galaxy mergers in Arepo
-%citation{spri05}{2005MNRAS.364.1105S} %gadget2
-%citation{ager+07}{2007MNRAS.380..963A} %SPH instability failure paper
-%citation{hubbfg13}{2013MNRAS.432..711H}
-%citation{baues12}{2012MNRAS.423.2558B}	%SPH turblence capture
-%citation{pric08}{2008JCoPh.22710040P}	%artificial conductivity to improve SPH mixing/instability
-%citation{hopk13}{2013MNRAS.428.2840H}	%pressure-entropy formulation of SPH
-%citation{lanz10}{2010MNRAS.408.2336L} %switching up the EOS improves spiral arm capture
-%NOT SURE IF WE WANT THIS {lanz10a}{2010MNRAS.408.1551L}
-
-%citation{lanz03}{2003A&A...403..593L}	%effect of varying viscosity on spiral wave formation
-%citation{lanzb97}{1997MNRAS.284..957L}	%3D SPH spiral wave sims
-%citation{savopl94}{1994MNRAS.268...13S}	%spiral waves in disks.
-%citation{sawamh86}{1986MNRAS.219...75S}	%spiral waves in disks.
-%citation{dval+06}{2006MNRAS.370..529D}	%planet migration code comparison
-%citation{kleyn12}{2012ARA&A..50..211K}	%planet migration review
-%citation{balb03}{2003ARA&A..41..555B}	%spiral wave review
-%citation{yukabm97}{1997MNRAS.292..321Y} %3D SPH spiral wave sims; intro describes the issue of artificial viscosity
-%citation{burk+13}{2013MNRAS.433..332B}	%tides in WD binaries
-%citation{shaks73}{1973A&A....24..337S} %Shakura and Sunyaev 1973 paper including alpha viscosity
-%citation{mitc+09}{2009MNRAS.395..180M}	%SPH/Eulerian code comparison for galaxy cluster formation
-%citation{tracsp07}{2007MNRAS.377..997T}	%SPH/Eulerian code comparison for stellar collisions
-%citation{maed+13}{2013A&A...553A...1M}	%general stability criterion for rotating stars
-%citation{justph11}{2011MNRAS.410..984J}	%stephen justham's sdO paper
-%citation{webb84}{1984ApJ...277..355W} %webbink's classic paper
-%citation{clay+07}{2007ApJ...662.1220C}	%clayton's 2007 paper on RCB abundances
-%citation{jeffks11}{2011MNRAS.414.3599J} %jeffrey's 2011 paper on RCB abundances  NOT CURRENTLY USED
-%citation{hill+13}{2013FrPhy...8..116H}	%hillebrandt's recent SN Ia review paper
-%citation{loke+10}{2010JPhCS.256a2026L}	%SciNet paper
-%citation{ross14}{2014arXiv1406.4224R} %rosswog's SPH review
+%%%% Misc/General %%%%
+%citation{andrpt06}{2006ApJ...646.1160A} % andronov theoretical model for blue straggler formation
+%citation{justpv14}{2014ApJ...796..121J} % justham's merger origins of LBVs
+%citation{kais+10}{2010SPIE.7733E..0EK} % Pan-STARRS instrument paper
+%citation{knigs09}{2009Natur.457..288K} % knigge & sills on whether blue stragglers are collisional or due to RLOF 
+%citation{ligo16}{2016PhRvL.116m1102A} % ligo BBH-merger discovery paper
+%citation{lsst09}{2009arXiv0912.0201L} % lsst science book 2.0
+%citation{nandil14}{2014ApJ...786...39N} % nandez's SPH work on V1309 Sco
+%citation{rau+09}{2009PASP..121.1334R} % PTF instrument paper
+%citation{ross15}{2015IJMPD..2430012R} % rosswog binary compact merger review
+%citation{tyle+11}{2011A&A...528A.114T} % tylenda's V1309 Sco paper
+%citation{yung05}{2005AIPC..797....1Y} % yungelson's overview of binary evolution and population synthesis
