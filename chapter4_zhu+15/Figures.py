@@ -1,0 +1,192 @@
+import os,sys
+sys.path.append("/home/cczhu/GitHubTemp/WDAnal/")
+sys.path.append("/home/cczhu/ArepoMagnetic")
+from AMPlotter import *
+import pylab
+from matplotlib.font_manager import fontManager, FontProperties
+from matplotlib.ticker import MultipleLocator, LogLocator
+import argparse
+import magCalc
+from numpy import *
+import cPickle
+
+def makeremfig():
+
+	filepath = "/media/DataStorage3/ArepoMagnetic/merger62565-arh-RK2-production/output/snapshot_200"
+
+	dc = AnalyzerArepo(filepath, verbose=True)
+
+	props = dict(boxstyle='square', facecolor='white', alpha=1.0)
+	vrangedens = [10**2.5,10**6.5]
+	vrangetemp = [10**6.75,10**9.25]
+	vrangemag = [10**4.5,3e11]
+	vrangeerat = [3e-6, 1e-1]
+	box=[5e9, 5e9]
+
+	pylab.rc('font', size=12)
+	pylab.rc('font', family="serif")
+	pylab.rc('legend', handlelength=1.)
+	legfont= FontProperties(size='small')
+	length = 8.2
+	height = 10.5
+	fig = pylab.figure(figsize=[length,height])
+
+	limit = box[0]/1e9/2.
+
+	axc1 = fig.add_axes([0.85/length,7./height, 3.0/length, 3.0/height])
+	axc1a = fig.add_axes([(0.85 + 2.0)/length,7./height, 1.0/length, 1.0/height])
+	axc2 = fig.add_axes([3.85/length,7./height, 3.0/length, 3.0/height])
+	axc5 = fig.add_axes([0.85/length,5.5/height, 3.0/length, 1.5/height])
+	axc6 = fig.add_axes([3.85/length,5.5/height, 3.0/length, 1.5/height])
+
+
+	axc3 = fig.add_axes([0.85/length,2.5/height, 3.0/length, 3.0/height])
+	axc4 = fig.add_axes([3.85/length,2.5/height, 3.0/length, 3.0/height])
+	axc7 = fig.add_axes([0.85/length,1.0/height, 3.0/length, 1.5/height])
+	axc8 = fig.add_axes([3.85/length,1.0/height, 3.0/length, 1.5/height])
+
+	getderivedvalues(dc, "Bmag")
+
+	dummy = RuedigerPlotter(dc, "dens", axc1, logplot=True, colorbar=False, vrange=vrangedens, box=box, cmap="Blues", scale=1e9, rasterized=True)
+	quiet = axc1.axis([-limit,limit,-limit,limit])
+	axc1.set_ylabel(r'$y$ ($10^9$ cm)', fontsize = 14, labelpad=5)
+	axc1.set_xticklabels([''])
+	axc1.yaxis.set_major_locator(MultipleLocator(2.))
+	axc1.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc1.xaxis.set_major_locator(MultipleLocator(2.))
+	axc1.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	dummy = RuedigerPlotter(dc, "dens", axc1a, logplot=False, colorbar=False, vrange=vrangedens, box=[box[0]/3., box[1]/3.], cmap="Blues", scale=1e9, rasterized=True)
+	quiet = axc1a.axis([-limit/3.,limit/3.,-limit/3.,limit/3.])
+	axc1a.set_xticklabels([''])
+	axc1a.set_yticklabels([''])
+	axc1a.yaxis.set_major_locator(MultipleLocator(2.))
+	axc1a.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc1a.xaxis.set_major_locator(MultipleLocator(2.))
+	axc1a.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	[pc, cb] = RuedigerPlotter(dc, "dens", axc5, axes=["x","z"], logplot=True, colorbar=9, vrange=vrangedens, box=[box[0],0.5*box[1]], cmap="Blues", scale=1e9, rasterized=True)
+	quiet = axc5.axis([-limit,limit,-0.5*limit,0.5*limit])
+	axc5.set_ylabel(r'$z$ ($10^9$ cm)', fontsize = 14, labelpad=10)
+#	axc5.set_yticklabels([''])
+	axc5.yaxis.set_major_locator(MultipleLocator(2.))
+	axc5.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc5.xaxis.set_major_locator(MultipleLocator(2.))
+	axc5.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	cb.ax.set_position([6.85/length,(1.0 + 9./4.*3.)/height, 0.25/length, 2.25/height])
+	cb.ax.set_ylabel(r'$\rho$ (g cm$^{-3}$)',fontsize = 14)
+	axc5.set_position([0.85/length,5.5/height, 3.0/length, 1.5/height])
+#	cb.ax.xaxis.set_ticks_position('top')
+#	cb.ax.xaxis.set_label_position('top')
+
+	pc = RuedigerPlotter(dc, "temp", axc2, logplot=True, colorbar=False, vrange=vrangetemp, box=box, scale=1e9, cmap="hot", rasterized=True)
+	axc2.set_xticklabels([''])
+	axc2.set_yticklabels([''])
+	quiet = axc2.axis([-limit,limit,-limit,limit])
+	axc2.yaxis.set_major_locator(MultipleLocator(2.))
+	axc2.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc2.xaxis.set_major_locator(MultipleLocator(2.))
+	axc2.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	[pc, cb] = RuedigerPlotter(dc, "temp", axc6, logplot=True, colorbar=9, vrange=vrangetemp, box=[box[0], 0.5*box[1]], axes=["x","z"], scale=1e9, cmap="hot", rasterized=True)
+	quiet = axc6.axis([-limit,limit,-0.5*limit,0.5*limit])
+	axc6.set_yticklabels([''])
+	#axc6.xaxis.set_ticklabels(["-0.06","-0.03","0.00","0.03","0.06"],rotation=30)
+	axc6.set_yticklabels([''])
+	axc6.yaxis.set_major_locator(MultipleLocator(2.))
+	axc6.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc6.xaxis.set_major_locator(MultipleLocator(2.))
+	axc6.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	cb.ax.set_position([6.85/length,(1.0 + 9./2.)/height, 0.25/length, 2.25/height])
+	cb.ax.set_ylabel(r'$T$ (K)',fontsize = 14)
+	axc6.set_position([3.85/length,5.5/height, 3.0/length, 1.5/height])
+#	cb.ax.xaxis.set_ticks_position('top')
+#	cb.ax.xaxis.set_label_position('top')
+
+	myscale = 1e9
+	mydx = 2e8
+
+	dummy = RuedigerPlotter(dc, "Bmag", axc3, logplot=True, colorbar=False, vrange=vrangemag, box=box, cmap="jet", scale=1e9, rasterized=True)
+	[x,y,bx_map] = get2dregulargrid(dc, "Bx", axes=['x','y'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	[x,y,by_map] = get2dregulargrid(dc, "By", axes=['x','y'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	[x,y,bz_map] = get2dregulargrid(dc, "Bz", axes=['x','y'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	[x,y,bmagmap] = get2dregulargrid(dc, "Bmag", axes=['x','y'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	bmagscale = array(bx_map)
+	for i in range(bx_map.shape[0]):
+		for j in range(bx_map.shape[1]):
+			bmagscale[i,j] = sqrt(bx_map[i,j]**2 + by_map[i,j]**2 + bz_map[i,j]**2)
+			if bmagscale[i,j] == 0:
+				bmagscale[i,j] = 1e-30
+	bxnorm_map = bx_map/bmagscale
+	bynorm_map = by_map/bmagscale
+	axc3.quiver(x/myscale,y/myscale,bxnorm_map,bynorm_map, scale=30, color='k', width=0.0035, linewidths=0.1)	#, rasterized=True) #Don't use this if you want to make EPS files
+	quiet = axc3.axis([-limit,limit,-limit,limit])
+	axc3.set_xticklabels([''])
+	axc3.set_ylabel(r'$y$ ($10^9$ cm)', fontsize = 14, labelpad=5)
+	axc3.yaxis.set_major_locator(MultipleLocator(2.))
+	axc3.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc3.xaxis.set_major_locator(MultipleLocator(2.))
+	axc3.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	[pc, cb] = RuedigerPlotter(dc, "Bmag", axc7, axes=["x","z"], logplot=True, colorbar=9, vrange=vrangemag, box=[box[0],0.5*box[1]], cmap="jet", scale=1e9, rasterized=True)
+	[x,z,bx_map] = get2dregulargrid(dc, "Bx", axes=['x','z'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	[x,z,by_map] = get2dregulargrid(dc, "By", axes=['x','z'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	[x,z,bz_map] = get2dregulargrid(dc, "Bz", axes=['x','z'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	[x,z,bmagmap] = get2dregulargrid(dc, "Bmag", axes=['x','z'], dx=[mydx,mydx], boxur=[box[0]/2,box[0]/2], boxll=[-box[0]/2,-box[0]/2])
+	bmagscale = array(bx_map)
+	for i in range(bx_map.shape[0]):
+		for j in range(bx_map.shape[1]):
+			bmagscale[i,j] = sqrt(bx_map[i,j]**2 + by_map[i,j]**2 + bz_map[i,j]**2)
+			if bmagscale[i,j] == 0:
+				bmagscale[i,j] = 1e-30
+	bxnorm_map = bx_map/bmagscale
+	bznorm_map = bz_map/bmagscale
+	axc7.quiver(x/myscale,z/myscale,bxnorm_map,bznorm_map, scale=30, color='k', width=0.0035, linewidths=0.1)	#, rasterized=True) #Don't use this if you want to make EPS files
+	quiet = axc7.axis([-limit,limit,-0.5*limit,0.5*limit])
+	axc7.set_ylabel(r'$z$ ($10^9$ cm)', fontsize = 14, labelpad=10)
+	axc7.set_xlabel(r'$x$ ($10^9$ cm)', fontsize = 14, labelpad=5)
+	#axc7.xaxis.set_ticklabels(["-0.06","-0.03","0.00","0.03","0.06"],rotation=30)
+	axc7.yaxis.set_major_locator(MultipleLocator(2.))
+	axc7.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc7.xaxis.set_major_locator(MultipleLocator(2.))
+	axc7.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	cb.ax.set_position([6.85/length,(1.0 + 9./4.)/height, 0.25/length, 2.25/height])
+	cb.ax.set_ylabel(r'$|B|$ (G)',fontsize = 14)
+	axc7.set_position([0.85/length,1.0/height, 3.0/length, 1.5/height])
+#	cb.ax.xaxis.set_ticks_position('top')
+#	cb.ax.xaxis.set_label_position('top')
+	cb.set_ticks([1e5,1e7,1e9,1e11])
+
+	getderivedvalues(dc, "EB")
+	getderivedvalues(dc, "erot")
+	dc.d["eberot"] = dc.d["EB"]/dc.d["vol"]/(dc.d["erot"]*dc.d["dens"])
+
+	pc = RuedigerPlotter(dc, "eberot", axc4, logplot=True, colorbar=False, vrange=vrangeerat, box=box, scale=1e9, cmap="PuOr", rasterized=True)
+	axc4.set_xticklabels([''])
+	axc4.set_yticklabels([''])
+	quiet = axc4.axis([-limit,limit,-limit,limit])
+	axc4.yaxis.set_major_locator(MultipleLocator(2.))
+	axc4.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc4.xaxis.set_major_locator(MultipleLocator(2.))
+	axc4.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	[pc, cb] = RuedigerPlotter(dc, "eberot", axc8, logplot=True, colorbar=9, vrange=vrangeerat, box=[box[0], 0.5*box[1]], axes=["x","z"], scale=1e9, cmap="PuOr", rasterized=True)
+	quiet = axc8.axis([-limit,limit,-0.5*limit,0.5*limit])
+	axc8.set_xlabel(r'$x$ ($10^9$ cm)', fontsize = 14, labelpad=5)
+	#axc8.xaxis.set_ticklabels(["-0.06","-0.03","0.00","0.03","0.06"],rotation=30)
+	axc8.set_yticklabels([''])
+	axc8.yaxis.set_major_locator(MultipleLocator(2.))
+	axc8.yaxis.set_minor_locator(MultipleLocator(1.))
+	axc8.xaxis.set_major_locator(MultipleLocator(2.))
+	axc8.xaxis.set_minor_locator(MultipleLocator(1.))
+
+	cb.ax.set_position([6.85/length,1./height, 0.25/length, 2.25/height])
+	cb.ax.set_ylabel(r'$e_B/e_\mathrm{rot}$',fontsize = 14)
+	axc8.set_position([3.85/length,1.0/height, 3.0/length, 1.5/height])
+	cb.ax.xaxis.set_ticks_position('top')
+	cb.ax.xaxis.set_label_position('top')
+
+	pylab.savefig('figures/remnant.pdf', dpi = 200, edgecolor = 'w')

@@ -2,98 +2,51 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: chapter2_zhu+13/chapter2.aux
-A level-1 auxiliary file: chapter2_zhu+13/chapter2_variation.aux
-A level-1 auxiliary file: chapter2_zhu+13/chapter2_discussion.aux
+A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
+A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 The style file: apj.bst
 Database file #1: AutoBibliography.bib
-Warning--I didn't find a database entry for "loreig09"
-Warning--I didn't find a database entry for "paxt+11"
-Warning--I didn't find a database entry for "pakm+11"
-Warning--I didn't find a database entry for "pakm+12"
-Warning--I didn't find a database entry for "saion98"
-Warning--I didn't find a database entry for "yoonpr07"
-Warning--I didn't find a database entry for "segrcm97"
-Warning--I didn't find a database entry for "kube+10"
-Warning--I didn't find a database entry for "shen+12"
-Warning--I didn't find a database entry for "schw+12"
-Warning--I didn't find a database entry for "mona05"
-Warning--I didn't find a database entry for "rask+12"
-Warning--I didn't find a database entry for "dan+12"
-Warning--I didn't find a database entry for "marsns04"
-Warning--I didn't find a database entry for "fulll12"
-Warning--I didn't find a database entry for "shig+92"
-Warning--I didn't find a database entry for "sim+10"
-Warning--I didn't find a database entry for "wadssq04"
-Warning--I didn't find a database entry for "hernk89"
-Warning--I didn't find a database entry for "guerig04"
-Warning--I didn't find a database entry for "dan+11"
-Warning--I didn't find a database entry for "timms00"
-Warning--I didn't find a database entry for "pakm+10"
-Warning--I didn't find a database entry for "tremb09"
-Warning--I didn't find a database entry for "eggl83"
-Warning--I didn't find a database entry for "dsou+06"
-Warning--I didn't find a database entry for "lairs94"
-Warning--I didn't find a database entry for "uryue98"
-Warning--I didn't find a database entry for "piro11"
-Warning--I didn't find a database entry for "balbh91"
-Warning--I didn't find a database entry for "spru02"
-Warning--I didn't find a database entry for "shaks73"
-Warning--I didn't find a database entry for "bars+95"
-Warning--I didn't find a database entry for "hama97"
-Warning--I didn't find a database entry for "haye+06"
-Warning--I didn't find a database entry for "seit+09"
-Warning--I didn't find a database entry for "woos+11"
-Warning--I didn't find a database entry for "mazumw77"
-Warning--I didn't find a database entry for "woos+09"
-Warning--I didn't find a database entry for "saion85"
-Warning--I didn't find a database entry for "aspd+11"
-Warning--I didn't find a database entry for "seitcr11"
-Warning--I didn't find a database entry for "maed+10a"
-Warning--I didn't find a database entry for "maed+10b"
-Warning--I didn't find a database entry for "taub+09"
-Warning--I didn't find a database entry for "spri10"
-Warning--I didn't find a database entry for "duffm11"
-Warning--I didn't find a database entry for "brow+11"
+Warning--I didn't find a database entry for "zhu+16"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 12 entries,
+You've used 90 entries,
             3085 wiz_defined-function locations,
-            784 strings with 7928 characters,
-and the built_in function-call counts, 6232 in all, are:
-= -- 483
-> -- 485
-< -- 4
-+ -- 158
-- -- 171
-* -- 557
-:= -- 1170
-add.period$ -- 12
-call.type$ -- 12
-change.case$ -- 70
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 248
-empty$ -- 368
-format.name$ -- 184
-if$ -- 1241
-int.to.chr$ -- 1
+            1275 strings with 23945 characters,
+and the built_in function-call counts, 44655 in all, are:
+= -- 3760
+> -- 3293
+< -- 28
++ -- 1111
+- -- 1224
+* -- 3848
+:= -- 8367
+add.period$ -- 90
+call.type$ -- 90
+change.case$ -- 646
+chr.to.int$ -- 88
+cite$ -- 90
+duplicate$ -- 1731
+empty$ -- 2572
+format.name$ -- 1311
+if$ -- 8855
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 40
-num.names$ -- 49
-pop$ -- 81
+missing$ -- 86
+newline$ -- 274
+num.names$ -- 362
+pop$ -- 698
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 646
 quote$ -- 0
-skip$ -- 217
+skip$ -- 1451
 stack$ -- 0
-substring$ -- 279
-swap$ -- 20
-text.length$ -- 2
+substring$ -- 1925
+swap$ -- 38
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 810
 warning$ -- 0
-while$ -- 44
+while$ -- 350
 width$ -- 0
-write$ -- 123
-(There were 48 warnings)
+write$ -- 903
+(There was 1 warning)

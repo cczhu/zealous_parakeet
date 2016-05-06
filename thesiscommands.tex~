@@ -1,5 +1,7 @@
 % Citation tricks
 \defcitealias{vkercj10}{vK10}
+\defcitealias{loreig09}{LIG09}
+\defcitealias{ji+13}{J13}
 \defcitealias{zhu+13}{Z13}
 \defcitealias{zhu+15}{Z15}
 \newcommand{\citeal}{\citetalias}
@@ -19,6 +21,7 @@
 % Commonly used units
 \newcommand{\Msun}{\domm{M_{\odot}}}
 \newcommand{\Rsun}{\domm{R_{\odot}}}
+\newcommand{\Lsun}{\domm{L_\odot}}
 \newcommand{\pyr}{\domm{{\rm yr}^{-1}}}
 \newcommand{\psec}{\domm{{\rm s}^{-1}}}
 \newcommand{\gcc}{\domm{{\rm g\,cm}^{-3}}}
@@ -27,8 +30,14 @@
 \newcommand{\Mch}{\domm{M_{\rm Ch}}}
 \newcommand{\Ni}{\hbox{$^{56}$Ni}}
 
-% Merger stuff
+% Code handles
+\newcommand{\arepo}{\textsc{Arepo}}
+\newcommand{\gasoline}{\textsc{Gasoline}}
+\newcommand{\flash}{\textsc{FLASH}}
+
+% common + zhu+13 stuff
 \newcommand{\azero}{\domm{a_0}}
+\newcommand{\pzero}{\domm{P_0}}
 \newcommand{\dmax}{\domm{\delta_{\rm max}}}
 \newcommand{\Md}{\domm{M_{\rm d}}}
 \newcommand{\Ma}{\domm{M_{\rm a}}}
@@ -54,16 +63,22 @@
 \newcommand{\zTmax}{\domm{T^{\rm z}_{\rm max}}} 
 \newcommand{\rhoTmax}{\domm{\rho(T_{\rm max})}}
 \newcommand{\zrhoTmax}{\domm{\rho(T^{\rm z}_{\rm max})}}
-\newcommand{\MEthermfifty}{\domm{M_{\rm enc}(\frac{1}{2}E_{\rm th})}}
-\newcommand{\MEthermthick}{\domm{\Delta M_{\rm enc}(E_{\rm th})}}
+\newcommand{\MEthfifty}{\domm{M_{\rm enc}(\frac{1}{2}E_{\rm th})}}
+\let\MEthermfifty\MEthfifty
+\newcommand{\MEththick}{\domm{\Delta M_{\rm enc}(E_{\rm th})}}
+\let\MEthermthick\MEththick
 \newcommand{\MencOmax}{\domm{M_{\rm enc}(\Omega_{\rm max})}}
 \newcommand{\Omegaorb}{\domm{\Omega_{\rm orb}}}
 \newcommand{\MErotfifty}{\domm{M_{\rm enc}(\frac{1}{2}E_{\rm rot})}}
 \newcommand{\MErotthick}{\domm{\Delta M_{\rm enc}(E_{\rm rot})}}
 \newcommand{\Epot}{\domm{E_{\rm pot}}}
 \newcommand{\Erot}{\domm{E_{\rm rot}}}
-\newcommand{\EFermiErot}{\domm{E_{\rm deg}/E_{\rm rot}}}
-\newcommand{\EthermErot}{\domm{E_{\rm th}/E_{\rm rot}}}
+\newcommand{\Edeg}{\domm{E_{\rm deg}}}
+\newcommand{\Eth}{\domm{E_{\rm th}}}
+\newcommand{\EdegErot}{\domm{E_{\rm deg}/E_{\rm rot}}}
+\let\EFermiErot\EdegErot
+\newcommand{\EthErot}{\domm{E_{\rm th}/E_{\rm rot}}}
+\let\EthermErot\EthErot
 \newcommand{\hz}{\domm{h_\mathrm{z}}}
 \newcommand{\hxy}{\domm{h_\varpi}}
 \newcommand{\rhocrhoct}{\domm{\rho_{\rm c}$/$\rho_{\rm c,a}}}
@@ -75,3 +90,29 @@
 \newcommand{\rxy}{$\varpi$}
 \newcommand{\fdon}{\domm{f_{\rm d}}}
 \newcommand{\fratio}{\domm{(f_{\rm d}/f_{\rm a})_{\rm cc}}}
+
+% zhu+u stuff
+
+% zhu+15 stuff
+\newcommand{\lztot}{\domm{L_\mrm{z, tot}}}
+\newcommand{\innercyl}{\domm{(\varpi < 10^9\,\mrm{cm})}}
+\newcommand{\lzinner}{\domm{L_\mrm{z}(\varpi < 10^9\,\mrm{cm})}}
+\newcommand{\Ntavg}{\domm{\left\langle N\right\rangle}}
+\newcommand{\Bmag}{\domm{|\boldsymbol{B}|}}
+\newcommand{\EB}{\domm{E_B}}
+\newcommand{\EBphiEB}{\domm{E_{B\phi}/E_B}}
+\newcommand{\eberot}{\domm{e_B/e_\mathrm{rot}}}
+\newcommand{\Zhuprep}{(C. Zhu et al. 2015, in preparation)}
+
+% zhu+16 stuff
+\newcommand{\tauconv}{\domm{\tau_\mathrm{conv}}}
+\newcommand{\tauconvest}{\domm{\tau_\mathrm{conv, est}}}
+\newcommand{\taunu}{\domm{\tau_\nu}}
+\newcommand{\taucond}{\domm{\tau_\mathrm{cond}}}
+\newcommand{\taucc}{\domm{\tau_\mathrm{CC}}}
+\newcommand{\epscc}{\domm{\varepsilon_\mathrm{CC}}}
+
+\newcommand{\taudyn}{\domm{\tau_\mathrm{dyn}}}
+
+
+% misc stuff

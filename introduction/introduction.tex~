@@ -17,12 +17,16 @@ One common end-product of binary stellar evolution is the merger of two white dw
 
 %A few percent of all white dwarfs (WDs) will eventually merge with another white dwarf.  
 
+A few percent of all white dwarfs (WDs) will eventually merge with another white dwarf.  The outcome of such mergers will depend on the compositions of the WDs involved.  For two helium WDs, a low-mass helium star might result, which would be observed as an sdOB star.  For a helium WD merging with a carbon-oxygen one, a helium giant could form, observable as a hydrogen-deficient giant or R CrB star.  For two carbon-oxygen WDs (CO WDs), the outcome could vary between simply a more massive WD, a carbon-burning star, an explosion, or collapse to a neutron star, depending on whether stable or unstable carbon fusion is ignited, and whether the total mass exceeds the critical mass for pycnonuclear ignition or electron captures (both close to the Chandrasekhar mass \Mch).  For mergers involving an oxygen-neon WD, the mass will always be high, and explosive demise or transmutation seems inevitable.
 
-
-%The outcome of such mergers will depend on the compositions of the WDs involved.  For two helium WDs, a low-mass helium star might result, which would be observed as an sdOB star.  For a helium WD merging with a carbon-oxygen one, a helium giant could form, observable as a hydrogen-deficient giant or R CrB star.  For two carbon-oxygen WDs (CO WDs), the outcome could vary between simply a more massive WD, a carbon-burning star, an explosion, or collapse to a neutron star, depending on whether stable or unstable carbon fusion is ignited, and whether the total mass exceeds the critical mass for pycnonuclear ignition or electron captures (both close to the Chandrasekhar mass \Mch).  For mergers involving an oxygen-neon WD, the mass will always be high, and explosive demise or transmutation seems inevitable.
-
+White dwarf (WD) binaries are common end products of binary stellar evolution.  Gravitational wave emission, magnetic braking or the influence of a third body will cause a fraction of these to merge, producing a diversity of unusual stars and electromagnetic transients.  In particular, for double carbon-oxygen (CO) WD mergers, the final outcome could be a massive and rapidly rotating WD (eg. \citealt{segrcm97}), an accretion-induced collapse into a neutron star (NS) \citep{saion85}, or a nuclear explosion that might resemble a type Ia supernova (SN Ia). 
 
 \section{The Mystery of Type Ia Supernovae}
+
+The outcome of the merger of two CO WDs is uncertain in part because during the merger temperatures do not become hot enough to ignite significant carbon fusion (e.g., \citealt{loreig09}, \citeal{loreig09} hereafter), except possibly for masses above $\sim\!0.9\,M_\odot$ \citep{pakm+11,pakm+12}.  Hence, the final fate depends on subsequent evolution, in which differential rotation is dissipated, the remnant disk accretes, and the whole remnant possibly spins down.  Due to these processes, the remnant could be compressed and heated, which, if it happens faster than the thermal timescale, would lead to increased temperatures and thus potentially to ignition.  
+
+So far, efforts have focused on merging binaries with total mass $M>\Mch$.  The end result of such mergers is believed to be either stable off-center carbon ignition, which would turn the merger remnant into an oxygen-neon WD and possibly eventually result in accretion-induced collapse \citep{saion98}, or slow accretion, which allows the remnant to stay cool and eventually ignite at high central density \citep{yoonpr07}.  Less massive mergers were usually thought to result in more massive, rapidly rotating CO WDs \citep{segrcm97,kube+10}, but more recently it has been realized these might eventually become hot enough to ignite (\citealt{vkercj10}, \citeal{vkercj10} hereafter; \citealt{shen+12,schw+12}).  Indeed, \citeal{vkercj10} argue that type Ia supernovae result generally from mergers of CO WDs with similar masses, independent of whether or not their total mass exceeds \Mch\ (see below).  For all these studies, the conclusions on whether and where ignition takes place depend critically on the structure of the merger remnnant.
+
 
 \subsection{Properties and Traditional Formation Channels of SNe Ia}
 \label{ssec:old_typeia}
@@ -33,9 +37,20 @@ One common end-product of binary stellar evolution is the merger of two white dw
 
 \section{The \citeal{vkercj10} SN Ia Channel}
 
-\subsection{Channel Overview and Advantages}
+%The advantages of this channel are that it accounts for the absence of direct evidence for stellar companions, the observed SN Ia rate, and the dependence of SN Ia peak luminosity on the age of the host stellar population (because lower-mass merger constituents take longer to form).  Since pure detonations of sub-\Mch\ CO WDs produce light curves very similar to observed SNe Ia \citep{shig+92,sim+10}, it also removes the need for imposed deflagration-to-detonation transitions. 
 
-\subsection{But Will it Blend? (Thesis Motivation)}
+%Important questions, however, remain, including what fraction of mergers leads to remnants that are hot near the center (in highly degenerate conditions), how the subsequent viscous phase proceeds in detail, whether ignition leads to a detonation, and whether the detonation of a remant that may still rotate and be surrounded by a disk would produce an event similar to an SN Ia.  
+
+Hydrodynamic simulations \citep{loreig09} suggest that a $0.6-0.6\,\Msun$ merger never achieves temperatures high enough to ignite fusion (more recent work (eg. \citep{pakm+11, dan+12}) suggest $\sim0.9\,\Msun$ as the minimum accreting WD mass for this to occur); moreover, the remnant central density, $\sim2.5\times10^6\,\gcc$, is too low to produce \Ni\ in an explosion.  Following coalescence, however, the remnant enters a period of rapid angular momentum redistribution due to hydrodynamically or magnetically-mediated viscosity.  Using the standard $\alpha$-viscosity prescription \cite{shaks73} -- i.e. $\nu = \alpha c_s H_P$, where $c_s$ is the sound speed and $H_P$ the pressure scale height -- the timescale for viscous evolution can be estimated as
+
+\begin{eqnarray}
+t_\mrm{visc} &=& \frac{R_\mrm{disk}^2}{\nu} \sim \frac{1}{\alpha}\frac{R_\mrm{disk}^2}{H_P^2}\taudyn \nonumber \\
+			&\sim& 3\times10^4\,\mrm{s}\left(\frac{10^{-2}}{\alpha}\right)\left(\frac{R_\mrm{disk}/H_P}{10}\right)^2\left(\frac{R_\mrm{disk}}{10^9\,\mrm{cm}}\right)^{3/2}\left(\frac{M_\mrm{enc}}{1\,\Msun}\right)^{-1/2},
+\end{eqnarray}
+
+\noindent where $M_\mrm{enc}$ is we have used $\taudyn \approx H_P/c_s$ and inserted a fiducial viscosity and typical numbers for remnants \citep{shen+12}.  Thus the vast majority of the remnant's angular momentum is transported away, and the remnant (including its disk) loses its rotational support against gravity, over a period $\sim10^4\,\mrm{s}$.  This loss of rotational support combined with increasing weight from newly accreted disk material leads to compression and heating of the remnant core.  Since $\sim10^4\,\mrm{s}$ is far shorter than either the neutrino cooling timescale of $\tauneu \sim 10^3\,\mrm{yr}$ or the thermal adjustment timescale of $\sim10^4\,\mrm{yr}$ \citep{shen+12}, compressional heating is adiabatic, and \citeal{vkercj10} estimates that for the $0.6-0.6\,\Msun$ remnant it leads both the central density and temperature to increase to $\gtrsim1.5\times10^7\,\gcc$ and $\gtrsim10^9\,\mrm{K}$, at which point a carbon nuclear runaway is inevitable.
+
+Thus, the \citeal{vkercj10} channel is both attractive for its many advantages and plausible given the order-of-magnitude estimates above.  Investigating whether these estimates hold under detailed scrutiny, and to determine which, if any, systems in the CO WD binary parameter space could follow the channel, is the purpose of this PhD thesis.
 
 \section{Physics of the WD Merging Process}
 
@@ -45,4 +60,10 @@ One common end-product of binary stellar evolution is the merger of two white dw
 
 \section{Post-Merger Evolution}
 
+Over the course of our work, we examined post-merger viscous evolution only using first-order analytical estimates, detailed in Ch. \ref{ch:ch2}, Sec. \ref{sec:c2_postmerger}.  Contemporary to our work, however, are the studies of \cite{shen+12}, \cite{schw+12} and \cite{ji+13}, which collectively represent the current understanding of post-merger evolution in the field.  As we cite their work extensively in ours (and we only discuss some of them in Ch. \ref{ch:ch2}, Sec. \ref{sec:c2_postmerger}), I review them in detail below.
+
+\section{The ``Simmering Phase'' Leading to Explosion}
+
 \section{Thesis Overview}
+
+For the most part, I have reproduced exactly the texts of \citeal{zhu+13}, \citeal{zhu+15} and \citeal{zhu+16} in their respective chapters.  The exceptions are the chapter introductions, where I have excised certain paragraphs to eliminate the redundancy of having multiple paragraphs repeating an overview of the \citeal{vkercj10} channel.  The papers' abstracts have also been modified into chapter overviews, and certain figures reformatted for readability.  Any additional changes are noted at the start of each chapter.

@@ -1,0 +1,381 @@
+from numpy import *
+import sys
+import matplotlib.pyplot as plt
+import pylab
+from scipy.interpolate import interp1d
+from scipy.interpolate import interp2d
+from myhelmholtz import *
+from matplotlib.font_manager import fontManager, FontProperties
+
+#fontsize = 14 - figure axes; fontsize=13 - contour lines
+
+def flattener1(x, maxx):
+	new = []
+	i = 0
+	prev = 0
+	while i < len(x):
+		if x[i] > prev:
+			if x[i] < maxx:
+				new.append(x[i])
+			prev = x[i]
+		i += 1
+	new = array(new)
+	return new
+
+def flattener2(x, maxx):
+	new = []
+	new.append(x[0])	
+	i = 1
+	while (i < len(x)):
+		diffrat = 2.0*(x[i] - x[0])/(x[i] + x[0])
+		if diffrat < 1e-6:
+			break
+		if x[i] < maxx:
+			new.append(x[i])
+		i += 1
+	new = array(new)
+	return new
+
+def make2Darray(x,y,z,xlenfull):
+	xlen = len(x)
+	ylen = len(y)
+	new = zeros((ylen,xlen))
+	i = 0
+	while i < ylen:
+		new[i,:] = z[i*xlenfull:i*xlenfull + xlen]  #i.e. new[y[i],x[i]] = z something; since in contour y is row # and x is col #
+		i += 1
+	return new
+
+#def make2DarrayTranspose(x,y,z):
+#	xlen = len(x)
+#	ylen = len(y)
+#	new = zeros((xlen,ylen))
+#	i = 0
+#	while i < xlen:
+#		new[:,i] = z[i*ylen:(i+1)*ylen]
+#		i += 1
+#	return new
+
+#def lineofconstz(xlen,y,z,want):
+#	ylen = len(y)
+#	ywant = []
+#	#z is an ARRAY
+#	i = 0
+#	while i < xlen:
+#		zatx = z[i*ylen:(i+1)*ylen]
+#		zatx = zatx - want
+#		ywanti = findzero(y,zatx)
+#		ywant.append(ywanti)
+#		i+=1
+#	ywant = array(ywant)
+#	return ywant
+
+#def findarg(y,z):	#THIS DOES NOT WORK!!!!
+#	posargs = (z>0).nonzero()
+#	negargs = (z<0).nonzero()
+#	pmax = max(posargs)
+#	pmin = min(posargs)
+#	nmax = max(negargs)
+#	nmin = min(negargs)
+#	if (abs(pmax - nmin) == 1):
+#		print "pos to min"
+#		y1 = y[pmax]
+#		z1 = z[pmax]
+#		y2 = y[nmin]
+#		z2 = z[nmin]
+#		slope = (z2 - z1)/(y2 - y1)
+#		ywanti = -(z1 - slope*y1)/slope
+#	elif (abs(pmin - nmax) == 1):
+#		print "neg to pos"
+#		y1 = y[nmax]
+#		z1 = z[nmax]
+#		y2 = y[pmin]
+#		z2 = z[pmin]
+#		slope = (z2 - z1)/(y2 - y1)
+#		ywanti = -(z1 - slope*y1)/slope
+#	else:
+#		print "ERROR!  z doesn't appear positive/negative definite wrt y!"
+#		ywanti = -1
+#	return ywanti
+
+def getzerotemp(rho,T):
+	initializehelmholtz()
+	rholen = len(rho)
+	Tlen = len(T)
+	new = zeros((Tlen,rholen))
+	i = 0
+	abar = 13.714285714285715
+	zbar = abar/2.0
+	while i < rholen:
+		press,energ,sound,gammaout,entropy = gethelmholtzeos(1000,rho[i],abar,zbar)
+		new[:,i] = ones(Tlen)*press
+		i += 1
+	return new
+
+########### FIX FOR MANUAL LABELLING #####################
+
+#import matplotlib.blocking_input as blocking_input
+#def mouse_event_stop(self, event ):
+#	blocking_input.BlockingInput.pop(self,-1)
+#	self.fig.canvas.stop_event_loop()
+#def add_click(self, event):
+#	self.button1(event)
+#def pop_click(self, event, index=-1):
+#	if self.inline:
+#		pass
+#	else:
+#		self.cs.pop_label()
+#		self.cs.ax.figure.canvas.draw()
+#blocking_input.BlockingMouseInput.mouse_event_stop = mouse_event_stop
+#blocking_input.BlockingMouseInput.add_click = add_click
+#blocking_input.BlockingMouseInput.pop_click = pop_click
+
+########################################################
+
+mf = open("co.out",'r-')
+data = loadtxt(mf, skiprows = 1)
+
+ # T, Rho, P, E, S, eta, Cp, eps_neu, eps_nuc
+Tr = data[:,0]
+rhor = data[:,1]
+Pr = data[:,2]
+Er = data[:,3]
+Sr = data[:,4]
+etar = data[:,5]
+Cpr = data[:,6]
+eps_neur = data[:,7]
+eps_nucr = data[:,8] 
+
+sectoyear = 60.0**2*24.0*365.0
+
+tau_neur = Cpr*Tr/eps_neur/sectoyear
+tau_nucr = Cpr*Tr/eps_nucr/sectoyear
+
+T = flattener1(Tr,10.0**9.800001)
+rho = flattener2(rhor,10.0**9.000001)
+rhofull = flattener2(rhor,1e35)
+rholenfull = len(rhofull)
+tau_neu = make2Darray(rho,T,tau_neur,rholenfull)
+tau_nuc = make2Darray(rho,T,tau_nucr,rholenfull)
+tau_eq = tau_neu - tau_nuc
+
+Tp = flattener1(Tr,10.0**9.800001)
+rhop = flattener2(rhor,10.0**8.700001)
+tau_nucp = make2Darray(rhop,Tp,tau_nucr,rholenfull)
+
+tau_dyn = zeros((len(T),len(rho)))	#zeros(ylen,xlen)
+i = 0
+while i < len(rho):
+	dynval = (6.67384e-8*rho[i])**(-0.5)*ones(len(T))/sectoyear
+	tau_dyn[:,i] = dynval
+	i += 1
+tau_eq2 = tau_dyn - tau_nuc
+
+P = make2Darray(rho,T,Pr,rholenfull)
+P0 = getzerotemp(rho,T)
+Prat = P/P0
+
+TS = flattener1(Tr,10.0**10.000001)
+rhoS = flattener2(rhor,10.0**10.000001)
+S = make2Darray(rhoS,TS,Sr,rholenfull)
+
+pylab.rc('font', family="serif")
+pylab.rc('font', size=12)
+width = 6.
+height = 9.
+scaling = 1.0
+fig = pylab.figure(figsize=(width*scaling,height*scaling))
+ax1 = fig.add_axes([0.8/width, 4.75/height, 4.8/width, 4./height])
+
+ax1.axis([10**5.5,10**8.5,10**7.8,10**9.75])
+ax1.set_xscale("log") 
+ax1.set_yscale("log") 
+
+neur_N = [1e6, 1e4, 1e2, 1e0, 1e-2]
+neur_clabel = [r'$\tau_{\nu}=10^6$',r'$10^4$',r'$10^2$',r'$10^0$',r'$10^{-2}$']
+neur_pos = [(1.0e7, 1.e8), (1e8, 2.5e8), (1e8,7e8), (1e6, 1.2e9), (1.8e6, 3e9)]
+
+i = 0
+while i < len(neur_N):
+	cNarr = []
+	cNarr.append(neur_N[i])
+	cs = ax1.contour(rho,T,tau_neu,cNarr,colors='b',linestyles='dotted')
+	if i == 0:
+		ax1.clabel(cs, fontsize=13, inline=1, fmt=neur_clabel[i], manual=[neur_pos[i]])	#inline_spacing = -50
+	else:
+		ax1.clabel(cs, fontsize=13, inline=1, fmt=neur_clabel[i], manual=[neur_pos[i]])
+	i += 1
+
+nucr_N = [1e6, 1e4, 1e2, 1e0, 1e-2,1e-4]
+nucr_clabel = [r'$\tau_\mathrm{cc}=10^6$',r'$10^4$',r'$10^2$',r'$10^0$',r'$10^{-2}$',r'$10^{-4}$']
+nucr_pos = [(7.0e7, 5e8), (6e7, 5e8), (5e7, 6e8), (4e7, 8e8), (3.25e7, 9e8), (2.5e7, 1.05e9)]
+
+i = 0
+while i < len(nucr_N):
+	cNarr = []
+	cNarr.append(nucr_N[i])
+	cs = ax1.contour(rhop,Tp,tau_nucp,cNarr,colors='r',linestyles=':')
+	ax1.clabel(cs, fontsize=13, inline=1, fmt=nucr_clabel[i], manual=[nucr_pos[i]])
+	i += 1
+
+S_N = [1e8, 10**8.1, 10**8.2]
+S_clabel = [r'$S = 10^8$',r'$10^{8.1}$',r'$10^{8.2}$']
+S_pos = [(8e5, 8e7), (1e8,1.7e9), (6e7, 2.1e9)]
+
+i = 0
+while i < len(S_N):
+	Sarr = []
+	Sarr.append(S_N[i])
+	cs = ax1.contour(rhoS,TS,S,Sarr,colors='g',linestyles='dotted',linewidth=4)
+	ax1.clabel(cs, fontsize=13, inline=1, fmt=S_clabel[i], manual=[S_pos[i]])
+	i += 1
+
+taueq_N = [0]
+cs = ax1.contour(rho,T,tau_eq,taueq_N,colors='m',linestyles='-',linewidth=6)
+ax1.clabel(cs, fontsize=13, inline=1, fmt=r'$\tau_\mathrm{cc}=\tau_{\nu}$', manual=[(1.9e7, 6.5e8)])
+
+Prat_N= [2.0]
+cs = ax1.contour(rho,T,Prat,Prat_N,colors='k',linestyles='--',linewidth=6)
+ax1.clabel(cs, fontsize=13, inline=1, fmt=r'$P = 2P(T=0)$', manual=[(1.25e7, 3e9)])
+
+cs = ax1.contour(rho,T,tau_eq2,taueq_N,colors='r',linestyles='-',linewidth=6)
+ax1.clabel(cs, fontsize=13, inline=1, fmt=r'$\tau_\mathrm{cc}=\tau_\mathrm{dyn}$', manual=[(3e7, 1.5e9)])
+
+#fi = open("../runout/bigichart.csv",'r')
+#foNOT = open("../runout/bigochart.csv",'r')
+#data_i = loadtxt(fi,skiprows=3,delimiter="\t",usecols=range(1,30))
+#data_oNOT = loadtxt(foNOT,skiprows=3,delimiter="\t",usecols=range(1,99))
+fo = open("../runout/PMacc/pmeoutput.txt",'r')
+data_o = loadtxt(fo)
+
+#rhoTmax = data_o[:,12]*1e6
+#Tmax = data_o[:,9]*1e8
+#Tmaxconv = data_o[:,10]*1e8
+#STmax = data_o[:,13]*1e8
+#STmaxconv = data_o[:,14]*1e8
+#M1 = data_i[:,0]
+#M2 = data_i[:,10]
+#M = M1 + M2
+#Mrem = data_o[:,23]
+#rhoc = data_o[:,1]*1e6
+
+rhoTmax = data_o[:,0]
+Tmaxconv = data_o[:,1]
+rhoTmaxend = data_o[:,2]
+Tmaxend = data_o[:,3]
+rhoTmaxXY = data_o[:,4]
+TmaxconvXY = data_o[:,5]
+rhoTmaxendXY = data_o[:,6]
+TmaxendXY = data_o[:,7]
+
+#linestylelist = ['k-','b-','g-','r-','m-','c-','y-','k-', 'b-', 'r-']
+#linestylelist2 = ['k--','b--','g--','r--','m--','c--','y--', 'k--', 'b--', 'r--']
+#pointstylelist = ['ko-','bo-','go-','ro-','mo-', 'k^-', 'b^-', 'r^-']
+
+colorlist = ['red','orange','lime','cyan','blue','magenta','purple','brown','black']
+datasize = [1, 2, 3, 4, 8, 6, 7, 8, 9]
+#labellist = [r'0.4 M$_\odot$',r'0.5 M$_\odot$',r'0.55 M$_\odot$',r'0.6 M$_\odot$',r'0.65 M$_\odot$',r'0.7 M$_\odot$',r'0.8 M$_\odot$',r'0.9 M$_\odot$',r'1.0 M$_\odot$']
+
+#speciallist = [0,1,2,4,5,7,8,9,12,13,14,15,16,17,21,22,23,29,30,37,38,46,47]
+#specialcolor = ["red","orange","orange","lime","lime","cyan","cyan","cyan","blue","blue","blue",
+#"blue","blue","blue","magenta","magenta","magenta","purple","purple","brown","brown","black","black"]
+
+speciallist = array([ 0,  2,  4,  5,  8,  9, 13, 14, 15, 16, 17, 22, 23, 30, 38, 47])	#(rhoc1/rhoc2 >= 0.6).nonzero()[0]
+specialcolor = ["red","orange","lime","lime","cyan","cyan","blue","blue","blue",
+"blue","blue","magenta","magenta","purple","brown","black"]
+
+i = 0
+j = 0
+while i < len(datasize):
+	rhos = rhoTmaxXY[j:j+int(datasize[i])]
+	temps = TmaxconvXY[j:j+int(datasize[i])]
+	ax1.plot(rhos,temps,'r-',linestyle='solid',color=colorlist[i])
+	j = j + datasize[i]
+	i += 1
+
+for i in range(0,len(speciallist)):
+	rhos = rhoTmax[speciallist[i]]
+	temps = Tmaxconv[speciallist[i]]
+	ax1.plot(rhos,temps,'rv',markersize=4,color=specialcolor[i],mfc=specialcolor[i])
+
+i = 0
+j = 0
+while i < len(datasize):
+	rhos = rhoTmaxXY[j:j+int(datasize[i])]
+	temps = TmaxconvXY[j:j+int(datasize[i])]
+	ax1.plot(rhos,temps,'ro',markersize=4,mfc=colorlist[i])
+	j = j + datasize[i]
+	i += 1
+
+#ax1.set_xlabel(r'$\rho$ (g cm$^{-3}$)', fontsize = 14)
+ax1.set_xticklabels([''])
+ax1.set_ylabel(r'$T$ (K)', fontsize = 14)
+ax1.axis([10**5.5,10**8.5,10**7.8,10**9.75])
+
+#pylab.draw()
+#pylab.savefig('Willitexplode1.pdf', dpi = 200, edgecolor = 'w')
+#pylab.savefig('Willitexplode1.eps', dpi = 200, edgecolor = 'w')
+#pylab.clf()
+
+#fig = pylab.figure(figsize=(width*scaling,height*scaling))
+#ax2 = fig.add_axes([(0.8+6.)/width, 0.75/height, 4.8/width, 4./height])
+ax2 = fig.add_axes([0.8/width, 0.75/height, 4.8/width, 4./height])
+ax2.axis([10**5.5,10**8.5,10**7.8,10**9.75])
+ax2.set_xscale("log") 
+ax2.set_yscale("log") 
+
+i = 0
+while i < len(neur_N):
+	cNarr = []
+	cNarr.append(neur_N[i])
+	cs = ax2.contour(rho,T,tau_neu,cNarr,colors='b',linestyles='dotted')
+	i += 1
+i = 0
+while i < len(nucr_N):
+	cNarr = []
+	cNarr.append(nucr_N[i])
+	cs = ax2.contour(rho,T,tau_nuc,cNarr,colors='r',linestyles=':')
+	i += 1
+i = 0
+while i < len(S_N):
+	Sarr = []
+	Sarr.append(S_N[i])
+	cs = ax2.contour(rhoS,TS,S,Sarr,colors='g',linestyles='dotted',linewidth=4)
+	i += 1
+cs = ax2.contour(rho,T,tau_eq,taueq_N,colors='m',linestyles='-',linewidth=6)
+cs = ax2.contour(rho,T,Prat,Prat_N,colors='k',linestyles='--',linewidth=6)
+cs = ax2.contour(rho,T,tau_eq2,taueq_N,colors='r',linestyles='-',linewidth=6)
+
+i = 0
+j = 0
+while i < len(datasize):
+	rhos = rhoTmaxendXY[j:j+int(datasize[i])]
+	temps = TmaxendXY[j:j+int(datasize[i])]
+	ax2.plot(rhos,temps,'r-',linestyle='solid',color=colorlist[i])
+	j = j + datasize[i]
+	i += 1
+
+#speciallist = [0,1,2,4,5,7,8,9,12,13,14,15,16,17,21,22,23,29,30,37,38,46,47]
+#specialcolor = ["red","orange","orange","lime","lime","cyan","cyan","cyan","blue","blue","blue",
+#"blue","blue","blue","magenta","magenta","magenta","purple","purple","brown","brown","black","black"]
+for i in range(0,len(speciallist)):
+	rhos = rhoTmaxend[speciallist[i]]
+	temps = Tmaxend[speciallist[i]]
+	ax2.plot(rhos,temps,'rv',markersize=4,color=specialcolor[i],mfc=specialcolor[i])
+
+i = 0
+j = 0
+while i < len(datasize):
+	rhos = rhoTmaxendXY[j:j+int(datasize[i])]
+	temps = TmaxendXY[j:j+int(datasize[i])]
+	ax2.plot(rhos,temps,'ro',markersize=4,mfc=colorlist[i])
+	j = j + datasize[i]
+	i += 1
+
+ax2.set_xlabel(r'$\rho$ (g cm$^{-3}$)', fontsize = 14)
+ax2.set_ylabel(r'T (K)', fontsize = 14)
+ax2.axis([10**5.5,10**8.5,10**7.8,10**9.75])
+
+pylab.draw()
+pylab.savefig('/home/cczhu/GitHubTemp/Thesis/chapter2_zhu+13/figures/Willitexplode.pdf', dpi = 200, edgecolor = 'w')
+pylab.clf()
