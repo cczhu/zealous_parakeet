@@ -34,6 +34,7 @@
 \newcommand{\arepo}{\textsc{Arepo}}
 \newcommand{\gasoline}{\textsc{Gasoline}}
 \newcommand{\flash}{\textsc{FLASH}}
+\newcommand{\mesa}{\textsc{MESA}}
 
 % common + zhu+13 stuff
 \newcommand{\azero}{\domm{a_0}}

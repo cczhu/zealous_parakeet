@@ -6,47 +6,52 @@ A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
 A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 The style file: apj.bst
 Database file #1: AutoBibliography.bib
+Warning--I didn't find a database entry for "prichs08"
+Warning--I didn't find a database entry for "vker13"
+Warning--I didn't find a database entry for "none"
+Warning--I didn't find a database entry for "phil93"
+Warning--I didn't find a database entry for "khok91"
 Warning--I didn't find a database entry for "zhu+16"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 90 entries,
+You've used 93 entries,
             3085 wiz_defined-function locations,
-            1275 strings with 23945 characters,
-and the built_in function-call counts, 44655 in all, are:
-= -- 3760
-> -- 3293
-< -- 28
-+ -- 1111
-- -- 1224
-* -- 3848
-:= -- 8367
-add.period$ -- 90
-call.type$ -- 90
-change.case$ -- 646
-chr.to.int$ -- 88
-cite$ -- 90
-duplicate$ -- 1731
-empty$ -- 2572
-format.name$ -- 1311
-if$ -- 8855
+            1299 strings with 24452 characters,
+and the built_in function-call counts, 45997 in all, are:
+= -- 3882
+> -- 3375
+< -- 30
++ -- 1138
+- -- 1253
+* -- 3954
+:= -- 8613
+add.period$ -- 93
+call.type$ -- 93
+change.case$ -- 666
+chr.to.int$ -- 91
+cite$ -- 93
+duplicate$ -- 1788
+empty$ -- 2656
+format.name$ -- 1348
+if$ -- 9127
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 86
-newline$ -- 274
-num.names$ -- 362
-pop$ -- 698
+missing$ -- 89
+newline$ -- 283
+num.names$ -- 374
+pop$ -- 720
 preamble$ -- 1
-purify$ -- 646
+purify$ -- 666
 quote$ -- 0
-skip$ -- 1451
+skip$ -- 1499
 stack$ -- 0
-substring$ -- 1925
+substring$ -- 1988
 swap$ -- 38
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 810
+type$ -- 837
 warning$ -- 0
-while$ -- 350
+while$ -- 362
 width$ -- 0
-write$ -- 903
-(There was 1 warning)
+write$ -- 933
+(There were 6 warnings)
