@@ -264,6 +264,7 @@ I'd like to thank the academy for choosing me...
 \input{chapter2_zhu+13/chapter2_results.tex}
 \input{chapter2_zhu+13/chapter2_variation.tex}
 \input{chapter2_zhu+13/chapter2_discussion.tex}
+\input{chapter2_zhu+13/chapter2_appendix.tex}
 %ch3
 \include{chapter3_zhu+u/chapter3}
 %ch4
@@ -304,8 +305,10 @@ I'd like to thank the academy for choosing me...
 
 %%%% Code papers %%%%
 %citation{duffm11}{2011ApJS..197...15D}		% TESS
+%citation{fryx+00}{2000ApJS..131..273F}		% Flash paper
 %citation{haye+06}{2006ApJS..165..188H}		% ZEUS-MP2 paper
 %citation{hernk89}{1989ApJS...70..419H}		% Gasoline's kernel
+%citation{hopk15}{2015MNRAS.450...53H}		% Gizmo paper
 %citation{mona05}{2005RPPh...68.1703M}		% Monaghan SPH review
 %citation{pakmbv11}{2011MNRAS.418.1392P}	% ruediger's original magnetic fields paper
 %citation{pakmv13}{2013MNRAS.432..176P}		% ruediger's galactic magnetic fields paper

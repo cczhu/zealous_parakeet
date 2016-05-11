@@ -92,6 +92,9 @@
 \newcommand{\fdon}{\domm{f_{\rm d}}}
 \newcommand{\fratio}{\domm{(f_{\rm d}/f_{\rm a})_{\rm cc}}}
 
+% zhu+13 appendix
+\newcommand{\Mcpv}{\domm{M_{\rm c, pv}}}
+
 % zhu+u stuff
 
 % zhu+15 stuff
