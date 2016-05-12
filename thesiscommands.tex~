@@ -43,7 +43,7 @@
 \newcommand{\Md}{\domm{M_{\rm d}}}
 \newcommand{\Ma}{\domm{M_{\rm a}}}
 \newcommand{\Ra}{\domm{R_{\rm a}}}
-\newcommand{\Mtot}{\domm{{\rm tot}}}
+\newcommand{\Mtot}{\domm{M_{\rm tot}}}
 \newcommand{\qm}{\domm{q_\mathrm{m}}}
 \newcommand{\Omegamax}{\domm{\Omega_{\rm max}}}
 \newcommand{\MencTmax}{\domm{M_{\rm enc}(T_{\rm max})}}
