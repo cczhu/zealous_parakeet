@@ -15,4 +15,18 @@ If sub-\Mch\ CO WD merger remnants indeed trigger thermonuclear detonations foll
 	\item Importance of Ia-CSM stuff?  Shen+12 and Ji+13 (Sec. 2.2.3) have extensive sections on it.
 	\item Ji+13 has a mean magnetic field of 2e8 G; what does our simulation have?  They also (bottom of pg 7) give a quick estimate for magnetic lifetime.
 	\item What's the difference between a ring of material at $10^{13}$ cm and a continuous envelope that ends at the same radius?  Does one resemble Ia-CSM interaction, but the other lead to Fryer+10 or Piro+15 early time brightening?
+	\item Even super chandra DD systems will be much less dense than their WD binary progenitors - consequences for explosions?
 \end{itemize}
+
+
+
+Simulations of detonations within violent mergers (eg. \ref{pakm+10, bull+16, krom+16}) or mergers shortly after coalescence \citep{rask+14,vros+15}, do not reproduce the light curves and spectra of SNe Ia.  
+
+OUR REMNANTS AREN'T RADIATION DOMINATED.  
+
+
+%krom+16 http://adsabs.harvard.edu/doi/10.1093/mnras/stw962
+%bull+16 http://adsabs.harvard.edu/abs/2016MNRAS.455.1060B
+%vros+15 http://adsabs.harvard.edu/abs/2015arXiv151004286V
+
+%papi+15 http://adsabs.harvard.edu/abs/2015MNRAS.449..942P
