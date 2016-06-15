@@ -7,6 +7,17 @@
 {Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2016, Physical Review
   Letters, 116, 131102
 
+\bibitem[{{Abdikamalov} {et~al.}(2010){Abdikamalov}, {Ott}, {Rezzolla},
+  {Dessart}, {Dimmelmeier}, {Marek}, \& {Janka}}]{abdi+10}
+{Abdikamalov}, E.~B., {Ott}, C.~D., {Rezzolla}, L., {et~al.} 2010, \prd, 81,
+  044012
+
+\bibitem[{{Agertz} {et~al.}(2007){Agertz}, {Moore}, {Stadel}, {Potter},
+  {Miniati}, {Read}, {Mayer}, {Gawryszczak}, {Kravtsov}, {Nordlund}, {Pearce},
+  {Quilis}, {Rudd}, {Springel}, {Stone}, {Tasker}, {Teyssier}, {Wadsley}, \&
+  {Walder}}]{ager+07}
+{Agertz}, O., {Moore}, B., {Stadel}, J., {et~al.} 2007, \mnras, 380, 963
+
 \bibitem[{{Althaus} {et~al.}(2009){Althaus}, {Garc{\'{\i}}a-Berro},
   {C{\'o}rsico}, {Miller Bertolami}, \& {Romero}}]{alth+09}
 {Althaus}, L.~G., {Garc{\'{\i}}a-Berro}, E., {C{\'o}rsico}, A.~H., {Miller
@@ -25,8 +36,14 @@
 \bibitem[{{Badenes} \& {Maoz}(2012)}]{badem12}
 {Badenes}, C., \& {Maoz}, D. 2012, \apjl, 749, L11
 
+\bibitem[{{Balbus}(2003)}]{balb03}
+{Balbus}, S.~A. 2003, \araa, 41, 555
+
 \bibitem[{{Balbus} \& {Hawley}(1991)}]{balbh91}
 {Balbus}, S.~A., \& {Hawley}, J.~F. 1991, \apj, 376, 214
+
+\bibitem[{{Balsara}(1995)}]{bals95}
+{Balsara}, D.~S. 1995, Journal of Computational Physics, 121, 357
 
 \bibitem[{{Barstow} {et~al.}(1995){Barstow}, {Jordan}, {O'Donoghue},
   {Burleigh}, {Napiwotzki}, \& {Harrop-Allin}}]{bars+95}
@@ -36,6 +53,11 @@
 \bibitem[{{Beloborodov}(2014)}]{belo14}
 {Beloborodov}, A.~M. 2014, \mnras, 438, 169
 
+\bibitem[{{Benz} {et~al.}(1990){Benz}, {Cameron}, {Press}, \&
+  {Bowers}}]{benz+90}
+{Benz}, W., {Cameron}, A.~G.~W., {Press}, W.~H., \& {Bowers}, R.~L. 1990, \apj,
+  348, 647
+
 \bibitem[{{Briggs} {et~al.}(2015){Briggs}, {Ferrario}, {Tout},
   {Wickramasinghe}, \& {Hurley}}]{brig+15}
 {Briggs}, G.~P., {Ferrario}, L., {Tout}, C.~A., {Wickramasinghe}, D.~T., \&
@@ -44,6 +66,18 @@
 \bibitem[{{Brown} {et~al.}(2011){Brown}, {Kilic}, {Hermes}, {Allende Prieto},
   {Kenyon}, \& {Winget}}]{brow+11}
 {Brown}, W.~R., {Kilic}, M., {Hermes}, J.~J., {et~al.} 2011, \apjl, 737, L23
+
+\bibitem[{{Cha} \& {Wood}(2016)}]{chaw16}
+{Cha}, S.-H., \& {Wood}, M.~A. 2016, \mnras, 458, 480
+
+\bibitem[{{Clayton}(2013)}]{clay13}
+{Clayton}, G.~C. 2013, in Astronomical Society of the Pacific Conference
+  Series, Vol. 469, 18th European White Dwarf Workshop., 133
+
+\bibitem[{{Clayton} {et~al.}(2007){Clayton}, {Geballe}, {Herwig}, {Fryer}, \&
+  {Asplund}}]{clay+07}
+{Clayton}, G.~C., {Geballe}, T.~R., {Herwig}, F., {Fryer}, C., \& {Asplund}, M.
+  2007, \apj, 662, 1220
 
 \bibitem[{{Dan} {et~al.}(2014){Dan}, {Rosswog}, {Br{\"u}ggen}, \&
   {Podsiadlowski}}]{dan+14}
@@ -59,9 +93,30 @@
   {Ramirez-Ruiz}}]{dan+12}
 ---. 2012, \mnras, 422, 2417
 
+\bibitem[{{de Val-Borro} {et~al.}(2006){de Val-Borro}, {Edgar}, {Artymowicz},
+  {Ciecielag}, {Cresswell}, {D'Angelo}, {Delgado-Donate}, {Dirksen}, {Fromang},
+  {Gawryszczak}, {Klahr}, {Kley}, {Lyra}, {Masset}, {Mellema}, {Nelson},
+  {Paardekooper}, {Peplinski}, {Pierens}, {Plewa}, {Rice}, {Sch{\"a}fer}, \&
+  {Speith}}]{dval+06}
+{de Val-Borro}, M., {Edgar}, R.~G., {Artymowicz}, P., {et~al.} 2006, \mnras,
+  370, 529
+
+\bibitem[{{Dedner} {et~al.}(2002){Dedner}, {Kemm}, {Kr{\"o}ner}, {Munz},
+  {Schnitzer}, \& {Wesenberg}}]{dedn+02}
+{Dedner}, A., {Kemm}, F., {Kr{\"o}ner}, D., {et~al.} 2002, Journal of
+  Computational Physics, 175, 645
+
+\bibitem[{{Dehnen} \& {Aly}(2012)}]{dehna12}
+{Dehnen}, W., \& {Aly}, H. 2012, \mnras, 425, 1068
+
 \bibitem[{{Dionysopoulou} {et~al.}(2015){Dionysopoulou}, {Alic}, \&
   {Rezzolla}}]{dionar15}
 {Dionysopoulou}, K., {Alic}, D., \& {Rezzolla}, L. 2015, \prd, 92, 084064
+
+\bibitem[{{Dolag} {et~al.}(2005){Dolag}, {Vazza}, {Brunetti}, \&
+  {Tormen}}]{dola+05}
+{Dolag}, K., {Vazza}, F., {Brunetti}, G., \& {Tormen}, G. 2005, \mnras, 364,
+  753
 
 \bibitem[{{D'Souza} {et~al.}(2006){D'Souza}, {Motl}, {Tohline}, \&
   {Frank}}]{dsou+06}
@@ -77,8 +132,21 @@
   Astronomical Society of the Pacific Conference Series, Vol. 469, 18th
   European White Dwarf Workshop., 167
 
+\bibitem[{{Dunlap} \& {Clemens}(2015)}]{dunlc15}
+{Dunlap}, B.~H., \& {Clemens}, J.~C. 2015, in Astronomical Society of the
+  Pacific Conference Series, Vol. 493, 19th European Workshop on White Dwarfs,
+  ed. P.~{Dufour}, P.~{Bergeron}, \& G.~{Fontaine}, 547
+
 \bibitem[{{Eggleton}(1983)}]{eggl83}
 {Eggleton}, P.~P. 1983, \apj, 268, 368
+
+\bibitem[{{Evans} \& {Hawley}(1988)}]{evanh88}
+{Evans}, C.~R., \& {Hawley}, J.~F. 1988, \apj, 332, 659
+
+\bibitem[{{Flock} {et~al.}(2010){Flock}, {Dzyurkevich}, {Klahr}, \&
+  {Mignone}}]{floc+10}
+{Flock}, M., {Dzyurkevich}, N., {Klahr}, H., \& {Mignone}, A. 2010, \aap, 516,
+  A26
 
 \bibitem[{{Fryxell} {et~al.}(2000){Fryxell}, {Olson}, {Ricker}, {Timmes},
   {Zingale}, {Lamb}, {MacNeice}, {Rosner}, {Truran}, \& {Tufo}}]{fryx+00}
@@ -86,6 +154,9 @@
 
 \bibitem[{{Fuller} \& {Lai}(2012)}]{fulll12}
 {Fuller}, J., \& {Lai}, D. 2012, \mnras, 421, 426
+
+\bibitem[{{Gaburov} {et~al.}(2012){Gaburov}, {Johansen}, \& {Levin}}]{gabujl12}
+{Gaburov}, E., {Johansen}, A., \& {Levin}, Y. 2012, \apj, 758, 103
 
 \bibitem[{{Garc{\'{\i}}a-Berro} {et~al.}(2012){Garc{\'{\i}}a-Berro},
   {Lor{\'e}n-Aguilar}, {Aznar-Sigu{\'a}n}, {Torres}, {Camacho}, {Althaus},
@@ -97,6 +168,11 @@
   {MacFadyen}, \& {Perna}}]{giac+15}
 {Giacomazzo}, B., {Zrake}, J., {Duffell}, P.~C., {MacFadyen}, A.~I., \&
   {Perna}, R. 2015, \apj, 809, 39
+
+\bibitem[{{Governato} {et~al.}(2015){Governato}, {Weisz}, {Pontzen}, {Loebman},
+  {Reed}, {Brooks}, {Behroozi}, {Christensen}, {Madau}, {Mayer}, {Shen},
+  {Walker}, {Quinn}, {Keller}, \& {Wadsley}}]{gove+15}
+{Governato}, F., {Weisz}, D., {Pontzen}, A., {et~al.} 2015, \mnras, 448, 792
 
 \bibitem[{{Guerrero} {et~al.}(2004){Guerrero}, {Garc{\'{\i}}a-Berro}, \&
   {Isern}}]{guerig04}
@@ -111,14 +187,42 @@
 {Hayes}, J.~C., {Norman}, M.~L., {Fiedler}, R.~A., {et~al.} 2006, \apjs, 165,
   188
 
+\bibitem[{{Hayward} {et~al.}(2014){Hayward}, {Torrey}, {Springel}, {Hernquist},
+  \& {Vogelsberger}}]{hayw+14}
+{Hayward}, C.~C., {Torrey}, P., {Springel}, V., {Hernquist}, L., \&
+  {Vogelsberger}, M. 2014, \mnras, 442, 1992
+
 \bibitem[{{Hernquist} \& {Katz}(1989)}]{hernk89}
 {Hernquist}, L., \& {Katz}, N. 1989, \apjs, 70, 419
+
+\bibitem[{{Hillebrandt} {et~al.}(2013){Hillebrandt}, {Kromer}, {R{\"o}pke}, \&
+  {Ruiter}}]{hill+13}
+{Hillebrandt}, W., {Kromer}, M., {R{\"o}pke}, F.~K., \& {Ruiter}, A.~J. 2013,
+  Frontiers of Physics, 8, 116
+
+\bibitem[{{Hopkins}(2013)}]{hopk13}
+{Hopkins}, P.~F. 2013, \mnras, 428, 2840
+
+\bibitem[{{Hopkins} \& {Raives}(2016)}]{hopkr16}
+{Hopkins}, P.~F., \& {Raives}, M.~J. 2016, \mnras, 455, 51
+
+\bibitem[{{Howell}(2011)}]{howe11}
+{Howell}, D.~A. 2011, Nature Communications, 2, 350
+
+\bibitem[{{Hu} {et~al.}(2014){Hu}, {Naab}, {Walch}, {Moster}, \&
+  {Oser}}]{hu+14}
+{Hu}, C.-Y., {Naab}, T., {Walch}, S., {Moster}, B.~P., \& {Oser}, L. 2014,
+  \mnras, 443, 1173
 
 \bibitem[{{Ji} {et~al.}(2013){Ji}, {Fisher}, {Garc{\'{\i}}a-Berro},
   {Tzeferacos}, {Jordan}, {Lee}, {Lor{\'e}n-Aguilar}, {Cremer}, \&
   {Behrends}}]{ji+13}
 {Ji}, S., {Fisher}, R.~T., {Garc{\'{\i}}a-Berro}, E., {et~al.} 2013, \apj, 773,
   136
+
+\bibitem[{{Justham} {et~al.}(2011){Justham}, {Podsiadlowski}, \&
+  {Han}}]{justph11}
+{Justham}, S., {Podsiadlowski}, P., \& {Han}, Z. 2011, \mnras, 410, 984
 
 \bibitem[{{Justham} {et~al.}(2014){Justham}, {Podsiadlowski}, \&
   {Vink}}]{justpv14}
@@ -133,6 +237,18 @@
   {Aznar-Sigu{\'a}n}, {Ji}, \& {Lor{\'e}n-Aguilar}}]{kash+15}
 {Kashyap}, R., {Fisher}, R., {Garc{\'{\i}}a-Berro}, E., {et~al.} 2015, \apjl,
   800, L7
+
+\bibitem[{{Katz} {et~al.}(2016){Katz}, {Zingale}, {Calder}, {Swesty},
+  {Almgren}, \& {Zhang}}]{katz+16}
+{Katz}, M.~P., {Zingale}, M., {Calder}, A.~C., {et~al.} 2016, \apj, 819, 94
+
+\bibitem[{{Keller} {et~al.}(2014){Keller}, {Wadsley}, {Benincasa}, \&
+  {Couchman}}]{kell+14}
+{Keller}, B.~W., {Wadsley}, J., {Benincasa}, S.~M., \& {Couchman}, H.~M.~P.
+  2014, \mnras, 442, 3013
+
+\bibitem[{{Keller} {et~al.}(2015){Keller}, {Wadsley}, \& {Couchman}}]{kell+15}
+{Keller}, B.~W., {Wadsley}, J., \& {Couchman}, H.~M.~P. 2015, \mnras, 453, 3499
 
 \bibitem[{{Kerzendorf} {et~al.}(2014){Kerzendorf}, {Taubenberger},
   {Seitenzahl}, \& {Ruiter}}]{kerz+14}
@@ -200,11 +316,30 @@
 {Maeda}, K., {Benetti}, S., {Stritzinger}, M., {et~al.} 2010{\natexlab{b}},
   \nat, 466, 82
 
+\bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \& {Nelemans}}]{maozmn14}
+{Maoz}, D., {Mannucci}, F., \& {Nelemans}, G. 2014, \araa, 52, 107
+
+\bibitem[{{Marinacci} {et~al.}(2014){Marinacci}, {Pakmor}, \&
+  {Springel}}]{marips14}
+{Marinacci}, F., {Pakmor}, R., \& {Springel}, V. 2014, \mnras, 437, 1750
+
 \bibitem[{{Marsh} {et~al.}(2004){Marsh}, {Nelemans}, \& {Steeghs}}]{marsns04}
 {Marsh}, T.~R., {Nelemans}, G., \& {Steeghs}, D. 2004, \mnras, 350, 113
 
 \bibitem[{{Mazurek} {et~al.}(1977){Mazurek}, {Meier}, \& {Wheeler}}]{mazumw77}
 {Mazurek}, T.~J., {Meier}, D.~L., \& {Wheeler}, J.~C. 1977, \apj, 213, 518
+
+\bibitem[{{Mitchell} {et~al.}(2009){Mitchell}, {McCarthy}, {Bower}, {Theuns},
+  \& {Crain}}]{mitc+09}
+{Mitchell}, N.~L., {McCarthy}, I.~G., {Bower}, R.~G., {Theuns}, T., \& {Crain},
+  R.~A. 2009, \mnras, 395, 180
+
+\bibitem[{{Miyoshi} \& {Kusano}(2005)}]{miyok05}
+{Miyoshi}, T., \& {Kusano}, K. 2005, Journal of Computational Physics, 208, 315
+
+\bibitem[{{Mocz} {et~al.}(2014){Mocz}, {Vogelsberger}, \&
+  {Hernquist}}]{moczvh14}
+{Mocz}, P., {Vogelsberger}, M., \& {Hernquist}, L. 2014, \mnras, 442, 43
 
 \bibitem[{{Moll} {et~al.}(2014){Moll}, {Raskin}, {Kasen}, \&
   {Woosley}}]{moll+14}
@@ -224,8 +359,13 @@
   {M{\"u}ller}}]{oberam10}
 {Obergaulinger}, M., {Aloy}, M.~A., \& {M{\"u}ller}, E. 2010, \aap, 515, A30
 
+\bibitem[{{Ohlmann} {et~al.}(2016){Ohlmann}, {R{\"o}pke}, {Pakmor}, \&
+  {Springel}}]{ohlm+16}
+{Ohlmann}, S.~T., {R{\"o}pke}, F.~K., {Pakmor}, R., \& {Springel}, V. 2016,
+  \apjl, 816, L9
+
 \bibitem[{{Pakmor} {et~al.}(2011{\natexlab{a}}){Pakmor}, {Bauer}, \&
-  {Springel}}]{pakmbv11}
+  {Springel}}]{pakmbs11}
 {Pakmor}, R., {Bauer}, A., \& {Springel}, V. 2011{\natexlab{a}}, \mnras, 418,
   1392
 
@@ -242,12 +382,20 @@
   {R{\"o}pke}, \& {Hillebrandt}}]{pakm+12}
 {Pakmor}, R., {Kromer}, M., {Taubenberger}, S., {et~al.} 2012, \apjl, 747, L10
 
-\bibitem[{{Pakmor} \& {Springel}(2013)}]{pakmv13}
+\bibitem[{{Pakmor} {et~al.}(2013){Pakmor}, {Kromer}, {Taubenberger}, \&
+  {Springel}}]{pakm+13}
+{Pakmor}, R., {Kromer}, M., {Taubenberger}, S., \& {Springel}, V. 2013, \apjl,
+  770, L8
+
+\bibitem[{{Pakmor} \& {Springel}(2013)}]{pakms13}
 {Pakmor}, R., \& {Springel}, V. 2013, \mnras, 432, 176
 
 \bibitem[{{Pakmor} {et~al.}(2016){Pakmor}, {Springel}, {Bauer}, {Mocz},
   {Munoz}, {Ohlmann}, {Schaal}, \& {Zhu}}]{pakm+16}
 {Pakmor}, R., {Springel}, V., {Bauer}, A., {et~al.} 2016, \mnras, 455, 1134
+
+\bibitem[{{Papaloizou} \& {Lin}(1995)}]{papal95}
+{Papaloizou}, J.~C.~B., \& {Lin}, D.~N.~C. 1995, \araa, 33, 505
 
 \bibitem[{{Paxton} {et~al.}(2011){Paxton}, {Bildsten}, {Dotter}, {Herwig},
   {Lesaffre}, \& {Timmes}}]{paxt+11}
@@ -267,6 +415,11 @@
 \bibitem[{{Price} \& {Rosswog}(2006)}]{pricr06}
 {Price}, D.~J., \& {Rosswog}, S. 2006, Science, 312, 719
 
+\bibitem[{{Raskin} {et~al.}(2014){Raskin}, {Kasen}, {Moll}, {Schwab}, \&
+  {Woosley}}]{rask+14}
+{Raskin}, C., {Kasen}, D., {Moll}, R., {Schwab}, J., \& {Woosley}, S. 2014,
+  \apj, 788, 75
+
 \bibitem[{{Raskin} {et~al.}(2012){Raskin}, {Scannapieco}, {Fryer},
   {Rockefeller}, \& {Timmes}}]{rask+12}
 {Raskin}, C., {Scannapieco}, E., {Fryer}, C., {Rockefeller}, G., \& {Timmes},
@@ -283,6 +436,9 @@
 
 \bibitem[{{Ruiz-Lapuente} \& {Spruit}(1998)}]{ruizs98}
 {Ruiz-Lapuente}, P., \& {Spruit}, H.~C. 1998, \apj, 500, 360
+
+\bibitem[{{Saio} \& {Jeffery}(2000)}]{saioj00}
+{Saio}, H., \& {Jeffery}, C.~S. 2000, \mnras, 313, 671
 
 \bibitem[{{Saio} \& {Nomoto}(1985)}]{saion85}
 {Saio}, H., \& {Nomoto}, K. 1985, \aap, 150, L21
@@ -317,6 +473,9 @@
 {Shen}, K.~J., {Bildsten}, L., {Kasen}, D., \& {Quataert}, E. 2012, \apj, 748,
   35
 
+\bibitem[{{Shen} {et~al.}(2010){Shen}, {Wadsley}, \& {Stinson}}]{shen+10}
+{Shen}, S., {Wadsley}, J., \& {Stinson}, G. 2010, \mnras, 407, 1581
+
 \bibitem[{{Shigeyama} {et~al.}(1992){Shigeyama}, {Nomoto}, {Yamaoka}, \&
   {Thielemann}}]{shig+92}
 {Shigeyama}, T., {Nomoto}, K., {Yamaoka}, H., \& {Thielemann}, F.-K. 1992,
@@ -327,11 +486,19 @@
 {Sim}, S.~A., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010, \apjl, 714,
   L52
 
-\bibitem[{{Springel}(2010)}]{spri10}
-{Springel}, V. 2010, \mnras, 401, 791
+\bibitem[{{Springel}(2010{\natexlab{a}})}]{spri10}
+{Springel}, V. 2010{\natexlab{a}}, \mnras, 401, 791
+
+\bibitem[{{Springel}(2010{\natexlab{b}})}]{spri10rev}
+---. 2010{\natexlab{b}}, \araa, 48, 391
 
 \bibitem[{{Spruit}(2002)}]{spru02}
 {Spruit}, H.~C. 2002, \aap, 381, 923
+
+\bibitem[{{Tamburello} {et~al.}(2015){Tamburello}, {Mayer}, {Shen}, \&
+  {Wadsley}}]{tamb+15}
+{Tamburello}, V., {Mayer}, L., {Shen}, S., \& {Wadsley}, J. 2015, \mnras, 453,
+  2490
 
 \bibitem[{{Taubenberger} {et~al.}(2011){Taubenberger}, {Benetti}, {Childress},
   {Pakmor}, {Hachinger}, {Mazzali}, {Stanishev}, {Elias-Rosa}, {Agnoletto},
@@ -344,8 +511,18 @@
 \bibitem[{{Timmes} \& {Swesty}(2000)}]{timms00}
 {Timmes}, F.~X., \& {Swesty}, F.~D. 2000, \apjs, 126, 501
 
+\bibitem[{{T{\'o}th}(2000)}]{toth00}
+{T{\'o}th}, G. 2000, Journal of Computational Physics, 161, 605
+
+\bibitem[{{Trac} {et~al.}(2007){Trac}, {Sills}, \& {Pen}}]{tracsp07}
+{Trac}, H., {Sills}, A., \& {Pen}, U.-L. 2007, \mnras, 377, 997
+
 \bibitem[{{Tremblay} \& {Bergeron}(2009)}]{tremb09}
 {Tremblay}, P.-E., \& {Bergeron}, P. 2009, \apj, 696, 1755
+
+\bibitem[{{Tricco}(2015)}]{tric15}
+{Tricco}, T. 2015, in American Astronomical Society Meeting Abstracts, Vol.
+  225, American Astronomical Society Meeting Abstracts, 211.06
 
 \bibitem[{{Tylenda} {et~al.}(2011){Tylenda}, {Hajduk}, {Kami{\'n}ski},
   {Udalski}, {Soszy{\'n}ski}, {Szyma{\'n}ski}, {Kubiak}, {Pietrzy{\'n}ski},
@@ -359,6 +536,9 @@
   {Justham}}]{vkercj10}
 {van Kerkwijk}, M.~H., {Chang}, P., \& {Justham}, S. 2010, \apjl, 722, L157
 
+\bibitem[{{Vandenbroucke} \& {De Rijcke}(2016)}]{vandr16}
+{Vandenbroucke}, B., \& {De Rijcke}, S. 2016, Astronomy and Computing, 16, 109
+
 \bibitem[{{Vogelsberger} {et~al.}(2012){Vogelsberger}, {Sijacki}, {Kere{\v s}},
   {Springel}, \& {Hernquist}}]{voge+12}
 {Vogelsberger}, M., {Sijacki}, D., {Kere{\v s}}, D., {Springel}, V., \&
@@ -366,6 +546,9 @@
 
 \bibitem[{{Wadsley} {et~al.}(2004){Wadsley}, {Stadel}, \& {Quinn}}]{wadssq04}
 {Wadsley}, J.~W., {Stadel}, J., \& {Quinn}, T. 2004, \na, 9, 137
+
+\bibitem[{{Webbink}(1984)}]{webb84}
+{Webbink}, R.~F. 1984, \apj, 277, 355
 
 \bibitem[{{Wickramasinghe} {et~al.}(2014){Wickramasinghe}, {Tout}, \&
   {Ferrario}}]{wicktf14}

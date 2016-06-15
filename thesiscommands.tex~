@@ -14,6 +14,7 @@
 
 % Shorthands
 \let\apx\approx
+\newcommand{\ptl}{\partial}
 \newcommand{\qc}{\emph}
 \newcommand{\eqbegin}{\begin{equation}}
 \newcommand{\eqend}{\end{equation}}
@@ -54,12 +55,12 @@
 \newcommand{\rhocd}{\domm{\rho_{\rm c,d}}}
 \newcommand{\rhoca}{\domm{\rho_{\rm c,a}}}
 \newcommand{\qrho}{\domm{q_\rho}}
-\newcommand{\coremass}{\domm{M_{\rm a}(\rho > \rho_{c,d})}}
+%\newcommand{\coremass}{\domm{M_{\rm a}(\rho > \rho_{c,d})}}
 \newcommand{\MMfifty}{\domm{M_{\rm enc}(\frac{1}{2}M_{\rm d})}}
 \newcommand{\MMthick}{\domm{\Delta M_{\rm enc}(M_{\rm d})}}
 \newcommand{\Mrem}{\domm{M_{\rm ce}}}
 \newcommand{\Mdisk}{\domm{M_{\rm disk}}}
-\newcommand{\Mc}{\domm{M_{\rm c}}}
+%\newcommand{\Mc}{\domm{M_{\rm c}}}
 \newcommand{\Tmax}{\domm{T_{\rm max}}} 
 \newcommand{\zTmax}{\domm{T^{\rm z}_{\rm max}}} 
 \newcommand{\rhoTmax}{\domm{\rho(T_{\rm max})}}
@@ -96,12 +97,19 @@
 \newcommand{\Mcpv}{\domm{M_{\rm c, pv}}}
 
 % zhu+u stuff
+\newcommand{\Lz}{\domm{L_\mrm{z}}}
+\newcommand{\Lbal}{\domm{L_\mrm{bal}}}
+\newcommand{\innercyl}{\domm{\varpi = 10^9\,\mrm{cm}}}
+\newcommand{\winnercyl}{\domm{\varpi < 10^9\,\mrm{cm}}}
+\newcommand{\Lzinner}{\domm{L_\mrm{z, \varpi < 9}}}
+\newcommand{\tcoal}{\domm{t_\mathrm{c}}}
+\newcommand{\tlm}{\domm{t_\mathrm{max(Lz)}}}
 
 % zhu+15 stuff
-\newcommand{\lztot}{\domm{L_\mrm{z, tot}}}
-\newcommand{\innercyl}{\domm{(\varpi < 10^9\,\mrm{cm})}}
-\newcommand{\lzinner}{\domm{L_\mrm{z}(\varpi < 10^9\,\mrm{cm})}}
-\newcommand{\Ntavg}{\domm{\left\langle N\right\rangle}}
+\newcommand{\Lztot}{\domm{L_\mrm{z, tot}}}
+%\newcommand{\innercyl}{\domm{(\varpi < 10^9\,\mrm{cm})}}
+%\newcommand{\lzinner}{\domm{L_\mrm{z}(\varpi < 10^9\,\mrm{cm})}}
+%\newcommand{\Ntavg}{\domm{\left\langle N\right\rangle}}
 \newcommand{\Bmag}{\domm{|\boldsymbol{B}|}}
 \newcommand{\EB}{\domm{E_B}}
 \newcommand{\EBphiEB}{\domm{E_{B\phi}/E_B}}

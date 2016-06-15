@@ -182,6 +182,8 @@
 \begin{abstract}
 %% *** Put your Abstract here. ***
 %% (At most 150 words for M.Sc. or 350 words for Ph.D.)
+
+ the mechanism(s) by which a normally inert WD is agitated into exploding remains mysterious and widely debated.
 \end{abstract}
 
 %% Anything placed between the abstract and table of contents will
@@ -267,12 +269,18 @@ I'd like to thank the academy for choosing me...
 \input{chapter2_zhu+13/chapter2_appendix.tex}
 %ch3
 \include{chapter3_zhu+u/chapter3}
+\input{chapter3_zhu+u/chapter3_intro.tex}
+\input{chapter3_zhu+u/chapter3_codes.tex}
+\input{chapter3_zhu+u/chapter3_fixarepo.tex}
+\input{chapter3_zhu+u/chapter3_results.tex}
+\input{chapter3_zhu+u/chapter3_discussion.tex}
 %ch4
 \include{chapter4_zhu+15/chapter4}
 \input{chapter4_zhu+15/chapter4_intro.tex}
 \input{chapter4_zhu+15/chapter4_methods.tex}
 \input{chapter4_zhu+15/chapter4_results.tex}
 \input{chapter4_zhu+15/chapter4_discussion.tex}
+\input{chapter4_zhu+15/chapter4_appendix.tex}
 %%ch5
 %%conclusion
 %\include{conclusion/conclusion}
@@ -304,19 +312,41 @@ I'd like to thank the academy for choosing me...
 %citation{pakm+16}{2016MNRAS.455.1134P}
 
 %%%% Code papers %%%%
+%citation{ager+07}{2007MNRAS.380..963A} 	% SPH instability failure paper
+%citation{bals95}{1995JCoPh.121..357B} 		% balsara switch
+%citation{chaw16}{2016MNRAS.458..480C} 		% Godunov SPH
+%citation{dehna12}{2012MNRAS.425.1068D} 	% SPH pair-generating instability
+%citation{dedn+02}{2002JCoPh.175..645D}		% dedner divergence cleaning
+%citation{dola+05}{2005MNRAS.364..753D} 	% time-dependent alpha viscosity
 %citation{duffm11}{2011ApJS..197...15D}		% TESS
+%citation{evanh88}{1988ApJ...332..659E}		% constrained transport
+%citation{floc+10}{2010A&A...516A..26F}		% test of MRI simulations across wide range of codes
 %citation{fryx+00}{2000ApJS..131..273F}		% Flash paper
+%citation{gabujl12}{2012ApJ...758..103G} 	% another moving mesh code
+%citation{gove+15}{2015MNRAS.448..792G} 	% GASOLINE chaNGa
 %citation{haye+06}{2006ApJS..165..188H}		% ZEUS-MP2 paper
 %citation{hernk89}{1989ApJS...70..419H}		% Gasoline's kernel
+%citation{hopk13}{2013MNRAS.428.2840H}		% pressure-entropy formulation of SPH
 %citation{hopk15}{2015MNRAS.450...53H}		% Gizmo paper
+%citation{hopkr16}{2016MNRAS.455...51H}		% divergence cleaning for Gizmo MHD
+%citation{hu+14}{2014MNRAS.443.1173H}		% modern pressure-entropy SPH
+%citation{kell+14}{2014MNRAS.442.3013K} 	% updates to hydro schemes for Gasoline2
+%citation{kell+15}{2015MNRAS.453.3499K}		% Gasoline 2
+%citation{miyok05}{2005JCoPh.208..315M} 	% HLLD Solver
+%citation{moczvh14}{2014MNRAS.442...43M}	% constrained transport in unstructured grid
 %citation{mona05}{2005RPPh...68.1703M}		% Monaghan SPH review
-%citation{pakmbv11}{2011MNRAS.418.1392P}	% ruediger's original magnetic fields paper
-%citation{pakmv13}{2013MNRAS.432..176P}		% ruediger's galactic magnetic fields paper
+%citation{pakmbs11}{2011MNRAS.418.1392P}	% ruediger's original magnetic fields paper
+%citation{pakms13}{2013MNRAS.432..176P}		% ruediger's galactic magnetic fields paper
 %citation{paxt+11}{2011ApJS..192....3P}		% MESA paper
 %citation{powe+99}{1999JCoPh.154..284P}		% powell's divergence cleaner CHECKED
+%citation{shen+10}{2010MNRAS.407.1581S} 	% Gasoline's new thermal diffusion term
 %citation{spri10rev}{2010ARA&A..48..391S}	% volker SPH review
 %citation{spri10}{2010MNRAS.401..791S}		% AREPO
+%citation{tamb+15}{2015MNRAS.453.2490T} 	% Gasoline 2
 %citation{timms00}{2000ApJS..126..501T}		% Helmholtz EOS paper
+%citation{toth00}{2000JCoPh.161..605T}		% divergence cleaning overview
+%citation{tric15}{2015AAS...22521106T}		% Terry's talk comparing MHDSPH to Arepo
+%citation{vandr16}{2016A&C....16..109V}		% SHADOWFAX moving mesh code
 %citation{voge+12}{2012MNRAS.425.3024V}		% arepo explicit refinement for maintaining fixed mass
 %citation{wadssq04}{2004NewA....9..137W}	% Gasoline paper
 
@@ -341,6 +371,7 @@ I'd like to thank the academy for choosing me...
 %citation{fulll12}{2012MNRAS.421..426F}		% fuller's tidal analysis for cortation
 %citation{guerig04}{2004A&A...413..257G}	% guerrero's 2004 sims
 %citation{kash+15}{2015ApJ...800L...7K}		% rahul, ji and bob's work on spiral waves in remnants 
+%citation{katz+16}{2016ApJ...819...94K} 	% katz and zingale work on amr WD mergers
 %citation{lairs94}{1994ApJ...437..742L}		% compressible ellipsoid models of wd binaries
 %citation{loreig09}{2009A&A...500.1193L}	% loren-aguilar's sims
 %citation{marsns04}{2004MNRAS.350..113M}	% marsh's merger mass trans stability
@@ -348,6 +379,7 @@ I'd like to thank the academy for choosing me...
 %citation{pakm+10}{2010Natur.463...61P}		% Ruediger's violent mergers - subluminous
 %citation{pakm+11}{2011A&A...528A.117P}		% Ruediger's violent mergers - dissimilar mass
 %citation{pakm+12}{2012ApJ...747L..10P}		% Ruediger's violent mergers - normal Ia
+%citation{pakm+13}{2013ApJ...770L...8P} 	% ruediger's helium detonation in violent mergers
 %citation{piro11}{2011ApJ...740L..53P}		% tony's work on tides in WD binaries
 %citation{rask+12}{2012ApJ...746...62R}		% Cody's work
 %citation{segrcm97}{1997ApJ...481..355S}	% segretain's early SPH mergers
@@ -361,8 +393,15 @@ I'd like to thank the academy for choosing me...
 %citation{shen+12}{2012ApJ...748...35S}		% ken's semi-analytical work
 
 %%%% Other simulations (pop synth) %%%%
+%citation{abdi+10}{2010PhRvD..81d4012A} 	% GR simulation of AIC
 %citation{brig+15}{2015MNRAS.447.1713B}		% brigg's population synthesis for HFMWDs CHECKED
+%citation{dval+06}{2006MNRAS.370..529D}		% planet migration code comparison
+%citation{hayw+14}{2014MNRAS.442.1992H}		% Galaxy mergers in Arepo
+%citation{marips14}{2014MNRAS.437.1750M}	% Galaxy formation in cosmo sims
+%citation{mitc+09}{2009MNRAS.395..180M}		% SPH/Eulerian code comparison for galaxy cluster formation
+%citation{ohlm+16}{2016ApJ...816L...9O}		% common envelope Arepo sim
 %citation{ruitbf09}{2009ApJ...699.2026R}	% Ruiter population synthesis
+%citation{tracsp07}{2007MNRAS.377..997T}	%SPH/Eulerian code comparison for stellar collisions
 %citation{woosk11}{2011ApJ...734...38W}		% woosley double detonation minimum He mass
 
 %%%% Magnetic growth theory papers %%%%
@@ -379,21 +418,28 @@ I'd like to thank the academy for choosing me...
 %citation{wicktf14}{2014MNRAS.437..675W}	% wickramasinghe's simple dynamo estimate
 %citation{zrakm13}{2013ApJ...769L..29Z}		% zrake and macfayden's turbulent MHD dynamo
 
+%%%%%%%%%% Spiral wave theory & sim %%%%%%%%%%%
+%citation{balb03}{2003ARA&A..41..555B}		% spiral wave review
+%citation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
+
 %%%% Other theory papers %%%%
 %citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
 %citation{belo14}{2014MNRAS.438..169B}		% belobodorov's semi-analytical work on post-merger evolution transients
 %citation{eggl83}{1983ApJ...268..368E}		% Eggleton roche overflow radius estimate
+%citation{saioj00}{2000MNRAS.313..671S}		% saio and jeffrey He - He merger
+%citation{saioj02}{2002MNRAS.333..121S}		% saio and jeffrey He - CO merger
 %citation{saion85}{1985A&A...150L..21S}		% edge-lit ignition
 %citation{saion98}{1998ApJ...500..388S}		% saio/nomoto ONe production following merger
 %citation{shaks73}{1973A&A....24..337S}		% shakura/sunyaev alpha visc
 
 %%%% Observational papers %%%%
 %citation{aspd+11}{2011ApJ...738...94A}		% rising deflagration bubbles
-%citation{badem12}{2012ApJ...749L..11B}		% badenes's 
+%citation{badem12}{2012ApJ...749L..11B}		% Badenes and Moaz's paper on galactic WD merger rate from SDSS
 %citation{bars+95}{1995MNRAS.277..971B}		% REJ 0317 
 %citation{brow+11}{2011ApJ...737L..23B}		% eclipsing 12-min WD binary
 %citation{dist10}{2010ApJ...719..474D}		% di Stefano's SSS work
 %citation{dufo+13}{2013ASPC..469..167D}		% Patrick's work on hot DQs 
+%citation{dunlc15}{2015ASPC..493..547D} 	% bart and chris's work published in conference proceeding
 %citation{gera+07}{2007ApJ...661..995G}		% slow-moving 58Ni
 %citation{geroh89}{1989ApJS...70..661G}		% rapidly rotating WDs
 %citation{gilfb10}{2010Natur.463..924G}		% gilfanov's SSS rates from UV backgrd
@@ -416,13 +462,16 @@ I'd like to thank the academy for choosing me...
 
 %%%% SN Ia review papers %%%%
 %citation{hilln00}{2000ARA&A..38..191H}		% wolfgang hillebrandt's 2000 work
-%citation{howe11}{2011NatCo...2E.350H}		% andy howell's
+%citation{hill+13}{2013FrPhy...8..116H}	% hillebrandt's recent SN Ia review paper
+%citation{howe11}{2011NatCo...2E.350H}		% howell's SN Ia review paper
 %citation{leib00}{2000A&ARv..10..179L}		% bruno Leibundgut's 2000 work
+%citation{maozmn14}{2014ARA&A..52..107M} % Maoz's review paper
 %citation{vker12}{2012arXiv1206.1605V}		% marten's review of Mch problems
 
 %%%% Misc/General %%%%
 %citation{andrpt06}{2006ApJ...646.1160A}	% andronov theoretical model for blue straggler formation
 %citation{clay+07}{2007ApJ...662.1220C}		% clayton's earlier work on RCrBs
+%citation{clay13}{2013ASPC..469..133C} 		% Clayton's review on mergers making rCB stars
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs
 %citation{justpv14}{2014ApJ...796..121J}	% justham's merger origins of LBVs
 %citation{kais+10}{2010SPIE.7733E..0EK}		% Pan-STARRS instrument paper
@@ -436,7 +485,7 @@ I'd like to thank the academy for choosing me...
 %citation{ries+98}{1998AJ....116.1009R}		% Riess dark energy paper
 %citation{ross15}{2015IJMPD..2430012R}		% rosswog binary compact merger review
 %citation{tyle+11}{2011A&A...528A.114T}		% tylenda's V1309 Sco paper
-%citation{webb84}{1984ApJ...277..355W}		% webbink's seminal merger paper
+%citation{webb84}{1984ApJ...277..355W}		% webbink's seminal merger paper for SN Ia and He - CO -> RCB
 %citation{yung05}{2005AIPC..797....1Y}		% yungelson's overview of binary evolution and population synthesis
 
 

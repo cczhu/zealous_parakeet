@@ -3,13 +3,13 @@
 \contentsline {subsection}{\numberline {1.1.1}The Panopoly of Stellar Mergers}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Mergers of WD Binaries}{1}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}The Mystery of Type Ia Supernovae}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Properties and Traditional Formation Channels of SNe Ia}{2}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Traditional Shortfalls}{2}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Brave New Channels}{3}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}The \citetalias {vkercj10} SN Ia Channel}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.1}Properties and Traditional Formation Channels of SNe Ia}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Traditional Shortfalls}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Brave New Channels}{4}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}The \citetalias {vkercj10} SN Ia Channel}{4}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Hot DQs, High-Field Magnetic WDs, and Other Oddities}{4}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}Thesis Overview}{4}{section.1.4}
-\contentsline {section}{\numberline {1.5}The Physics of Pre-Merger Evolution}{4}{section.1.5}
+\contentsline {section}{\numberline {1.5}The Physics of Pre-Merger Evolution}{5}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Stable and Unstable Mass Transfer}{5}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Are Merging WDs Co-Rotating?}{5}{subsection.1.5.2}
 \contentsline {chapter}{\numberline {2}A Parameter-Space Study of Carbon-Oxygen White Dwarf Mergers}{6}{chapter.2}
@@ -65,13 +65,25 @@
 \contentsline {subsection}{\numberline {2.6.2}Possible Explosions?}{50}{subsection.2.6.2}
 \contentsline {section}{\numberline {2.7}Conclusion}{50}{section.2.7}
 \contentsline {section}{\numberline {2.8}Postscript: Post-Merger Evolution Revised}{51}{section.2.8}
-\contentsline {chapter}{\numberline {3}White Dwarf Mergers in Smoothed-Particle and Moving Mesh Hydrodynamics}{55}{chapter.3}
-\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{56}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{57}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{57}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{58}{section.4.3}
-\contentsline {section}{\numberline {4.4}Robustness Tests}{62}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{62}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{63}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Discussion}{63}{section.4.5}
-\contentsline {chapter}{Bibliography}{65}{section.4.5}
+\contentsline {chapter}{\numberline {3}White Dwarf Mergers in Smoothed-Particle and Moving Mesh Hydrodynamics}{56}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{58}{section.3.1}
+\contentsline {section}{\numberline {3.2}Codes and Initial Conditions}{59}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Traditional Smoothed-Particle Hydrodynamics}{60}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{60}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{61}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{63}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}The Road to Improving Angular Momentum Conservation in Arepo}{64}{section.3.3}
+\contentsline {section}{\numberline {3.4}Results}{67}{section.3.4}
+\contentsline {section}{\numberline {3.5}Discussion}{73}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{73}{subsection.3.5.1}
+\contentsline {subsubsection}{Varying Viscosity in \textsc {Gasoline}}{75}{section*.32}
+\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{77}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{78}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{78}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{79}{section.4.3}
+\contentsline {section}{\numberline {4.4}Robustness Tests}{83}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{83}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{84}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Discussion}{84}{section.4.5}
+\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{86}{section.4.6}
+\contentsline {chapter}{Bibliography}{87}{figure.4.5}

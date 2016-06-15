@@ -13,46 +13,53 @@ Warning--I didn't find a database entry for "phil93"
 Warning--I didn't find a database entry for "khok91"
 Warning--I didn't find a database entry for "zhu+16"
 Warning--I didn't find a database entry for "XXX"
+Warning--I didn't find a database entry for "goedp04"
+Warning--I didn't find a database entry for "pakmv13"
+Warning--I didn't find a database entry for "feidc12"
+Warning--I didn't find a database entry for "spri05"
+Warning--I didn't find a database entry for "maed+13"
+Warning--I didn't find a database entry for "pakm+15"
+Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 94 entries,
+You've used 139 entries,
             3085 wiz_defined-function locations,
-            1307 strings with 24755 characters,
-and the built_in function-call counts, 46521 in all, are:
-= -- 3920
-> -- 3422
-< -- 30
-+ -- 1153
-- -- 1270
-* -- 4005
-:= -- 8716
-add.period$ -- 94
-call.type$ -- 94
-change.case$ -- 671
-chr.to.int$ -- 92
-cite$ -- 94
-duplicate$ -- 1807
-empty$ -- 2684
-format.name$ -- 1366
-if$ -- 9229
-int.to.chr$ -- 3
+            1610 strings with 33928 characters,
+and the built_in function-call counts, 67900 in all, are:
+= -- 5755
+> -- 4883
+< -- 51
++ -- 1645
+- -- 1803
+* -- 5778
+:= -- 12689
+add.period$ -- 139
+call.type$ -- 139
+change.case$ -- 981
+chr.to.int$ -- 136
+cite$ -- 139
+duplicate$ -- 2678
+empty$ -- 3976
+format.name$ -- 1951
+if$ -- 13509
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 90
-newline$ -- 286
-num.names$ -- 378
-pop$ -- 726
+missing$ -- 132
+newline$ -- 421
+num.names$ -- 559
+pop$ -- 1065
 preamble$ -- 1
-purify$ -- 671
+purify$ -- 981
 quote$ -- 0
-skip$ -- 1514
+skip$ -- 2252
 stack$ -- 0
-substring$ -- 2009
-swap$ -- 38
-text.length$ -- 4
+substring$ -- 2969
+swap$ -- 70
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 846
+type$ -- 1251
 warning$ -- 0
-while$ -- 365
+while$ -- 543
 width$ -- 0
-write$ -- 943
-(There were 7 warnings)
+write$ -- 1393
+(There were 14 warnings)
