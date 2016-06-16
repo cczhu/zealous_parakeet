@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  15 JUN 2016 23:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  15 JUN 2016 23:46
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -65,7 +65,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen107
 \Gm@even@mp=\dimen108
 \Gm@dimlist=\toks15
-)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
@@ -952,8 +953,8 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9929 strings out of 495061
- 143206 string characters out of 1182621
+ 9932 strings out of 495061
+ 143377 string characters out of 1182622
  296674 words of memory out of 3000000
  11697 multiletter control sequences out of 15000+50000
  113303 words of font info for 625 fonts, out of 3000000 for 9000
@@ -1045,7 +1046,7 @@ palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/t
 exmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (107 pages, 14952901 bytes).
+Output written on Thesis.pdf (107 pages, 14952898 bytes).
 PDF statistics:
  4310 PDF objects out of 5155 (max. 8388607)
  437 named destinations out of 1000 (max. 500000)

@@ -81,7 +81,7 @@ def getzhu13pme_sub(files, filedir="/home/cczhu/SunnyvaleOutput/zhu16/"):
 
 def load_ji():
 
-	ji13r = h5py.File('../../PaperRunaway/ji_radial_profile.hdf5', 'r')
+	ji13r = h5py.File('../../PaperRunaway/ji_radial_profile_SPHERE.hdf5', 'r')
 	ji13 = {"r": np.array(ji13r["r"]),
 			"omega": np.array(ji13r["omega"]),
 			"temp": np.array(ji13r["temp"]),
@@ -154,7 +154,8 @@ for i in range(len(Macc)):
 
 ax.plot(p_ar["Mtot"], p_ar["Mtot_new"]/1.9891e33, markersize=20, **arepo_options)
 ax.plot(schw12["Mtot"], schw12["Mtot_new"], markersize=10, **schwab_options)
-ax.plot(np.array([1.2]), np.array(ji13["m"][max(np.where(ji13["r"] <= 2e9)[0])]/1.9891e33), markersize=10, **ji_options)
+#ax.plot(np.array([1.2]), np.array(ji13["m"][max(np.where(ji13["r"] <= 2e9)[0])]/1.9891e33), markersize=10, **ji_options)
+ax.plot(np.array([1.2]), np.array([1.0675]), markersize=10, **ji_options)	# From Ji, private communication
 fit_out = np.polyfit(data["Mtot"], data["Mtot_new"], 1)
 print "Fit y = {0:.3e}x + {1:.3e}".format(fit_out[0],fit_out[1])
 fitx = np.arange(0.25,2.2,0.01)
