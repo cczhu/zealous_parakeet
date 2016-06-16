@@ -266,7 +266,7 @@ I'd like to thank the academy for choosing me...
 \input{chapter2_zhu+13/chapter2_results.tex}
 \input{chapter2_zhu+13/chapter2_variation.tex}
 \input{chapter2_zhu+13/chapter2_discussion.tex}
-\input{chapter2_zhu+13/chapter2_appendix.tex}
+\input{chapter2_zhu+13/chapter2_postscript.tex}
 %ch3
 \include{chapter3_zhu+u/chapter3}
 \input{chapter3_zhu+u/chapter3_intro.tex}
@@ -280,7 +280,7 @@ I'd like to thank the academy for choosing me...
 \input{chapter4_zhu+15/chapter4_methods.tex}
 \input{chapter4_zhu+15/chapter4_results.tex}
 \input{chapter4_zhu+15/chapter4_discussion.tex}
-\input{chapter4_zhu+15/chapter4_appendix.tex}
+\input{chapter4_zhu+15/chapter4_postscript.tex}
 %%ch5
 %%conclusion
 %\include{conclusion/conclusion}
@@ -334,10 +334,13 @@ I'd like to thank the academy for choosing me...
 %citation{kell+15}{2015MNRAS.453.3499K}		% Gasoline 2
 %citation{miyok05}{2005JCoPh.208..315M} 	% HLLD Solver
 %citation{moczvh14}{2014MNRAS.442...43M}	% constrained transport in unstructured grid
+%citation{mocz+16}{2016arXiv160602310M}		% arepo's CT solver
 %citation{mona05}{2005RPPh...68.1703M}		% Monaghan SPH review
 %citation{pakmbs11}{2011MNRAS.418.1392P}	% ruediger's original magnetic fields paper
 %citation{pakms13}{2013MNRAS.432..176P}		% ruediger's galactic magnetic fields paper
 %citation{paxt+11}{2011ApJS..192....3P}		% MESA paper
+%citation{paxt+13}{2013ApJS..208....4P}		% MESA paper 2
+%citation{paxt+15}{2015ApJS..220...15P}		% MESA paper 3
 %citation{powe+99}{1999JCoPh.154..284P}		% powell's divergence cleaner CHECKED
 %citation{shen+10}{2010MNRAS.407.1581S} 	% Gasoline's new thermal diffusion term
 %citation{spri10rev}{2010ARA&A..48..391S}	% volker SPH review
@@ -390,6 +393,7 @@ I'd like to thank the academy for choosing me...
 %citation{ji+13}{2013ApJ...773..136J}		% ji and bob's MHD PME work, shows ignition
 %citation{nomoi85}{1985ApJ...297..531N}		% nomoto's old slow accretion sim
 %citation{schw+12}{2012MNRAS.427..190S}		% josiah's post merger stuff
+%citation{schw+16}{2016arXiv160602300S}		% josiah's thermal evolution stuff.
 %citation{shen+12}{2012ApJ...748...35S}		% ken's semi-analytical work
 
 %%%% Other simulations (pop synth) %%%%
@@ -421,6 +425,9 @@ I'd like to thank the academy for choosing me...
 %%%%%%%%%% Spiral wave theory & sim %%%%%%%%%%%
 %citation{balb03}{2003ARA&A..41..555B}		% spiral wave review
 %citation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
+
+%%%%%%%%% Convection theory/sim %%%%%%%%%%%%%%%%%%%
+%citation{feidc12}{2012ApJ...761...30F} 	% feiden's work on MHD convective suppression (useful for MHD backgrounder)
 
 %%%% Other theory papers %%%%
 %citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
@@ -472,6 +479,7 @@ I'd like to thank the academy for choosing me...
 %citation{andrpt06}{2006ApJ...646.1160A}	% andronov theoretical model for blue straggler formation
 %citation{clay+07}{2007ApJ...662.1220C}		% clayton's earlier work on RCrBs
 %citation{clay13}{2013ASPC..469..133C} 		% Clayton's review on mergers making rCB stars
+%citation{goedp04}{2004prma.book.....G} 	% goedbloed's MHD textbook
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs
 %citation{justpv14}{2014ApJ...796..121J}	% justham's merger origins of LBVs
 %citation{kais+10}{2010SPIE.7733E..0EK}		% Pan-STARRS instrument paper

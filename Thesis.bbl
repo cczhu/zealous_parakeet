@@ -143,10 +143,8 @@
 \bibitem[{{Evans} \& {Hawley}(1988)}]{evanh88}
 {Evans}, C.~R., \& {Hawley}, J.~F. 1988, \apj, 332, 659
 
-\bibitem[{{Flock} {et~al.}(2010){Flock}, {Dzyurkevich}, {Klahr}, \&
-  {Mignone}}]{floc+10}
-{Flock}, M., {Dzyurkevich}, N., {Klahr}, H., \& {Mignone}, A. 2010, \aap, 516,
-  A26
+\bibitem[{{Feiden} \& {Chaboyer}(2012)}]{feidc12}
+{Feiden}, G.~A., \& {Chaboyer}, B. 2012, \apj, 761, 30
 
 \bibitem[{{Fryxell} {et~al.}(2000){Fryxell}, {Olson}, {Ricker}, {Timmes},
   {Zingale}, {Lamb}, {MacNeice}, {Rosner}, {Truran}, \& {Tufo}}]{fryx+00}
@@ -168,6 +166,10 @@
   {MacFadyen}, \& {Perna}}]{giac+15}
 {Giacomazzo}, B., {Zrake}, J., {Duffell}, P.~C., {MacFadyen}, A.~I., \&
   {Perna}, R. 2015, \apj, 809, 39
+
+\bibitem[{{Goedbloed} \& {Poedts}(2004)}]{goedp04}
+{Goedbloed}, J.~P.~H., \& {Poedts}, S. 2004, {Principles of
+  Magnetohydrodynamics}
 
 \bibitem[{{Governato} {et~al.}(2015){Governato}, {Weisz}, {Pontzen}, {Loebman},
   {Reed}, {Brooks}, {Behroozi}, {Christensen}, {Madau}, {Mayer}, {Shen},
@@ -337,6 +339,11 @@
 \bibitem[{{Miyoshi} \& {Kusano}(2005)}]{miyok05}
 {Miyoshi}, T., \& {Kusano}, K. 2005, Journal of Computational Physics, 208, 315
 
+\bibitem[{{Mocz} {et~al.}(2016){Mocz}, {Pakmor}, {Springel}, {Vogelsberger},
+  {Marinacci}, \& {Hernquist}}]{mocz+16}
+{Mocz}, P., {Pakmor}, R., {Springel}, V., {et~al.} 2016, ArXiv e-prints,
+  arXiv:1606.02310
+
 \bibitem[{{Mocz} {et~al.}(2014){Mocz}, {Vogelsberger}, \&
   {Hernquist}}]{moczvh14}
 {Mocz}, P., {Vogelsberger}, M., \& {Hernquist}, L. 2014, \mnras, 442, 43
@@ -401,6 +408,16 @@
   {Lesaffre}, \& {Timmes}}]{paxt+11}
 {Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2011, \apjs, 192, 3
 
+\bibitem[{{Paxton} {et~al.}(2013){Paxton}, {Cantiello}, {Arras}, {Bildsten},
+  {Brown}, {Dotter}, {Mankovich}, {Montgomery}, {Stello}, {Timmes}, \&
+  {Townsend}}]{paxt+13}
+{Paxton}, B., {Cantiello}, M., {Arras}, P., {et~al.} 2013, \apjs, 208, 4
+
+\bibitem[{{Paxton} {et~al.}(2015){Paxton}, {Marchant}, {Schwab}, {Bauer},
+  {Bildsten}, {Cantiello}, {Dessart}, {Farmer}, {Hu}, {Langer}, {Townsend},
+  {Townsley}, \& {Timmes}}]{paxt+15}
+{Paxton}, B., {Marchant}, P., {Schwab}, J., {et~al.} 2015, \apjs, 220, 15
+
 \bibitem[{{Piro}(2011)}]{piro11}
 {Piro}, A.~L. 2011, \apjl, 740, L53
 
@@ -445,6 +462,10 @@
 
 \bibitem[{{Saio} \& {Nomoto}(1998)}]{saion98}
 ---. 1998, \apj, 500, 388
+
+\bibitem[{{Schwab} {et~al.}(2016){Schwab}, {Quataert}, \& {Kasen}}]{schw+16}
+{Schwab}, J., {Quataert}, E., \& {Kasen}, D. 2016, ArXiv e-prints,
+  arXiv:1606.02300
 
 \bibitem[{{Schwab} {et~al.}(2012){Schwab}, {Shen}, {Quataert}, {Dan}, \&
   {Rosswog}}]{schw+12}

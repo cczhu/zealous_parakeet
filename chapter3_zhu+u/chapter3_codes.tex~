@@ -3,7 +3,7 @@
 
 To better understand both the code comparison in this chapter, as well as prefacing some of our future discussion, we present an extremely short and mostly qualitative discussion on the operating principles of smoothed particle and moving mesh hydrodynamics.  The historical development of both methods is long and involved, and, as improving hydrodynamic simulations is not the focus of this thesis, we refer the reader to review articles referenced throughout this section for further reading.
 
-We with the equations of ideal magnetohydrodynamics in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakmv13}, \citealt{feidc12} Sec. 3),
+We with the equations of ideal magnetohydrodynamics in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13}, \citealt{feidc12} Sec. 3),
 
 \begin{eqnarray}
 \ptl_t\rho + \ptl_j(\rho u^j) &=& 0 \nonumber \\
@@ -46,8 +46,8 @@ where
 {\bf G} = 
 \left( \begin{array}{c}
 0 \\
-\rho g^i \\
-u_j\rho g^j \\
+\rho {\bf g} \\
+\rho {\bf u}\cdot {\bf g} \\
 0 \end{array} \right)
 \label{eqn:c3_mhd_eqns_g}
 \eqend
