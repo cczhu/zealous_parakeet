@@ -13,22 +13,37 @@
 # the extension)
 
 # If you wish to include additional citations not on ADS,
-# place them in the bib_additional and this script will include
-# them.
+# use the -addition flag, and specify the file they're
+# in.
 
 import urllib, urllib2
 import argparse
+
+def list_split(big, n):
+	big_split = []
+	for i in range(0, len(big), n):
+		big_split.append(big[i:i+n])
+	return big_split
+
+def get_ads_entries(wantstuff):
+	"""For a list of ADS handles, returns (unsorted) list of bibtex entries from ADS website."""
+
+	ads_handles = ""
+	for item in wantstuff:
+		ads_handles = ads_handles + item + "\n"
+
+	# Doing this single query is much faster than doing multiple queries!
+	ads_query = "http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=ALL&warnings=YES&version=1&bibcode={0:s}&nr_to_return=$nr&start_nr=1&data_type=BIBTEX".format(urllib.quote_plus(ads_handles))
+
+	response = urllib2.urlopen(ads_query)
+	return (response.read()).split("@")[1:]	# Retrieve ADS entries (zeroth entry is just preamble)
+
 
 parser = argparse.ArgumentParser(description = "Python script for fetching bibtex entries from NASA ADS.")
 parser.add_argument('-filename', metavar='N1', type=str, help="name of TeX file", default="Thesis.tex")
 parser.add_argument('-bibname', metavar='N2', type=str, help="name of BibTeX output file", default="AutoBibliography.bib")
 parser.add_argument('-missed', help="Report handles not retrived by ADS", action='store_true', default=True)
-
-#parser.add_argument('-division', metavar='N1', type=int, help="if dividing the work among multiple nodes, number of nodes being used", default=1)
-#parser.add_argument('-cdiv', metavar='N2', type=int, help="current node", default=0)
-#parser.add_argument("-start", metavar='Nb', type=int, help="if dividing work among multiple nodes and NOT USING CDIV, starting snapshot", default=0)
-#parser.add_argument("-end", metavar='Nf', type=int, help="end snapshot", default=infty)
-#parser.add_argument("-cdRdist", metavar='cdRd', type=float, help="normalization for r-dependent dR for advection", default=1e9)
+parser.add_argument('-addition', metavar='N3', help="Include additional bibtex file of sources not on ADS", type=str)
 
 args = parser.parse_args()
 
@@ -49,7 +64,7 @@ f.close()
 
 #seen = set()
 #seen_add = seen.add
-#return [ x for x in seq if not (x in seen or seen_add(x))]
+#[ x for x in seq if not (x in seen or seen_add(x))]
 
 # See http://www.secnetix.de/olli/Python/list_comprehensions.hawk and 
 # http://stackoverflow.com/questions/18212574/why-does-checking-a-variable-against-multiple-values-with-or-only-check-the-fi
@@ -88,18 +103,14 @@ wantlabels = uniquelabels
 #wantstuff = ["2010ApJ...725..296F", "2015ApJ...788..BIG", "2014ApJ...788...75R", "2012ApJ...748...35S", "2012MNRAS.425.3024V", "2002A&A...381..923S"]
 #wantlabels = ["frye+10", "BIG", "rask+14", "something", "shen+12", "spru02"]
 
-if len(wantstuff) > 200:
-	print "WARNING: UNIQUE CITATIONS EXCEED 200 ENTRIES!  NASA ADS MAY TRUNCATE RESULTS!"
+print "fetch_bibliography found {0:d} unique entries".format(len(wantstuff))
+#if len(wantstuff) > 200:
+#	print "WARNING: UNIQUE CITATIONS EXCEED 200 ENTRIES!  NASA ADS MAY TRUNCATE RESULTS!"
 
-ads_handles = ""
-for item in wantstuff:
-	ads_handles = ads_handles + item + "\n"
-
-# Doing this single query is much faster than doing multiple queries!
-ads_query = "http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=ALL&warnings=YES&version=1&bibcode={0:s}&nr_to_return=$nr&start_nr=1&data_type=BIBTEX".format(urllib.quote_plus(ads_handles))
-
-response = urllib2.urlopen(ads_query)
-html_split = (response.read()).split("@")[1:]	# Retrieve ADS entries (zeroth entry is just preamble)
+wantstuff_split = list_split(wantstuff, 200)
+html_split = []
+for item in wantstuff_split:
+	html_split.extend(get_ads_entries(item))
 
 # There's discussion on how to do a better sort here: http://stackoverflow.com/questions/8251541/numpy-for-every-element-in-one-array-find-the-index-in-another-array
 
@@ -109,10 +120,19 @@ foundstuff = []
 for item in html_split:
 	item_split = item.split("\n")											# Split bib entry by line
 	foundstuff.append(item_split[0].split("{")[1][:-1])						# Append ADS handle of bib entry
-	newname = wantlabels[wantstuff.index(foundstuff[-1])]						# Find corresponding label
+	newname = wantlabels[wantstuff.index(foundstuff[-1])]					# Find corresponding label
 	item_split[0] = "@" + item_split[0].split("{")[0] + "{" + newname + ","	# Reconstitute first line
 	newitem = "\n".join(item_split)											# Reconstitute all lines
 	f.write(newitem)														# Write out
+
+if args.addition:
+	fappd = open(args.addition, 'r')
+	fappd_lines = fappd.readlines()
+	fappd.close()
+
+	f.write("\n")
+	for item in fappd_lines:
+		f.write(item)
 
 f.close()
 

@@ -66,24 +66,24 @@
 \contentsline {section}{\numberline {2.7}Conclusion}{50}{section.2.7}
 \contentsline {section}{\numberline {2.8}Postscript: Post-Merger Evolution Revised}{51}{section.2.8}
 \contentsline {chapter}{\numberline {3}White Dwarf Mergers in Smoothed-Particle and Moving Mesh Hydrodynamics}{56}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{58}{section.3.1}
-\contentsline {section}{\numberline {3.2}Codes and Initial Conditions}{59}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Traditional Smoothed-Particle Hydrodynamics}{60}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{60}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{61}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{63}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}The Road to Improving Angular Momentum Conservation in Arepo}{64}{section.3.3}
-\contentsline {section}{\numberline {3.4}Results}{67}{section.3.4}
-\contentsline {section}{\numberline {3.5}Discussion}{73}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{73}{subsection.3.5.1}
-\contentsline {subsubsection}{Varying Viscosity in \textsc {Gasoline}}{75}{section*.32}
-\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{77}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{78}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{78}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{79}{section.4.3}
-\contentsline {section}{\numberline {4.4}Robustness Tests}{83}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{83}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{84}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Discussion}{84}{section.4.5}
-\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{86}{section.4.6}
-\contentsline {chapter}{Bibliography}{87}{figure.4.5}
+\contentsline {section}{\numberline {3.1}Introduction}{57}{section.3.1}
+\contentsline {section}{\numberline {3.2}Codes and Initial Conditions}{58}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Traditional Smoothed-Particle Hydrodynamics}{59}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{61}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{62}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{64}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{65}{section.3.3}
+\contentsline {section}{\numberline {3.4}Results}{69}{section.3.4}
+\contentsline {section}{\numberline {3.5}Discussion}{74}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{74}{subsection.3.5.1}
+\contentsline {subsubsection}{Varying Viscosity in \textsc {Gasoline}}{77}{section*.32}
+\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{79}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{80}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{80}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{81}{section.4.3}
+\contentsline {section}{\numberline {4.4}Robustness Tests}{85}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{85}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{86}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Discussion}{86}{section.4.5}
+\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{88}{section.4.6}
+\contentsline {chapter}{Bibliography}{89}{figure.4.5}

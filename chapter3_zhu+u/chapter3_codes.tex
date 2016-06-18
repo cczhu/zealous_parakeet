@@ -1,9 +1,7 @@
 \section{Codes and Initial Conditions}
 \label{sec:c3_codes}
 
-To better understand both the code comparison in this chapter, as well as prefacing some of our future discussion, we present an extremely short and mostly qualitative discussion on the operating principles of smoothed particle and moving mesh hydrodynamics.  The historical development of both methods is long and involved, and, as improving hydrodynamic simulations is not the focus of this thesis, we refer the reader to review articles referenced throughout this section for further reading.
-
-We with the equations of ideal magnetohydrodynamics in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13}, \citealt{feidc12} Sec. 3),
+All (magneto-)hydrodynamic codes seek to properly evolve the continuum magnetohydrodynamics of a fluid on a discrete set of points in space and time.  Most astrophysical codes (including the two we use) explore the simpler regime of ideal magnetohydrodynamics, since molecular viscosity is generally negligible in astrophysical settings (outside of planetary interior dynamics).  The coupled partial differential equations of ideal magnetohydrodynamics, in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13}, \citealt{feidc12} Sec. 3), is
 
 \begin{eqnarray}
 \ptl_t\rho + \ptl_j(\rho u^j) &=& 0 \nonumber \\
@@ -37,7 +35,7 @@ where
 \left( \begin{array}{c}
 \rho {\bf u} \\
 \rho {\bf u}{\bf u}^T + P_\mathrm{tot} - \frac{1}{4\pi}{\bf B}{\bf B}^T \\
-{\bf u} (e + P_\mathrm{tot}) - {\bf B}{4\pi}({\bf u}\cdot{\bf B}) \\
+{\bf u} (e + P_\mathrm{tot}) - \frac{{\bf B}}{4\pi}({\bf u}\cdot{\bf B}) \\
 {\bf B}{\bf u}^T - {\bf u}{\bf B}^T\end{array} \right),
 \label{eqn:c3_mhd_eqns_fu}
 \eqend
@@ -49,37 +47,109 @@ where
 \rho {\bf g} \\
 \rho {\bf u}\cdot {\bf g} \\
 0 \end{array} \right)
-\label{eqn:c3_mhd_eqns_g}
+\label{eqn:c3_mhd_eqns_g}.
 \eqend
+
+\noindent Eqn. \ref{eqn:c3_mhd_eqns_compact} shows that the time-derivative of the fluid's values is given by the sum of a flux term (as the integral of $\nabla\cdot{\bf F(U)}$ within a volume is equivalent to a flux across the boundary of that volume by Gauss's Law) and a (self-)gravitational source term ${\bf G}$.  These are generally calculated separately, and then combined.
+
+To better understand the code comparison in this chapter, and prefacing the discussion of improving \arepo\ in Sec. \ref{sec:c3_fixingarepo}, we present an extremely short and mostly qualitative discussion on how the equations are implemented within SPH and \arepo's moving mesh hydrodynamics.  The historical development of both methods is long and involved, and, as improving hydrodynamic simulations is not the focus of this thesis, we refer the reader to review articles referenced throughout this section for further reading.
 
 \subsection{Traditional Smoothed-Particle Hydrodynamics}
 \label{ssec:c3_sph}
 
-{\charles XXXXXXXXXXXXXXXXXXXXX}
+SPH, first introduced in \citep{lucy77} and \citep{gingm77}, is a mature simulation method used in a host of astrophysical contexts, ranging from star formation to cosmology.  We refer readers to \citep{mona05, ross09} and \cite{spri10rev} for details.  Here, we follow the procedure of \citep{spri10rev}.
+
+SPH represents a fluid with a set of particles.  The fluid's continuum properties at some point ${\bf r}$ in the simulation can be then be sampled by using these particles as interpolation points.  Representing any given fluid property (the most important of them being density, since it factors into the equation of motion) with a generic scalar field $F({\bf r})$, we can use a ``kernel'' $W({\bf r}, h)$ to generate its approximate, locally-averaged value
+
+\eqbegin
+F_s({\bf r}) = \int F({\bf r'})W({\bf r} - {\bf r'}, h)d{\bf r'}.
+\eqend
+
+\noindent In the (computationally impossible) case of infinite resolution, we can choose $W({\bf r}, h)$ to be a Dirac delta, and $F_s({\bf r}) = F({\bf r})$, but in practice we choose $W({\bf r}, h)$ to extend over some characteristic ``smoothing length'' $h$.  If $W({\bf r}, h)$ were a Gaussian, the $h = \sigma$, the standard deviation.  The most popular form of $W({\bf r}, h)$ is a cubic spline that goes to zero when ${\bf r} > 2h$, and $h$ is set to ensure a user-defined number of neighboring particles $N$ fall within the kernel.  For a set of particles with mass $m_i$, density $\rho_i$ and properties $F_i = F({\bf r}_i)$, we can discretize the integral as
+
+\eqbegin
+F_s({\bf r})\sum_j\frac{m_j}{\rho_j}F_j W({\bf r} - {\bf r}_j), h).
+\label{eq:c3_kernelavg}
+\eqend
+
+\noindent Derivatives of the field can then be determined using the gradient of the kernel $\nabla_i W_{ij}$.
+
+Meanwhile, the Euler equations (Eqn. \ref{eqn:c3_mhd_eqns_compact} without the gravitational and magnetic terms) can be shown to follow the Lagrangian:
+
+\eqbegin
+L = \int \rho\left(\frac{{\bf u}^2}{2} - e\right)dV
+\label{eqn:c3_lagrangian}
+\eqend
+
+\noindent which can be discretized for a set of particles as
+
+\eqbegin
+L_\mathrm{SPH} = \sum_i \frac{1}{2}m_i u_i^2 - m_i e_i.
+\eqend
+
+\noindent This suggests a time-evolution scheme.  Each particle representing the fluid is given a mass $m_i$ (which is time-independent), velocity $u_i$ and specific internal energy $e_i$; fluid hydrodynamics can then be simulated by time-evolving ${\bf r}_i$, ${\bf u}_i$ and $e_i$.  The equations governing the latter two are derived by applying the Euler-Lagrange equation ($\frac{d}{dt}\frac{\ptl L}{\ptl \dot{{\bf r}}_i} - \frac{\ptl L}{\ptl {\bf r}_i}$) to $L_\mathrm{SPH}$.  They traditionally takes the form:\footnote{We use \cite{wadssq04}'s formulation for Eqns. \ref{eqn:c3_spheqnm} and \ref{eqn:c3_spheqne}, as $h_i$ in \gasoline\ is determined by the distance to the $N^\mrm{th}$ neighboring particle in the kernel averaging; \cite{spri10rev} uses a different method of controlling the smoothing length that modifies the equations.}
+
+\begin{eqnarray}
+\frac{d{\bf u}_i}{dt} &=& -\sum_j m_j\left(\frac{P_i}{\rho_i^2} + \frac{P_j}{\rho_j^2} \right)\nabla_i W_{ij} \\
+\label{eqn:c3_spheqnm}
+\frac{d e_i}{dt} &=& -\frac{P_i}{\rho_i^2}\sum_j m_j\left({\bf u}_{i} - {\bf u}_{j}\right)\cdot\nabla_i W_{ij}
+\label{eqn:c3_spheqne}
+\end{eqnarray}
+
+\noindent where $\rho_i$ is obtained from Eqn. \ref{eq:c3_kernelavg}, and pressure $P_i$ can be estimated from the $\rho_i$ and $e_i$.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev} Sec. 2.4 and \citealt{wadssq04} Sec. 2.1) using methods originally developed for N-body simulations.  Magnetic fields can also be included (SPHMHD, eg. \citealt{pric12}), but are beyond the scope of this thesis.
+
+% Eqn. \ref{eqn:c3_spheqne} can actually be replaced with $d s_i/dt = 0$, except in the presence of shocks
+
+As given, the SPH equations of motion conserve entropy, but entropy must increase in the presence of shocks (as the differential form of the Euler equations breaks down across a shock front).  The most popular solution is to include an artificial viscosity term
+
+\eqbegin
+-\sum_j m_j \pi_{ij} \nabla_i W_{ij}
+\eqend
+
+\noindent to Eqn. \ref{eqn:c3_spheqnm}, where, defining ${\bf r}_{ij} = {\bf r}_i - {\bf r}_j$ and ${\bf u}_{ij} = {\bf u}_i - {\bf u}_j$,
+
+\eqbegin
+\pi_{ij} =
+    \begin{cases}
+      \frac{-\alpha\frac{1}{2}(c_i + c_j)\mu_{ij} + \beta\mu_{ij}^2}{\frac{1}{2}(\rho_i + \rho_j)} & \mrm{for\,} {\bf u}_{ij}\cdot{\bf r}_{ij} < 0 \\
+      0 & \mrm{otherwise},
+    \end{cases}
+\label{eq:c3_artificialvisc}
+\eqend
+
+\noindent where $\mu_{ij} = \bar{h}{\bf u}_{ij}\cdot{\bf r}_{ij}/(|{\bf r}_{ij}|^2 + 0.04\bar{h}^2)$, $\bar{h} = \frac{1}{2}(h_i + h_j)$, $c_i$ is the sound speed and $\alpha$ and $\beta$ are tunable parameters ($\beta = 2\alpha$ is used in \gasoline).  In addition to facilitating shock capture, $\pi_{ij}$ also prevents spurious particle interpenetration between colliding flows \citep{hernk89}.  It, however, can also introduce spurious viscous forces outside of shocks.  In shear flows, artificial viscosity can be damped by a ``Balsara switch'', which multiples $\pi_{ij}$ with a prefactor, proportional to the ratio between the divergence and curl of velocity, that goes to zero in the presence of a pure shear flow.  It is also possible to make $\alpha$ and $\beta$ coefficients time-variable (eg. \citealt{morrm97, dola+05}) with
+
+\eqbegin
+\frac{d\alpha_i}{dt} = -\frac{\alpha_i - \alpha_\mrm{min}}{\tau} + S_i
+\eqend
+
+\noindent where timescale $\tau = h_i/(c_i l)$, $l$ is a tuneable parameter of order unity, $S_i$ is a source term that becomes large in the prescence of shocks, and $\alpha_\mrm{min} > 0$ is a minimum $\alpha$ value to prevent noise buildup and spurious particle interpenetration in smooth flows.  Both these methods can be used in \gasoline.
+
+%{eq:c3_artificialvisc}
+
+As explained in the introduction, SPH's Lagrangian nature allows it to automatically resolve regions of high density, simulate advection without errors, and conserve energy, linear and angular momentum to high accuracy.  These features make it much easier to model mergers in SPH than in Eulerian grid schemes, which discretize the simulation volume on a static grid, and time-evolve the system by tracking fluid fluxes between grid cells.  These have traditionally had issues with simulating advection and tracking orbiting binaries except under specific coordinate systems and symmetries (eg. \citep{hopk15}), and thus have very infrequently been used to simulate WD mergers (see \cite{katz+16}, however for recent developments).
+
+The limitations of SPH (and Eulerian codes) have also been well-covered in literature (see, eg., the introductions to \citealt{spri10, hopk15, katz+16}).  Chief among them is the artificial viscosity discussed above, which can produce spurious heating and angular momentum transport in shear flows even in codes that utilize the Balsara switch and time-variable viscosity \citep{culld10}.  Classical formulations of SPH have also been known to suppress hydrodynamic instabilties (eg. \citealt{ager+07}) due to poor treatment of contact discontinuities, manifesting as a ``surface tension'' (eg. \citealt{readha10, hesss10}).  While this has subsequently been resolved (eg. \citep{hopk13, hu+14, kell+14}) by introducing artificial mixing terms \citep{pric08} and smoothing the pressure as well as the density across discontinuities (eg. by replacing the $P_i/\rho_i^2 + P_j/\rho_j^2$ term in Eqn. \ref{eqn:c3_spheqnm} with $(P_i + P_j)/(\rho_i\rho_j)$; \citealt{kell+14}) the vast majority of merger simulations in the literature come from before these alterations became widely used.  SPH has poor shock and steep gradient resolution compared to Eulerian schemes due to kernel smoothing of the density, and can corrupt smooth flows with particle velocity noise \citep{spri10rev}.  Lastly, it suffers from a resolution-independent ``$E_0$'' error in Eqn. \ref{eqn:c3_spheqnm} (which also contributes to poor treatment of discontinuities; eg. \citealt{readha10}) related to the choice of kernel, which can produce enough noise to drown out large-scale structures \citep{hopk15}.  All of these issues motivate both the further development of SPH and competing hydrodynamic schemes, and simulating mergers in a diversity of codes.
 
 \subsection{GASOLINE SPH Code}
 \label{ssec:c3_gasoline}
 
-\gasoline\ is a modular, tree-based SPH code that we previously used to explore the parameter space of CO WD mergers in \citeauthor{zhu+13} (\citeyear{zhu+13}; henceforth \citeal{zhu+13}).  Code settings and initial conditions used in this work are nearly identical to those used in \citeal{zhu+13}, and we refer the reader to that paper for further details.  We utilize \gasoline's default \cite{hernk89} kernel with 100 neighbours, and use the asymmetric energy formulation (\citeauthor{wadssq04}, Eqn. 8) to time-evolve particle internal energy.  Artificial viscosity is provided using the standard Monaghan \& Gingold formulation (see \citealt{mona05}), and dynamically controlled using a combination of a \cite{bals95} switch and time-variable coefficients (eg. \citealt{dola+05}) for the linear $\alpha$ and quadratic $\beta$ viscosity terms ($\alpha\,=0.05$, $\beta\,=0.1$ when shocks are not present, and approximately unity when they are).  We utilize the Helmholtz equation of state\footnote{Available at \url{http://cococubed.asu.edu/}.} (EOS; \citealt{timms00}) to properly represent arbitrarily degenerate and relativistic gases.  Since \gasoline\ evolves density and entropy, while Helmholtz uses density and temperature, a Newton-Raphson inverter is included in the EOS to determine the latter from the former.  To keep the energy-temperature relation positive-definite for the inverter, we enable Coulomb corrections even when the total entropy becomes negative.  SPH noise ocassionally brings highly degenerate particles to below the Fermi energy.  Under these conditions we set the pressure to the Fermi pressure, but let the energy freely evolve (see \citealt{zhu+13}, Sec. 4.6).
+\gasoline\ is a modular, tree-based SPH code that we previously used to explore the parameter space of CO WD mergers in \citeauthor{zhu+13} (\citeyear{zhu+13}; henceforth \citeal{zhu+13}).  Code settings and initial conditions used in this work are nearly identical to those used in \citeal{zhu+13}, and we refer the reader to that paper for further details.  We utilize \gasoline's default \cite{hernk89} kernel with 100 neighbours, and use the asymmetric energy formulation (\citeauthor{wadssq04}, Eqn. 8) to time-evolve particle internal energy.  Artificial viscosity is dynamically controlled using a combination of the Balsara switch and time-variable coefficients for the $\alpha$ and $\beta$ viscosity terms ($\alpha\,=0.05$, $\beta\,=0.1$ when shocks are not present, and approximately unity when they are).  We utilize the Helmholtz equation of state\footnote{Available at \url{http://cococubed.asu.edu/}.} (EOS; \citealt{timms00}) to properly represent arbitrarily degenerate and relativistic gases.  Since \gasoline\ evolves density and entropy, while Helmholtz uses density and temperature, a Newton-Raphson inverter is included in the EOS to determine the latter from the former.  To keep the energy-temperature relation positive-definite for the inverter, we enable Coulomb corrections even when the total entropy becomes negative.  SPH noise ocassionally brings highly degenerate particles to below the Fermi energy.  Under these conditions we set the pressure to the Fermi pressure, but let the energy freely evolve (see \citealt{zhu+13}, Sec. 4.6).
 
 Like in our previous work, we ignore outer hydrogen and helium layers, composition gradients, and any nuclear reactions, in order to focus on the merger hydrodynamics.  Previous work that did include nuclear reactions \citep{loreig09,dan+12}, and in one case an outer helium layer \citep{rask+12}, have shown that they play a negligible role in the hydrodynamics of a $0.625 - 0.65\,\Msun$ CO WD merger.  More massive binaries, as well as less massive ones involving a CO-He hybrid WD, may experience He or CO detonantions during the merger \citep{pakm+10, rask+12, dan+12}.
 
-We use the same version of \gasoline\ as \citeal{zhu+13}, which does not include the improvements recently introduced in \textsc{Gasoline2} \citep{kell+15, tamb+15} and \textsc{ChaNGa/Gasoline} \citep{gove+15}.  These include a turbulent diffusion scheme to facilitate fluid mixing \citep{shen+10} and the use of a geometric density-averaged term in the SPH force expression (\citealt{kell+14}; practically equivalent to the pressure-entropy formulation of \cite{hopk13}) to eliminate numerical surface tension at contact discontinuities, which collectively allow for proper growth of hydrodynamic instabilities.  We also do not consider more advanced prescriptions for viscosity, such as a Godunov-SPH scheme (eg. \citealt{chaw16}), as these are generally not implemented in SPH codes.  We again stress that the purpose of this work is to compare the ``classical'' SPH formulation, used in almost all merger simulations to date, to moving mesh \arepo, and we leave comparisons with improved and modified SPH schemes to future work.
+We use the same version of \gasoline\ as \citeal{zhu+13}, which does not include the improvements recently introduced in \textsc{Gasoline2} \citep{kell+15, tamb+15} and \textsc{ChaNGa/Gasoline} \citep{gove+15}.  These include a turbulent diffusion scheme to facilitate fluid mixing \citep{shen+10} and the use of the $(P_i + P_j)/(\rho_i\rho_j)$ geometric density-averaged term in the SPH force expression (\citealt{kell+14}; practically equivalent to the pressure-entropy formulation of \cite{hopk13}) to eliminate numerical surface tension at contact discontinuities.  We also do not consider more advanced prescriptions for viscosity, such as a Godunov-SPH scheme (eg. \citealt{chaw16}), as these are generally not implemented in SPH codes.  We again stress that the purpose of this work is to compare the traditional SPH formulation, used in almost all merger simulations to date, to moving mesh \arepo, and we leave comparisons with improved and modified SPH schemes to future work.
 
 \subsection{AREPO Moving Mesh Code}
 \label{ssec:c3_arepo}
 
-We now introduce the moving-mesh magnetohydrodynamics methods of \arepo, summarizing \cite{spri10}, \cite{pakmbs11} and \cite{pakms13}.  This will be done more detail than for SPH to preface the discussion of numerical issues in Sec. \ref{sec:c3_fixingarepo}.
+We now introduce the moving-mesh magnetohydrodynamics of \arepo, summarizing \cite{spri10}, \cite{pakmbs11} and \cite{pakms13}.  \arepo\ discretizes a fluid using a grid, or mesh, much like static-grid Eulerian codes.  To overcome the traditional Eulerian code shortcomings of breakdown of Galilean invariance, large advection errors and inability to adjust spatial resolution for arbitrarily complex flows, \arepo\ moves the mesh cells to follow local fluid motion.  Fluxes between cells are then calculated in the frame of the cell walls that divide them -- this preferred frame choice, in addition to the moving mesh, give the scheme a Lagrangian nature and automatic spatial refinement similar to SPH.  The moving mesh also couples more naturally to particle-based gravity solvers (see \citealt{spri10}, Sec. 3), with \arepo using a nearly identical TreePM solver to that used by the SPH code \textsc{gadget2} \citep{spri05}.
 
+Allowing the mesh-generating points of a structured grid to move with the fluid can lead to severely mesh deformation that prevent its further evolution.  \arepo, however, circumvents this by utilizing an unstructured mesh defined by Voronoi tessellation (see \citealt{spri10}, Sec. 2) of a set of ``mesh-generating points'', each of which corresponds to a single mesh cell.  The mesh-generating points are given the velocities of the fluid parcels they track, and the mesh itself is reconstructed through tessellation at each timestep.  The result is a mesh that, due to the mathematical properties of Voronoi tessellation, does not suffer from mesh-tangling effects.  To keep the Voronoi mesh regular (improving computational efficiency), mesh-generating point velocities are slightly altered from their pure Lagrangian values, and additional velocity adjustments can be made to keep cells near a constant mass or volume.
 
-{\arepo} discretizes a fluid using an unstructured mesh.  The mesh is constructed by Voronoi tesselation of a set of mesh generating points, and these points are given velocities to follow local fluid motion in a Lagrangian fashion.  This results in a mesh that deforms over time to track the evolution of the fluid, without the mesh-tangling effects that hindered previous moving mesh schemes.  Mesh generating point velocities are slightly altered from their pure Lagrangian values to keep the Voronoi mesh regular, reducing flux calculation errors.  Additional velocity adjustments can be made to keep cells near a constant mass or volume, but in practice this becomes ineffective for highly non-linear flows.  Fluid fluxes between cells are calculated using a second-order Godunov scheme with an exact Riemann solver (in our case HLLD), while self-gravity is handled using a TreePM solver, nearly identical to the one used by SPH code \textsc{gadget2} \citep{spri05}.
+%The mesh is constructed by Voronoi tesselation of a set of mesh generating points, and these points are given velocities to follow local fluid motion in a Lagrangian fashion.  This results in a mesh that deforms over time to track the evolution of the fluid, without the mesh-tangling effects that hindered previous moving mesh schemes.  Mesh generating point velocities are slightly altered from their pure Lagrangian values to keep the Voronoi mesh regular, reducing flux calculation errors.  Additional velocity adjustments can be made to keep cells near a constant mass or volume, but in practice this becomes ineffective for highly non-linear flows.  Fluid fluxes between cells are calculated using a second-order Godunov scheme with an exact Riemann solver (in our case HLLD), while self-gravity is handled using a TreePM solver, nearly identical to the one used by SPH code \textsc{gadget2} \citep{spri05}.
 
-
-
-
-{\charles SOME STUFF ABOUT THE MESH; ASK RUEDIGER ABOUT HOW MHD WORKS!!!}
-
-On this mesh, \arepo\ tracks the finite volume integral of ${\bf U}$ for each cell, i.e. 
+On the Voronoi mesh, \arepo\ tracks the finite volume integral of ${\bf U}$ for each cell, i.e. 
 
 \eqbegin
 {\bf Q} = \int_{V} {\bf U}dV = \left( \begin{array}{c}
@@ -89,7 +159,7 @@ E \\
 {\bf B} V \end{array} \right),
 \eqend
 
-\noindent where $m$ is the cell mass, ${\bf p}$ its momentum, $E$ its total energy and ${\bf B} V$ the magnetic field multiplied by the cell volume (${\bf B} V$.  If the divergence-cleaning method of \cite{pakmbs11} is adopted, an additional scalar quantity is appended to ${\bf Q}$ and to ${\bf W}$, below, but the overall equations remain unchanged (see {\charles Ch. XXX}).  The time-evolution for cell $i$ from timestep $n$ to $n+1$ is then given by
+\noindent where $m$ is the cell mass, ${\bf p}$ its momentum, $E$ its total energy and ${\bf B} V$ the magnetic field multiplied by the cell volume (${\bf B} V$.  If the divergence-cleaning method of \cite{pakmbs11} is adopted (Sec. \ref{sec:c4_postscript}), an additional scalar quantity coupled to the magnetic field divergence is appended to ${\bf Q}$ and to ${\bf W}$, below, but the overall equations remain unchanged.  The time-evolution for cell $i$ from timestep $n$ to $n+1$ is then given by
 
 \eqbegin
 {\bf Q}_i^{n+1} = {\bf Q}_i^n - \Delta t\sum_j A_{ij} {\bf \hat{F}}_{ij}^{n + 1/2}
@@ -105,10 +175,10 @@ E \\
 \rho \\
 {\bf v} \\
 P \\
-B \end{array} \right),
+{\bf B} \end{array} \right),
 \eqend
 
-\noindent then converted back to ${\bf Q}$.  Fluxes are calculated in the frame of face $A_{ij}$ (then boosted back into the simulation frame of reference) to maintain Galilean invariance.  This means that each hydrodynamic step first calculates the Voronoi mesh and assigns velocities ${\bf w}_i$ to the mesh-generating points before calculating $W$ and ${\bf \hat{F}}$ and then advancing time using Eqn. \ref{eq:c3_arepo_timeadv} (see \cite{spri10}, Sec. 3).  Under standard \arepo\ operation, ${\bf w}_i$ is the same as cell fluid speed ${\bf v_i}$, with a small corrective term to keep the mesh regular, but ${\bf w}_i$ could also be set to zero, turning \arepo\ into a static unstructured-grid code.
+\noindent then converted back to ${\bf Q}$.  Fluxes are calculated in the frame of face $A_{ij}$ (then boosted back into the simulation frame of reference) to maintain Galilean invariance.  This means that each hydrodynamic step first calculates the Voronoi mesh and assigns velocities ${\bf w}_i$ to the mesh-generating points before calculating $W$ and ${\bf \hat{F}}$ and then advancing time using Eqn. \ref{eq:c3_arepo_timeadv} (\citealt{spri10}, Sec. 3).  Under standard \arepo\ operation, ${\bf w}_i$ is the same as cell fluid speed ${\bf v_i}$, with a small corrective term to keep the mesh regular, but ${\bf w}_i$ could also be set to zero, turning \arepo\ into a static unstructured-grid code.
 
 Once the velocities are set, the flux across $A_{ij}$ can be determined from the (boosted) primitive values at either side -- which we term the ``left'' and ``right'' states, respectively -- of the face's centroid.  In \arepo's original formulation \citep{spri10}, these values are determined from their respective cell's ${\bf W}$ using the MUSCL-Hancock approach of a piecewise linear spatial reconstruction and a first-order time-extrapolation by half a timestep:
 
@@ -126,9 +196,9 @@ Once the velocities are set, the flux across $A_{ij}$ can be determined from the
 
 \noindent taking advantage of the Voronoi mesh to estimate $\phi({\bf f}_{ij})$.  Once calculated, the gradient estimate is slope-limited before being used in Eqn. \ref{eq:c3_muscl_hancock} (\cite{spri10} Eqns. 28 - 30).  The flux is then resolved from ${\bf W}_\mrm{L,R}^\mrm{interface}$ with a Riemann solver (in all our simulations, HLLD; \citealt{miyok05}).  Eqns. \ref{eq:c3_muscl_hancock} and \ref{eq:c3_gauss_green} were replaced in \cite{pakm+16} order to resolve \arepo's angular momentum conservation issue, but the overall flux calculation procedure remains the same as above.
 
-The self-gravity term ${\bf G}$ can easily be added to the flux calculation, since, when calculating with ${\bf W}$, gravity only changes the momentum.  This change, and the corresponding one for kinetic energy, can then be appended to ${\bf Q}$ (\citealt{spri10} Sec. 5.2).
+The self-gravity term ${\bf G}$ from Eqn. \ref{eqn:c3_mhd_eqns_compact} can easily be added to the flux calculation, since, when calculating with ${\bf W}$, gravity only changes the momentum.  This change, and the corresponding one for kinetic energy, can then be appended to ${\bf Q}$ (\citealt{spri10} Sec. 5.2).  
 
-%{\arepo} discretizes a fluid using an unstructured mesh.  The mesh is constructed by Voronoi tesselation of a set of mesh generating points, and these points are given velocities to follow local fluid motion in a Lagrangian fashion.  This results in a mesh that deforms over time to track the evolution of the fluid, without the mesh-tangling effects that hindered previous moving mesh schemes.  Mesh generating point velocities are slightly altered from their pure Lagrangian values to keep the Voronoi mesh regular, reducing flux calculation errors.  Additional velocity adjustments can be made to keep cells near a constant mass or volume, but in practice this becomes ineffective for highly non-linear flows.  Fluid fluxes between cells are calculated using a second-order Godunov scheme with an exact Riemann solver (in our case HLLD), while self-gravity is handled using a TreePM solver, nearly identical to the one used by SPH code \textsc{gadget2} \citep{spri05}.
+The advantages of \arepo\ -- automatic adaptive resolution enhancement, Galilean invariance, accurate shock capture and low fluid velocity noise and artificial viscosity, and a natural coupling to particle-based gravity solvers -- make it an excellent platform with which to simulate mergers.  
 
 We use the same Helmholtz EOS in \arepo\ that we installed into \gasoline\ and also ignore composition gradients and any nuclear reactions.  To assure a reasonably constant mass resolution (and other, similar criteria), we use an explicit refinement scheme \citep{voge+12} that adds or subtracts mesh-generating points to the grid.  This keeps cell masses near a fixed value, and to keep all cell volumes within one order of magnitude of each other.
 

@@ -42,9 +42,6 @@
 \bibitem[{{Balbus} \& {Hawley}(1991)}]{balbh91}
 {Balbus}, S.~A., \& {Hawley}, J.~F. 1991, \apj, 376, 214
 
-\bibitem[{{Balsara}(1995)}]{bals95}
-{Balsara}, D.~S. 1995, Journal of Computational Physics, 121, 357
-
 \bibitem[{{Barstow} {et~al.}(1995){Barstow}, {Jordan}, {O'Donoghue},
   {Burleigh}, {Napiwotzki}, \& {Harrop-Allin}}]{bars+95}
 {Barstow}, M.~A., {Jordan}, S., {O'Donoghue}, D., {et~al.} 1995, \mnras, 277,
@@ -78,6 +75,9 @@
   {Asplund}}]{clay+07}
 {Clayton}, G.~C., {Geballe}, T.~R., {Herwig}, F., {Fryer}, C., \& {Asplund}, M.
   2007, \apj, 662, 1220
+
+\bibitem[{{Cullen} \& {Dehnen}(2010)}]{culld10}
+{Cullen}, L., \& {Dehnen}, W. 2010, \mnras, 408, 669
 
 \bibitem[{{Dan} {et~al.}(2014){Dan}, {Rosswog}, {Br{\"u}ggen}, \&
   {Podsiadlowski}}]{dan+14}
@@ -167,6 +167,9 @@
 {Giacomazzo}, B., {Zrake}, J., {Duffell}, P.~C., {MacFadyen}, A.~I., \&
   {Perna}, R. 2015, \apj, 809, 39
 
+\bibitem[{{Gingold} \& {Monaghan}(1977)}]{gingm77}
+{Gingold}, R.~A., \& {Monaghan}, J.~J. 1977, \mnras, 181, 375
+
 \bibitem[{{Goedbloed} \& {Poedts}(2004)}]{goedp04}
 {Goedbloed}, J.~P.~H., \& {Poedts}, S. 2004, {Principles of
   Magnetohydrodynamics}
@@ -197,6 +200,9 @@
 \bibitem[{{Hernquist} \& {Katz}(1989)}]{hernk89}
 {Hernquist}, L., \& {Katz}, N. 1989, \apjs, 70, 419
 
+\bibitem[{{He{\ss}} \& {Springel}(2010)}]{hesss10}
+{He{\ss}}, S., \& {Springel}, V. 2010, \mnras, 406, 2289
+
 \bibitem[{{Hillebrandt} {et~al.}(2013){Hillebrandt}, {Kromer}, {R{\"o}pke}, \&
   {Ruiter}}]{hill+13}
 {Hillebrandt}, W., {Kromer}, M., {R{\"o}pke}, F.~K., \& {Ruiter}, A.~J. 2013,
@@ -204,6 +210,9 @@
 
 \bibitem[{{Hopkins}(2013)}]{hopk13}
 {Hopkins}, P.~F. 2013, \mnras, 428, 2840
+
+\bibitem[{{Hopkins}(2015)}]{hopk15}
+---. 2015, \mnras, 450, 53
 
 \bibitem[{{Hopkins} \& {Raives}(2016)}]{hopkr16}
 {Hopkins}, P.~F., \& {Raives}, M.~J. 2016, \mnras, 455, 51
@@ -306,6 +315,9 @@
 {LSST Science Collaboration}, {Abell}, P.~A., {Allison}, J., {et~al.} 2009,
   ArXiv e-prints, arXiv:0912.0201
 
+\bibitem[{{Lucy}(1977)}]{lucy77}
+{Lucy}, L.~B. 1977, \aj, 82, 1013
+
 \bibitem[{{Maeda} {et~al.}(2010{\natexlab{a}}){Maeda}, {Taubenberger},
   {Sollerman}, {Mazzali}, {Leloudas}, {Nomoto}, \& {Motohara}}]{maed+10a}
 {Maeda}, K., {Taubenberger}, S., {Sollerman}, J., {et~al.} 2010{\natexlab{a}},
@@ -354,6 +366,10 @@
 
 \bibitem[{{Monaghan}(2005)}]{mona05}
 {Monaghan}, J.~J. 2005, Reports on Progress in Physics, 68, 1703
+
+\bibitem[{{Morris} \& {Monaghan}(1997)}]{morrm97}
+{Morris}, J.~P., \& {Monaghan}, J.~J. 1997, Journal of Computational Physics,
+  136, 41
 
 \bibitem[{{Nandez} {et~al.}(2014){Nandez}, {Ivanova}, \& {Lombardi}}]{nandil14}
 {Nandez}, J.~L.~A., {Ivanova}, N., \& {Lombardi}, Jr., J.~C. 2014, \apj, 786,
@@ -426,8 +442,11 @@
 {Powell}, K.~G., {Roe}, P.~L., {Linde}, T.~J., {Gombosi}, T.~I., \& {De Zeeuw},
   D.~L. 1999, Journal of Computational Physics, 154, 284
 
+\bibitem[{{Price}(2008)}]{pric08}
+{Price}, D.~J. 2008, Journal of Computational Physics, 227, 10040
+
 \bibitem[{{Price}(2012)}]{pric12}
-{Price}, D.~J. 2012, Journal of Computational Physics, 231, 759
+---. 2012, Journal of Computational Physics, 231, 759
 
 \bibitem[{{Price} \& {Rosswog}(2006)}]{pricr06}
 {Price}, D.~J., \& {Rosswog}, S. 2006, Science, 312, 719
@@ -448,8 +467,14 @@
   {Helfand}, {Helou}, {Howell}, {Poznanski}, \& {Sullivan}}]{rau+09}
 {Rau}, A., {Kulkarni}, S.~R., {Law}, N.~M., {et~al.} 2009, \pasp, 121, 1334
 
+\bibitem[{{Read} {et~al.}(2010){Read}, {Hayfield}, \& {Agertz}}]{readha10}
+{Read}, J.~I., {Hayfield}, T., \& {Agertz}, O. 2010, \mnras, 405, 1513
+
+\bibitem[{{Rosswog}(2009)}]{ross09}
+{Rosswog}, S. 2009, \nar, 53, 78
+
 \bibitem[{{Rosswog}(2015)}]{ross15}
-{Rosswog}, S. 2015, International Journal of Modern Physics D, 24, 1530012
+---. 2015, International Journal of Modern Physics D, 24, 1530012
 
 \bibitem[{{Ruiz-Lapuente} \& {Spruit}(1998)}]{ruizs98}
 {Ruiz-Lapuente}, P., \& {Spruit}, H.~C. 1998, \apj, 500, 360
@@ -507,8 +532,11 @@
 {Sim}, S.~A., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010, \apjl, 714,
   L52
 
+\bibitem[{{Springel}(2005)}]{spri05}
+{Springel}, V. 2005, \mnras, 364, 1105
+
 \bibitem[{{Springel}(2010{\natexlab{a}})}]{spri10}
-{Springel}, V. 2010{\natexlab{a}}, \mnras, 401, 791
+---. 2010{\natexlab{a}}, \mnras, 401, 791
 
 \bibitem[{{Springel}(2010{\natexlab{b}})}]{spri10rev}
 ---. 2010{\natexlab{b}}, \araa, 48, 391

@@ -97,6 +97,7 @@
 % symbols & math
 \usepackage{latexsym}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage{bm}
 
 % hyperlinks within document
@@ -315,6 +316,7 @@ I'd like to thank the academy for choosing me...
 %citation{ager+07}{2007MNRAS.380..963A} 	% SPH instability failure paper
 %citation{bals95}{1995JCoPh.121..357B} 		% balsara switch
 %citation{chaw16}{2016MNRAS.458..480C} 		% Godunov SPH
+%citation{culld10}{2010MNRAS.408..669C}		% critique of time-dependent alpha viscosity
 %citation{dehna12}{2012MNRAS.425.1068D} 	% SPH pair-generating instability
 %citation{dedn+02}{2002JCoPh.175..645D}		% dedner divergence cleaning
 %citation{dola+05}{2005MNRAS.364..753D} 	% time-dependent alpha viscosity
@@ -323,26 +325,34 @@ I'd like to thank the academy for choosing me...
 %citation{floc+10}{2010A&A...516A..26F}		% test of MRI simulations across wide range of codes
 %citation{fryx+00}{2000ApJS..131..273F}		% Flash paper
 %citation{gabujl12}{2012ApJ...758..103G} 	% another moving mesh code
+%citation{gingm77}{1977MNRAS.181..375G}		% SPH origin paper 1
 %citation{gove+15}{2015MNRAS.448..792G} 	% GASOLINE chaNGa
 %citation{haye+06}{2006ApJS..165..188H}		% ZEUS-MP2 paper
 %citation{hernk89}{1989ApJS...70..419H}		% Gasoline's kernel
+%citation{hesss10}{2010MNRAS.406.2289H}		% SPH surface tension
 %citation{hopk13}{2013MNRAS.428.2840H}		% pressure-entropy formulation of SPH
 %citation{hopk15}{2015MNRAS.450...53H}		% Gizmo paper
 %citation{hopkr16}{2016MNRAS.455...51H}		% divergence cleaning for Gizmo MHD
 %citation{hu+14}{2014MNRAS.443.1173H}		% modern pressure-entropy SPH
 %citation{kell+14}{2014MNRAS.442.3013K} 	% updates to hydro schemes for Gasoline2
 %citation{kell+15}{2015MNRAS.453.3499K}		% Gasoline 2
+%citation{lucy77}{1977AJ.....82.1013L}		% SPH origin paper 2
 %citation{miyok05}{2005JCoPh.208..315M} 	% HLLD Solver
 %citation{moczvh14}{2014MNRAS.442...43M}	% constrained transport in unstructured grid
 %citation{mocz+16}{2016arXiv160602310M}		% arepo's CT solver
 %citation{mona05}{2005RPPh...68.1703M}		% Monaghan SPH review
+%citation{morrm97}{1997JCoPh.136...41M}		% time-dependent alpha viscosity
 %citation{pakmbs11}{2011MNRAS.418.1392P}	% ruediger's original magnetic fields paper
 %citation{pakms13}{2013MNRAS.432..176P}		% ruediger's galactic magnetic fields paper
 %citation{paxt+11}{2011ApJS..192....3P}		% MESA paper
 %citation{paxt+13}{2013ApJS..208....4P}		% MESA paper 2
 %citation{paxt+15}{2015ApJS..220...15P}		% MESA paper 3
 %citation{powe+99}{1999JCoPh.154..284P}		% powell's divergence cleaner CHECKED
+%citation{pric08}{2008JCoPh.22710040P}		% artificial entropy mixing in SPH
+%cutation{readha10}{2010MNRAS.405.1513R}	% E0 and surface tension issues with SPH
+%citation{ross09}{2009NewAR..53...78R}		% rosswog's sph review
 %citation{shen+10}{2010MNRAS.407.1581S} 	% Gasoline's new thermal diffusion term
+%citation{spri05}{2005MNRAS.364.1105S} 		% Gadget2
 %citation{spri10rev}{2010ARA&A..48..391S}	% volker SPH review
 %citation{spri10}{2010MNRAS.401..791S}		% AREPO
 %citation{tamb+15}{2015MNRAS.453.2490T} 	% Gasoline 2
