@@ -349,7 +349,7 @@ I'd like to thank the academy for choosing me...
 %citation{paxt+15}{2015ApJS..220...15P}		% MESA paper 3
 %citation{powe+99}{1999JCoPh.154..284P}		% powell's divergence cleaner CHECKED
 %citation{pric08}{2008JCoPh.22710040P}		% artificial entropy mixing in SPH
-%cutation{readha10}{2010MNRAS.405.1513R}	% E0 and surface tension issues with SPH
+%citation{readha10}{2010MNRAS.405.1513R}	% E0 and surface tension issues with SPH
 %citation{ross09}{2009NewAR..53...78R}		% rosswog's sph review
 %citation{shen+10}{2010MNRAS.407.1581S} 	% Gasoline's new thermal diffusion term
 %citation{spri05}{2005MNRAS.364.1105S} 		% Gadget2
@@ -502,6 +502,7 @@ I'd like to thank the academy for choosing me...
 %citation{rau+09}{2009PASP..121.1334R}		% PTF instrument paper
 %citation{ries+98}{1998AJ....116.1009R}		% Riess dark energy paper
 %citation{ross15}{2015IJMPD..2430012R}		% rosswog binary compact merger review
+%citation{spru13}{2013arXiv1301.5572S}		% henk's MHD textbook
 %citation{tyle+11}{2011A&A...528A.114T}		% tylenda's V1309 Sco paper
 %citation{webb84}{1984ApJ...277..355W}		% webbink's seminal merger paper for SN Ia and He - CO -> RCB
 %citation{yung05}{2005AIPC..797....1Y}		% yungelson's overview of binary evolution and population synthesis

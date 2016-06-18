@@ -1,7 +1,7 @@
 \section{Codes and Initial Conditions}
 \label{sec:c3_codes}
 
-All (magneto-)hydrodynamic codes seek to properly evolve the continuum magnetohydrodynamics of a fluid on a discrete set of points in space and time.  Most astrophysical codes (including the two we use) explore the simpler regime of ideal magnetohydrodynamics, since molecular viscosity is generally negligible in astrophysical settings (outside of planetary interior dynamics).  The coupled partial differential equations of ideal magnetohydrodynamics, in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13}, \citealt{feidc12} Sec. 3), is
+All hydrodynamic and magnetohydrodynamic codes seek to properly evolve the continuum dynamics of a fluid on a discrete set of points in space and time.  Most astrophysical fluid codes (including the two we use) explore the simpler regimes of ideal hydro- or magnetohydrodynamics, where molecular viscosity and electrical resistance are negligible -- generally the case astrophysical settings outside of planetary interior dynamics.  The coupled partial differential equations of ideal magnetohydrodynamics, in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13, spru13}, \citealt{feidc12} Sec. 3), is
 
 \begin{eqnarray}
 \ptl_t\rho + \ptl_j(\rho u^j) &=& 0 \nonumber \\
@@ -18,7 +18,7 @@ All (magneto-)hydrodynamic codes seek to properly evolve the continuum magnetohy
 \label{eqn:c3_mhd_eqns_compact}
 \eqend
 
-where
+\noindent where
 
 \eqbegin
 {\bf U} = 
@@ -50,29 +50,29 @@ where
 \label{eqn:c3_mhd_eqns_g}.
 \eqend
 
-\noindent Eqn. \ref{eqn:c3_mhd_eqns_compact} shows that the time-derivative of the fluid's values is given by the sum of a flux term (as the integral of $\nabla\cdot{\bf F(U)}$ within a volume is equivalent to a flux across the boundary of that volume by Gauss's Law) and a (self-)gravitational source term ${\bf G}$.  These are generally calculated separately, and then combined.
+\noindent Eqn. \ref{eqn:c3_mhd_eqns_compact} shows that the time-derivative of the fluid's values is given by the sum of a flux term (since, by Gauss's Law, the integral of $\nabla\cdot{\bf F(U)}$ within a volume is equivalent to a flux across its boundary) and a (self-)gravitational source term ${\bf G}$.  These are generally calculated separately, and then combined.
 
-To better understand the code comparison in this chapter, and prefacing the discussion of improving \arepo\ in Sec. \ref{sec:c3_fixingarepo}, we present an extremely short and mostly qualitative discussion on how the equations are implemented within SPH and \arepo's moving mesh hydrodynamics.  The historical development of both methods is long and involved, and, as improving hydrodynamic simulations is not the focus of this thesis, we refer the reader to review articles referenced throughout this section for further reading.
+To better understand the code comparison in this chapter, and to preface the discussion of improving \arepo's angular momentum conservation in Sec. \ref{sec:c3_fixingarepo}, we present an extremely short and mostly qualitative discussion of how these equations are implemented within SPH and \arepo.  The historical development of both methods is long and involved, and, as improving hydrodynamic simulations is not the focus of this thesis, we will refer the reader to a number review articles referenced throughout this section for further details.
 
 \subsection{Traditional Smoothed-Particle Hydrodynamics}
 \label{ssec:c3_sph}
 
-SPH, first introduced in \citep{lucy77} and \citep{gingm77}, is a mature simulation method used in a host of astrophysical contexts, ranging from star formation to cosmology.  We refer readers to \citep{mona05, ross09} and \cite{spri10rev} for details.  Here, we follow the procedure of \citep{spri10rev}.
+SPH, first introduced in \cite{lucy77} and \cite{gingm77}, is a mature simulation method used in a host of astrophysical contexts ranging from star formation to cosmology.  Our overview summarizes the first few sections of \citep{spri10rev}; we also refer readers to \citep{mona05} and \cite{ross09} for further details.
 
-SPH represents a fluid with a set of particles.  The fluid's continuum properties at some point ${\bf r}$ in the simulation can be then be sampled by using these particles as interpolation points.  Representing any given fluid property (the most important of them being density, since it factors into the equation of motion) with a generic scalar field $F({\bf r})$, we can use a ``kernel'' $W({\bf r}, h)$ to generate its approximate, locally-averaged value
+SPH represents a fluid with a set of particles.  The fluid's continuum properties at some point ${\bf r}$ in the simulation are sampled by using these particles as interpolation points.  Representing any given continuum property (the most important of which is density, since it factors into the equations of motion) as $F({\bf r})$, we can use a ``kernel'' $W({\bf r}, h)$ to generate its approximate, locally-averaged value
 
 \eqbegin
 F_s({\bf r}) = \int F({\bf r'})W({\bf r} - {\bf r'}, h)d{\bf r'}.
 \eqend
 
-\noindent In the (computationally impossible) case of infinite resolution, we can choose $W({\bf r}, h)$ to be a Dirac delta, and $F_s({\bf r}) = F({\bf r})$, but in practice we choose $W({\bf r}, h)$ to extend over some characteristic ``smoothing length'' $h$.  If $W({\bf r}, h)$ were a Gaussian, the $h = \sigma$, the standard deviation.  The most popular form of $W({\bf r}, h)$ is a cubic spline that goes to zero when ${\bf r} > 2h$, and $h$ is set to ensure a user-defined number of neighboring particles $N$ fall within the kernel.  For a set of particles with mass $m_i$, density $\rho_i$ and properties $F_i = F({\bf r}_i)$, we can discretize the integral as
+\noindent In the (computationally impossible) case of infinite resolution, we can choose $W({\bf r}, h)$ to be a Dirac delta, and $F_s({\bf r}) = F({\bf r})$, but in practice we choose $W({\bf r}, h)$ to extend over some characteristic ``smoothing length'' $h$.  If $W({\bf r}, h)$ were a Gaussian, the $h = \sigma$, the standard deviation.  The most popular form of $W({\bf r}, h)$ is a cubic spline that goes to zero when ${\bf r} > 2h$, and $h$ is generally set to ensure a user-defined number of neighboring particles $N$ fall within the kernel.  For a set of particles with associated mass $m_i$ and known values of $F_i = F({\bf r}_i)$, we can discretize the integral as
 
 \eqbegin
-F_s({\bf r})\sum_j\frac{m_j}{\rho_j}F_j W({\bf r} - {\bf r}_j), h).
+F_s({\bf r}) = \sum_j\frac{m_j}{\rho_j}F_j W({\bf r} - {\bf r}_j), h).
 \label{eq:c3_kernelavg}
 \eqend
 
-\noindent Derivatives of the field can then be determined using the gradient of the kernel $\nabla_i W_{ij}$.
+\noindent where $\rho_i$ can be estimated using $\rho_i = \sum_j m_j W({\bf r}_i - {\bf r}_j), h)$.  Derivatives of the field can also be determined using the gradient of the kernel $\nabla_i W_{ij}$.
 
 Meanwhile, the Euler equations (Eqn. \ref{eqn:c3_mhd_eqns_compact} without the gravitational and magnetic terms) can be shown to follow the Lagrangian:
 
@@ -87,7 +87,7 @@ L = \int \rho\left(\frac{{\bf u}^2}{2} - e\right)dV
 L_\mathrm{SPH} = \sum_i \frac{1}{2}m_i u_i^2 - m_i e_i.
 \eqend
 
-\noindent This suggests a time-evolution scheme.  Each particle representing the fluid is given a mass $m_i$ (which is time-independent), velocity $u_i$ and specific internal energy $e_i$; fluid hydrodynamics can then be simulated by time-evolving ${\bf r}_i$, ${\bf u}_i$ and $e_i$.  The equations governing the latter two are derived by applying the Euler-Lagrange equation ($\frac{d}{dt}\frac{\ptl L}{\ptl \dot{{\bf r}}_i} - \frac{\ptl L}{\ptl {\bf r}_i}$) to $L_\mathrm{SPH}$.  They traditionally takes the form:\footnote{We use \cite{wadssq04}'s formulation for Eqns. \ref{eqn:c3_spheqnm} and \ref{eqn:c3_spheqne}, as $h_i$ in \gasoline\ is determined by the distance to the $N^\mrm{th}$ neighboring particle in the kernel averaging; \cite{spri10rev} uses a different method of controlling the smoothing length that modifies the equations.}
+\noindent This suggests a time-evolution scheme for the fluid.  Each particle representing the fluid is given a (time-independent) mass $m_i$, position ${\bf r}_i$, velocity ${\bf u}_i$ and specific internal energy $e_i$; the fluid can then be simulated by time-evolving the latter three terms for all particles.  The equations governing the latter two are derived by applying the Euler-Lagrange equation ($\frac{d}{dt}\frac{\ptl L}{\ptl \dot{{\bf r}}_i} - \frac{\ptl L}{\ptl {\bf r}_i}$) to $L_\mathrm{SPH}$.  They traditionally takes the form:\footnote{We state \cite{wadssq04}'s formulation of Eqns. \ref{eqn:c3_spheqnm} and \ref{eqn:c3_spheqne}, as \cite{spri10rev} assumes a different method of controlling the smoothing length $h_i$.}
 
 \begin{eqnarray}
 \frac{d{\bf u}_i}{dt} &=& -\sum_j m_j\left(\frac{P_i}{\rho_i^2} + \frac{P_j}{\rho_j^2} \right)\nabla_i W_{ij} \\
@@ -96,7 +96,7 @@ L_\mathrm{SPH} = \sum_i \frac{1}{2}m_i u_i^2 - m_i e_i.
 \label{eqn:c3_spheqne}
 \end{eqnarray}
 
-\noindent where $\rho_i$ is obtained from Eqn. \ref{eq:c3_kernelavg}, and pressure $P_i$ can be estimated from the $\rho_i$ and $e_i$.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev} Sec. 2.4 and \citealt{wadssq04} Sec. 2.1) using methods originally developed for N-body simulations.  Magnetic fields can also be included (SPHMHD, eg. \citealt{pric12}), but are beyond the scope of this thesis.
+\noindent where pressure $P_i$ is determined from $\rho_i$ and $e_i$ using a user-prescribed equation of state.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time-dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev} Sec. 2.4 and \citealt{wadssq04} Sec. 2.1) using methods originally developed for $N$-body simulations.  Magnetic fields can also be included (eg. \citealt{pric12}), but the resulting ``SPHMHD'' formulation is not used in this thesis.
 
 % Eqn. \ref{eqn:c3_spheqne} can actually be replaced with $d s_i/dt = 0$, except in the presence of shocks
 
@@ -143,7 +143,7 @@ We use the same version of \gasoline\ as \citeal{zhu+13}, which does not include
 \subsection{AREPO Moving Mesh Code}
 \label{ssec:c3_arepo}
 
-We now introduce the moving-mesh magnetohydrodynamics of \arepo, summarizing \cite{spri10}, \cite{pakmbs11} and \cite{pakms13}.  \arepo\ discretizes a fluid using a grid, or mesh, much like static-grid Eulerian codes.  To overcome the traditional Eulerian code shortcomings of breakdown of Galilean invariance, large advection errors and inability to adjust spatial resolution for arbitrarily complex flows, \arepo\ moves the mesh cells to follow local fluid motion.  Fluxes between cells are then calculated in the frame of the cell walls that divide them -- this preferred frame choice, in addition to the moving mesh, give the scheme a Lagrangian nature and automatic spatial refinement similar to SPH.  The moving mesh also couples more naturally to particle-based gravity solvers (see \citealt{spri10}, Sec. 3), with \arepo using a nearly identical TreePM solver to that used by the SPH code \textsc{gadget2} \citep{spri05}.
+We now introduce the moving-mesh magnetohydrodynamics of \arepo, summarizing \cite{spri10}, \cite{pakmbs11} and \cite{pakms13}.  \arepo\ discretizes a fluid using a grid, or mesh, much like static-grid Eulerian codes.  To overcome the traditional Eulerian code shortcomings of breakdown of Galilean invariance, large advection errors and inability to adjust spatial resolution for arbitrarily complex flows, \arepo\ moves the mesh cells to follow local fluid motion.  Fluxes between cells are then calculated in the frame of the cell walls that divide them -- this preferred frame choice, in addition to the moving mesh, give the scheme a Lagrangian nature and automatic spatial refinement similar to SPH.  The moving mesh also couples more naturally to $N$-body based gravity solvers (see \citealt{spri10}, Sec. 3), with \arepo\ using a nearly identical TreePM solver to that used by the SPH code \textsc{gadget2} \citep{spri05}.
 
 Allowing the mesh-generating points of a structured grid to move with the fluid can lead to severely mesh deformation that prevent its further evolution.  \arepo, however, circumvents this by utilizing an unstructured mesh defined by Voronoi tessellation (see \citealt{spri10}, Sec. 2) of a set of ``mesh-generating points'', each of which corresponds to a single mesh cell.  The mesh-generating points are given the velocities of the fluid parcels they track, and the mesh itself is reconstructed through tessellation at each timestep.  The result is a mesh that, due to the mathematical properties of Voronoi tessellation, does not suffer from mesh-tangling effects.  To keep the Voronoi mesh regular (improving computational efficiency), mesh-generating point velocities are slightly altered from their pure Lagrangian values, and additional velocity adjustments can be made to keep cells near a constant mass or volume.
 

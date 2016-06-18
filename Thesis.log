@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  17 JUN 2016 19:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  18 JUN 2016 17:43
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -65,8 +65,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen107
 \Gm@even@mp=\dimen108
 \Gm@dimlist=\toks15
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
@@ -878,20 +877,20 @@ Underfull \vbox (badness 2393) has occurred while \output is active []
  [57
 
 ])
-(./chapter3_zhu+u/chapter3_codes.tex
-Underfull \vbox (badness 7133) has occurred while \output is active []
+(./chapter3_zhu+u/chapter3_codes.tex [58] [59] [60] [61] [62] [63]
+Underfull \vbox (badness 1383) has occurred while \output is active []
 
- [58]
-[59] [60] [61] [62] [63] [64]) (./chapter3_zhu+u/chapter3_fixarepo.tex [65]
-<chapter3_zhu+u/figures/lz_development.pdf, id=3081, 433.62pt x 638.86678pt>
+ [64])
+(./chapter3_zhu+u/chapter3_fixarepo.tex [65]
+<chapter3_zhu+u/figures/lz_development.pdf, id=3086, 433.62pt x 638.86678pt>
 File: chapter3_zhu+u/figures/lz_development.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/lz_development.pdf> [66] [67 <./chapter3_zhu+u/figu
-res/lz_development.pdf>]
+<use chapter3_zhu+u/figures/lz_development.pdf>
 
-Package natbib Warning: Citation `maed+13' on page 68 undefined on input line 5
+Package natbib Warning: Citation `maed+13' on page 66 undefined on input line 5
 1.
 
+[66] [67 <./chapter3_zhu+u/figures/lz_development.pdf>]
 
 Package natbib Warning: Citation `pakm+15' on page 68 undefined on input line 5
 3.
@@ -907,8 +906,11 @@ Package natbib Warning: Citation `XXX' on page 68 undefined on input line 53.
 Package natbib Warning: Citation `pakm+15' on page 68 undefined on input line 5
 3.
 
-[68]
-<chapter3_zhu+u/figures/lz_development2.pdf, id=3181, 433.62pt x 361.35pt>
+
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+ [68]
+<chapter3_zhu+u/figures/lz_development2.pdf, id=3187, 433.62pt x 361.35pt>
 File: chapter3_zhu+u/figures/lz_development2.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/lz_development2.pdf>
@@ -917,12 +919,12 @@ LaTeX Warning: Reference `ssec:c3_results' on page 69 undefined on input line 8
 0.
 
 ) (./chapter3_zhu+u/chapter3_results.tex
-<chapter3_zhu+u/figures/snapshots.pdf, id=3186, 845.55902pt x 1069.59598pt>
+<chapter3_zhu+u/figures/snapshots.pdf, id=3192, 845.55902pt x 1069.59598pt>
 File: chapter3_zhu+u/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/snapshots.pdf> [69 <./chapter3_zhu+u/figures/lz_dev
 elopment2.pdf>] [70 <./chapter3_zhu+u/figures/snapshots.pdf>]
-<chapter3_zhu+u/figures/curves.pdf, id=3441, 260.17201pt x 904.8204pt>
+<chapter3_zhu+u/figures/curves.pdf, id=3447, 260.17201pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves.pdf>
@@ -930,12 +932,12 @@ Underfull \vbox (badness 1769) has occurred while \output is active []
 
  [71]
 [72 <./chapter3_zhu+u/figures/curves.pdf>]
-<chapter3_zhu+u/figures/Lz.pdf, id=3497, 442.65375pt x 370.38374pt>
+<chapter3_zhu+u/figures/Lz.pdf, id=3503, 442.65375pt x 370.38374pt>
 File: chapter3_zhu+u/figures/Lz.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/Lz.pdf> [73])
 (./chapter3_zhu+u/chapter3_discussion.tex [74 <./chapter3_zhu+u/figures/Lz.pdf>
-] <chapter3_zhu+u/figures/curves_res.pdf, id=3558, 433.62pt x 904.8204pt>
+] <chapter3_zhu+u/figures/curves_res.pdf, id=3564, 433.62pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves_res.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves_res.pdf>
@@ -969,21 +971,21 @@ LaTeX Warning: Reference `XXX' on page 79 undefined on input line 12.
 
 ])
 (./chapter4_zhu+15/chapter4_results.tex
-<chapter4_zhu+15/figures/snapshots.pdf, id=3696, 507.69673pt x 818.45778pt>
+<chapter4_zhu+15/figures/snapshots.pdf, id=3702, 507.69673pt x 818.45778pt>
 File: chapter4_zhu+15/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/snapshots.pdf>
-<chapter4_zhu+15/figures/bgrowth.pdf, id=3698, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bgrowth.pdf, id=3704, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bgrowth.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bgrowth.pdf>
-<chapter4_zhu+15/figures/remnant.pdf, id=3707, 592.61403pt x 758.835pt>
+<chapter4_zhu+15/figures/remnant.pdf, id=3713, 592.61403pt x 758.835pt>
 File: chapter4_zhu+15/figures/remnant.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/remnant.pdf> [81] [82 <./chapter4_zhu+15/figures/s
 napshots.pdf>] [83 <./chapter4_zhu+15/figures/bgrowth.pdf>] [84 <./chapter4_zhu
 +15/figures/remnant.pdf>]) (./chapter4_zhu+15/chapter4_discussion.tex
-<chapter4_zhu+15/figures/bcomp.pdf, id=3948, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bcomp.pdf, id=3954, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bcomp.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bcomp.pdf> [85 <./chapter4_zhu+15/figures/bcomp.pd
@@ -991,7 +993,7 @@ f>] [86] [87]) (./chapter4_zhu+15/chapter4_postscript.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
  [88]
-<chapter4_zhu+15/figures/bdiv.pdf, id=4101, 375.804pt x 758.835pt>
+<chapter4_zhu+15/figures/bdiv.pdf, id=4107, 375.804pt x 758.835pt>
 File: chapter4_zhu+15/figures/bdiv.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bdiv.pdf>) (./Thesis.bbl [89] [90 <./chapter4_zhu+
@@ -1011,11 +1013,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10541 strings out of 495061
- 150338 string characters out of 1182622
- 308823 words of memory out of 3000000
- 12272 multiletter control sequences out of 15000+50000
- 113241 words of font info for 624 fonts, out of 3000000 for 9000
+ 10543 strings out of 495061
+ 150232 string characters out of 1182621
+ 308850 words of memory out of 3000000
+ 12275 multiletter control sequences out of 15000+50000
+ 113303 words of font info for 625 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,9n,67p,2543b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
@@ -1104,9 +1106,9 @@ palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/t
 exmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (109 pages, 14981203 bytes).
+Output written on Thesis.pdf (109 pages, 14982099 bytes).
 PDF statistics:
- 4404 PDF objects out of 5155 (max. 8388607)
- 456 named destinations out of 1000 (max. 500000)
+ 4411 PDF objects out of 5155 (max. 8388607)
+ 457 named destinations out of 1000 (max. 500000)
  60551 words of extra memory for PDF output out of 61914 (max. 10000000)
 
