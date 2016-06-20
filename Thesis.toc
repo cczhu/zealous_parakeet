@@ -75,15 +75,17 @@
 \contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{65}{section.3.3}
 \contentsline {section}{\numberline {3.4}Results}{70}{section.3.4}
 \contentsline {section}{\numberline {3.5}Discussion}{74}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{74}{subsection.3.5.1}
-\contentsline {subsubsection}{Varying Viscosity in \textsc {Gasoline}}{77}{section*.32}
-\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{79}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{80}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{80}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{81}{section.4.3}
-\contentsline {section}{\numberline {4.4}Robustness Tests}{85}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{85}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{86}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Discussion}{86}{section.4.5}
-\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{88}{section.4.6}
-\contentsline {chapter}{Bibliography}{89}{figure.4.5}
+\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{75}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{77}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Differences in the Merger Process}{78}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{78}{section.3.6}
+\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{81}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{82}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{82}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{83}{section.4.3}
+\contentsline {section}{\numberline {4.4}Robustness Tests}{87}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{87}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{88}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Discussion}{88}{section.4.5}
+\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{90}{section.4.6}
+\contentsline {chapter}{Bibliography}{91}{figure.4.5}

@@ -275,6 +275,7 @@ I'd like to thank the academy for choosing me...
 \input{chapter3_zhu+u/chapter3_fixarepo.tex}
 \input{chapter3_zhu+u/chapter3_results.tex}
 \input{chapter3_zhu+u/chapter3_discussion.tex}
+\input{chapter3_zhu+u/chapter3_conclusions.tex}
 %ch4
 \include{chapter4_zhu+15/chapter4}
 \input{chapter4_zhu+15/chapter4_intro.tex}
@@ -435,6 +436,9 @@ I'd like to thank the academy for choosing me...
 %%%%%%%%%% Spiral wave theory & sim %%%%%%%%%%%
 %citation{balb03}{2003ARA&A..41..555B}		% spiral wave review
 %citation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
+%citation{pasc+15}{2015PhRvD..92l1502P}		% spiral mode in NS-NS merger remnant (GR-AMR code)
+%citation{east+16}{2016PhRvD..93b4011E}			% follow-up to above
+%citation{radibo16}{2016arXiv160305726R}	% spiral mode in NS-NS merger remnant (GR-AMR code)
 
 %%%%%%%%% Convection theory/sim %%%%%%%%%%%%%%%%%%%
 %citation{feidc12}{2012ApJ...761...30F} 	% feiden's work on MHD convective suppression (useful for MHD backgrounder)
