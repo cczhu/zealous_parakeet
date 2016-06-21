@@ -13,49 +13,49 @@ Warning--I didn't find a database entry for "phil93"
 Warning--I didn't find a database entry for "khok91"
 Warning--I didn't find a database entry for "zhu+16"
 Warning--I didn't find a database entry for "XXX"
-Warning--I didn't find a database entry for "guil+10"
-Warning--I didn't find a database entry for "burk+13"
+Warning--I didn't find a database entry for "pasc15"
+Warning--I didn't find a database entry for "watt05"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in goedp04
-You've used 154 entries,
+You've used 168 entries,
             3085 wiz_defined-function locations,
-            1691 strings with 36454 characters,
-and the built_in function-call counts, 74078 in all, are:
-= -- 6285
-> -- 5251
-< -- 62
-+ -- 1765
-- -- 1924
-* -- 6252
-:= -- 13858
-add.period$ -- 154
-call.type$ -- 154
-change.case$ -- 1068
-chr.to.int$ -- 151
-cite$ -- 155
-duplicate$ -- 2956
-empty$ -- 4399
-format.name$ -- 2105
-if$ -- 14751
+            1776 strings with 38775 characters,
+and the built_in function-call counts, 80327 in all, are:
+= -- 6846
+> -- 5637
+< -- 68
++ -- 1893
+- -- 2062
+* -- 6751
+:= -- 15010
+add.period$ -- 168
+call.type$ -- 168
+change.case$ -- 1162
+chr.to.int$ -- 165
+cite$ -- 169
+duplicate$ -- 3222
+empty$ -- 4795
+format.name$ -- 2269
+if$ -- 16012
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 147
-newline$ -- 466
-num.names$ -- 619
-pop$ -- 1161
+missing$ -- 161
+newline$ -- 508
+num.names$ -- 675
+pop$ -- 1269
 preamble$ -- 1
-purify$ -- 1068
+purify$ -- 1162
 quote$ -- 0
-skip$ -- 2481
+skip$ -- 2697
 stack$ -- 0
-substring$ -- 3241
+substring$ -- 3533
 swap$ -- 70
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1383
+type$ -- 1509
 warning$ -- 1
-while$ -- 597
+while$ -- 651
 width$ -- 0
-write$ -- 1542
+write$ -- 1682
 (There were 10 warnings)

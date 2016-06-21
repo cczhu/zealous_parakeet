@@ -12,6 +12,9 @@
 {Abdikamalov}, E.~B., {Ott}, C.~D., {Rezzolla}, L., {et~al.} 2010, \prd, 81,
   044012
 
+\bibitem[{{Adams} {et~al.}(1989){Adams}, {Ruden}, \& {Shu}}]{adamrs89}
+{Adams}, F.~C., {Ruden}, S.~P., \& {Shu}, F.~H. 1989, \apj, 347, 959
+
 \bibitem[{{Agertz} {et~al.}(2007){Agertz}, {Moore}, {Stadel}, {Potter},
   {Miniati}, {Read}, {Mayer}, {Gawryszczak}, {Kravtsov}, {Nordlund}, {Pearce},
   {Quilis}, {Rudd}, {Springel}, {Stone}, {Tasker}, {Teyssier}, {Wadsley}, \&
@@ -63,6 +66,11 @@
 \bibitem[{{Brown} {et~al.}(2011){Brown}, {Kilic}, {Hermes}, {Allende Prieto},
   {Kenyon}, \& {Winget}}]{brow+11}
 {Brown}, W.~R., {Kilic}, M., {Hermes}, J.~J., {et~al.} 2011, \apjl, 737, L23
+
+\bibitem[{{Centrella} {et~al.}(2001){Centrella}, {New}, {Lowe}, \&
+  {Brown}}]{cent+11}
+{Centrella}, J.~M., {New}, K.~C.~B., {Lowe}, L.~L., \& {Brown}, J.~D. 2001,
+  \apjl, 550, L193
 
 \bibitem[{{Cha} \& {Wood}(2016)}]{chaw16}
 {Cha}, S.-H., \& {Wood}, M.~A. 2016, \mnras, 458, 480
@@ -214,6 +222,9 @@
 \bibitem[{{Hopkins}(2015)}]{hopk15}
 ---. 2015, \mnras, 450, 53
 
+\bibitem[{{Hopkins} \& {Quataert}(2010)}]{hopkq10}
+{Hopkins}, P.~F., \& {Quataert}, E. 2010, \mnras, 407, 1529
+
 \bibitem[{{Hopkins} \& {Raives}(2016)}]{hopkr16}
 {Hopkins}, P.~F., \& {Raives}, M.~J. 2016, \mnras, 455, 51
 
@@ -280,6 +291,9 @@
 \bibitem[{{Knigge} {et~al.}(2009){Knigge}, {Leigh}, \& {Sills}}]{knigs09}
 {Knigge}, C., {Leigh}, N., \& {Sills}, A. 2009, \nat, 457, 288
 
+\bibitem[{{Kratter} \& {Lodato}(2016)}]{kratl16}
+{Kratter}, K.~M., \& {Lodato}, G. 2016, ArXiv e-prints, arXiv:1603.01280
+
 \bibitem[{{K{\"u}lebi} {et~al.}(2013){K{\"u}lebi}, {Ek{\c s}i},
   {Lor{\'e}n-Aguilar}, {Isern}, \& {Garc{\'{\i}}a-Berro}}]{kule+13}
 {K{\"u}lebi}, B., {Ek{\c s}i}, K.~Y., {Lor{\'e}n-Aguilar}, P., {Isern}, J., \&
@@ -297,6 +311,9 @@
   {Hodgkin}}]{lawr+13}
 {Lawrie}, K.~A., {Burleigh}, M.~R., {Dufour}, P., \& {Hodgkin}, S.~T. 2013,
   \mnras, 433, 1599
+
+\bibitem[{{Lin}(2015)}]{lin15}
+{Lin}, M.-K. 2015, \mnras, 448, 3806
 
 \bibitem[{{Loken} {et~al.}(2010){Loken}, {Gruner}, {Groer}, {Peltier}, {Bunn},
   {Craig}, {Henriques}, {Dempsey}, {Yu}, {Chen}, {Dursi}, {Chong}, {Northrup},
@@ -343,6 +360,9 @@
 \bibitem[{{Mazurek} {et~al.}(1977){Mazurek}, {Meier}, \& {Wheeler}}]{mazumw77}
 {Mazurek}, T.~J., {Meier}, D.~L., \& {Wheeler}, J.~C. 1977, \apj, 213, 518
 
+\bibitem[{{Meru} \& {Bate}(2010)}]{merub10}
+{Meru}, F., \& {Bate}, M.~R. 2010, \mnras, 406, 2279
+
 \bibitem[{{Mitchell} {et~al.}(2009){Mitchell}, {McCarthy}, {Bower}, {Theuns},
   \& {Crain}}]{mitc+09}
 {Mitchell}, N.~L., {McCarthy}, I.~G., {Bower}, R.~G., {Theuns}, T., \& {Crain},
@@ -387,6 +407,10 @@
 {Ohlmann}, S.~T., {R{\"o}pke}, F.~K., {Pakmor}, R., \& {Springel}, V. 2016,
   \apjl, 816, L9
 
+\bibitem[{{Ott} {et~al.}(2005){Ott}, {Ou}, {Tohline}, \& {Burrows}}]{ott+05}
+{Ott}, C.~D., {Ou}, S., {Tohline}, J.~E., \& {Burrows}, A. 2005, \apjl, 625,
+  L119
+
 \bibitem[{{Pakmor} {et~al.}(2011{\natexlab{a}}){Pakmor}, {Bauer}, \&
   {Springel}}]{pakmbs11}
 {Pakmor}, R., {Bauer}, A., \& {Springel}, V. 2011{\natexlab{a}}, \mnras, 418,
@@ -420,6 +444,9 @@
 \bibitem[{{Papaloizou} \& {Lin}(1995)}]{papal95}
 {Papaloizou}, J.~C.~B., \& {Lin}, D.~N.~C. 1995, \araa, 33, 505
 
+\bibitem[{{Papaloizou} \& {Pringle}(1984)}]{papap84}
+{Papaloizou}, J.~C.~B., \& {Pringle}, J.~E. 1984, \mnras, 208, 721
+
 \bibitem[{{Paxton} {et~al.}(2011){Paxton}, {Bildsten}, {Dotter}, {Herwig},
   {Lesaffre}, \& {Timmes}}]{paxt+11}
 {Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2011, \apjs, 192, 3
@@ -451,6 +478,10 @@
 \bibitem[{{Price} \& {Rosswog}(2006)}]{pricr06}
 {Price}, D.~J., \& {Rosswog}, S. 2006, Science, 312, 719
 
+\bibitem[{{Radice} {et~al.}(2016){Radice}, {Bernuzzi}, \& {Ott}}]{radibo16}
+{Radice}, D., {Bernuzzi}, S., \& {Ott}, C.~D. 2016, ArXiv e-prints,
+  arXiv:1603.05726
+
 \bibitem[{{Raskin} {et~al.}(2014){Raskin}, {Kasen}, {Moll}, {Schwab}, \&
   {Woosley}}]{rask+14}
 {Raskin}, C., {Kasen}, D., {Moll}, R., {Schwab}, J., \& {Woosley}, S. 2014,
@@ -470,6 +501,12 @@
 \bibitem[{{Read} {et~al.}(2010){Read}, {Hayfield}, \& {Agertz}}]{readha10}
 {Read}, J.~I., {Hayfield}, T., \& {Agertz}, O. 2010, \mnras, 405, 1513
 
+\bibitem[{{Rice} {et~al.}(2005){Rice}, {Lodato}, \& {Armitage}}]{ricela05}
+{Rice}, W.~K.~M., {Lodato}, G., \& {Armitage}, P.~J. 2005, \mnras, 364, L56
+
+\bibitem[{{Rogers} \& {Wadsley}(2012)}]{rogew12}
+{Rogers}, P.~D., \& {Wadsley}, J. 2012, \mnras, 423, 1896
+
 \bibitem[{{Rosswog}(2009)}]{ross09}
 {Rosswog}, S. 2009, \nar, 53, 78
 
@@ -478,6 +515,9 @@
 
 \bibitem[{{Ruiz-Lapuente} \& {Spruit}(1998)}]{ruizs98}
 {Ruiz-Lapuente}, P., \& {Spruit}, H.~C. 1998, \apj, 500, 360
+
+\bibitem[{{Saijo} {et~al.}(2003){Saijo}, {Baumgarte}, \& {Shapiro}}]{saibs03}
+{Saijo}, M., {Baumgarte}, T.~W., \& {Shapiro}, S.~L. 2003, \apj, 595, 352
 
 \bibitem[{{Saio} \& {Jeffery}(2000)}]{saioj00}
 {Saio}, H., \& {Jeffery}, C.~S. 2000, \mnras, 313, 671
@@ -526,6 +566,10 @@
   {Thielemann}}]{shig+92}
 {Shigeyama}, T., {Nomoto}, K., {Yamaoka}, H., \& {Thielemann}, F.-K. 1992,
   \apjl, 386, L13
+
+\bibitem[{{Shu} {et~al.}(1990){Shu}, {Tremaine}, {Adams}, \& {Ruden}}]{shu+90}
+{Shu}, F.~H., {Tremaine}, S., {Adams}, F.~C., \& {Ruden}, S.~P. 1990, \apj,
+  358, 495
 
 \bibitem[{{Sim} {et~al.}(2010){Sim}, {R{\"o}pke}, {Hillebrandt}, {Kromer},
   {Pakmor}, {Fink}, {Ruiter}, \& {Seitenzahl}}]{sim+10}
@@ -598,6 +642,9 @@
 
 \bibitem[{{Wadsley} {et~al.}(2004){Wadsley}, {Stadel}, \& {Quinn}}]{wadssq04}
 {Wadsley}, J.~W., {Stadel}, J., \& {Quinn}, T. 2004, \na, 9, 137
+
+\bibitem[{{Watts} {et~al.}(2005){Watts}, {Andersson}, \& {Jones}}]{wattaj05}
+{Watts}, A.~L., {Andersson}, N., \& {Jones}, D.~I. 2005, \apjl, 618, L37
 
 \bibitem[{{Webbink}(1984)}]{webb84}
 {Webbink}, R.~F. 1984, \apj, 277, 355

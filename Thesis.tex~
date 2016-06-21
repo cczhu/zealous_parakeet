@@ -410,7 +410,6 @@ I'd like to thank the academy for choosing me...
 %%%% Other simulations (pop synth) %%%%
 %citation{abdi+10}{2010PhRvD..81d4012A} 	% GR simulation of AIC
 %citation{brig+15}{2015MNRAS.447.1713B}		% brigg's population synthesis for HFMWDs CHECKED
-%citation{dval+06}{2006MNRAS.370..529D}		% planet migration code comparison
 %citation{hayw+14}{2014MNRAS.442.1992H}		% Galaxy mergers in Arepo
 %citation{marips14}{2014MNRAS.437.1750M}	% Galaxy formation in cosmo sims
 %citation{mitc+09}{2009MNRAS.395..180M}		% SPH/Eulerian code comparison for galaxy cluster formation
@@ -434,11 +433,27 @@ I'd like to thank the academy for choosing me...
 %citation{zrakm13}{2013ApJ...769L..29Z}		% zrake and macfayden's turbulent MHD dynamo
 
 %%%%%%%%%% Spiral wave theory & sim %%%%%%%%%%%
+%citation{adamrs89}{1989ApJ...347..959A}	% adams's work on the SLING instability around YSOs
 %citation{balb03}{2003ARA&A..41..555B}		% spiral wave review
+%citation{cent+11}{2001ApJ...550L.193C}		% Low T/W m = 1 instability in differentially rotating stars
+%citation{dval+06}{2006MNRAS.370..529D}		% planet migration code comparison
+%citation{east+16}{2016PhRvD..93b4011E}		% follow-up to pasc+15
+%citation{hopkq10}{2010MNRAS.407.1529H}		% hopkins work on smbh accretion
+%citation{hopk10}{2010arXiv1009.4702H}		% follow-up to hopkq10
+%citation{kratl16}{2016arXiv160301280K}		% kaitlin's review paper on grav instability
+%citation{lin15}{2015MNRAS.448.3806L}		% min-kai on thermal-based grav instability in disks
+%citation{merub10}{2010MNRAS.406.2279M}		% self-gravitating disk sph simulation
+%citation{muhl+14}{2014PhRvD..90j4014M}		% muhlberger's magnetized T/W instability simulation
+%citation{ott+05}{2005ApJ...625L.119O}		% m = 1 spiral in post-bounce SN core
+%citation{papap84}{1984MNRAS.208..721P}		% p&p instability
 %citation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
 %citation{pasc+15}{2015PhRvD..92l1502P}		% spiral mode in NS-NS merger remnant (GR-AMR code)
-%citation{east+16}{2016PhRvD..93b4011E}			% follow-up to above
+%citation{ricela05}{2005MNRAS.364L..56R}	% self-gravitating disk sph simulation
+%citation{rogew12}{2012MNRAS.423.1896R}		% self-gravitating disk sph simulation in Gasoline
+%citation{saibs03}{2003ApJ...595..352S}		% Follow-up to cent+11
+%citation{shu+90}{1990ApJ...358..495S}		% follow-up to adamrs89
 %citation{radibo16}{2016arXiv160305726R}	% spiral mode in NS-NS merger remnant (GR-AMR code)
+%citation{wattaj05}{2005ApJ...618L..37W}	% T/W instability
 
 %%%%%%%%% Convection theory/sim %%%%%%%%%%%%%%%%%%%
 %citation{feidc12}{2012ApJ...761...30F} 	% feiden's work on MHD convective suppression (useful for MHD backgrounder)
