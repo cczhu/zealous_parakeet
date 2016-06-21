@@ -260,6 +260,8 @@ I'd like to thank the academy for choosing me...
 
 %intro
 \include{introduction/introduction}
+\input{introduction/introduction_sneia.tex}
+\input{introduction/introduction_mergerphys.tex}
 %ch2
 \include{chapter2_zhu+13/chapter2}
 \input{chapter2_zhu+13/chapter2_intro.tex}
