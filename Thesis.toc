@@ -2,16 +2,17 @@
 \contentsline {section}{\numberline {1.1}White Dwarf Mergers}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}The Panopoly of Stellar Mergers}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Mergers of WD Binaries}{1}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}The Mystery of Type Ia Supernovae}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Properties and Traditional Formation Channels of SNe Ia}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Traditional Shortfalls}{3}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Brave New Channels}{4}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}The \citetalias {vkercj10} SN Ia Channel}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Hot DQs, High-Field Magnetic WDs, and Other Oddities}{5}{subsection.1.3.1}
-\contentsline {section}{\numberline {1.4}Thesis Overview}{5}{section.1.4}
-\contentsline {section}{\numberline {1.5}The Physics of Pre-Merger Evolution}{5}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Stable and Unstable Mass Transfer}{5}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Are Merging WDs Co-Rotating?}{6}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.2}Hot DQs, High-Field Magnetic WDs, and Other Oddities}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}The Mystery of Type Ia Supernovae}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Properties and Traditional Formation Channels of SNe Ia}{3}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Traditional Shortfalls}{3}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Brave New Channels}{4}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}The \citetalias {vkercj10} SN Ia Channel}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Thesis Overview}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}The Physics of Pre-Merger Evolution}{5}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}The CO WD Mass Range}{5}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Stable and Unstable Mass Transfer}{5}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Are Merging WDs Co-Rotating?}{6}{subsection.1.6.3}
 \contentsline {chapter}{\numberline {2}A Parameter-Space Study of Carbon-Oxygen White Dwarf Mergers}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Code and Input Physics}{9}{section.2.2}

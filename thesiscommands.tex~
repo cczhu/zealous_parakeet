@@ -37,12 +37,15 @@
 \newcommand{\flash}{\textsc{FLASH}}
 \newcommand{\mesa}{\textsc{MESA}}
 
+% intro stuff
+
 % common + zhu+13 stuff
 \newcommand{\azero}{\domm{a_0}}
 \newcommand{\pzero}{\domm{P_0}}
 \newcommand{\dmax}{\domm{\delta_{\rm max}}}
 \newcommand{\Md}{\domm{M_{\rm d}}}
 \newcommand{\Ma}{\domm{M_{\rm a}}}
+\newcommand{\Rd}{\domm{R_{\rm d}}}
 \newcommand{\Ra}{\domm{R_{\rm a}}}
 \newcommand{\Mtot}{\domm{M_{\rm tot}}}
 \newcommand{\qm}{\domm{q_\mathrm{m}}}

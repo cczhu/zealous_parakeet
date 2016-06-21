@@ -260,7 +260,7 @@ I'd like to thank the academy for choosing me...
 
 %intro
 \include{introduction/introduction}
-\input{introduction/introduction_sneia.tex}
+\input{introduction/introduction_cowdout.tex}
 \input{introduction/introduction_mergerphys.tex}
 %ch2
 \include{chapter2_zhu+13/chapter2}
@@ -399,7 +399,8 @@ I'd like to thank the academy for choosing me...
 %citation{piro11}{2011ApJ...740L..53P}		% tony's work on tides in WD binaries
 %citation{rask+12}{2012ApJ...746...62R}		% Cody's work
 %citation{segrcm97}{1997ApJ...481..355S}	% segretain's early SPH mergers
-%citation{uryue98}{1998ApJS..118..563U}		% equilibrium solution for corotating wd binary 
+%citation{uryue98}{1998ApJS..118..563U}		% equilibrium solution for corotating wd binary
+%citation{verbr88}{1988ApJ...332..193V}		% WD mass transfer stability
 %citation{yoonpr07}{2007MNRAS.380..933Y}	% Yoon's massive WD sim + post-merger work (1D sub-Edd)
 
 %%%% WD post-merger evolution %%%%
@@ -415,6 +416,7 @@ I'd like to thank the academy for choosing me...
 %citation{hayw+14}{2014MNRAS.442.1992H}		% Galaxy mergers in Arepo
 %citation{marips14}{2014MNRAS.437.1750M}	% Galaxy formation in cosmo sims
 %citation{mitc+09}{2009MNRAS.395..180M}		% SPH/Eulerian code comparison for galaxy cluster formation
+%citation{nele+01}{2001A&A...368..939N}		% pop synth for detached WD binaries
 %citation{ohlm+16}{2016ApJ...816L...9O}		% common envelope Arepo sim
 %citation{ruitbf09}{2009ApJ...699.2026R}	% Ruiter population synthesis
 %citation{tracsp07}{2007MNRAS.377..997T}	%SPH/Eulerian code comparison for stellar collisions
@@ -514,6 +516,7 @@ I'd like to thank the academy for choosing me...
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs
 %citation{justpv14}{2014ApJ...796..121J}	% justham's merger origins of LBVs
 %citation{kais+10}{2010SPIE.7733E..0EK}		% Pan-STARRS instrument paper
+%citation{kippww12}{2012sse..book.....K}	% Kippehahn
 %citation{knigs09}{2009Natur.457..288K}		% knigge & sills on whether blue stragglers are collisional or due to RLOF 
 %citation{loke+10}{2010JPhCS.256a2026L}		% SciNet paper
 %citation{ligo16}{2016PhRvL.116m1102A}		% ligo BBH-merger discovery paper

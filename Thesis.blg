@@ -7,54 +7,55 @@ A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
 A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 The style file: apj.bst
 Database file #1: AutoBibliography.bib
+Warning--I didn't find a database entry for "XXX"
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "prichs08"
 Warning--I didn't find a database entry for "vker13"
 Warning--I didn't find a database entry for "none"
 Warning--I didn't find a database entry for "phil93"
 Warning--I didn't find a database entry for "khok91"
 Warning--I didn't find a database entry for "zhu+16"
-Warning--I didn't find a database entry for "XXX"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in goedp04
-You've used 170 entries,
+You've used 162 entries,
             3085 wiz_defined-function locations,
-            1788 strings with 39321 characters,
-and the built_in function-call counts, 81410 in all, are:
-= -- 6934
-> -- 5719
-< -- 68
-+ -- 1920
-- -- 2093
-* -- 6850
-:= -- 15210
-add.period$ -- 170
-call.type$ -- 170
-change.case$ -- 1175
-chr.to.int$ -- 167
-cite$ -- 171
-duplicate$ -- 3260
-empty$ -- 4857
-format.name$ -- 2301
-if$ -- 16230
+            1736 strings with 37838 characters,
+and the built_in function-call counts, 77676 in all, are:
+= -- 6609
+> -- 5492
+< -- 62
++ -- 1843
+- -- 2012
+* -- 6555
+:= -- 14532
+add.period$ -- 162
+call.type$ -- 162
+change.case$ -- 1120
+chr.to.int$ -- 159
+cite$ -- 163
+duplicate$ -- 3095
+empty$ -- 4614
+format.name$ -- 2211
+if$ -- 15471
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 163
-newline$ -- 514
-num.names$ -- 683
-pop$ -- 1282
+missing$ -- 157
+newline$ -- 490
+num.names$ -- 650
+pop$ -- 1220
 preamble$ -- 1
-purify$ -- 1175
+purify$ -- 1120
 quote$ -- 0
-skip$ -- 2735
+skip$ -- 2589
 stack$ -- 0
-substring$ -- 3593
-swap$ -- 70
-text.length$ -- 7
+substring$ -- 3421
+swap$ -- 54
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1527
+type$ -- 1455
 warning$ -- 1
-while$ -- 658
+while$ -- 625
 width$ -- 0
-write$ -- 1702
-(There were 8 warnings)
+write$ -- 1622
+(There were 9 warnings)

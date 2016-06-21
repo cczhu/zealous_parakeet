@@ -15,9 +15,22 @@ Mergers also liberate tremendous amounts of energy and eject significant amounts
 \subsection{Mergers of WD Binaries}
 \label{ssec:wdmergers_sub}
 
-One common end-product of binary stellar evolution is a pair of white dwarf (WDs) in a close binary orbit between $x$ and $x$.  These binaries are formed as a result of at least two phases of mass transfer (at least one of which is a common envelope event) during the binary's prior stellar evolution.  These mass transfer phases act to sap the orbital angular momentum of the 
+One common end-product of binary stellar evolution is a pair of white dwarf (WDs) in a close binary orbit.  These binaries are formed as a result of at least two phases of mass transfer (at least one of which is a common envelope event) during the binary's prior stellar evolution.  These mass transfer phases act to sap the orbital angular momentum of the 
 
-Because of gravitational wave emission, magnetic braking or the influence of a third body, a fraction of these binaries will merge within a Hubble time.  The outcome of such mergers will depend on the compositions of the WDs involved.  For two helium WDs, a low-mass helium star might result, which would be observed as an sdOB star.  For a helium WD merging with a carbon-oxygen one, a helium giant could form, observable as a hydrogen-deficient giant or RCrB star.  For two carbon-oxygen WDs (CO WDs), the outcome could vary between simply a more massive WD, a carbon-burning star, an explosion, or collapse to a neutron star, depending on whether stable or unstable carbon fusion is ignited, and whether the total mass exceeds the critical mass for pycnonuclear ignition or electron captures (both close to the Chandrasekhar mass \Mch).  For mergers involving an oxygen-neon WD, the mass will always be high, and explosive demise or transmutation seems inevitable.
+Following their formation, these binaries can lose orbital angular momentum through a number of of mechanisms, including gravitational radiation (eg. \citealt{XXX}), magnetic braking \citep{XXX} or the influence of a third body \citep{XXX}.  {\charles TIDAL EFFECTS?}  In the absence of a magnetized wind or third body, gravitational radiation is generally thought to be the dominant driver of angular momentum loss, and has a characteristic timescale of \citep{segrcm97}
+
+\eqbegin
+\tau_{\mrm{grav}} = 5 \times 10^5 \left(\frac{a}{10^5 \mrm{km}}\right)^4 \frac{\Msun}{\Ma} \frac{\Msun}{\Md} \frac{\Msun}{\Mtot}\,\mrm{yr}.
+\label{eq:c1_gravtimescale}
+\eqend
+
+\noindent From this, we see that WD binaries with orbital periods on the order of hours or less will merge within a Hubble time.  The outcome of such mergers will depend on the compositions of the WDs involved.  
+
+For two helium WDs, a low-mass helium star might result, which would be observed as an sdOB star.  
+
+For a helium WD merging with a carbon-oxygen one, a helium giant could form, observable as a hydrogen-deficient giant or RCrB star.  
+
+For two carbon-oxygen WDs (CO WDs), the outcome could vary between simply a more massive WD, a carbon-burning star, an explosion, or collapse to a neutron star, depending on whether stable or unstable carbon fusion is ignited, and whether the total mass exceeds the critical mass for pycnonuclear ignition or electron captures (both close to the Chandrasekhar mass \Mch).  For mergers involving an oxygen-neon WD, the mass will always be high, and explosive demise or transmutation seems inevitable.
 
 White dwarf (WD) binaries are common end products of binary stellar evolution.  Gravitational wave emission, magnetic braking or the influence of a third body will cause a fraction of these to merge, producing a diversity of unusual stars and electromagnetic transients.  In particular, for double carbon-oxygen (CO) WD mergers, the final outcome could be a massive and rapidly rotating WD (eg. \citealt{segrcm97}), an accretion-induced collapse into a neutron star (NS) \citep{saion85}, or a nuclear explosion that might resemble a type Ia supernova (SN Ia).
 
