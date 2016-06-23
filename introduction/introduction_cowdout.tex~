@@ -2,6 +2,10 @@
 
 If the remnant of a CO WD merger is not eventually (at least partially) destroyed in an explosion, it will go on to 
 
+%http://adsabs.harvard.edu/abs/2016ApJ...817...27W
+
+Stable nuclear burning, however, 
+
 \section{The Mystery of Type Ia Supernovae}
 
 %The outcome of the merger of two CO WDs is uncertain in part because during the merger temperatures do not become hot enough to ignite significant carbon fusion (e.g., \citealt{loreig09}, \citeal{loreig09} hereafter), except possibly for masses above $\sim\!0.9\,M_\odot$ \citep{pakm+11,pakm+12}.  Hence, the final fate depends on subsequent evolution, in which differential rotation is dissipated, the remnant disk accretes, and the whole remnant possibly spins down.  Due to these processes, the remnant could be compressed and heated, which, if it happens faster than the thermal timescale, would lead to increased temperatures and thus potentially to ignition.  
@@ -32,7 +36,7 @@ The challenge posed by these issues has spurred research into alternative scenar
 
 \subsection{Brave New Channels}
 
-\section{The \citeal{vkercj10} SN Ia Channel}
+\section{The vK10 SN Ia Channel}
 
 %The advantages of this channel are that it accounts for the absence of direct evidence for stellar companions, the observed SN Ia rate, and the dependence of SN Ia peak luminosity on the age of the host stellar population (because lower-mass merger constituents take longer to form).  Since pure detonations of sub-\Mch\ CO WDs produce light curves very similar to observed SNe Ia \citep{shig+92,sim+10}, it also removes the need for imposed deflagration-to-detonation transitions. 
 

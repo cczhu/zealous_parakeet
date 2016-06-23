@@ -218,7 +218,7 @@ Overall, the primary differences between our simulations appear to be the amount
 
 \begin{figure}
 \centering
-\includegraphics[angle=0,width=0.5\columnwidth]{chapter2_zhu+13/figures/compwithloreig.pdf}
+\includegraphics[angle=0,width=0.7\columnwidth]{chapter2_zhu+13/figures/compwithloreig.pdf}
 \caption{Comparison of our results with those of \citetalias{loreig09}, for a 0.6 - 0.6\,\Msun\ (left) and a 0.6 - 0.8\,\Msun\ (right) merger.  Shown are surface density, remnant (solid) and Keplerian (dashed) angular frequency, and temperature, with profiles from \citetalias{loreig09} in blue, and our equivalent ones in red and orange.  Here, the former are for our default completion time of 6 initial orbital periods and the latter for their completion times (514 s or 10.9 orbital periods for the 0.6 - 0.6\,\Msun\ merger, and 164 s or 3.4 orbits for the 0.6 - 0.8\,\Msun\ merger).}
 \label{fig:c2_compwithloreig}
 \end{figure}
@@ -243,6 +243,7 @@ An exception is the 0.81 - 0.9 {\Msun} merger simulated by \cite{dan+12}, shown 
 Comparing temperature profiles, we roughly reproduce their spherically averaged one for approximate initial conditions, including the off-center peak -- their \Tmax\ is $\sim\!20\%$ lower (to be expected since their binary is synchronized; see Sec.~\ref{ssec:c2_synchronization}), but is also located at $4\times10^8\,$cm (or $M_r\simeq0.9\,\Msun$).  However, our central temperature ($2.2\times10^8$ K) is an order of magnitude higher than theirs ($2\times10^7$ K) and at $r\gtrsim10^9\,$cm our temperatures are systematically hotter, perhaps a result of the much larger dissipation expected for non-rotating WDs.  With accurate initial conditions they found an even narrower temperature peak than the one with approximate conditions, which thus deviates even more from our curve.  This trend is similar to what we see when increasing \azero\ (Sec.~\ref{ssec:c2_varyingazero}), so it seems likely we would reproduce their simulations more closely if we used the same initial conditions.
 
 \subsection{The Importance of Accurate Initial Conditions}
+\label{ssec:c2_importance_accurate_ics}
 %MHvK: I felt this could use its own subsection.
 
 Many of the recent simulations \citep{dan+11,dan+12,rask+12} assume co-rotating WDs.  This assumption is numerically convenient, in that it is relatively straightforward to start the simulation in the physically correct state: since in the co-rotating frame there are no flow velocities, one can easily relax a simulated binary within an appropriate potential in the co-rotating frame, damping out any velocities resulting from an initial mismatch.  
