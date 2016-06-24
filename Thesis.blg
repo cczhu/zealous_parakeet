@@ -6,55 +6,49 @@ A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
 A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 The style file: apj.bst
 Database file #1: AutoBibliography.bib
-Warning--I didn't find a database entry for "XXX"
-Warning--I didn't find a database entry for "prichs08"
-Warning--I didn't find a database entry for "vker13"
-Warning--I didn't find a database entry for "none"
-Warning--I didn't find a database entry for "phil93"
-Warning--I didn't find a database entry for "khok91"
-Warning--I didn't find a database entry for "zhu+16"
 Warning--I didn't find a database entry for "kermsk15"
+Warning--I didn't find a database entry for "zhu+16"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in goedp04
-You've used 174 entries,
+You've used 168 entries,
             3085 wiz_defined-function locations,
-            1818 strings with 40410 characters,
-and the built_in function-call counts, 83434 in all, are:
-= -- 7080
-> -- 5919
-< -- 67
-+ -- 1986
-- -- 2163
-* -- 7058
-:= -- 15622
-add.period$ -- 174
-call.type$ -- 174
-change.case$ -- 1196
-chr.to.int$ -- 169
-cite$ -- 175
-duplicate$ -- 3319
-empty$ -- 4952
-format.name$ -- 2380
-if$ -- 16611
-int.to.chr$ -- 6
+            1769 strings with 38669 characters,
+and the built_in function-call counts, 80271 in all, are:
+= -- 6840
+> -- 5644
+< -- 65
++ -- 1895
+- -- 2066
+* -- 6761
+:= -- 15015
+add.period$ -- 168
+call.type$ -- 168
+change.case$ -- 1159
+chr.to.int$ -- 164
+cite$ -- 169
+duplicate$ -- 3205
+empty$ -- 4783
+format.name$ -- 2272
+if$ -- 15994
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 169
-newline$ -- 526
-num.names$ -- 698
-pop$ -- 1300
+missing$ -- 163
+newline$ -- 508
+num.names$ -- 674
+pop$ -- 1259
 preamble$ -- 1
-purify$ -- 1196
+purify$ -- 1159
 quote$ -- 0
-skip$ -- 2774
+skip$ -- 2682
 stack$ -- 0
-substring$ -- 3679
-swap$ -- 58
+substring$ -- 3550
+swap$ -- 56
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1563
+type$ -- 1509
 warning$ -- 1
-while$ -- 671
+while$ -- 649
 width$ -- 0
-write$ -- 1742
-(There were 9 warnings)
+write$ -- 1682
+(There were 3 warnings)

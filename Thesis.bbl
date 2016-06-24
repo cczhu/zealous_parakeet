@@ -21,15 +21,6 @@
 {Althaus}, L.~G., {Garc{\'{\i}}a-Berro}, E., {C{\'o}rsico}, A.~H., {Miller
   Bertolami}, M.~M., \& {Romero}, A.~D. 2009, \apjl, 693, L23
 
-\bibitem[{{Amaro-Seoane} {et~al.}(2013){Amaro-Seoane}, {Aoudia}, {Babak},
-  {Bin{\'e}truy}, {Berti}, {Boh{\'e}}, {Caprini}, {Colpi}, {Cornish},
-  {Danzmann}, {Dufaux}, {Gair}, {Hinder}, {Jennrich}, {Jetzer}, {Klein},
-  {Lang}, {Lobo}, {Littenberg}, {McWilliams}, {Nelemans}, {Petiteau}, {Porter},
-  {Schutz}, {Sesana}, {Stebbins}, {Sumner}, {Vallisneri}, {Vitale},
-  {Volonteri}, {Ward}, \& {Wardell}}]{amar+13}
-{Amaro-Seoane}, P., {Aoudia}, S., {Babak}, S., {et~al.} 2013, GW Notes, Vol.~6,
-  p.~4-110, 6, 4
-
 \bibitem[{{Andronov} {et~al.}(2006){Andronov}, {Pinsonneault}, \&
   {Terndrup}}]{andrpt06}
 {Andronov}, N., {Pinsonneault}, M.~H., \& {Terndrup}, D.~M. 2006, \apj, 646,
@@ -39,9 +30,6 @@
   {Woosley}}]{aspd+11}
 {Aspden}, A.~J., {Bell}, J.~B., {Dong}, S., \& {Woosley}, S.~E. 2011, \apj,
   738, 94
-
-\bibitem[{{Badenes} \& {Maoz}(2012)}]{badem12}
-{Badenes}, C., \& {Maoz}, D. 2012, \apjl, 749, L11
 
 \bibitem[{{Balbus}(2003)}]{balb03}
 {Balbus}, S.~A. 2003, \araa, 41, 555
@@ -306,12 +294,6 @@
 {Lawrie}, K.~A., {Burleigh}, M.~R., {Dufour}, P., \& {Hodgkin}, S.~T. 2013,
   \mnras, 433, 1599
 
-\bibitem[{{LIGO Scientific Collaboration} {et~al.}(2015){LIGO Scientific
-  Collaboration}, {Aasi}, {Abbott}, {Abbott}, {Abbott}, {Abernathy}, {Ackley},
-  {Adams}, {Adams}, {Addesso}, \& et~al.}]{ligo+15}
-{LIGO Scientific Collaboration}, {Aasi}, J., {Abbott}, B.~P., {et~al.} 2015,
-  Classical and Quantum Gravity, 32, 074001
-
 \bibitem[{{Lin}(2015)}]{lin15}
 {Lin}, M.-K. 2015, \mnras, 448, 3806
 
@@ -403,18 +385,10 @@
 {Nandez}, J.~L.~A., {Ivanova}, N., \& {Lombardi}, Jr., J.~C. 2014, \apj, 786,
   39
 
-\bibitem[{{Nelemans} {et~al.}(2001{\natexlab{a}}){Nelemans}, {Portegies Zwart},
-  {Verbunt}, \& {Yungelson}}]{nele+01}
+\bibitem[{{Nelemans} {et~al.}(2001){Nelemans}, {Portegies Zwart}, {Verbunt}, \&
+  {Yungelson}}]{nele+01}
 {Nelemans}, G., {Portegies Zwart}, S.~F., {Verbunt}, F., \& {Yungelson}, L.~R.
-  2001{\natexlab{a}}, \aap, 368, 939
-
-\bibitem[{{Nelemans} {et~al.}(2001{\natexlab{b}}){Nelemans}, {Yungelson}, \&
-  {Portegies Zwart}}]{neleyp01}
-{Nelemans}, G., {Yungelson}, L.~R., \& {Portegies Zwart}, S.~F.
-  2001{\natexlab{b}}, \aap, 375, 890
-
-\bibitem[{{Nomoto} \& {Iben}(1985)}]{nomoi85}
-{Nomoto}, K., \& {Iben}, Jr., I. 1985, \apj, 297, 531
+  2001, \aap, 368, 939
 
 \bibitem[{{Obergaulinger} {et~al.}(2010){Obergaulinger}, {Aloy}, \&
   {M{\"u}ller}}]{oberam10}
@@ -593,11 +567,6 @@
 
 \bibitem[{{Shen} {et~al.}(2010){Shen}, {Wadsley}, \& {Stinson}}]{shen+10}
 {Shen}, S., {Wadsley}, J., \& {Stinson}, G. 2010, \mnras, 407, 1581
-
-\bibitem[{{Shigeyama} {et~al.}(1992){Shigeyama}, {Nomoto}, {Yamaoka}, \&
-  {Thielemann}}]{shig+92}
-{Shigeyama}, T., {Nomoto}, K., {Yamaoka}, H., \& {Thielemann}, F.-K. 1992,
-  \apjl, 386, L13
 
 \bibitem[{{Shu} {et~al.}(1990){Shu}, {Tremaine}, {Adams}, \& {Ruden}}]{shu+90}
 {Shu}, F.~H., {Tremaine}, S., {Adams}, F.~C., \& {Ruden}, S.~P. 1990, \apj,

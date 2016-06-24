@@ -20,18 +20,19 @@ Is the classic Mch DD channel even possible?
 -
 -
 
+
+
+
+
 \section{Observable Counterparts to Mergers}
 
-\subsection{The Appearance of a Merger Remnant}
+\section{The Evolution and Appearance of Quiescent Merger Remnants}
 
 \cite{schw+16} also consider in depth the observable properties of their $\1.5\,\Msun$ merger remnant (undergoing carbon and neon burning) in \mesa.  They note that the luminosity of the nuclear burning zone is almost entirely carried away by neutrino losses (as the burning zone sits at the $\taucc = \taunu$ line), and so the remnant's source of luminosity is the heat from the merger and viscous evolution.  Since sub-\Mch\ remnants have the same order of magnitude total energy as \Mch\ ones, their observed properties will likely be similar.  The find that, with an envelope and a radiation-dominated hot atmosphere of $10^{12}-10^{13}\,\mrm{cm}$, the remnant initially radiates of order the Eddington luminosity for a $1.5\,\Msun$ star ($\sim10^5\,\Lsun$) and has a photospheric temperature ranging from $4000 - 10^5\,\mrm{K}$.  These are very similar to the values \cite{shen+12} find in their thermal evolution simulation.
 
 The above values, however, do not account for winds.  Early-on during the thermal evolution, the low temperature of the outermost remnant layers coupled with a CO-composition will lead to dust generation, which will subsequently be launched as a wind.  \cite{ji+13} also find that much of the remnant envelope volume (though not mass) becomes marginally magnetic pressure-dominated ($B^2/8\pi P_\mrm{gas} \sim 1$), and that the remnant magnetically drives bipolar outflows, adding to the outflux of material.  \cite{schw+16} estimates this may drive the photosphere out to $\sim10^{15}\,\mrm{cm}$, with corresponding photospheric temperatures of $\sim500\,\mrm{K}$, and lead to RCrB-like variablility in the remnant's luminosity.  As noted previously, given the similarity of this system to the cores of post-AGB stars, these winds may also lead to the loss of a substantial fraction of the remnant's mass, which significantly complicates the thermal evolution process (see \cite{schw+16} Sec. 4).
 
 % Shen+12 gives the escape velocity at 10^13 cm as 60 km/s.  Given 10^4 years of evolution, this wind could transport material to 10^18 cm, possibly explaining the variable sodium emission.
-
-
-\section{Implications for SN Ia Observations}
 
 \section{The Influence of Merger Remnants Properties on Potential Explosions}
 
