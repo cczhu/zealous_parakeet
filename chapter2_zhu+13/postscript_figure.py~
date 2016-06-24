@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 sys.path.append("/home/cczhu/GitHubTemp/czerny_wd/")
 import StarModSteve as sms
 import pandas as pd
-import cPickle as cP
+import cPickle
 import copy
 import rhoTcontours as rtc
 sys.path.append("/home/cczhu/Runaway/")
@@ -65,7 +65,7 @@ def getzhu13pme_sub(files, filedir="/home/cczhu/SunnyvaleOutput/zhu16/"):
 			"Txy_before": np.zeros([len(files),2])}
 
 	for i in range(len(files)):
-		data = cP.load(open(filedir + files[i], 'r'))
+		data = cPickle.load(open(filedir + files[i], 'r'))
 		outp["Mtot"][i] = data["Mtot"]
 		outp["Mce"][i] = data["Mce"]
 		outp["Mdisk"][i] = data["Mdisk"]
@@ -75,6 +75,7 @@ def getzhu13pme_sub(files, filedir="/home/cczhu/SunnyvaleOutput/zhu16/"):
 		outp["Tz"][i,0] = data["zTmax_new"][0]; outp["Tz"][i,1] = data["zTmax_new"][1]
 		outp["Tc_before"][i,0] = data["dens_before"][0]; outp["Tc_before"][i,1] = data["temp_before"][0]
 		outp["Tc_after"][i,0] = data["dens_after"][0]; outp["Tc_after"][i,1] = data["temp_after"][0]
+
 
 	return outp
 
@@ -103,6 +104,7 @@ def load_ji():
 
 
 data = pd.read_csv("../../PaperRunaway/zhu13ichart.csv", sep="\t", skiprows=2)
+data_out = pd.read_csv("/home/cczhu/SunnyvaleOutput/runout/bigochartfinal.csv", sep="\t", skiprows=2)
 
 files = ["pt4pt4o.p","pt4pt5o.p","pt5pt5o.p","pt4pt55o.p","pt5pt55o.p","pt55pt55o.p","pt4pt6o.p","pt5pt6o.p","pt55pt6o.p","pt6pt6o.p",
 		"pt4pt65o.p","pt5pt65o.p","pt55pt65o.p","pt575pt65o.p","pt6pt65o.p","pt625pt65o.p","pt64pt65o.p","pt65pt65o.p",
@@ -127,11 +129,13 @@ data["cT_xy_before"] = pd.Series(outp["Tc_before"][:,1])
 data["crho_xy"] = pd.Series(outp["Tc_after"][:,0])
 data["cT_xy"] = pd.Series(outp["Tc_after"][:,1])
 
+data["qrho"] = data[" rhoc1 (10^6 g/cm^3) "]/data[" rhoc2 (10^6 g/cm^3) "]
+
 colorlist = ['red','orange','lime','cyan','blue','magenta','purple','brown','black']
 labellist = ["0.4", "0.5", "0.55", "0.6", "0.65", "0.7", "0.8", "0.9", "1.0"]
 Macc = np.array([ 0.40231300000000003,  0.502649,  0.553285,  0.603529,  0.653632,  0.703745, 0.80457,  0.904897,  1.005611])
 
-p_ar = cP.load(open("/home/cczhu/SunnyvaleOutput/zhu16/pt625pt65AREPO.p", 'r'))
+p_ar = cPickle.load(open("/home/cczhu/SunnyvaleOutput/zhu16/pt625pt65AREPO.p", 'r'))
 ji13 = load_ji()
 schw12 = schwab_vals()
 
