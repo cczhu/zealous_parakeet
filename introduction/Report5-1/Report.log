@@ -1,0 +1,323 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.17)  2 MAY 2011 12:31
+entering extended mode
+**D:/My*Documents/My*Work/Current*Work/Astro*3010/Report/Report.tex
+("D:/My Documents/My Work/Current Work/Astro 3010/Report/Report.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+(C:\Users\Chench\AppData\Roaming\MiKTeX\2.8\tex\latex\aastex\aastex.cls
+Document Class: aastex 2005/06/22 5.2/AAS markup document class
+Class aastex Info: Original \LaTeX2.09 style by Chris Biemesderfer (chris@seago
+at.com). Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com) on input line 83.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(C:\Users\Chench\AppData\Roaming\MiKTeX\2.8\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count88
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks16
+\verbatim@line=\toks17
+\verbatim@in@stream=\read1
+)
+\@slugcmmntwidth=\dimen105
+\abstract@box=\box26
+\c@editornote=\count89
+\c@cureqno=\count90
+\tnotemarkskip=\skip45
+\@abovenoteskip=\dimen106
+\pt@box=\box27
+\pt@width=\dimen107
+\pt@line=\count91
+\pt@column=\count92
+\pt@nlines=\count93
+\pt@ncol=\count94
+\pt@page=\count95
+\tabbaseskip=\dimen108
+\pt@tmpcapwidth=\dimen109
+\spew@tblnotesbox=\box28
+\restof@tblnotesbox=\box29
+\noteheight=\dimen110
+\pt@tabnoteminht=\dimen111
+\firsttabskip=\dimen112
+\captionbox=\box30
+\pt@reduceline=\dimen113
+\extra@vspace=\dimen114
+\c@plate=\count96
+\my@footins=\box31
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\dcolumn.sty"
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks18
+\extratabsurround=\skip46
+\backup@length=\skip47
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\bm.sty"
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\Report.aux"
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\intro.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\h.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\he.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\co.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\onemg.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\bibliography.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen117
+\scratchbox=\box32
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen118
+\MPnumerator=\count101
+\everyMPtoPDFconversion=\toks20
+)
+AAS preprint substyle, v5.2 <12 Dec 2003>.
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\intro.tex"
+<wdbinarymasses.pdf, id=1, 794.97pt x 614.295pt>
+File: wdbinarymasses.pdf Graphic file (type pdf)
+ <use wdbinarymasses.pdf>
+LaTeX Font Info:    Try loading font information for U+lasy on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 21.
+ [1
+
+
+{C:/Users/Chench/AppData/Local/MiKTeX/2.8/pdftex/config/pdftex.map}] [2 <D:/My 
+Documents/My Work/Current Work/Astro 3010/Report/wdbinarymasses.pdf, page is ro
+tated 90 degrees>] [3] [4] <stabilityfig.pdf, id=28, 440.64626pt x 398.48875pt>
+File: stabilityfig.pdf Graphic file (type pdf)
+
+<use stabilityfig.pdf> [5] [6 <D:/My Documents/My Work/Current Work/Astro 3010/
+Report/stabilityfig.pdf>] [7] [8]
+Overfull \hbox (47.74207pt too wide) in paragraph at lines 133--157
+ [][] 
+ []
+
+[9] [10] <mergerfig.png, id=63, 393.47pt x 722.7pt>
+File: mergerfig.png Graphic file (type png)
+ <use mergerfig.png>
+[11] [12 <D:/My Documents/My Work/Current Work/Astro 3010/Report/mergerfig.png 
+(PNG copy)>] <fallbackacc.png, id=70, 576.1525pt x 576.1525pt>
+File: fallbackacc.png Graphic file (type png)
+
+<use fallbackacc.png> <pathetictransient.pdf, id=71, 573.14125pt x 447.6725pt>
+File: pathetictransient.pdf Graphic file (type pdf)
+
+<use pathetictransient.pdf>) [13] [14 <D:/My Documents/My Work/Current Work/Ast
+ro 3010/Report/fallbackacc.png (PNG copy)>] [15 <D:/My Documents/My Work/Curren
+t Work/Astro 3010/Report/pathetictransient.pdf>]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\h.tex"
+Overfull \hbox (8.03125pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/12 ASK MARTEN: WHY NOT ALL MERG-ERS W/O NU-CLEAR PRO-CESS-ING ME
+RGE-
+ []
+
+[16
+
+
+]) [17] ("D:\My Documents\My Work\Current Work\Astro 3010\Report\he.tex"
+[18
+
+
+]) [19] ("D:\My Documents\My Work\Current Work\Astro 3010\Report\co.tex"
+<bildstenfig.pdf, id=106, 1003.75pt x 576.1525pt>
+File: bildstenfig.pdf Graphic file (type pdf)
+ <use bildstenfig.pdf>
+[20
+
+
+] [21 <D:/My Documents/My Work/Current Work/Astro 3010/Report/bildstenfig.pdf>]
+ [22] <woosleyfig.pdf, id=123, 794.97pt x 614.295pt>
+File: woosleyfig.pdf Graphic file (type pdf)
+ <use woosleyfig.pdf>
+[23] [24 <D:/My Documents/My Work/Current Work/Astro 3010/Report/woosleyfig.pdf
+>] [25] <waldmanfigure.pdf, id=144, 623.32875pt x 312.16624pt>
+File: waldmanfigure.pdf Graphic file (type pdf)
+
+<use waldmanfigure.pdf> [26] [27 <D:/My Documents/My Work/Current Work/Astro 30
+10/Report/waldmanfigure.pdf>] [28] [29] [30]
+Overfull \hbox (0.95818pt too wide) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/12 The Chan-drasekhar double-degenerate merger pic-ture is one w
+here, fol-low-ing the merger,
+ []
+
+[31] <fryerfig.pdf, id=171, 644.4075pt x 934.49126pt>
+File: fryerfig.pdf Graphic file (type pdf)
+ <use fryerfig.pdf>
+
+LaTeX Warning: Float too large for page by 46.29938pt on input line 139.
+
+[32] [33 <D:/My Documents/My Work/Current Work/Astro 3010/Report/fryerfig.pdf>]
+<pakmorfig.jpg, id=189, 289.08pt x 268.8444pt>
+File: pakmorfig.jpg Graphic file (type jpg)
+ <use pakmorfig.jpg>
+Overfull \hbox (1.24309pt too wide) in paragraph at lines 158--159
+[]\OT1/cmr/m/n/12 On the other hand, the ma-jor-ity of CO-CO WD merg-ers will r
+e-sult in sub-Chandrasekhar
+ []
+
+<simfig.pdf, id=190, 540.0175pt x 482.80376pt>
+File: simfig.pdf Graphic file (type pdf)
+ <use simfig.pdf> [34] [35 <D:/My Documents/My Work/Current Work/Astro 3010/Rep
+ort/pakmorfig.jpg>] [36] [37 <D:/My Documents/My Work/Current Work/Astro 3010/R
+eport/simfig.pdf>]) [38]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\onemg.tex" [39
+
+
+]
+<AICtrans.pdf, id=220, 566.115pt x 363.3575pt>
+File: AICtrans.pdf Graphic file (type pdf)
+ <use AICtrans.pdf> [40] [41 <D:/My Documents/My Work/Current Work/Astro 3010/R
+eport/AICtrans.pdf>]) [42]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\bibliography.tex"
+[43
+
+
+]
+Missing character: There is no … in font cmr12!
+ [44]) [45]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\Report.aux"
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\intro.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\h.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\he.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\co.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\onemg.aux")
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\bibliography.aux")) ) 
+Here is how much of TeX's memory you used:
+ 2670 strings out of 495285
+ 35084 string characters out of 3179875
+ 93300 words of memory out of 3000000
+ 5797 multiletter control sequences out of 15000+200000
+ 17479 words of font info for 70 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 32i,9n,27p,2372b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+<
+C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files 
+(x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86
+)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKT
+eX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 
+2.8/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.
+8/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.8/
+fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Report.pdf (45 pages, 5219121 bytes).
+PDF statistics:
+ 296 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

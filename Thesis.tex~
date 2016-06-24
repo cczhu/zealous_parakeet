@@ -496,6 +496,7 @@ I'd like to thank the academy for choosing me...
 %citation{hama97}{1997IAUS..180...91H}		% [WR] wind mass loss rates
 %citation{kerz+14}{2014ApJ...796L..26K}		% Wolfgang's late-time observations of positron trapping in SN Ia
 %citation{klei+13}{2013ApJS..204....5K}		% SDSS DR7 WD catalog, has mass distribution
+%citation{krau+08}{2008Natur.456..617K}		% tycho's SN
 %citation{kube+10}{2010A&A...524A..36K}		% REJ 0317
 %citation{lawr+13}{2013MNRAS.433.1599L}		% Lawrie's long-period (probably spin) hot DQ
 %citation{li+11}{2011MNRAS.412.1441L}		% lick team nearby supernova statistics
@@ -505,6 +506,7 @@ I'd like to thank the academy for choosing me...
 %citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
 %citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
 %citation{ruizs98}{1998ApJ...500..360R}		% Ruiz-Lapuente's work on positron trapping due to magnetic fields
+%citation{ruiz04}{2004ApJ...612..357R}		% tycho's SN
 %citation{stei+10}{2010ApJ...716L.146S}		% eclipsing detached WD binary
 %citation{taub+09}{2011MNRAS.412.2735T}		% slow-moving superchandrasekhar
 %citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
@@ -529,6 +531,7 @@ I'd like to thank the academy for choosing me...
 %citation{clay+07}{2007ApJ...662.1220C}		% clayton's earlier work on RCrBs
 %citation{clay13}{2013ASPC..469..133C} 		% Clayton's review on mergers making rCB stars
 %citation{goedp04}{2004prma.book.....G} 	% goedbloed's MHD textbook
+%citation{hoylf60}{1960ApJ...132..565H}		% hoyle & fowler nucleosynthetics of SNe
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs
 %citation{justpv14}{2014ApJ...796..121J}	% justham's merger origins of LBVs
 %citation{kais+10}{2010SPIE.7733E..0EK}		% Pan-STARRS instrument paper
@@ -537,6 +540,7 @@ I'd like to thank the academy for choosing me...
 %citation{loke+10}{2010JPhCS.256a2026L}		% SciNet paper
 %citation{ligo16}{2016PhRvL.116m1102A}		% ligo BBH-merger discovery paper
 %citation{lsst09}{2009arXiv0912.0201L}		% lsst science book 2.0
+%citation{mink41}{1941PASP...53..224M}		% minkowski spectroscopic separation
 %citation{nandil14}{2014ApJ...786...39N}	% nandez's SPH work on V1309 Sco
 %citation{perl+99}{1999ApJ...517..565P}		% Perlmutter dark energy paper
 %citation{rau+09}{2009PASP..121.1334R}		% PTF instrument paper
@@ -545,6 +549,7 @@ I'd like to thank the academy for choosing me...
 %citation{spru13}{2013arXiv1301.5572S}		% henk's MHD textbook
 %citation{tyle+11}{2011A&A...528A.114T}		% tylenda's V1309 Sco paper
 %citation{webb84}{1984ApJ...277..355W}		% webbink's seminal merger paper for SN Ia and He - CO -> RCB
+%citation{woos99}{1999ApJ...525C.924W}		% woosley on hoyle
 %citation{yung05}{2005AIPC..797....1Y}		% yungelson's overview of binary evolution and population synthesis
 
 
