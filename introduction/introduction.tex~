@@ -17,16 +17,15 @@ Mergers also liberate tremendous amounts of energy and eject significant amounts
 
 One common end-product of binary stellar evolution is a pair of white dwarf (WDs) in a close binary orbit.  These binaries are formed as a result of at least two phases of mass transfer (at least one of which is a common envelope event) during the binary's prior stellar evolution.  These mass transfer phases act to sap the orbital angular momentum of the 
 
+SOMETHING SOMETHING YUNGELSON.
 
-%SOMETHING SOMETHING YUNGELSON.
+\subsubsection{WD Masses and Compositions}
 
-%\subsubsection{WD Masses and Compositions}
-
-%%\begin{figure}
-%%\includegraphics[width=0.6\hsize]{wdbinarymasses.pdf}
-%%\caption{Plot of mass ratio ranges for WD binaries of various compositions.  Compositions were assumed to map uniquely onto mass via: He = $0.15 - 0.45\,\Msun$, CO = 0.45 - 1.1 {\Msun}, and ONe = 1.1 - 1.4 {\Msun}.  These values should be taken as guidelines, and not strict delinations between chemical compositions.  The curves are lines of constant gravitational wave chirp mass for inspiralling binaries.  The shaded region contains all CO WD binaries whose total mass is equal to or exceeds {\Mchan}, and are therefore expected to cause SNe Ia (see Sec. \ref{sec:withcarbon-oxygencompanions} for details.  From \cite{mars11}, their Fig. 1.}
-%%\label{fig:c1_wdbinarymasses}
-%%\end{figure}
+\begin{figure}
+\includegraphics[width=0.6\hsize]{wdbinarymasses.pdf}
+\caption{Plot of mass ratio ranges for WD binaries of various compositions.  Compositions were assumed to map uniquely onto mass via: He = $0.15 - 0.45\,\Msun$, CO = 0.45 - 1.1 {\Msun}, and ONe = 1.1 - 1.4 {\Msun}.  These values should be taken as guidelines, and not strict delinations between chemical compositions.  The curves are lines of constant gravitational wave chirp mass for inspiralling binaries.  The shaded region contains all CO WD binaries whose total mass is equal to or exceeds {\Mchan}, and are therefore expected to cause SNe Ia (see Sec. \ref{sec:withcarbon-oxygencompanions} for details.  From \cite{mars11}, their Fig. 1.}
+\label{fig:c1_wdbinarymasses}
+\end{figure}
 
 %WD mass and composition are both dependent on the evolutionary path of the WD progenitor star. A 0.15 - 0.45 {\Msun} WD will have a core comprised mostly of helium, a 0.45 - 1.1 {\Msun} WD will have a core of carbon and oxygen, and a 1.1 - 1.4 {\Msun} WD will have an oxygen-neon-magnesium core \citep{loreig09,mars11}.  (Work has been done, however, to show that these ranges are not set in stone; eg. \cite{moros09}.)  Brown dwarfs have masses of $\sim 0.08$ {\Msun} or lower \citep{stamw08}.
 
