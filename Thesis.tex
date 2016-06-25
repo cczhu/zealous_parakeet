@@ -287,7 +287,7 @@ I'd like to thank the academy for choosing me...
 \input{chapter4_zhu+15/chapter4_postscript.tex}
 %%ch5
 %%conclusion
-%\include{conclusion/conclusion}
+\include{conclusion/conclusion}
 
 %% This adds a line for the Bibliography in the Table of Contents.
 \addcontentsline{toc}{chapter}{Bibliography}
@@ -311,6 +311,7 @@ I'd like to thank the academy for choosing me...
 
 %%%% Core works (includes Marten's) %%%%
 %citation{vkercj10}{2010ApJ...722L.157V}	% vKCJ channel
+%citation{vker13}{2013RSPTA.37120236V}
 %citation{zhu+13}{2013ApJ...767..164Z}
 %citation{zhu+15}{2015ApJ...806L...1Z}
 %citation{pakm+16}{2016MNRAS.455.1134P}		% Improving Arepo
@@ -367,6 +368,7 @@ I'd like to thank the academy for choosing me...
 %citation{wadssq04}{2004NewA....9..137W}	% Gasoline paper
 
 %%%% Explosion modeling %%%%
+%citation{fink+07}{2007A&A...476.1133F} 	% fink's ddet paper
 %citation{fink+10}{2010A&A...514A..53F}		% fink's d-det work
 %citation{frye+10}{2010ApJ...725..296F}		% Fryer double degenerate light curves.
 %citation{mazumw77}{1977ApJ...213..518M}	% mazurek early work on detonations
@@ -395,6 +397,7 @@ I'd like to thank the academy for choosing me...
 %citation{kremsk15}{2015ApJ...806...76K}	% update to marsns04
 %citation{lairs94}{1994ApJ...437..742L}		% compressible ellipsoid models of wd binaries
 %citation{loreig09}{2009A&A...500.1193L}	% loren-aguilar's sims
+%citation{loreig10}{2010MNRAS.406.2749L} 	% loren-aguilar's collision work
 %citation{lubos75}{1975ApJ...198..383L}		% transition from disk to direct impact accretion
 %citation{marsns04}{2004MNRAS.350..113M}	% marsh's merger mass trans stability
 %citation{mochl89}{1989A&A...209..111M}		% turbulent viscosity synchronization of WD binaries
@@ -418,6 +421,35 @@ I'd like to thank the academy for choosing me...
 %citation{schw+12}{2012MNRAS.427..190S}		% josiah's post merger stuff
 %citation{schw+16}{2016arXiv160602300S}		% josiah's thermal evolution stuff.
 %citation{shen+12}{2012ApJ...748...35S}		% ken's semi-analytical work
+
+%%%%%% Convection and (rot/mag) simmering %%%%%%%
+%citation{augubt16}{2016arXiv160303659A} 	% augustson massive star convection
+%citation{barkdl14}{2014ApJ...791...13B}	% Barker's simulation of rotating RB convection and comparison to Stevenson's derivation
+%citation{brunbt05}{2005ApJ...629..461B}	% brun A-star convection
+%citation{chabgb07}{2007A&A...472L..17C} 	% Chabrier et al.'s inclusion of magnetic fields
+%citation{feat+09}{2009ApJ...705.1000F} 	% featherston's magnetic dynamo action in A stars; having fossil fields amplifies saturation field to superequipartition
+%citation{feidc12}{2012ApJ...761...30F} 	% Feiden & Chaboyer's magnetic fields method
+%citation{garcw95}{1995ApJ...454..895G}		% Garcia-Senz and Woosley's floating burning bubbles
+%citation{gougt66}{1966MNRAS.133...85G} 	% Gough & Taylor's original variational formulation
+%citation{kuhlwg06}{2006ApJ...640..407K}	% kuhlen's hydro convection sims
+%citation{lesa+06}{2006MNRAS.368..187L}		% lesaffre's semi-analytical work, notable for using t_conv = alpha*t_h as their stopping point
+%citation{macdm09}{2009ApJ...700..387M} 	% Macdonald & Mullan's application of GT66 to brown dwarfs; includes degeneracy term
+%citation{maed09}{2009pfer.book.....M}		% Maeder's book on stellar rotation
+%citation{maed+13}{2013A&A...553A...1M}		% Maeder's paper on general instability criteria
+%citation{mullm01}{2001ApJ...559..353M} 	% Mullan & Macdonald's application of GT66 to M-dwarfs
+%citation{nona+12}{2012ApJ...745...73N}		% nonaka's hydro convection sims
+%citation{piro08}{2008ApJ...679..616P}		% piro's work on rotating runaway WDs
+%citation{pirob08}{2008ApJ...673.1009P}		% some stuff on neutronization
+%citation{piroc08}{2008ApJ...678.1158P}		% piro & phil's work
+%citation{procw82}{1982RPPh...45.1317P} 	% proctor and weiss's review on magnetoconvection
+%citation{saion04}{2004ApJ...615..444S}		% Saio & Nomoto's accreting WD
+%citation{seit+13}{2013MNRAS.429.1156S}		% seitenzahl's work on delayed det where ignition points are varied
+%citation{steiw06}{2006ApJ...643.1190S}		% stein & wheeler's convective urca sim work
+%citation{stev79}{1979GApFD..12..139S} 		% Stevenson 1D formulation for magnetic and rotational suppression of convection.
+%citation{tass00}{2000stro.book.....T} 		% Tassoul's variational derivation of the SH criterion
+%citation{wooswk04}{2004ApJ...607..921W}	% wwk04
+%citation{zing+09}{2009ApJ...704..196Z}		% zingale's hydro convection sims
+%citation{zing+11}{2011ApJ...740....8Z}		% same, but with rotation
 
 %%%% Other simulations (pop synth) %%%%
 %citation{abdi+10}{2010PhRvD..81d4012A} 	% GR simulation of AIC
@@ -468,24 +500,36 @@ I'd like to thank the academy for choosing me...
 %citation{radibo16}{2016arXiv160305726R}	% spiral mode in NS-NS merger remnant (GR-AMR code)
 %citation{wattaj05}{2005ApJ...618L..37W}	% T/W instability
 
-%%%%%%%%% Convection theory/sim %%%%%%%%%%%%%%%%%%%
-%citation{feidc12}{2012ApJ...761...30F} 	% feiden's work on MHD convective suppression (useful for MHD backgrounder)
-
 %%%% Other theory papers %%%%
 %citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
 %citation{belo14}{2014MNRAS.438..169B}		% belobodorov's semi-analytical work on post-merger evolution transients
 %citation{eggl83}{1983ApJ...268..368E}		% Eggleton roche overflow radius estimate
+%citation{levasg15}{2015MNRAS.447.2803L}	% levanon's estimate of effect on early light curve
 %citation{pacz71}{1971ARA&A...9..183P}		% Paczynski roche overflow estimate
+%citation{pirom15}{2015arXiv151203442P} 	% tony's double-peaked SN Ia due to envelope
 %citation{saioj00}{2000MNRAS.313..671S}		% saio and jeffrey He - He merger
 %citation{saioj02}{2002MNRAS.333..121S}		% saio and jeffrey He - CO merger
 %citation{saion85}{1985A&A...150L..21S}		% edge-lit ignition
 %citation{saion98}{1998ApJ...500..388S}		% saio/nomoto ONe production following merger
 %citation{shaks73}{1973A&A....24..337S}		% shakura/sunyaev alpha visc
 
-%%%% Observational papers %%%%
+%%%%%% Population statistics and DTDs %%%%%%%%%%
+%citation{chil+15}{2015MNRAS.454.3816C} 	% childress's M_56 vs M_tot relationship paper
+%citation{klei+13}{2013ApJS..204....5K}		% SDSS DR7 WD catalog, has mass distribution
+%citation{li+11}{2011MNRAS.412.1441L}		% lick team nearby supernova statistics
+%citation{mann+05}{2005A&A...433..807M}		% mannucci sn ia rate (from NIR galaxy obs)
+%citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
+%citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
+%citation{prichs08}{2008ApJ...683L..25P}	% pritchet's estimate for the SN Ia/WD formation rate ratio
+%citation{scalzrs14}{2014MNRAS.445.2535S} 	% scalzo's M_56 vs M_tot relationship paper
+%citation{scalz+14}{2014MNRAS.440.1498S} 	% scalzo's M_tot vs stretch relation
+%citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
+
+%%%% Other observational papers %%%%
 %citation{aspd+11}{2011ApJ...738...94A}		% rising deflagration bubbles
 %citation{badem12}{2012ApJ...749L..11B}		% Badenes and Moaz's paper on galactic WD merger rate from SDSS
 %citation{bars+95}{1995MNRAS.277..971B}		% REJ 0317 
+%citation{bran+06}{2006PASP..118..560B} 	% branch definition of normal SNe Ia
 %citation{brow+11}{2011ApJ...737L..23B}		% eclipsing 12-min WD binary
 %citation{dist10}{2010ApJ...719..474D}		% di Stefano's SSS work
 %citation{dufo+13}{2013ASPC..469..167D}		% Patrick's work on hot DQs 
@@ -495,21 +539,19 @@ I'd like to thank the academy for choosing me...
 %citation{gilfb10}{2010Natur.463..924G}		% gilfanov's SSS rates from UV backgrd
 %citation{hama97}{1997IAUS..180...91H}		% [WR] wind mass loss rates
 %citation{kerz+14}{2014ApJ...796L..26K}		% Wolfgang's late-time observations of positron trapping in SN Ia
-%citation{klei+13}{2013ApJS..204....5K}		% SDSS DR7 WD catalog, has mass distribution
+%citation{khok91}{1991A&A...245..114K} 		% DDT paper
 %citation{krau+08}{2008Natur.456..617K}		% tycho's SN
 %citation{kube+10}{2010A&A...524A..36K}		% REJ 0317
 %citation{lawr+13}{2013MNRAS.433.1599L}		% Lawrie's long-period (probably spin) hot DQ
-%citation{li+11}{2011MNRAS.412.1441L}		% lick team nearby supernova statistics
 %citation{maed+10a}{2010ApJ...708.1703M}	% slow-moving 58Ni
 %citation{maed+10b}{2010Natur.466...82M}	% ...
-%citation{mann+05}{2005A&A...433..807M}		% mannucci sn ia rate (from NIR galaxy obs)
-%citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
-%citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
+%citation{pata+07}{2007Sci...317..924P}		% patat's NaID work
+%citation{phil93}{1993ApJ...413L.105P}		% phillips relation
 %citation{ruizs98}{1998ApJ...500..360R}		% Ruiz-Lapuente's work on positron trapping due to magnetic fields
 %citation{ruiz04}{2004ApJ...612..357R}		% tycho's SN
+%citation{simo+09}{2009ApJ...702.1157S}	% Simon's Na ID paper
 %citation{stei+10}{2010ApJ...716L.146S}		% eclipsing detached WD binary
 %citation{taub+09}{2011MNRAS.412.2735T}		% slow-moving superchandrasekhar
-%citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
 %citation{will+13}{2013ApJ...769..123W}		% Williams's DQ paper (though this one is a "warm DQ")
 
 %%%% SN Ia review papers %%%%

@@ -12,6 +12,7 @@ from runaway_prod_anal_func import *
 import gc
 import h5py
 import matplotlib.lines as mlines
+from matplotlib.ticker import MultipleLocator, LogLocator
 
 def schwab_vals():
 
@@ -104,6 +105,8 @@ def load_ji():
 
 	ji13["m"] = 4.*np.pi*scipyinteg.cumtrapz(ji13["r"]**2*ji13["dens"], x=ji13["r"], initial=0.)
 
+	ji13["m_privcom"] = 1.0675 # From Ji, private communication, of all mass below r = 1.5e9 cm
+
 	return ji13
 
 
@@ -144,10 +147,56 @@ p_ar["MNi"] = get_my_MNi(p_ar)
 ji13 = load_ji()
 schw12 = schwab_vals()
 
+i_pt6pt6 = 9
+i_pt625pt65 = 15
+i_pt6pt9 = 34
 
 ########################## Mconv #############################
 
-width=6.; height=5.; axes=[10**5.5,10**8.5,10**7.8,10**9.75]
+#width=6.; height=5.; axes=[10**5.5,10**8.5,10**7.8,10**9.75]
+
+#pylab.rc('font', family="serif")
+#pylab.rc('font', size=14)
+#fig = pylab.figure(figsize=(width,height))
+#ax = fig.add_axes([0.8/width, 0.75/height, (width - 1.2)/width, (height - 1.)/height])
+
+#zhu13_options = {"marker": "o", "ls": "None"}
+#arepo_options = {"mfc": "b", "mec": "r", "marker": "*", "ls": "None", "mew": 2}
+#schwab_options = {"mec": "m", "marker": "x", "ls": "None", "mew": 3}
+#ji_options = {"mec": "c", "marker": "x", "ls": "None", "mew": 3}
+#fitline_options = {"color": "k", "ls": ":", "lw": "2"}
+
+#for i in range(len(Macc)):
+#	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
+#	ax.plot(data.loc[args, "Mtot"], data.loc[args, "Mtot_new"], mfc=colorlist[i], **zhu13_options)
+
+#ax.plot(p_ar["Mtot"], p_ar["Mtot_new"]/1.9891e33, markersize=20, **arepo_options)
+#ax.plot(schw12["Mtot"], schw12["Mtot_new"], markersize=10, **schwab_options)
+##ax.plot(np.array([1.2]), np.array(ji13["m"][max(np.where(ji13["r"] <= 2e9)[0])]/1.9891e33), markersize=10, **ji_options)
+#ax.plot(np.array([1.2]), np.array([ji13["m_privcom"]]), markersize=10, **ji_options)	# From Ji, private communication
+#fit_out = np.polyfit(data["Mtot"], data["Mtot_new"], 1)
+#print "Fit y = {0:.3e}x + {1:.3e}".format(fit_out[0],fit_out[1])
+#fitx = np.arange(0.25,2.2,0.01)
+#fitfunc = lambda x: fit_out[1] + fit_out[0]*x
+#fity = fitfunc(fitx)
+#ax.plot(fitx, fity, **fitline_options)
+#line_artists = (mlines.Line2D([],[], mfc="k", ms=10, **zhu13_options),
+#				mlines.Line2D([],[], **fitline_options),
+#				mlines.Line2D([],[], ms=20, **arepo_options),
+#				mlines.Line2D([],[], ms=10, **schwab_options),
+#				mlines.Line2D([],[], ms=10, **ji_options))
+#leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+13 Fit", "Zhu+15 Arepo", "Schwab+12", "Ji+13"), loc=2, fontsize=13, numpoints = 1, markerscale=1)
+#leg.draw_frame(False)
+##ax.set_xlim(0.1,2.2); ax.set_ylim(0.0, 1.6)
+#ax.set_xlabel(r"$M_\mathrm{tot}$ ($M_\odot$)")
+#ax.tick_params(axis='x', which='major', pad=7)
+#ax.set_ylabel(r"$M_\mathrm{c, pv}$ ($M_\odot$)")
+
+#print "mean(Mtot_new - Mtot)_schw12 = {0:.3e}".format(np.mean(abs(schw12["Mtot_new"] - fitfunc(schw12["Mtot"]))))
+
+#pylab.savefig("figures/c2a_mcpv.pdf", dpi=150)
+
+width=6.; height=5.;
 
 pylab.rc('font', family="serif")
 pylab.rc('font', size=14)
@@ -162,38 +211,45 @@ fitline_options = {"color": "k", "ls": ":", "lw": "2"}
 
 for i in range(len(Macc)):
 	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
-	ax.plot(data.loc[args, "Mtot"], data.loc[args, "Mtot_new"], mfc=colorlist[i], **zhu13_options)
+	ax.plot(data.loc[args, "Mtot"], data.loc[args, "Mtot_new"]/data.loc[args, "Mtot"], mfc=colorlist[i], **zhu13_options)
 
-ax.plot(p_ar["Mtot"], p_ar["Mtot_new"]/1.9891e33, markersize=20, **arepo_options)
-ax.plot(schw12["Mtot"], schw12["Mtot_new"], markersize=10, **schwab_options)
-#ax.plot(np.array([1.2]), np.array(ji13["m"][max(np.where(ji13["r"] <= 2e9)[0])]/1.9891e33), markersize=10, **ji_options)
-ax.plot(np.array([1.2]), np.array([1.0675]), markersize=10, **ji_options)	# From Ji, private communication
+ax.plot(p_ar["Mtot"], p_ar["Mtot_new"]/1.9891e33/p_ar["Mtot"], markersize=20, **arepo_options)
+ax.plot(schw12["Mtot"], schw12["Mtot_new"]/schw12["Mtot"], markersize=10, **schwab_options)
+ax.plot(np.array([1.2]), np.array([ji13["m_privcom"]/1.2]), markersize=10, **ji_options)	# From Ji, private communication
+
 fit_out = np.polyfit(data["Mtot"], data["Mtot_new"], 1)
 print "Fit y = {0:.3e}x + {1:.3e}".format(fit_out[0],fit_out[1])
-fitx = np.arange(0.25,2.2,0.01)
+fitx = np.arange(0.25,2.5,0.01)
 fitfunc = lambda x: fit_out[1] + fit_out[0]*x
-fity = fitfunc(fitx)
+fity = fitfunc(fitx)/fitx
 ax.plot(fitx, fity, **fitline_options)
+
 line_artists = (mlines.Line2D([],[], mfc="k", ms=10, **zhu13_options),
 				mlines.Line2D([],[], **fitline_options),
 				mlines.Line2D([],[], ms=20, **arepo_options),
 				mlines.Line2D([],[], ms=10, **schwab_options),
 				mlines.Line2D([],[], ms=10, **ji_options))
-leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+13 Fit", "Zhu+15 Arepo", "Schwab+12", "Ji+13"), loc=2, fontsize=13, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+13 Fit", "Zhu+15 Arepo", "Schwab+12", "Ji+13"), loc=1, fontsize=13, numpoints = 1, markerscale=1)
+vp = leg._legend_box._children[-1]._children[0] 
+for c in vp._children: 
+    c._children.reverse() 
+vp.align="right"
 leg.draw_frame(False)
 #ax.set_xlim(0.1,2.2); ax.set_ylim(0.0, 1.6)
 ax.set_xlabel(r"$M_\mathrm{tot}$ ($M_\odot$)")
 ax.tick_params(axis='x', which='major', pad=7)
-ax.set_ylabel(r"$M_\mathrm{c, pv}$ ($M_\odot$)")
+ax.set_ylabel(r"$M_\mathrm{c, pv}/M_\mathrm{tot}$")
+ax.set_xlim(0.,2.5); ax.set_ylim(0.6, 1.0)
 
-print "mean(Mtot_new - Mtot)_schw12 = {0:.3e}".format(np.mean(abs(schw12["Mtot_new"] - fitfunc(schw12["Mtot"]))))
+print "mean(Mtot_new - Mtot_fit)_schw12 = {0:.3e}".format(np.mean(abs(schw12["Mtot_new"] - fitfunc(schw12["Mtot"]))))
+print "(Mtot_new - Mtot_fit)_ji13 = {0:.3e}".format(ji13["m_privcom"] - fitfunc(1.2))
+print "Mtot_new_ji13 - Mtot_model_z13 = {0:.3e}".format(ji13["m_privcom"] - data["Mtot_new"][i_pt6pt6])
 
 pylab.savefig("figures/c2a_mcpv.pdf", dpi=150)
 
-
 ########################## Mconv #############################
 
-width=6.; height=5.; axes=[10**5.5,10**8.5,10**7.8,10**9.75]
+width=6.; height=5.;
 
 pylab.rc('font', family="serif")
 pylab.rc('font', size=14)
@@ -209,21 +265,29 @@ fitline_options = {"color": "k", "ls": ":", "lw": "2"}
 for i in range(len(Macc)):
 	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
 	ax.plot(data.loc[args, "qrho"], data.loc[args, "Mtot_new"]/data.loc[args, "Mce"], mfc=colorlist[i], **zhu13_options)
-ax.plot(np.array([data["qrho"][15]]), p_ar["Mtot_new"]/p_ar["Mce"]/1.9891e33, markersize=20, **arepo_options)
-ax.plot(np.array([data["qrho"][34]]), schw12["Mtot_new"][4]/data["Mce"][34], markersize=10, **schwab_options)
+ax.plot(np.array([data["qrho"][i_pt625pt65]]), p_ar["Mtot_new"]/p_ar["Mce"]/1.9891e33, markersize=20, **arepo_options)
+ax.plot(np.array([data["qrho"][i_pt6pt9]]), schw12["Mtot_new"][4]/data["Mce"][i_pt6pt9], markersize=10, **schwab_options)
 #ax.plot(np.array([1.2]), np.array(ji13["m"][max(np.where(ji13["r"] <= 2e9)[0])]/1.9891e33), markersize=10, **ji_options)
-ax.plot(np.array([data["qrho"][9]]), np.array([1.0675/1.1]), markersize=10, **ji_options)	# From Ji, private communication
+ax.plot(np.array([data["qrho"][i_pt6pt6]]), np.array([ji13["m_privcom"]/1.1]), markersize=10, **ji_options)
+
+fit_out = np.polyfit(data.loc[args, "qrho"], data.loc[args, "Mtot_new"]/data.loc[args, "Mce"], 1)
+print "Fit y = {0:.3e}x + {1:.3e}".format(fit_out[0],fit_out[1])
+fitx = np.arange(0.,1.2,0.01)
+fitfunc = lambda x: fit_out[1] + fit_out[0]*x
+fity = fitfunc(fitx)
+ax.plot(fitx, fity, **fitline_options)
 
 line_artists = (mlines.Line2D([],[], mfc="k", ms=10, **zhu13_options),
+				mlines.Line2D([],[], **fitline_options),
 				mlines.Line2D([],[], ms=20, **arepo_options),
 				mlines.Line2D([],[], ms=10, **schwab_options),
 				mlines.Line2D([],[], ms=10, **ji_options))
-leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+15 Arepo", "Schwab+12", "Ji+13"), loc=1, fontsize=13, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+13 Fit", "Zhu+15 Arepo", "Schwab+12 $0.6-0.9\,M_\odot$", "Ji+13"), loc=3, fontsize=13, numpoints = 1, markerscale=1)
 leg.draw_frame(False)
 ax.set_xlabel(r"$\rho_\mathrm{c,d}/\rho_\mathrm{c,a}$")
 ax.tick_params(axis='x', which='major', pad=7)
 ax.set_ylabel(r"$M_\mathrm{c, pv}/M_\mathrm{ce}$")
-ax.axis([0.0,1.05,0.7,1.2])
+ax.axis([0.0,1.05,0.7,1.15])
 
 pylab.savefig("figures/c2a_McMce_vs_qrho.pdf", dpi=150)
 
@@ -238,10 +302,10 @@ mtot_scalz, m56ni_scalz = np.array([0.8, 0.95, 1.6]),  np.array([0.35, 0.4, 0.6]
 # Zero temperature points
 mass_zero = cPickle.load(open("/media/DataStorage3/Runaway/outputs/massplot/cold_mass_line.p", 'r'))
 
-width=9.; height=9.; axes=[10**5.5,10**8.5,10**7.8,10**9.75]
+width=8.; height=8.;
 
 pylab.rc('font', family="serif")
-pylab.rc('font', size=18)
+pylab.rc('font', size=16)
 fig = pylab.figure(figsize=(width,height))
 ax = fig.add_axes([1.0/width, 1.0/height, (width - 1.4)/width, (height - 1.4)/height])
 
@@ -252,33 +316,38 @@ ax.plot(mass_zero["Mtot"], mass_zero["MNi"], lw=5, **zero_options)
 ax.plot(mtot_scalz, m56ni_scalz, lw=5, **scalz_options)
 ax.plot(childress["Mej"], childress["MNi"], ms=20, **childress_options)
 
-est_options = {"color": "k", "marker": 'o', "ls": "None", "markersize": 15}
-arepo_options = {"mfc": "b", "mec": "r", "marker": "*", "ls": "None", "mew": 2, "markersize": 20}
+est_low_options = {"color": "k", "marker": 'v', "ls": "None", "markersize": 7}
+est_high_options = {"color": "k", "marker": 'o', "ls": "None", "markersize": 7}
+arepo_options = {"mfc": "b", "mec": "r", "marker": "*", "ls": "None", "mew": 2, "markersize": 17}
 
 for i in range(len(Macc)):
 	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
-	ax.plot(data.loc[args, "Mtot"], data.loc[args, "MNi"], mfc=colorlist[i], **zhu13_options)
+	ax.plot(data.loc[args, "Mtot_new"], data.loc[args, "MNi"], mfc=colorlist[i], **est_low_options)
+	ax.plot(data.loc[args, "Mtot"], data.loc[args, "MNi"], mfc=colorlist[i], **est_high_options)
+ax.plot(p_ar["Mtot_new"]/1.9891e33, p_ar["MNi"], **arepo_options)
 ax.plot(p_ar["Mtot"], p_ar["MNi"], **arepo_options)
 
-#ax.plot(mass_ad["Mtot"], mass_ad["MNi"], lw=5, ms=6, **ad_options)
-#ax.plot(mass_s["Mtot"], mass_s["MNi"], lw=5, ms=6, **s_options)
-
-ax.set_xlim(0.8,1.5); ax.set_ylim(0., 1.6)
-ax.set_xlabel(r"$M_\mathrm{tot}$ ($M_\odot$)", fontsize=24, labelpad=6)
-ax.set_ylabel(r"$M_\mathrm{Ni}$ ($M_\odot$)", fontsize=24, labelpad=6)
+ax.set_xlim(0.6,2.0); ax.set_ylim(-0.05, 1.7)
+ax.set_xlabel(r"$M_\mathrm{tot}$ ($M_\odot$)", fontsize=20, labelpad=6)
+ax.set_ylabel(r"$M_\mathrm{Ni}$ ($M_\odot$)", fontsize=20, labelpad=6)
 
 line_artists = (mlines.Line2D([],[], ms=15, **childress_options),
 				mlines.Line2D([],[], lw=5, **scalz_options),
 				mlines.Line2D([],[], lw=5, **zero_options),
-				mlines.Line2D([],[], lw=5, **est_options),
+				mlines.Line2D([],[], lw=5, **est_low_options),
+				mlines.Line2D([],[], lw=5, **est_high_options),
 				mlines.Line2D([],[], lw=5, **arepo_options))
-leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Zhu+13 Estimate", "Zhu+15 Arepo"), loc=2, fontsize=18, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Zhu+13 Low", "Zhu+13 High", "Zhu+15"), loc=2, fontsize=16, numpoints = 1, markerscale=1)
 leg.draw_frame(False)
 
 # Create systematic error bars
 systematic_bars = {"color": "#6699ff", "ls": "-", "lw": 5}
-ax.plot([0.925, 0.925], [0.75, 1.15], **systematic_bars)
-ax.plot([0.825, 1.025], [0.95, 0.95], **systematic_bars)
-ax.text(0.95, 1.025, "Systematic\nErrors", fontsize=18, color=systematic_bars["color"])
+ax.plot([0.8, 0.8], [0.65, 1.05], **systematic_bars)
+ax.plot([0.7, 0.9], [0.85, 0.85], **systematic_bars)
+ax.text(0.85, 0.95, "Systematic\nErrors", fontsize=16, color=systematic_bars["color"])
+ax.yaxis.set_major_locator(MultipleLocator(0.3))
+ax.xaxis.set_major_locator(MultipleLocator(0.2))
+ax.yaxis.set_minor_locator(MultipleLocator(0.15))
+ax.xaxis.set_minor_locator(MultipleLocator(0.1))
 
-pylab.savefig('figures/c2a_MNi.pdf', dpi = 200, edgecolor = 'w')
+pylab.savefig('../conclusion/figures/c_MNi.pdf', dpi = 200, edgecolor = 'w')

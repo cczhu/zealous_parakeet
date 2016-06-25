@@ -4,7 +4,13 @@
 \defcitealias{ji+13}{J13}
 \defcitealias{zhu+13}{Z13}
 \defcitealias{zhu+15}{Z15}
+\defcitealias{wooswk04}{WWK04}
+\defcitealias{piroc08}{PC08}
+\defcitealias{stev79}{S79}
+\defcitealias{schw+12}{S12}
 \newcommand{\citeal}{\citetalias}
+
+\newcommand{\bobjiprivcomm}{Suoqing Ji and Robert Fisher private communication, 2016}
 
 % Charles highlighting
 \newcommand{\charles}{\color{magenta}\bf}
@@ -15,6 +21,7 @@
 % Shorthands
 \let\apx\approx
 \newcommand{\ptl}{\partial}
+\newcommand{\p}{\partial}
 \newcommand{\qc}{\emph}
 \newcommand{\eqbegin}{\begin{equation}}
 \newcommand{\eqend}{\end{equation}}
@@ -62,6 +69,7 @@
 \newcommand{\MMfifty}{\domm{M_{\rm enc}(\frac{1}{2}M_{\rm d})}}
 \newcommand{\MMthick}{\domm{\Delta M_{\rm enc}(M_{\rm d})}}
 \newcommand{\Mrem}{\domm{M_{\rm ce}}}
+\newcommand{\Mce}{\domm{M_{\rm ce}}}
 \newcommand{\Mdisk}{\domm{M_{\rm disk}}}
 %\newcommand{\Mc}{\domm{M_{\rm c}}}
 \newcommand{\Tmax}{\domm{T_{\rm max}}} 
@@ -126,8 +134,54 @@
 \newcommand{\taucond}{\domm{\tau_\mathrm{cond}}}
 \newcommand{\taucc}{\domm{\tau_\mathrm{CC}}}
 \newcommand{\epscc}{\domm{\varepsilon_\mathrm{CC}}}
-
 \newcommand{\taudyn}{\domm{\tau_\mathrm{dyn}}}
+\newcommand{\MNi}{\domm{M_{\rm Ni}}}
+\newcommand{\Sc}{\domm{s_{\rm c}}}
+\newcommand{\Bc}{\domm{B_{\rm c}}}
+\newcommand{\Mc}{\domm{M_{\rm core}}}
+\newcommand{\Mcrit}{\domm{M_{\rm crit}}}
+\newcommand{\ergpKg}{\domm{{\rm erg\, K}^{-1}{\rm\,g}^{-1}}}
+\newcommand{\cmpsec}{\domm{{\rm cm\,\,s}^{-1}}}
+\newcommand{\kmpsec}{\domm{{\rm km\,\,s}^{-1}}}
 
+\newcommand{\Mwd}{\domm{M_{\rm WD}}}
+\newcommand{\Rwd}{\domm{R_{\rm WD}}}
+\newcommand{\Mconv}{\domm{M_{\rm conv}}}
+\newcommand{\Rconv}{\domm{R_{\rm conv}}}
+\newcommand{\vconv}{\domm{v_\mathrm{conv}}}
+\newcommand{\vconvrcc}{\domm{\vconv(\Rcc)}}
+\newcommand{\Fconv}{\domm{F_\mathrm{conv}}}
+\newcommand{\Lconv}{\domm{L_\mathrm{conv}}}
+
+\newcommand{\epscentral}{\domm{\varepsilon_\mathrm{CC, c}}}
+\newcommand{\Lcc}{\domm{L_\mathrm{CC}}}
+\newcommand{\Rcc}{\domm{R_\mathrm{CC}}}
+\newcommand{\Rcce}{\domm{R_\mathrm{CC,est}}}
+
+\newcommand{\nablaad}{\domm{\nabla_{\rm ad}}}
+\newcommand{\nablacrit}{\domm{\nabla_{\rm crit}}}
+\newcommand{\nablae}{\domm{\nabla_{\rm e}}}
+\newcommand{\gammaad}{\domm{\gamma_{\rm ad}}}
+\newcommand{\Pmag}{\domm{P_{\rm mag}}}
+\newcommand{\Pgas}{\domm{P_{\rm gas}}}
+\newcommand{\deltam}{\domm{\delta_{\rm m}}}
+\newcommand{\Bv}{\domm{B_{\rm v}}}
+\newcommand{\Binit}{\domm{B_{{\rm c},i}}}
+\newcommand{\gacc}{\domm{g}}
+\newcommand{\deltanab}{\domm{\Delta}}
+\newcommand{\tempiso}{\domm{T_\mrm{iso}}}
+\newcommand{\Ominit}{\domm{\Omega_\mrm{i}}}
+\newcommand{\Omcrit}{\domm{\Omega_\mrm{crit}}}
+
+\newcommand{\dnabconv}{\domm{\deltanab_\mrm{conv}}}
+\newcommand{\dnabconvratio}{\domm{\deltanab_\mrm{conv}/\nablaad}}
+\newcommand{\dnabrot}{\domm{\deltanab_\mrm{rot}}}
+\newcommand{\dnabmag}{\domm{\deltanab_\mrm{mag}}}
+\newcommand{\vconvzero}{\domm{v_\mathrm{conv,0}}}
+\newcommand{\dnabconvzero}{\domm{\deltanab_\mrm{0}}}
+\newcommand{\rossby}{\domm{R_o}}
+\newcommand{\dmag}{\domm{d_\mrm{mag}}}
+\newcommand{\EBEtot}{\domm{E_{\rm B}/|E_{\rm tot}|}}
+\newcommand{\EBEconv}{\domm{e_{\rm B}/e_{\rm conv}}}
 
 % misc stuff
