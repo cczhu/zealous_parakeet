@@ -21,6 +21,15 @@
 {Althaus}, L.~G., {Garc{\'{\i}}a-Berro}, E., {C{\'o}rsico}, A.~H., {Miller
   Bertolami}, M.~M., \& {Romero}, A.~D. 2009, \apjl, 693, L23
 
+\bibitem[{{Amaro-Seoane} {et~al.}(2013){Amaro-Seoane}, {Aoudia}, {Babak},
+  {Bin{\'e}truy}, {Berti}, {Boh{\'e}}, {Caprini}, {Colpi}, {Cornish},
+  {Danzmann}, {Dufaux}, {Gair}, {Hinder}, {Jennrich}, {Jetzer}, {Klein},
+  {Lang}, {Lobo}, {Littenberg}, {McWilliams}, {Nelemans}, {Petiteau}, {Porter},
+  {Schutz}, {Sesana}, {Stebbins}, {Sumner}, {Vallisneri}, {Vitale},
+  {Volonteri}, {Ward}, \& {Wardell}}]{amar+13}
+{Amaro-Seoane}, P., {Aoudia}, S., {Babak}, S., {et~al.} 2013, GW Notes, Vol.~6,
+  p.~4-110, 6, 4
+
 \bibitem[{{Andronov} {et~al.}(2006){Andronov}, {Pinsonneault}, \&
   {Terndrup}}]{andrpt06}
 {Andronov}, N., {Pinsonneault}, M.~H., \& {Terndrup}, D.~M. 2006, \apj, 646,
@@ -165,6 +174,11 @@
 \bibitem[{{Gaburov} {et~al.}(2012){Gaburov}, {Johansen}, \& {Levin}}]{gabujl12}
 {Gaburov}, E., {Johansen}, A., \& {Levin}, Y. 2012, \apj, 758, 103
 
+\bibitem[{{Garc{\'{\i}}a-Berro}(2013)}]{garc13}
+{Garc{\'{\i}}a-Berro}, E. 2013, in IAU Symposium, Vol. 281, Binary Paths to
+  Type Ia Supernovae Explosions, ed. R.~{Di Stefano}, M.~{Orio}, \& M.~{Moe},
+  52--59
+
 \bibitem[{{Garc{\'{\i}}a-Berro} {et~al.}(2012){Garc{\'{\i}}a-Berro},
   {Lor{\'e}n-Aguilar}, {Aznar-Sigu{\'a}n}, {Torres}, {Camacho}, {Althaus},
   {C{\'o}rsico}, {K{\"u}lebi}, \& {Isern}}]{garc+12}
@@ -212,6 +226,9 @@
 \bibitem[{{Hernquist} \& {Katz}(1989)}]{hernk89}
 {Hernquist}, L., \& {Katz}, N. 1989, \apjs, 70, 419
 
+\bibitem[{{Herwig}(2005)}]{herw05}
+{Herwig}, F. 2005, \araa, 43, 435
+
 \bibitem[{{He{\ss}} \& {Springel}(2010)}]{hesss10}
 {He{\ss}}, S., \& {Springel}, V. 2010, \mnras, 406, 2289
 
@@ -231,6 +248,9 @@
   {Oser}}]{hu+14}
 {Hu}, C.-Y., {Naab}, T., {Walch}, S., {Moster}, B.~P., \& {Oser}, L. 2014,
   \mnras, 443, 1173
+
+\bibitem[{{Iben} \& {Tutukov}(1985)}]{ibent85}
+{Iben}, Jr., I., \& {Tutukov}, A.~V. 1985, \apjs, 58, 661
 
 \bibitem[{{Ji} {et~al.}(2013){Ji}, {Fisher}, {Garc{\'{\i}}a-Berro},
   {Tzeferacos}, {Jordan}, {Lee}, {Lor{\'e}n-Aguilar}, {Cremer}, \&
@@ -269,6 +289,11 @@
 {Kerzendorf}, W.~E., {Taubenberger}, S., {Seitenzahl}, I.~R., \& {Ruiter},
   A.~J. 2014, \apjl, 796, L26
 
+\bibitem[{{Kippenhahn} {et~al.}(2012){Kippenhahn}, {Weigert}, \&
+  {Weiss}}]{kippww12}
+{Kippenhahn}, R., {Weigert}, A., \& {Weiss}, A. 2012, {Stellar Structure and
+  Evolution}, doi:10.1007/978-3-642-30304-3
+
 \bibitem[{{Kiuchi} {et~al.}(2014){Kiuchi}, {Kyutoku}, {Sekiguchi}, {Shibata},
   \& {Wada}}]{kiuc+14}
 {Kiuchi}, K., {Kyutoku}, K., {Sekiguchi}, Y., {Shibata}, M., \& {Wada}, T.
@@ -303,6 +328,12 @@
   {Hodgkin}}]{lawr+13}
 {Lawrie}, K.~A., {Burleigh}, M.~R., {Dufour}, P., \& {Hodgkin}, S.~T. 2013,
   \mnras, 433, 1599
+
+\bibitem[{{LIGO Scientific Collaboration} {et~al.}(2015){LIGO Scientific
+  Collaboration}, {Aasi}, {Abbott}, {Abbott}, {Abbott}, {Abernathy}, {Ackley},
+  {Adams}, {Adams}, {Addesso}, \& et~al.}]{ligo+15}
+{LIGO Scientific Collaboration}, {Aasi}, J., {Abbott}, B.~P., {et~al.} 2015,
+  Classical and Quantum Gravity, 32, 074001
 
 \bibitem[{{Lin}(2015)}]{lin15}
 {Lin}, M.-K. 2015, \mnras, 448, 3806
@@ -345,6 +376,9 @@
 \bibitem[{{Marinacci} {et~al.}(2014){Marinacci}, {Pakmor}, \&
   {Springel}}]{marips14}
 {Marinacci}, F., {Pakmor}, R., \& {Springel}, V. 2014, \mnras, 437, 1750
+
+\bibitem[{{Marsh}(2011)}]{mars11}
+{Marsh}, T.~R. 2011, Classical and Quantum Gravity, 28, 094019
 
 \bibitem[{{Marsh} {et~al.}(2004){Marsh}, {Nelemans}, \& {Steeghs}}]{marsns04}
 {Marsh}, T.~R., {Nelemans}, G., \& {Steeghs}, D. 2004, \mnras, 350, 113
@@ -395,10 +429,20 @@
 {Nandez}, J.~L.~A., {Ivanova}, N., \& {Lombardi}, Jr., J.~C. 2014, \apj, 786,
   39
 
-\bibitem[{{Nelemans} {et~al.}(2001){Nelemans}, {Portegies Zwart}, {Verbunt}, \&
-  {Yungelson}}]{nele+01}
+\bibitem[{{Nelemans} {et~al.}(2001{\natexlab{a}}){Nelemans}, {Portegies Zwart},
+  {Verbunt}, \& {Yungelson}}]{nele+01}
 {Nelemans}, G., {Portegies Zwart}, S.~F., {Verbunt}, F., \& {Yungelson}, L.~R.
-  2001, \aap, 368, 939
+  2001{\natexlab{a}}, \aap, 368, 939
+
+\bibitem[{{Nelemans} {et~al.}(2001{\natexlab{b}}){Nelemans}, {Yungelson}, \&
+  {Portegies Zwart}}]{neleyp01}
+{Nelemans}, G., {Yungelson}, L.~R., \& {Portegies Zwart}, S.~F.
+  2001{\natexlab{b}}, \aap, 375, 890
+
+\bibitem[{{Nelemans} {et~al.}(2001{\natexlab{c}}){Nelemans}, {Yungelson},
+  {Portegies Zwart}, \& {Verbunt}}]{nele+01a}
+{Nelemans}, G., {Yungelson}, L.~R., {Portegies Zwart}, S.~F., \& {Verbunt}, F.
+  2001{\natexlab{c}}, \aap, 365, 491
 
 \bibitem[{{Obergaulinger} {et~al.}(2010){Obergaulinger}, {Aloy}, \&
   {M{\"u}ller}}]{oberam10}
@@ -484,6 +528,9 @@
   Zeeuw}}]{powe+99}
 {Powell}, K.~G., {Roe}, P.~L., {Linde}, T.~J., {Gombosi}, T.~I., \& {De Zeeuw},
   D.~L. 1999, Journal of Computational Physics, 154, 284
+
+\bibitem[{{Prada Moroni} \& {Straniero}(2009)}]{moros09}
+{Prada Moroni}, P.~G., \& {Straniero}, O. 2009, \aap, 507, 1575
 
 \bibitem[{{Price}(2008)}]{pric08}
 {Price}, D.~J. 2008, Journal of Computational Physics, 227, 10040

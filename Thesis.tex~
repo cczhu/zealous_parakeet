@@ -457,7 +457,8 @@ I'd like to thank the academy for choosing me...
 %citation{hayw+14}{2014MNRAS.442.1992H}		% Galaxy mergers in Arepo
 %citation{marips14}{2014MNRAS.437.1750M}	% Galaxy formation in cosmo sims
 %citation{mitc+09}{2009MNRAS.395..180M}		% SPH/Eulerian code comparison for galaxy cluster formation
-%citation{nele+01}{2001A&A...368..939N}		% pop synth for detached WD binaries
+%citation{nele+01}{2001A&A...368..939N}		% pop synth for detached WD binaries for AM CVn systems
+%citation{nele+01a}{2001A&A...365..491N}	% as above, except for close detached WD binaries
 %citation{ohlm+16}{2016ApJ...816L...9O}		% common envelope Arepo sim
 %citation{ruitbf09}{2009ApJ...699.2026R}	% Ruiter population synthesis
 %citation{tracsp07}{2007MNRAS.377..997T}	%SPH/Eulerian code comparison for stellar collisions
@@ -500,6 +501,18 @@ I'd like to thank the academy for choosing me...
 %citation{radibo16}{2016arXiv160305726R}	% spiral mode in NS-NS merger remnant (GR-AMR code)
 %citation{wattaj05}{2005ApJ...618L..37W}	% T/W instability
 
+%%%%%% Population statistics and DTDs %%%%%%%%%%
+%citation{chil+15}{2015MNRAS.454.3816C} 	% childress's M_56 vs M_tot relationship paper
+%citation{klei+13}{2013ApJS..204....5K}		% SDSS DR7 WD catalog, has mass distribution
+%citation{li+11}{2011MNRAS.412.1441L}		% lick team nearby supernova statistics
+%citation{mann+05}{2005A&A...433..807M}		% mannucci sn ia rate (from NIR galaxy obs)
+%citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
+%citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
+%citation{prichs08}{2008ApJ...683L..25P}	% pritchet's estimate for the SN Ia/WD formation rate ratio
+%citation{scalzrs14}{2014MNRAS.445.2535S} 	% scalzo's M_56 vs M_tot relationship paper
+%citation{scalz+14}{2014MNRAS.440.1498S} 	% scalzo's M_tot vs stretch relation
+%citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
+
 %%%% Other theory papers %%%%
 %citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
 %citation{belo14}{2014MNRAS.438..169B}		% belobodorov's semi-analytical work on post-merger evolution transients
@@ -513,17 +526,16 @@ I'd like to thank the academy for choosing me...
 %citation{saion98}{1998ApJ...500..388S}		% saio/nomoto ONe production following merger
 %citation{shaks73}{1973A&A....24..337S}		% shakura/sunyaev alpha visc
 
-%%%%%% Population statistics and DTDs %%%%%%%%%%
-%citation{chil+15}{2015MNRAS.454.3816C} 	% childress's M_56 vs M_tot relationship paper
-%citation{klei+13}{2013ApJS..204....5K}		% SDSS DR7 WD catalog, has mass distribution
-%citation{li+11}{2011MNRAS.412.1441L}		% lick team nearby supernova statistics
-%citation{mann+05}{2005A&A...433..807M}		% mannucci sn ia rate (from NIR galaxy obs)
-%citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
-%citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
-%citation{prichs08}{2008ApJ...683L..25P}	% pritchet's estimate for the SN Ia/WD formation rate ratio
-%citation{scalzrs14}{2014MNRAS.445.2535S} 	% scalzo's M_56 vs M_tot relationship paper
-%citation{scalz+14}{2014MNRAS.440.1498S} 	% scalzo's M_tot vs stretch relation
-%citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
+%%%%%%%%%% Work on He - He and He - CO remnants %%%%%%%%%%%%%%%%%%%
+%citation{han+03}{2003MNRAS.341..669H}		% pop synth for sdB stars
+%citation{nele10}{2010Ap&SS.329...25N}		% pop synth for sdB stars
+
+%%%%%%% Stellar evolution giving birth to WDs %%%%%%%%%
+%citation{ibent85}{1985ApJS...58..661I}		% iben & tutukov's exhaustive survey of stellar evolution
+%citation{garc13}{2013IAUS..281...52G}		% enrique's review on oxygen-neon
+%citation{herw05}{2005ARA&A..43..435H}		% AGB and super-AGB evolution
+%citation{moros09}{2009A&A...507.1575P}		% low-mass CO WD
+
 
 %%%% Other observational papers %%%%
 %citation{aspd+11}{2011ApJ...738...94A}		% rising deflagration bubbles
