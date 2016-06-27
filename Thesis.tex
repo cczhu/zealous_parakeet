@@ -260,7 +260,7 @@ I'd like to thank the academy for choosing me...
 
 %intro
 \include{introduction/introduction}
-%\input{introduction/introduction_cowdout.tex}
+\input{introduction/introduction_cowdout.tex}
 \input{introduction/introduction_mergerphys.tex}
 %ch2
 \include{chapter2_zhu+13/chapter2}
@@ -371,11 +371,14 @@ I'd like to thank the academy for choosing me...
 %citation{fink+07}{2007A&A...476.1133F} 	% fink's ddet paper
 %citation{fink+10}{2010A&A...514A..53F}		% fink's d-det work
 %citation{frye+10}{2010ApJ...725..296F}		% Fryer double degenerate light curves.
+%citation{holc+13}{2013ApJ...771...14H}		% holcomb's He hotspot detonation
 %citation{mazumw77}{1977ApJ...213..518M}	% mazurek early work on detonations
 %citation{rask+14}{2014ApJ...788...75R}		% Cody's tamped explosion models.
 %citation{seit+09}{2009ApJ...696..515S}		% seitenzahl detonation paper
 %citation{seitcr11}{2011MNRAS.414.2709S}	% dtd
 %citation{shig+92}{1992ApJ...386L..13S}		% sub-Ch -> right nucleosyn/energetics
+%citation{shenb14}{2014ApJ...785...61S}		% converging shocks in ddets
+%citation{shenm14}{2014ApJ...797...46S}		% conditions for He detonation
 %citation{sim+10}{2010ApJ...714L..52S}		% stuart's zero-temperature pure detonations
 %citation{woos+09}{2009ApJ...704..255W}		% deflagration, density effects
 %citation{woos+11}{2011ApJ...734...37W}		% ...
@@ -387,6 +390,7 @@ I'd like to thank the academy for choosing me...
 %citation{dan+11}{2011ApJ...737...89D}		% dan's exact intial condition work
 %citation{dan+12}{2012MNRAS.422.2417D} 		% dan's merger param space
 %citation{dan+14}{2014MNRAS.438...14D} 		% dan's merger remnant param space
+%citation{dan+15}{2015MNRAS.454.4411D}		% detonations in mergers
 %citation{dsou+06}{2006ApJ...643..381D}		% d'souza's exact initial condition work (eulerian)
 %citation{fulll12}{2012MNRAS.421..426F}		% fuller's tidal analysis for cortation
 %citation{fulll14}{2014MNRAS.444.3488F}		% follow-up to fulll12
@@ -526,23 +530,13 @@ I'd like to thank the academy for choosing me...
 %citation{saion98}{1998ApJ...500..388S}		% saio/nomoto ONe production following merger
 %citation{shaks73}{1973A&A....24..337S}		% shakura/sunyaev alpha visc
 
-%%%%%%%%%% Work on He - He and He - CO remnants %%%%%%%%%%%%%%%%%%%
-%citation{han+03}{2003MNRAS.341..669H}		% pop synth for sdB stars
-%citation{nele10}{2010Ap&SS.329...25N}		% pop synth for sdB stars
-
-%%%%%%% Stellar evolution giving birth to WDs %%%%%%%%%
-%citation{ibent85}{1985ApJS...58..661I}		% iben & tutukov's exhaustive survey of stellar evolution
-%citation{garc13}{2013IAUS..281...52G}		% enrique's review on oxygen-neon
-%citation{herw05}{2005ARA&A..43..435H}		% AGB and super-AGB evolution
-%citation{moros09}{2009A&A...507.1575P}		% low-mass CO WD
-
-
 %%%% Other observational papers %%%%
 %citation{aspd+11}{2011ApJ...738...94A}		% rising deflagration bubbles
 %citation{badem12}{2012ApJ...749L..11B}		% Badenes and Moaz's paper on galactic WD merger rate from SDSS
 %citation{bars+95}{1995MNRAS.277..971B}		% REJ 0317 
 %citation{bran+06}{2006PASP..118..560B} 	% branch definition of normal SNe Ia
 %citation{brow+11}{2011ApJ...737L..23B}		% eclipsing 12-min WD binary
+%citation{chur+14}{2014Natur.512..406C}		% 56Co detection in ejecta
 %citation{dist10}{2010ApJ...719..474D}		% di Stefano's SSS work
 %citation{dufo+13}{2013ASPC..469..167D}		% Patrick's work on hot DQs 
 %citation{dunlc15}{2015ASPC..493..547D} 	% bart and chris's work published in conference proceeding
@@ -567,11 +561,13 @@ I'd like to thank the academy for choosing me...
 %citation{will+13}{2013ApJ...769..123W}		% Williams's DQ paper (though this one is a "warm DQ")
 
 %%%% SN Ia review papers %%%%
+%citation{fili97}{1997ARA&A..35..309F}		% optical spectra of SNe Ia
 %citation{hilln00}{2000ARA&A..38..191H}		% wolfgang hillebrandt's 2000 work
 %citation{hill+13}{2013FrPhy...8..116H}		% hillebrandt's recent SN Ia review paper
 %citation{howe11}{2011NatCo...2E.350H}		% howell's SN Ia review paper
 %citation{leib00}{2000A&ARv..10..179L}		% bruno Leibundgut's 2000 work
 %citation{maozmn14}{2014ARA&A..52..107M}	% Maoz's review paper
+%citation{tsebs15}{2015MNRAS.447.2568T}		% not a review, but excellent introduction
 %citation{vker12}{2012arXiv1206.1605V}		% marten's review of Mch problems
 
 %%%% Gravitational Wave Stuff %%%%%
@@ -582,10 +578,18 @@ I'd like to thank the academy for choosing me...
 
 %%%% Misc/General %%%%
 %citation{andrpt06}{2006ApJ...646.1160A}	% andronov theoretical model for blue straggler formation
+%citation{chan31}{1931ApJ....74...81C}		% chandrasekhar mass
+%citation{chio+15}{2015MNRAS.448.2100C}		% single WD channel to sne ia?
 %citation{clay+07}{2007ApJ...662.1220C}		% clayton's earlier work on RCrBs
 %citation{clay13}{2013ASPC..469..133C} 		% Clayton's review on mergers making rCB stars
+%citation{distfg15}{2015arXiv150107837D}	% planets make SNe Ia
+%citation{garc13}{2013IAUS..281...52G}		% enrique's review on oxygen-neon
 %citation{goedp04}{2004prma.book.....G} 	% goedbloed's MHD textbook
+%citation{han+03}{2003MNRAS.341..669H}		% pop synth for sdB stars
+%citation{hebe16}{2016arXiv160407749H}		% subdwarf stars
+%citation{herw05}{2005ARA&A..43..435H}		% AGB and super-AGB evolution
 %citation{hoylf60}{1960ApJ...132..565H}		% hoyle & fowler nucleosynthetics of SNe
+%citation{ibent85}{1985ApJS...58..661I}		% iben & tutukov's exhaustive survey of stellar evolution
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs
 %citation{justpv14}{2014ApJ...796..121J}	% justham's merger origins of LBVs
 %citation{kais+10}{2010SPIE.7733E..0EK}		% Pan-STARRS instrument paper
@@ -594,7 +598,10 @@ I'd like to thank the academy for choosing me...
 %citation{loke+10}{2010JPhCS.256a2026L}		% SciNet paper
 %citation{ligo16}{2016PhRvL.116m1102A}		% ligo BBH-merger discovery paper
 %citation{lsst09}{2009arXiv0912.0201L}		% lsst science book 2.0
+%citation{marsdd95}{1995MNRAS.275..828M}	% low mass wds need friends (discusses He WD formation)
 %citation{mink41}{1941PASP...53..224M}		% minkowski spectroscopic separation
+%citation{moros09}{2009A&A...507.1575P}		% low-mass CO WD
+%citation{nele10}{2010Ap&SS.329...25N}		% pop synth for sdB stars
 %citation{nandil14}{2014ApJ...786...39N}	% nandez's SPH work on V1309 Sco
 %citation{perl+99}{1999ApJ...517..565P}		% Perlmutter dark energy paper
 %citation{rau+09}{2009PASP..121.1334R}		% PTF instrument paper
@@ -609,4 +616,20 @@ I'd like to thank the academy for choosing me...
 
 %ZZZitation{guil+10}{2010ApJ...709L..64G}
 %ZZZitation{rappds94}{1994ApJ...426..692R}
-%ZZZitation{bloo+12}{2012ApJ...744L..17B}
+
+
+
+
+%citation{bloo+12}{2012ApJ...744L..17B} 	% 2011fe shock breakout
+%citation{nuge+11}{2011Natur.480..344N}		% 2011fe shock breakout
+
+%citation{wheli73}{1973ApJ...186.1007W}		% first mention of SD channel
+%citation{ibent84}{1984ApJS...54..335I}		% the other DD paper
+%citation{townsb04}{2004ApJ...600..390T}	% nova shell mass loss
+%citation{gilfb10}{2010Natur.463..924G}		% supersoft source counting
+%citation{zorosg11{2011A&A...536A..42Z}		% recurrent novae gain mass?
+%citation{hachkn10}{2010ApJ...724L.212H}	% maybe SSS WDs spend time in a third phase that's optically thick?
+%citation{joha+14}{2014MNRAS.442.1079J}		% counter to hachisu
+%citation{idanss13}{2013MNRAS.433.2884I}	% he flashes
+%citation{hill+16}{2016ApJ...819..168H}		% maybe it is possible to grow WDs despite he flashes
+%citation{clae+14}{2014A&A...563A..83C}		% joke's BPS study - similar results for total SN rate

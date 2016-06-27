@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.17)  2 MAY 2011 12:31
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.1.17)  4 MAY 2011 08:21
 entering extended mode
 **D:/My*Documents/My*Work/Current*Work/Astro*3010/Report/Report.tex
 ("D:/My Documents/My Work/Current Work/Astro 3010/Report/Report.tex"
@@ -198,93 +198,100 @@ File: stabilityfig.pdf Graphic file (type pdf)
 
 <use stabilityfig.pdf> [5] [6 <D:/My Documents/My Work/Current Work/Astro 3010/
 Report/stabilityfig.pdf>] [7] [8]
-Overfull \hbox (47.74207pt too wide) in paragraph at lines 133--157
+Overfull \hbox (61.11682pt too wide) in paragraph at lines 133--167
  [][] 
  []
 
-[9] [10] <mergerfig.png, id=63, 393.47pt x 722.7pt>
+
+LaTeX Warning: Float too large for page by 23.35254pt on input line 167.
+
+[9] [10] [11] <mergerfig.png, id=66, 393.47pt x 722.7pt>
 File: mergerfig.png Graphic file (type png)
  <use mergerfig.png>
-[11] [12 <D:/My Documents/My Work/Current Work/Astro 3010/Report/mergerfig.png 
-(PNG copy)>] <fallbackacc.png, id=70, 576.1525pt x 576.1525pt>
+<fallbackacc.png, id=67, 576.1525pt x 576.1525pt>
 File: fallbackacc.png Graphic file (type png)
-
-<use fallbackacc.png> <pathetictransient.pdf, id=71, 573.14125pt x 447.6725pt>
+ <use fallbackacc.png>
+<pathetictransient.pdf, id=68, 573.14125pt x 447.6725pt>
 File: pathetictransient.pdf Graphic file (type pdf)
 
-<use pathetictransient.pdf>) [13] [14 <D:/My Documents/My Work/Current Work/Ast
-ro 3010/Report/fallbackacc.png (PNG copy)>] [15 <D:/My Documents/My Work/Curren
-t Work/Astro 3010/Report/pathetictransient.pdf>]
-("D:\My Documents\My Work\Current Work\Astro 3010\Report\h.tex"
-Overfull \hbox (8.03125pt too wide) in paragraph at lines 11--12
-[]\OT1/cmr/m/n/12 ASK MARTEN: WHY NOT ALL MERG-ERS W/O NU-CLEAR PRO-CESS-ING ME
-RGE-
- []
-
-[16
+<use pathetictransient.pdf>) [12] [13 <D:/My Documents/My Work/Current Work/Ast
+ro 3010/Report/mergerfig.png (PNG copy)>] [14 <D:/My Documents/My Work/Current 
+Work/Astro 3010/Report/fallbackacc.png (PNG copy)>] [15 <D:/My Documents/My Wor
+k/Current Work/Astro 3010/Report/pathetictransient.pdf>] [16]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\h.tex" [17
 
 
-]) [17] ("D:\My Documents\My Work\Current Work\Astro 3010\Report\he.tex"
-[18
+]) [18]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\he.tex" [19
 
 
-]) [19] ("D:\My Documents\My Work\Current Work\Astro 3010\Report\co.tex"
-<bildstenfig.pdf, id=106, 1003.75pt x 576.1525pt>
+] [20]
+<hehe.jpg, id=109, 574.145pt x 475.7775pt>
+File: hehe.jpg Graphic file (type jpg)
+ <use hehe.jpg>) [21] [22 <D:/My Documents/My Work/Current Work/Astro 3010/Repo
+rt/hehe.jpg>]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\co.tex"
+<bildstenfig.pdf, id=116, 1003.75pt x 576.1525pt>
 File: bildstenfig.pdf Graphic file (type pdf)
  <use bildstenfig.pdf>
-[20
+[23
 
 
-] [21 <D:/My Documents/My Work/Current Work/Astro 3010/Report/bildstenfig.pdf>]
- [22] <woosleyfig.pdf, id=123, 794.97pt x 614.295pt>
+] [24 <D:/My Documents/My Work/Current Work/Astro 3010/Report/bildstenfig.pdf>]
+ [25] <woosleyfig.pdf, id=134, 794.97pt x 614.295pt>
 File: woosleyfig.pdf Graphic file (type pdf)
  <use woosleyfig.pdf>
-[23] [24 <D:/My Documents/My Work/Current Work/Astro 3010/Report/woosleyfig.pdf
->] [25] <waldmanfigure.pdf, id=144, 623.32875pt x 312.16624pt>
+[26] [27 <D:/My Documents/My Work/Current Work/Astro 3010/Report/woosleyfig.pdf
+>] [28] <waldmanfigure.pdf, id=154, 623.32875pt x 312.16624pt>
 File: waldmanfigure.pdf Graphic file (type pdf)
 
-<use waldmanfigure.pdf> [26] [27 <D:/My Documents/My Work/Current Work/Astro 30
-10/Report/waldmanfigure.pdf>] [28] [29] [30]
-Overfull \hbox (0.95818pt too wide) in paragraph at lines 129--130
+<use waldmanfigure.pdf> [29] [30 <D:/My Documents/My Work/Current Work/Astro 30
+10/Report/waldmanfigure.pdf>] [31] [32] [33]
+Overfull \hbox (0.95818pt too wide) in paragraph at lines 127--128
 []\OT1/cmr/m/n/12 The Chan-drasekhar double-degenerate merger pic-ture is one w
 here, fol-low-ing the merger,
  []
 
-[31] <fryerfig.pdf, id=171, 644.4075pt x 934.49126pt>
+[34] <fryerfig.pdf, id=181, 644.4075pt x 934.49126pt>
 File: fryerfig.pdf Graphic file (type pdf)
  <use fryerfig.pdf>
 
-LaTeX Warning: Float too large for page by 46.29938pt on input line 139.
+LaTeX Warning: Float too large for page by 46.29938pt on input line 137.
 
-[32] [33 <D:/My Documents/My Work/Current Work/Astro 3010/Report/fryerfig.pdf>]
-<pakmorfig.jpg, id=189, 289.08pt x 268.8444pt>
+[35] [36 <D:/My Documents/My Work/Current Work/Astro 3010/Report/fryerfig.pdf>]
+<pakmorfig.jpg, id=199, 289.08pt x 268.8444pt>
 File: pakmorfig.jpg Graphic file (type jpg)
  <use pakmorfig.jpg>
-Overfull \hbox (1.24309pt too wide) in paragraph at lines 158--159
+Overfull \hbox (1.24309pt too wide) in paragraph at lines 156--157
 []\OT1/cmr/m/n/12 On the other hand, the ma-jor-ity of CO-CO WD merg-ers will r
 e-sult in sub-Chandrasekhar
  []
 
-<simfig.pdf, id=190, 540.0175pt x 482.80376pt>
+<simfig.pdf, id=200, 540.0175pt x 482.80376pt>
 File: simfig.pdf Graphic file (type pdf)
- <use simfig.pdf> [34] [35 <D:/My Documents/My Work/Current Work/Astro 3010/Rep
-ort/pakmorfig.jpg>] [36] [37 <D:/My Documents/My Work/Current Work/Astro 3010/R
-eport/simfig.pdf>]) [38]
-("D:\My Documents\My Work\Current Work\Astro 3010\Report\onemg.tex" [39
+ <use simfig.pdf> [37] [38 <D:/My Documents/My Work/Current Work/Astro 3010/Rep
+ort/pakmorfig.jpg>] [39 <D:/My Documents/My Work/Current Work/Astro 3010/Report
+/simfig.pdf>] [40]) [41]
+("D:\My Documents\My Work\Current Work\Astro 3010\Report\onemg.tex" [42
 
 
 ]
-<AICtrans.pdf, id=220, 566.115pt x 363.3575pt>
+<AICtrans.pdf, id=230, 566.115pt x 363.3575pt>
 File: AICtrans.pdf Graphic file (type pdf)
- <use AICtrans.pdf> [40] [41 <D:/My Documents/My Work/Current Work/Astro 3010/R
-eport/AICtrans.pdf>]) [42]
+ <use AICtrans.pdf> [43] [44 <D:/My Documents/My Work/Current Work/Astro 3010/R
+eport/AICtrans.pdf>]) [45]
 ("D:\My Documents\My Work\Current Work\Astro 3010\Report\bibliography.tex"
-[43
+Underfull \hbox (badness 6047) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/12 Camenzind M., \OT1/cmr/m/it/12 Com-pact Ob-jects in As-tro-ph
+ysics\OT1/cmr/m/n/12 . Hei-del-berg: Springer, 2007.
+ []
+
+[46
 
 
 ]
 Missing character: There is no … in font cmr12!
- [44]) [45]
+ [47]) [48] [49]
 ("D:\My Documents\My Work\Current Work\Astro 3010\Report\Report.aux"
 ("D:\My Documents\My Work\Current Work\Astro 3010\Report\intro.aux")
 ("D:\My Documents\My Work\Current Work\Astro 3010\Report\h.aux")
@@ -293,13 +300,13 @@ Missing character: There is no … in font cmr12!
 ("D:\My Documents\My Work\Current Work\Astro 3010\Report\onemg.aux")
 ("D:\My Documents\My Work\Current Work\Astro 3010\Report\bibliography.aux")) ) 
 Here is how much of TeX's memory you used:
- 2670 strings out of 495285
- 35084 string characters out of 3179875
- 93300 words of memory out of 3000000
- 5797 multiletter control sequences out of 15000+200000
+ 2676 strings out of 495285
+ 35149 string characters out of 3179875
+ 97321 words of memory out of 3000000
+ 5802 multiletter control sequences out of 15000+200000
  17479 words of font info for 70 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,9n,27p,2372b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,27p,2315b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
 C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
 /Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
@@ -315,9 +322,9 @@ eX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
 2.8/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.
 8/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.8/
 fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Report.pdf (45 pages, 5219121 bytes).
+Output written on Report.pdf (49 pages, 5849120 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
+ 310 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

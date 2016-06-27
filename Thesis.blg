@@ -6,52 +6,61 @@ A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
 A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 A level-1 auxiliary file: conclusion/conclusion.aux
 The style file: apj.bst
+Reallocated field_info (elt_size=4) to 10824 items from 5000.
 Database file #1: AutoBibliography.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "XXX"
+Warning--I didn't find a database entry for "han+02"
+Warning--I didn't find a database entry for "zhanj12"
+Warning--I didn't find a database entry for "ries98"
+Warning--I didn't find a database entry for "perl99"
+Warning--I didn't find a database entry for "maozns14"
+Warning--I didn't find a database entry for "none"
+Warning--I didn't find a database entry for "vankerkwijk"
+Warning--I didn't find a database entry for "zhu+16"
 Warning--I didn't find a database entry for "kermsk15"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in goedp04
 Warning--empty publisher in kippww12
-You've used 180 entries,
+You've used 213 entries,
             3085 wiz_defined-function locations,
-            1854 strings with 42203 characters,
-and the built_in function-call counts, 86472 in all, are:
-= -- 7304
-> -- 6153
-< -- 71
-+ -- 2064
-- -- 2241
-* -- 7326
-:= -- 16193
-add.period$ -- 180
-call.type$ -- 180
-change.case$ -- 1230
-chr.to.int$ -- 174
-cite$ -- 182
-duplicate$ -- 3437
-empty$ -- 5147
-format.name$ -- 2465
-if$ -- 17216
+            2073 strings with 48509 characters,
+and the built_in function-call counts, 101446 in all, are:
+= -- 8567
+> -- 7156
+< -- 89
++ -- 2397
+- -- 2592
+* -- 8555
+:= -- 19026
+add.period$ -- 213
+call.type$ -- 213
+change.case$ -- 1437
+chr.to.int$ -- 207
+cite$ -- 215
+duplicate$ -- 4045
+empty$ -- 6079
+format.name$ -- 2864
+if$ -- 20207
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 174
-newline$ -- 544
-num.names$ -- 723
-pop$ -- 1339
+missing$ -- 207
+newline$ -- 643
+num.names$ -- 855
+pop$ -- 1553
 preamble$ -- 1
-purify$ -- 1230
+purify$ -- 1437
 quote$ -- 0
-skip$ -- 2882
+skip$ -- 3408
 stack$ -- 0
-substring$ -- 3823
+substring$ -- 4533
 swap$ -- 67
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1614
+type$ -- 1911
 warning$ -- 2
-while$ -- 695
+while$ -- 822
 width$ -- 0
-write$ -- 1802
-(There were 5 warnings)
+write$ -- 2132
+(There were 13 warnings)
