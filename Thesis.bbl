@@ -461,10 +461,19 @@
   {Sargent}, {Simcoe}, {Smith}, \& {Squires}}]{li+02}
 {Li}, W., {Filippenko}, A.~V., {Chornock}, R., {et~al.} 2003, \pasp, 115, 453
 
-\bibitem[{{Li} {et~al.}(2011){Li}, {Leaman}, {Chornock}, {Filippenko},
-  {Poznanski}, {Ganeshalingam}, {Wang}, {Modjaz}, {Jha}, {Foley}, \&
-  {Smith}}]{li+11}
-{Li}, W., {Leaman}, J., {Chornock}, R., {et~al.} 2011, \mnras, 412, 1441
+\bibitem[{{Li} {et~al.}(2011{\natexlab{a}}){Li}, {Bloom}, {Podsiadlowski},
+  {Miller}, {Cenko}, {Jha}, {Sullivan}, {Howell}, {Nugent}, {Butler}, {Ofek},
+  {Kasliwal}, {Richards}, {Stockton}, {Shih}, {Bildsten}, {Shara}, {Bibby},
+  {Filippenko}, {Ganeshalingam}, {Silverman}, {Kulkarni}, {Law}, {Poznanski},
+  {Quimby}, {McCully}, {Patel}, {Maguire}, \& {Shen}}]{li+11cpn}
+{Li}, W., {Bloom}, J.~S., {Podsiadlowski}, P., {et~al.} 2011{\natexlab{a}},
+  \nat, 480, 348
+
+\bibitem[{{Li} {et~al.}(2011{\natexlab{b}}){Li}, {Leaman}, {Chornock},
+  {Filippenko}, {Poznanski}, {Ganeshalingam}, {Wang}, {Modjaz}, {Jha}, {Foley},
+  \& {Smith}}]{li+11}
+{Li}, W., {Leaman}, J., {Chornock}, R., {et~al.} 2011{\natexlab{b}}, \mnras,
+  412, 1441
 
 \bibitem[{{LIGO Scientific Collaboration} {et~al.}(2015){LIGO Scientific
   Collaboration}, {Aasi}, {Abbott}, {Abbott}, {Abbott}, {Abernathy}, {Ackley},
@@ -603,6 +612,14 @@
   {Portegies Zwart}, \& {Verbunt}}]{nele+01a}
 {Nelemans}, G., {Yungelson}, L.~R., {Portegies Zwart}, S.~F., \& {Verbunt}, F.
   2001{\natexlab{c}}, \aap, 365, 491
+
+\bibitem[{{Nielsen} {et~al.}(2014){Nielsen}, {Gilfanov}, {Bogd{\'a}n}, {Woods},
+  \& {Nelemans}}]{niel+14}
+{Nielsen}, M.~T.~B., {Gilfanov}, M., {Bogd{\'a}n}, {\'A}., {Woods}, T.~E., \&
+  {Nelemans}, G. 2014, \mnras, 442, 3400
+
+\bibitem[{{Nielsen} {et~al.}(2013){Nielsen}, {Voss}, \& {Nelemans}}]{nielvn13}
+{Nielsen}, M.~T.~B., {Voss}, R., \& {Nelemans}, G. 2013, \mnras, 435, 187
 
 \bibitem[{{Nomoto} \& {Iben}(1985)}]{nomoi85}
 {Nomoto}, K., \& {Iben}, Jr., I. 1985, \apj, 297, 531
