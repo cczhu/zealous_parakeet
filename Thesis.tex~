@@ -626,9 +626,23 @@ I'd like to thank the academy for choosing me...
 %citation{wheli73}{1973ApJ...186.1007W}		% first mention of SD channel
 %citation{ibent84}{1984ApJS...54..335I}		% the other DD paper
 %citation{townsb04}{2004ApJ...600..390T}	% nova shell mass loss
-%citation{gilfb10}{2010Natur.463..924G}		% supersoft source counting
-%citation{zorosg11{2011A&A...536A..42Z}		% recurrent novae gain mass?
+%citation{zorosg11}{2011A&A...536A..42Z}	% recurrent novae gain mass?
 %citation{hachkn10}{2010ApJ...724L.212H}	% maybe SSS WDs spend time in a third phase that's optically thick?
 %citation{joha+14}{2014MNRAS.442.1079J}		% counter to hachisu
 %citation{idanss13}{2013MNRAS.433.2884I}	% he flashes
 %citation{hill+16}{2016ApJ...819..168H}		% maybe it is possible to grow WDs despite he flashes
+%citation{clae+14}{2014A&A...563A..83C}		% joke's BPS study - similar results for total SN rate
+%citation{maoz+11}{2011MNRAS.412.1508M}		% Maoz estimate of total SN rate
+%citation{schw+15}{2015MNRAS.453.1910S}		% Schwab's AIC work
+%citation{bran98}{1998ARA&A..36...17B}		% Branch normal definition (see also bran+06)
+%citation{arne96}{1996sunu.book.....A}		% Arnett's book on nucleosynthesis
+%citation{stri+06}{2006A&A...450..241S}		% 56Ni yields
+%citation{fishj15}{2015ApJ...805..150F}		% bob's overluminous Mch
+%citation{fink+14}{2014MNRAS.438.1762F}		% SNe IaX pure deflagration
+%citation{sull+10}{2010MNRAS.406..782S}		% Sn Ia host galaxy dependence
+%citation{hamu+00}{2000AJ....120.1479H}		% Sn Ia host galaxy dependence
+%citation{xavi+13}{2013MNRAS.434.1443X}		% Sn Ia host galaxy dependence
+%citation{li+02}{2003PASP..115..453L}		% 2002cx
+%citation{fole+13}{2013ApJ...767...57F}		% 2002cx type
+%citation{mazz+97}{1997MNRAS.284..151M}		% 1991bg
+%citation{yama+09}{2009ApJ...707L.118Y}		% 2009dc

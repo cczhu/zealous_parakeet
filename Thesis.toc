@@ -4,17 +4,13 @@
 \contentsline {subsection}{\numberline {1.1.2}Mergers of WD Binaries}{1}{subsection.1.1.2}
 \contentsline {subsubsection}{The Formation of Double White Dwarf Binaries}{2}{section*.6}
 \contentsline {subsubsection}{Orbital Angular Momentum Loss and Gravitational Wave Emission}{3}{section*.7}
-\contentsline {subsubsection}{He - He WD Mergers}{4}{section*.8}
-\contentsline {subsubsection}{CO - He WD Mergers}{4}{section*.9}
+\contentsline {subsubsection}{Merger Outcomes}{3}{section*.8}
 \contentsline {section}{\numberline {1.2}The Mystery of Type Ia Supernovae}{5}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Traditional Formation Scenarios and Their Pitfalls}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Brave New Channels}{7}{subsection.1.2.2}
-\contentsline {subsubsection}{The Double-Detonation Channel}{7}{section*.10}
-\contentsline {subsubsection}{The Core-Degenerate Channel}{7}{section*.11}
-\contentsline {subsubsection}{The Direct Collision Channel}{7}{section*.12}
-\contentsline {section}{\numberline {1.3}The vK10 SN Ia Channel}{7}{section.1.3}
+\contentsline {section}{\numberline {1.3}The vK10 SN Ia Channel}{8}{section.1.3}
 \contentsline {section}{\numberline {1.4}Hot DQs, High-Field Magnetic WDs, and Other Oddities}{8}{section.1.4}
-\contentsline {section}{\numberline {1.5}Thesis Overview}{8}{section.1.5}
+\contentsline {section}{\numberline {1.5}Thesis Overview}{9}{section.1.5}
 \contentsline {section}{\numberline {1.6}The Physics of Pre-Merger Evolution}{9}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}The CO WD Mass Range}{9}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Merger Initial Conditions and Unstable Mass Transfer}{9}{subsection.1.6.2}
@@ -27,32 +23,32 @@
 \contentsline {section}{\numberline {2.3}Results}{18}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Representative Mergers}{18}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Merger Trends}{22}{subsection.2.3.2}
-\contentsline {subsubsection}{What Constitutes Similar-Mass?}{22}{section*.13}
-\contentsline {subsubsection}{Structural Trends}{26}{section*.14}
-\contentsline {paragraph}{The rotational axis central scaleheight.}{26}{section*.15}
-\contentsline {paragraph}{The equatorial plane central scaleheight.}{27}{section*.16}
-\contentsline {paragraph}{The central density of the remnant.}{27}{section*.17}
-\contentsline {subsubsection}{Mass Distributions}{27}{section*.18}
-\contentsline {paragraph}{The masses of the core-envelope and disk.}{27}{section*.19}
-\contentsline {paragraph}{The mass enclosing 50\% of the donor material.}{27}{section*.20}
-\contentsline {paragraph}{The accretor mass enclosing 50\% of the donor material.}{27}{section*.21}
-\contentsline {paragraph}{The region over which the donor is spread.}{29}{section*.22}
-\contentsline {subsubsection}{Energy Balance}{29}{section*.23}
-\contentsline {paragraph}{Energy balance of the entire remnant.}{29}{section*.24}
-\contentsline {paragraph}{Energy balance of the core-envelope.}{31}{section*.25}
-\contentsline {paragraph}{Energy balance of the disk.}{31}{section*.26}
-\contentsline {subsubsection}{Temperature and Thermal Energy}{32}{section*.27}
-\contentsline {paragraph}{The maximum temperature.}{32}{section*.28}
-\contentsline {paragraph}{The density at the point of maximum temperature.}{32}{section*.29}
-\contentsline {paragraph}{The mass enclosed within the radius of maximum temperature.}{34}{section*.30}
-\contentsline {paragraph}{The mass enclosing half the remnant thermal energy.}{34}{section*.31}
-\contentsline {paragraph}{The width of the remnant thermal energy.}{35}{section*.32}
-\contentsline {subsubsection}{Angular Velocity and Rotational Energy}{35}{section*.33}
-\contentsline {paragraph}{The maximum angular velocity.}{35}{section*.34}
-\contentsline {paragraph}{The ratio of core-envelope to total angular momentum.}{35}{section*.35}
-\contentsline {paragraph}{The mass enclosed inside the radius of maximum angular velocity.}{35}{section*.36}
-\contentsline {paragraph}{The mass enclosing half the remnant rotational energy.}{36}{section*.37}
-\contentsline {paragraph}{The width of the remnant rotational energy.}{36}{section*.38}
+\contentsline {subsubsection}{What Constitutes Similar-Mass?}{22}{section*.9}
+\contentsline {subsubsection}{Structural Trends}{26}{section*.10}
+\contentsline {paragraph}{The rotational axis central scaleheight.}{26}{section*.11}
+\contentsline {paragraph}{The equatorial plane central scaleheight.}{27}{section*.12}
+\contentsline {paragraph}{The central density of the remnant.}{27}{section*.13}
+\contentsline {subsubsection}{Mass Distributions}{27}{section*.14}
+\contentsline {paragraph}{The masses of the core-envelope and disk.}{27}{section*.15}
+\contentsline {paragraph}{The mass enclosing 50\% of the donor material.}{27}{section*.16}
+\contentsline {paragraph}{The accretor mass enclosing 50\% of the donor material.}{27}{section*.17}
+\contentsline {paragraph}{The region over which the donor is spread.}{29}{section*.18}
+\contentsline {subsubsection}{Energy Balance}{29}{section*.19}
+\contentsline {paragraph}{Energy balance of the entire remnant.}{29}{section*.20}
+\contentsline {paragraph}{Energy balance of the core-envelope.}{31}{section*.21}
+\contentsline {paragraph}{Energy balance of the disk.}{31}{section*.22}
+\contentsline {subsubsection}{Temperature and Thermal Energy}{32}{section*.23}
+\contentsline {paragraph}{The maximum temperature.}{32}{section*.24}
+\contentsline {paragraph}{The density at the point of maximum temperature.}{32}{section*.25}
+\contentsline {paragraph}{The mass enclosed within the radius of maximum temperature.}{34}{section*.26}
+\contentsline {paragraph}{The mass enclosing half the remnant thermal energy.}{34}{section*.27}
+\contentsline {paragraph}{The width of the remnant thermal energy.}{35}{section*.28}
+\contentsline {subsubsection}{Angular Velocity and Rotational Energy}{35}{section*.29}
+\contentsline {paragraph}{The maximum angular velocity.}{35}{section*.30}
+\contentsline {paragraph}{The ratio of core-envelope to total angular momentum.}{35}{section*.31}
+\contentsline {paragraph}{The mass enclosed inside the radius of maximum angular velocity.}{35}{section*.32}
+\contentsline {paragraph}{The mass enclosing half the remnant rotational energy.}{36}{section*.33}
+\contentsline {paragraph}{The width of the remnant rotational energy.}{36}{section*.34}
 \contentsline {subsection}{\numberline {2.3.3}A Qualitative Picture of the Merger}{36}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Variation of Merger Parameters and Robustness of Results}{37}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Changing the Composition}{37}{subsection.2.4.1}
