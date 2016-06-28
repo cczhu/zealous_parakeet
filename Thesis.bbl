@@ -188,10 +188,20 @@
 {Dolag}, K., {Vazza}, F., {Brunetti}, G., \& {Tormen}, G. 2005, \mnras, 364,
   753
 
+\bibitem[{{Dong} {et~al.}(2015){Dong}, {Katz}, {Kushnir}, \&
+  {Prieto}}]{dong+15}
+{Dong}, S., {Katz}, B., {Kushnir}, D., \& {Prieto}, J.~L. 2015, \mnras, 454,
+  L61
+
 \bibitem[{{D'Souza} {et~al.}(2006){D'Souza}, {Motl}, {Tohline}, \&
   {Frank}}]{dsou+06}
 {D'Souza}, M.~C.~R., {Motl}, P.~M., {Tohline}, J.~E., \& {Frank}, J. 2006,
   \apj, 643, 381
+
+\bibitem[{{Dubey} {et~al.}(2009){Dubey}, {Reid}, {Weide}, {Antypas},
+  {Ganapathy}, {Riley}, {Sheeler}, \& {Siegal}}]{dube+09}
+{Dubey}, A., {Reid}, L.~B., {Weide}, K., {et~al.} 2009, ArXiv e-prints,
+  arXiv:0903.4875
 
 \bibitem[{{Duffell} \& {MacFadyen}(2011)}]{duffm11}
 {Duffell}, P.~C., \& {MacFadyen}, A.~I. 2011, \apjs, 197, 15
@@ -252,6 +262,11 @@
   {C{\'o}rsico}, {K{\"u}lebi}, \& {Isern}}]{garc+12}
 {Garc{\'{\i}}a-Berro}, E., {Lor{\'e}n-Aguilar}, P., {Aznar-Sigu{\'a}n}, G.,
   {et~al.} 2012, \apj, 749, 25
+
+\bibitem[{{Garc{\'{\i}}a-Senz} {et~al.}(2013){Garc{\'{\i}}a-Senz},
+  {Cabez{\'o}n}, {Arcones}, {Rela{\~n}o}, \& {Thielemann}}]{garc+13}
+{Garc{\'{\i}}a-Senz}, D., {Cabez{\'o}n}, R.~M., {Arcones}, A., {Rela{\~n}o},
+  A., \& {Thielemann}, F.~K. 2013, \mnras, 436, 3413
 
 \bibitem[{{Giacomazzo} {et~al.}(2015){Giacomazzo}, {Zrake}, {Duffell},
   {MacFadyen}, \& {Perna}}]{giac+15}
@@ -389,6 +404,9 @@
 {Kashyap}, R., {Fisher}, R., {Garc{\'{\i}}a-Berro}, E., {et~al.} 2015, \apjl,
   800, L7
 
+\bibitem[{{Katz} \& {Dong}(2012)}]{katzd12}
+{Katz}, B., \& {Dong}, S. 2012, ArXiv e-prints, arXiv:1211.4584
+
 \bibitem[{{Katz} {et~al.}(2016){Katz}, {Zingale}, {Calder}, {Swesty},
   {Almgren}, \& {Zhang}}]{katz+16}
 {Katz}, M.~P., {Zingale}, M., {Calder}, A.~C., {et~al.} 2016, \apj, 819, 94
@@ -428,6 +446,9 @@
 \bibitem[{{Knigge} {et~al.}(2009){Knigge}, {Leigh}, \& {Sills}}]{knigs09}
 {Knigge}, C., {Leigh}, N., \& {Sills}, A. 2009, \nat, 457, 288
 
+\bibitem[{{Kozai}(1962)}]{koza62}
+{Kozai}, Y. 1962, \aj, 67, 591
+
 \bibitem[{{Kratter} \& {Lodato}(2016)}]{kratl16}
 {Kratter}, K.~M., \& {Lodato}, G. 2016, ArXiv e-prints, arXiv:1603.01280
 
@@ -444,6 +465,11 @@
   {Bastian}, \& {Altmann}}]{kube+10}
 {K{\"u}lebi}, B., {Jordan}, S., {Nelan}, E., {Bastian}, U., \& {Altmann}, M.
   2010, \aap, 524, A36
+
+\bibitem[{{Kushnir} {et~al.}(2013){Kushnir}, {Katz}, {Dong}, {Livne}, \&
+  {Fern{\'a}ndez}}]{kush+13}
+{Kushnir}, D., {Katz}, B., {Dong}, S., {Livne}, E., \& {Fern{\'a}ndez}, R.
+  2013, \apjl, 778, L37
 
 \bibitem[{{Lai} {et~al.}(1994){Lai}, {Rasio}, \& {Shapiro}}]{lairs94}
 {Lai}, D., {Rasio}, F.~A., \& {Shapiro}, S.~L. 1994, \apj, 437, 742
@@ -475,6 +501,9 @@
 {Li}, W., {Leaman}, J., {Chornock}, R., {et~al.} 2011{\natexlab{b}}, \mnras,
   412, 1441
 
+\bibitem[{{Lidov}(1962)}]{lido62}
+{Lidov}, M.~L. 1962, \planss, 9, 719
+
 \bibitem[{{LIGO Scientific Collaboration} {et~al.}(2015){LIGO Scientific
   Collaboration}, {Aasi}, {Abbott}, {Abbott}, {Abbott}, {Abernathy}, {Ackley},
   {Adams}, {Adams}, {Addesso}, \& et~al.}]{ligo+15}
@@ -494,6 +523,10 @@
   {Garc{\'{\i}}a-Berro}}]{loreig09}
 {Lor{\'e}n-Aguilar}, P., {Isern}, J., \& {Garc{\'{\i}}a-Berro}, E. 2009, \aap,
   500, 1193
+
+\bibitem[{{Lor{\'e}n-Aguilar} {et~al.}(2010){Lor{\'e}n-Aguilar}, {Isern}, \&
+  {Garc{\'{\i}}a-Berro}}]{loreig10}
+---. 2010, \mnras, 406, 2749
 
 \bibitem[{{LSST Science Collaboration} {et~al.}(2009){LSST Science
   Collaboration}, {Abell}, {Allison}, {Anderson}, {Andrew}, {Angel}, {Armus},
@@ -518,6 +551,11 @@
   {Elias-Rosa}}]{maed+10b}
 {Maeda}, K., {Benetti}, S., {Stritzinger}, M., {et~al.} 2010{\natexlab{b}},
   \nat, 466, 82
+
+\bibitem[{{Maguire} {et~al.}(2016){Maguire}, {Taubenberger}, {Sullivan}, \&
+  {Mazzali}}]{magu+16}
+{Maguire}, K., {Taubenberger}, S., {Sullivan}, M., \& {Mazzali}, P.~A. 2016,
+  \mnras, 457, 3254
 
 \bibitem[{{Mannucci} {et~al.}(2005){Mannucci}, {Della Valle}, {Panagia},
   {Cappellaro}, {Cresci}, {Maiolino}, {Petrosian}, \& {Turatto}}]{mann+05}
@@ -641,6 +679,10 @@
   {Springel}}]{ohlm+16}
 {Ohlmann}, S.~T., {R{\"o}pke}, F.~K., {Pakmor}, R., \& {Springel}, V. 2016,
   \apjl, 816, L9
+
+\bibitem[{{Olling} {et~al.}(2015){Olling}, {Mushotzky}, {Shaya}, {Rest},
+  {Garnavich}, {Tucker}, {Kasen}, {Margheim}, \& {Filippenko}}]{ollms15}
+{Olling}, R.~P., {Mushotzky}, R., {Shaya}, E.~J., {et~al.} 2015, \nat, 521, 332
 
 \bibitem[{{Ott} {et~al.}(2005){Ott}, {Ou}, {Tohline}, \& {Burrows}}]{ott+05}
 {Ott}, C.~D., {Ou}, S., {Tohline}, J.~E., \& {Burrows}, A. 2005, \apjl, 625,
