@@ -1,5 +1,9 @@
 \chapter{Conclusion}
 
+We now review the body of evidence from the previous Chapters
+
+One of the primary determinants of a merging system's fate is whether or not its remnant has a centrally peaked temperature.  While earlier simulations (\citeal{loreig09}) suggested a centrally peaked temperature, our own 
+
 Mergers
 
 - no longer get really hot in their centres.  The older simulations that vk10 based their ideas off of assumed approximate and irrotational mergers with large artificial viscosities.  Our SPH scheme gives similar (if somewhat cooler (Sec compare with Loreig) results), but other codes that are synchronized and use accurate initial conditions do not (check raskin+12 and dan+14 profiles?)  In particular, dan compares their simulations to ours, and find that their similar mass mergers mix less and (consequently) are hottest at their surfaces.

@@ -184,7 +184,9 @@
 %% *** Put your Abstract here. ***
 %% (At most 150 words for M.Sc. or 350 words for Ph.D.)
 
- the mechanism(s) by which a normally inert WD is agitated into exploding remains mysterious and widely debated.
+The merger of two carbon-oxygen white dwarfs (CO WDs) can create create massive, rapidly rotating and magnetized white dwarfs, collapse into a neutron star, or, perhaps most spectacularly, a thermonuclear, or type Ia, supernova (SN Ia).  It has traditionally been believed that the latter two outcomes only happen to mergers that are above the Chandrasekhar mass \Mch, where high-density pycnonuclear fusion and electron-capture reactions become significant.  Recently, however, it has been proposed that SNe Ia are caused by thermonuclear fusion during post-merger evolution, which could occur even to mergers that are well below \Mch.  
+
+To investigate the physics and final outcome of CO WD mergers, I conducted a series of hydrodynamic and magnetohydrodynamic simulations and semi-ananlytical calculations.  I
 \end{abstract}
 
 %% Anything placed between the abstract and table of contents will
@@ -225,7 +227,7 @@
 %% This generates an "acknowledgements" section, if needed
 %% (uncomment to have it appear in the document).
 \begin{acknowledgements}
-I'd like to thank the academy for choosing me...
+{\charles some acknowledgements.}
 \end{acknowledgements}
 
 %% This generates the Table of Contents (on a separate page).
@@ -639,6 +641,8 @@ I'd like to thank the academy for choosing me...
 %citation{arne96}{1996sunu.book.....A}		% Arnett's book on nucleosynthesis
 %citation{stri+06}{2006A&A...450..241S}		% 56Ni yields
 %citation{fishj15}{2015ApJ...805..150F}		% bob's overluminous Mch
+%citation{phil+07}{2007PASP..119..360P}		% SNe IaX pure deflagration
+%citation{krom+13}{2013MNRAS.429.2287K}		% SNe IaX pure deflagration
 %citation{fink+14}{2014MNRAS.438.1762F}		% SNe IaX pure deflagration
 %citation{sull+10}{2010MNRAS.406..782S}		% Sn Ia host galaxy dependence
 %citation{hamu+00}{2000AJ....120.1479H}		% Sn Ia host galaxy dependence
@@ -653,10 +657,23 @@ I'd like to thank the academy for choosing me...
 %citation{kerz+14ref}{2014ApJ...782...27K}	% wolfgang's search for companions in kepler
 %citation{ollms15}{2015Natur.521..332O}		% kepler telescope shock heated companion
 %citation{magu+16}{2016MNRAS.457.3254M}		% maguire H and He entrained SNe
-%citation{benz+89}{1989ApJ...342..986B}		% benz collisions
+%citation{benzth89}{1989ApJ...342..986B}		% benz collisions
 %citation{katzd12}{2012arXiv1211.4584K}		% three-body interactions generate SNe Ia
 %citation{koza62}{1962AJ.....67..591K}		% kozai-lidov mechanism
 %citation{lido62}{1962P&SS....9..719L}		% kozai-lidov mechanism
 %citation{garc+13}{2013MNRAS.436.3413G}		% WD collision simulation
 %citation{kush+13}{2013ApJ...778L..37K}		% WD collision simulation
 %citation{dong+15}{2015MNRAS.454L..61D}		% more collisions
+%citation{seit+16}{2016arXiv160600089S}		% GCD makes 91T?
+%citation{sato+16}{2016ApJ...821...67S}		% violent merger lower limits
+%citation{lieb+93}{1993AJ....105..301L}		% 1991bg
+%citation{illks12}{2012MNRAS.419.1695I}		% spin-down through magnetic dipole radiation
+%citation{dild+12}{2012Sci...337..942D}		% PTF 11kx
+%citation{soke13}{2013MNRAS.431.1541S}		% Soker's explanation for PTF 11kx
+%citation{livir03}{2003ApJ...594L..93L}		% core degenerate founding paper
+%citation{kashs11}{2011MNRAS.417.1466K}		% kashi & soker's CD channel
+
+%citation{clay12}{2012JAVSO..40..539C}		% R CrB
+%citation{kararh15}{2015ApJ...809..184K}	% R CrB
+
+%ZZZtion{taub+08}{2008MNRAS.385...75T}		% 1991bg-like

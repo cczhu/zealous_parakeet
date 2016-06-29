@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  28 JUN 2016 15:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  29 JUN 2016 01:38
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -461,80 +461,79 @@ LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 183.
- [2]
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 209
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 187
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 209
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 187
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 209
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 187
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 209
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 187
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 209.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 187.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 209.
+(Font)              scaled to size 10.42007pt on input line 187.
 
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 209.
+(Font)              scaled to size 7.91925pt on input line 187.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 209.
+(Font)              scaled to size 6.25204pt on input line 187.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 209.
+(Font)              scaled to size 10.42007pt on input line 187.
 
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 209.
+(Font)              scaled to size 7.91925pt on input line 187.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 209.
+(Font)              scaled to size 6.25204pt on input line 187.
 
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
  (RS)
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 209.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 187.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 209.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 209
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 187.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 187
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [3] [4
+) [2] [3]
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 230.
+ [4
 
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 232.
- (./Thesis.toc
-LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 234.
 
-[5
+(./Thesis.toc [5
 
 ]
 Package microtype Info: Character `029' is missing
@@ -593,252 +592,235 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 File: introduction/figures/dan+12_wdbinmass.pdf Graphic file (type pdf)
 
 <use introduction/figures/dan+12_wdbinmass.pdf>
+
+Package natbib Warning: Citation `' on page 2 undefined on input line 39.
+
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 41.
- [2 <./introduction/figures/dan+12_wdbinmass.pdf>]
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 40.
+[2 <./introduction/figures/dan+12_wdbinmass.pdf>]
 
-Package natbib Warning: Citation `' on page 3 undefined on input line 41.
-
-
-Package natbib Warning: Citation `XXX' on page 3 undefined on input line 47.
+Package natbib Warning: Citation `XXX' on page 3 undefined on input line 45.
 
 
-Package natbib Warning: Citation `XXX' on page 3 undefined on input line 47.
-
-
-Package natbib Warning: Citation `XXX' on page 3 undefined on input line 47.
+Package natbib Warning: Citation `XXX' on page 3 undefined on input line 45.
 
 [3]
 
-Package natbib Warning: Citation `han+02' on page 4 undefined on input line 65.
+Package natbib Warning: Citation `han+02' on page 4 undefined on input line 63.
 
 
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 65.
+(Font)              scaled to size 8.33606pt on input line 63.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 65.
+(Font)              scaled to size 5.21004pt on input line 63.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 65.
+(Font)              scaled to size 8.33606pt on input line 63.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 65.
+(Font)              scaled to size 5.21004pt on input line 63.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 65.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 65.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 65.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 63.
 
-Package natbib Warning: Citation `han+02' on page 4 undefined on input line 65.
+Package natbib Warning: Citation `han+02' on page 4 undefined on input line 63.
 
 
 
-Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 65
+Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 63
 .
 
 
-Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 65
+Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 63
 .
 
 
-Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 65
+Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 63
 .
 
-) [4] (./introduction/introduction_cowdout.tex
+[4]) [5] (./introduction/introduction_cowdout.tex
 
-Package natbib Warning: Citation `moazns14' on page 5 undefined on input line 7
+Package natbib Warning: Citation `moazns14' on page 6 undefined on input line 8
 .
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [6
 
 ]
 
-Package natbib Warning: Citation `maozns14' on page 6 undefined on input line 1
-8.
+Package natbib Warning: Citation `maozns14' on page 7 undefined on input line 1
+9.
 
 
-Package natbib Warning: Citation `howe+09' on page 6 undefined on input line 24
-.
-
-[6]
-
-Package natbib Warning: Citation `maozns14' on page 7 undefined on input line 2
-6.
-
-
-Package natbib Warning: Citation `kerz+14rem' on page 7 undefined on input line
- 26.
-
-
-Package natbib Warning: Citation `lordosis' on page 7 undefined on input line 4
-0.
-
-
-Package natbib Warning: Citation `ruit+11' on page 7 undefined on input line 40
+Package natbib Warning: Citation `howe+09' on page 7 undefined on input line 25
 .
 
 [7]
 
-Package natbib Warning: Citation `benzth89' on page 8 undefined on input line 4
-2.
+Package natbib Warning: Citation `maozns14' on page 8 undefined on input line 2
+7.
 
 
-Package natbib Warning: Citation `maozns14' on page 8 undefined on input line 4
-2.
+Package natbib Warning: Citation `kerz+14rem' on page 8 undefined on input line
+ 27.
 
 
-Package natbib Warning: Citation `none' on page 8 undefined on input line 52.
+Package natbib Warning: Citation `ruit+11' on page 8 undefined on input line 47
+.
+
+[8] [9]
+
+Package natbib Warning: Citation `none' on page 10 undefined on input line 67.
 
 
-Package natbib Warning: Citation `none' on page 8 undefined on input line 52.
-
-[8]
-
-LaTeX Warning: Reference `sec:intro_pme' on page 9 undefined on input line 65.
+Package natbib Warning: Citation `none' on page 10 undefined on input line 67.
 
 
-Package natbib Warning: Citation `zhu+16' on page 9 undefined on input line 85.
+LaTeX Warning: Reference `sec:intro_pme' on page 10 undefined on input line 80.
 
-
-
-LaTeX Warning: Reference `sec:postscript_pme' on page 9 undefined on input line
- 85.
-
-
-LaTeX Warning: Reference `ch:ch5' on page 9 undefined on input line 85.
-
-) (./introduction/introduction_mergerphys.tex [9]
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 8.
 
 [10]
-Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [11]
-<introduction/figures/marsns04_stab.pdf, id=1342, 794.97pt x 614.295pt>
+Package natbib Warning: Citation `zhu+16' on page 11 undefined on input line 10
+1.
+
+
+LaTeX Warning: Reference `sec:postscript_pme' on page 11 undefined on input lin
+e 101.
+
+
+LaTeX Warning: Reference `ch:ch5' on page 11 undefined on input line 101.
+
+) (./introduction/introduction_mergerphys.tex
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 8.
+
+[11] [12]
+<introduction/figures/marsns04_stab.pdf, id=1452, 794.97pt x 614.295pt>
 File: introduction/figures/marsns04_stab.pdf Graphic file (type pdf)
 
-<use introduction/figures/marsns04_stab.pdf>
+<use introduction/figures/marsns04_stab.pdf> [13]
 
-Package natbib Warning: Citation `kermsk15' on page 12 undefined on input line 
+Package natbib Warning: Citation `kermsk15' on page 14 undefined on input line 
 89.
 
-[12 <./introduction/figures/marsns04_stab.pdf, page is rotated 90 degrees>])
-[13]
+) [14 <./introduction/figures/marsns04_stab.pdf, page is rotated 90 degrees>]
 \openout2 = `chapter2_zhu+13/chapter2.aux'.
 
- (./chapter2_zhu+13/chapter2.tex
+
+(./chapter2_zhu+13/chapter2.tex
 Chapter 2.
 
-LaTeX Warning: Reference `ssec:wdmergers_sub' on page 14 undefined on input lin
+LaTeX Warning: Reference `ssec:wdmergers_sub' on page 15 undefined on input lin
 e 12.
 
-) [14
+) [15
 
 
 ] (./chapter2_zhu+13/chapter2_intro.tex)
 (./chapter2_zhu+13/chapter2_gasoline.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15
+ [16
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 19.
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [16] [17]
+) [17] [18]
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
- [18])
+ [19])
 (./chapter2_zhu+13/chapter2_results.tex
-<chapter2_zhu+13/figures/pt4pt8.pdf, id=1533, 867.24pt x 888.92097pt>
+<chapter2_zhu+13/figures/pt4pt8.pdf, id=1648, 867.24pt x 888.92097pt>
 File: chapter2_zhu+13/figures/pt4pt8.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/pt4pt8.pdf>
 
 LaTeX Warning: Float too large for page by 17.38756pt on input line 14.
 
-<chapter2_zhu+13/figures/pt6pt6.pdf, id=1535, 867.24pt x 888.92097pt>
+<chapter2_zhu+13/figures/pt6pt6.pdf, id=1650, 867.24pt x 888.92097pt>
 File: chapter2_zhu+13/figures/pt6pt6.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/pt6pt6.pdf> [19] [20 <./chapter2_zhu+13/figures/pt
-4pt8.pdf>] [21 <./chapter2_zhu+13/figures/pt6pt6.pdf>] [22]
-<chapter2_zhu+13/figures/constaccretorcomp.pdf, id=1724, 433.62pt x 904.8204pt>
+<use chapter2_zhu+13/figures/pt6pt6.pdf> [20] [21 <./chapter2_zhu+13/figures/pt
+4pt8.pdf>] [22 <./chapter2_zhu+13/figures/pt6pt6.pdf>] [23]
+<chapter2_zhu+13/figures/constaccretorcomp.pdf, id=1840, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/constaccretorcomp.pdf Graphic file (type pdf)
 <use chapter2_zhu+13/figures/constaccretorcomp.pdf>
 
 LaTeX Warning: Float too large for page by 11.93896pt on input line 56.
 
-<chapter2_zhu+13/figures/deltamcomp.pdf, id=1725, 867.24pt x 921.4425pt>
+<chapter2_zhu+13/figures/deltamcomp.pdf, id=1841, 867.24pt x 921.4425pt>
 File: chapter2_zhu+13/figures/deltamcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/deltamcomp.pdf>
-<chapter2_zhu+13/figures/Mrhorelation.pdf, id=1732, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/Mrhorelation.pdf, id=1848, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/Mrhorelation.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/Mrhorelation.pdf> [23] [24 <./chapter2_zhu+13/figu
-res/constaccretorcomp.pdf>] [25 <./chapter2_zhu+13/figures/deltamcomp.pdf>]
-<chapter2_zhu+13/figures/Eqmass.pdf, id=1876, 433.62pt x 361.35pt>
+<use chapter2_zhu+13/figures/Mrhorelation.pdf> [24] [25 <./chapter2_zhu+13/figu
+res/constaccretorcomp.pdf>] [26 <./chapter2_zhu+13/figures/deltamcomp.pdf>]
+<chapter2_zhu+13/figures/Eqmass.pdf, id=1991, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/Eqmass.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Eqmass.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <./chapter2_zhu+13/figures/Mrhorelation.pdf>] [27 <./chapter2_zhu+13/figur
+ [27 <./chapter2_zhu+13/figures/Mrhorelation.pdf>] [28 <./chapter2_zhu+13/figur
 es/Eqmass.pdf>]
-<chapter2_zhu+13/figures/StructureTrendsq.pdf, id=1969, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/StructureTrendsq.pdf, id=2084, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/StructureTrendsq.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/StructureTrendsq.pdf> [28] [29 <./chapter2_zhu+13/
+<use chapter2_zhu+13/figures/StructureTrendsq.pdf> [29] [30 <./chapter2_zhu+13/
 figures/StructureTrendsq.pdf>]
-<chapter2_zhu+13/figures/RestofTrendsq.pdf, id=2032, 867.24pt x 939.51pt>
+<chapter2_zhu+13/figures/RestofTrendsq.pdf, id=2147, 867.24pt x 939.51pt>
 File: chapter2_zhu+13/figures/RestofTrendsq.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/RestofTrendsq.pdf>
 
 LaTeX Warning: Float too large for page by 19.73647pt on input line 183.
 
-[30] [31 <./chapter2_zhu+13/figures/RestofTrendsq.pdf>] [32]
-<chapter2_zhu+13/figures/EnergyTrendsq.pdf, id=2142, 433.62pt x 939.51pt>
+[31] [32 <./chapter2_zhu+13/figures/RestofTrendsq.pdf>] [33]
+<chapter2_zhu+13/figures/EnergyTrendsq.pdf, id=2257, 433.62pt x 939.51pt>
 File: chapter2_zhu+13/figures/EnergyTrendsq.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/EnergyTrendsq.pdf> [33] [34 <./chapter2_zhu+13/fig
-ures/EnergyTrendsq.pdf>] [35] [36] [37])
+<use chapter2_zhu+13/figures/EnergyTrendsq.pdf> [34] [35 <./chapter2_zhu+13/fig
+ures/EnergyTrendsq.pdf>] [36] [37] [38])
 (./chapter2_zhu+13/chapter2_variation.tex
-<chapter2_zhu+13/figures/compcomp.pdf, id=2243, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/compcomp.pdf, id=2358, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/compcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/compcomp.pdf>
-<chapter2_zhu+13/figures/distcomp.pdf, id=2247, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/distcomp.pdf, id=2362, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/distcomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/distcomp.pdf> [38] [39 <./chapter2_zhu+13/figures/
-compcomp.pdf>] [40 <./chapter2_zhu+13/figures/distcomp.pdf>]
-<chapter2_zhu+13/figures/synchcomp.pdf, id=2384, 433.62pt x 904.8204pt>
+<use chapter2_zhu+13/figures/distcomp.pdf> [39] [40 <./chapter2_zhu+13/figures/
+compcomp.pdf>] [41 <./chapter2_zhu+13/figures/distcomp.pdf>]
+<chapter2_zhu+13/figures/synchcomp.pdf, id=2500, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/synchcomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/synchcomp.pdf> [41] [42 <./chapter2_zhu+13/figures
+<use chapter2_zhu+13/figures/synchcomp.pdf> [42] [43 <./chapter2_zhu+13/figures
 /synchcomp.pdf>]
-<chapter2_zhu+13/figures/timecomp.pdf, id=2457, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/timecomp.pdf, id=2572, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/timecomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/timecomp.pdf> [43] [44 <./chapter2_zhu+13/figures/
+<use chapter2_zhu+13/figures/timecomp.pdf> [44] [45 <./chapter2_zhu+13/figures/
 timecomp.pdf>]
-<chapter2_zhu+13/figures/viscnumcomp.pdf, id=2529, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/viscnumcomp.pdf, id=2644, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/viscnumcomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/viscnumcomp.pdf> [45] [46 <./chapter2_zhu+13/figur
+<use chapter2_zhu+13/figures/viscnumcomp.pdf> [46] [47 <./chapter2_zhu+13/figur
 es/viscnumcomp.pdf>]
-<chapter2_zhu+13/figures/heatingTEC.pdf, id=2612, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/heatingTEC.pdf, id=2728, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/heatingTEC.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/heatingTEC.pdf> [47]
+<use chapter2_zhu+13/figures/heatingTEC.pdf> [48]
 Underfull \vbox (badness 5460) has occurred while \output is active []
 
- [48 <./chapter2_zhu+13/figures/heatingTEC.pdf>]
+ [49 <./chapter2_zhu+13/figures/heatingTEC.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\begingroup' on input line 206.
@@ -867,87 +849,87 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 206.
 
-[49]
-<chapter2_zhu+13/figures/compwithloreig.pdf, id=2685, 433.62pt x 488.5452pt>
+[50]
+<chapter2_zhu+13/figures/compwithloreig.pdf, id=2800, 433.62pt x 488.5452pt>
 File: chapter2_zhu+13/figures/compwithloreig.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/compwithloreig.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./chapter2_zhu+13/figures/compwithloreig.pdf>] [51])
+ [51 <./chapter2_zhu+13/figures/compwithloreig.pdf>] [52])
 (./chapter2_zhu+13/chapter2_discussion.tex
-<chapter2_zhu+13/figures/Willitexplode.pdf, id=2798, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/Willitexplode.pdf, id=2913, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/Willitexplode.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Willitexplode.pdf>
 
 LaTeX Warning: Float too large for page by 17.15363pt on input line 9.
 
-<chapter2_zhu+13/figures/PMEvolution.pdf, id=2806, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/PMEvolution.pdf, id=2921, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/PMEvolution.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/PMEvolution.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-[53 <./chapter2_zhu+13/figures/Willitexplode.pdf>] [54 <./chapter2_zhu+13/figur
-es/PMEvolution.pdf>] [55]
+ [53]
+[54 <./chapter2_zhu+13/figures/Willitexplode.pdf>] [55 <./chapter2_zhu+13/figur
+es/PMEvolution.pdf>] [56]
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [56]
-[57] [58]) (./chapter2_zhu+13/chapter2_postscript.tex
+ [57]
+[58] [59]) (./chapter2_zhu+13/chapter2_postscript.tex
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/8'.
 (microtype)             Ignoring protrusion settings for this character.
- [59]
+ [60]
 
-LaTeX Warning: Reference `ch:ch5' on page 60 undefined on input line 18.
+LaTeX Warning: Reference `ch:ch5' on page 61 undefined on input line 18.
 
-[60] <chapter2_zhu+13/figures/c2a_mcpv.pdf, id=3123, 433.62pt x 361.35pt>
+[61] <chapter2_zhu+13/figures/c2a_mcpv.pdf, id=3238, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/c2a_mcpv.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/c2a_mcpv.pdf> [61 <./chapter2_zhu+13/figures/c2a_m
+<use chapter2_zhu+13/figures/c2a_mcpv.pdf> [62 <./chapter2_zhu+13/figures/c2a_m
 cpv.pdf>]
-<chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf, id=3229, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf, id=3344, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>
 Underfull \vbox (badness 1571) has occurred while \output is active []
 
- [62 <./chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>]) [63]
+ [63 <./chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>]) [64]
 \openout2 = `chapter3_zhu+u/chapter3.aux'.
 
 
 (./chapter3_zhu+u/chapter3.tex
 Chapter 3.
-) [64
+) [65
 
 
 ] (./chapter3_zhu+u/chapter3_intro.tex
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
- [65
+ [66
 
 ])
-(./chapter3_zhu+u/chapter3_codes.tex [66]
+(./chapter3_zhu+u/chapter3_codes.tex [67]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [67]
-[68] [69]
-<chapter3_zhu+u/figures/SPHArepoFig.png, id=3641, 963.6pt x 542.025pt>
+ [68]
+[69] [70]
+<chapter3_zhu+u/figures/SPHArepoFig.png, id=3755, 963.6pt x 542.025pt>
 File: chapter3_zhu+u/figures/SPHArepoFig.png Graphic file (type png)
 
-<use chapter3_zhu+u/figures/SPHArepoFig.png> [70]
+<use chapter3_zhu+u/figures/SPHArepoFig.png> [71]
 
-Package natbib Warning: Citation `vlee06' on page 71 undefined on input line 19
+Package natbib Warning: Citation `vlee06' on page 72 undefined on input line 19
 8.
 
-[71 <./chapter3_zhu+u/figures/SPHArepoFig.png>] [72])
+[72 <./chapter3_zhu+u/figures/SPHArepoFig.png>] [73])
 (./chapter3_zhu+u/chapter3_fixarepo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-<chapter3_zhu+u/figures/lz_development.pdf, id=3732, 442.65375pt x 647.71986pt>
+ [74]
+<chapter3_zhu+u/figures/lz_development.pdf, id=3846, 442.65375pt x 647.71986pt>
 File: chapter3_zhu+u/figures/lz_development.pdf Graphic file (type pdf)
 <use chapter3_zhu+u/figures/lz_development.pdf>
 
@@ -957,99 +939,99 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 24.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 24.
 
 
-[74] [75 <./chapter3_zhu+u/figures/lz_development.pdf>]
+[75] [76 <./chapter3_zhu+u/figures/lz_development.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-<chapter3_zhu+u/figures/lz_development2.pdf, id=3842, 433.62pt x 361.35pt>
+ [77]
+<chapter3_zhu+u/figures/lz_development2.pdf, id=3957, 433.62pt x 361.35pt>
 File: chapter3_zhu+u/figures/lz_development2.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/lz_development2.pdf> [77 <./chapter3_zhu+u/figures/
+<use chapter3_zhu+u/figures/lz_development2.pdf> [78 <./chapter3_zhu+u/figures/
 lz_development2.pdf>]) (./chapter3_zhu+u/chapter3_results.tex
-<chapter3_zhu+u/figures/snapshots.pdf, id=3909, 845.55902pt x 1069.59598pt>
+<chapter3_zhu+u/figures/snapshots.pdf, id=4023, 845.55902pt x 1069.59598pt>
 File: chapter3_zhu+u/figures/snapshots.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/snapshots.pdf> [78] [79 <./chapter3_zhu+u/figures/s
+<use chapter3_zhu+u/figures/snapshots.pdf> [79] [80 <./chapter3_zhu+u/figures/s
 napshots.pdf>]
-<chapter3_zhu+u/figures/curves.pdf, id=4109, 260.17201pt x 904.8204pt>
+<chapter3_zhu+u/figures/curves.pdf, id=4223, 260.17201pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/curves.pdf> [80] [81 <./chapter3_zhu+u/figures/curv
-es.pdf>] <chapter3_zhu+u/figures/Lz.pdf, id=4165, 442.65375pt x 370.38374pt>
+<use chapter3_zhu+u/figures/curves.pdf> [81] [82 <./chapter3_zhu+u/figures/curv
+es.pdf>] <chapter3_zhu+u/figures/Lz.pdf, id=4279, 442.65375pt x 370.38374pt>
 File: chapter3_zhu+u/figures/Lz.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/Lz.pdf> [82 <./chapter3_zhu+u/figures/Lz.pdf>])
-(./chapter3_zhu+u/chapter3_discussion.tex [83]
-<chapter3_zhu+u/figures/curves_res.pdf, id=4228, 433.62pt x 904.8204pt>
+<use chapter3_zhu+u/figures/Lz.pdf> [83 <./chapter3_zhu+u/figures/Lz.pdf>])
+(./chapter3_zhu+u/chapter3_discussion.tex [84]
+<chapter3_zhu+u/figures/curves_res.pdf, id=4342, 433.62pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves_res.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves_res.pdf>
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
- [84]
-[85 <./chapter3_zhu+u/figures/curves_res.pdf>]
+ [85]
+[86 <./chapter3_zhu+u/figures/curves_res.pdf>]
 
 LaTeX Font Warning: Font shape `T1/pplx/bx/sc' undefined
 (Font)              using `T1/pplx/bx/n' instead on input line 36.
 
-[86] [87]) (./chapter3_zhu+u/chapter3_conclusions.tex [88]) [89]
+[87] [88]) (./chapter3_zhu+u/chapter3_conclusions.tex [89]) [90]
 \openout2 = `chapter4_zhu+15/chapter4.aux'.
 
 
 (./chapter4_zhu+15/chapter4.tex
 Chapter 4.
 
-LaTeX Warning: Reference `XXX' on page 90 undefined on input line 12.
+LaTeX Warning: Reference `XXX' on page 91 undefined on input line 12.
 
-) [90
+) [91
 
 
 ] (./chapter4_zhu+15/chapter4_intro.tex)
-(./chapter4_zhu+15/chapter4_methods.tex [91
+(./chapter4_zhu+15/chapter4_methods.tex [92
 
 ])
 (./chapter4_zhu+15/chapter4_results.tex
-<chapter4_zhu+15/figures/snapshots.pdf, id=4470, 507.69673pt x 818.45778pt>
+<chapter4_zhu+15/figures/snapshots.pdf, id=4584, 507.69673pt x 818.45778pt>
 File: chapter4_zhu+15/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/snapshots.pdf>
-<chapter4_zhu+15/figures/bgrowth.pdf, id=4472, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bgrowth.pdf, id=4586, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bgrowth.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bgrowth.pdf>
-<chapter4_zhu+15/figures/remnant.pdf, id=4481, 592.61403pt x 758.835pt>
+<chapter4_zhu+15/figures/remnant.pdf, id=4595, 592.61403pt x 758.835pt>
 File: chapter4_zhu+15/figures/remnant.pdf Graphic file (type pdf)
 
-<use chapter4_zhu+15/figures/remnant.pdf> [92] [93 <./chapter4_zhu+15/figures/s
-napshots.pdf>] [94 <./chapter4_zhu+15/figures/bgrowth.pdf>] [95 <./chapter4_zhu
+<use chapter4_zhu+15/figures/remnant.pdf> [93] [94 <./chapter4_zhu+15/figures/s
+napshots.pdf>] [95 <./chapter4_zhu+15/figures/bgrowth.pdf>] [96 <./chapter4_zhu
 +15/figures/remnant.pdf>]) (./chapter4_zhu+15/chapter4_discussion.tex
-<chapter4_zhu+15/figures/bcomp.pdf, id=4722, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bcomp.pdf, id=4836, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bcomp.pdf Graphic file (type pdf)
 
-<use chapter4_zhu+15/figures/bcomp.pdf> [96 <./chapter4_zhu+15/figures/bcomp.pd
-f>] [97] [98]) (./chapter4_zhu+15/chapter4_postscript.tex
+<use chapter4_zhu+15/figures/bcomp.pdf> [97 <./chapter4_zhu+15/figures/bcomp.pd
+f>] [98] [99]) (./chapter4_zhu+15/chapter4_postscript.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
- [99]
-<chapter4_zhu+15/figures/bdiv.pdf, id=4876, 375.804pt x 758.835pt>
+ [100]
+<chapter4_zhu+15/figures/bdiv.pdf, id=4990, 375.804pt x 758.835pt>
 File: chapter4_zhu+15/figures/bdiv.pdf Graphic file (type pdf)
 
-<use chapter4_zhu+15/figures/bdiv.pdf>) [100] [101 <./chapter4_zhu+15/figures/b
+<use chapter4_zhu+15/figures/bdiv.pdf>) [101] [102 <./chapter4_zhu+15/figures/b
 div.pdf>]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
 Chapter 5.
-<conclusion/figures/c_MNi.pdf, id=4991, 578.16pt x 578.16pt>
+<conclusion/figures/c_MNi.pdf, id=5106, 578.16pt x 578.16pt>
 File: conclusion/figures/c_MNi.pdf Graphic file (type pdf)
 
-<use conclusion/figures/c_MNi.pdf>) [102
+<use conclusion/figures/c_MNi.pdf> [103
 
 
-] [103 <./conclusion/figures/c_MNi.pdf>] (./Thesis.bbl [104
+]) [104 <./conclusion/figures/c_MNi.pdf>] (./Thesis.bbl [105
 
 
-] [105] [106] [107] [108] [109] [110] [111] [112]) [113]
+] [106] [107] [108] [109] [110] [111] [112] [113]) [114]
 
 Package natbib Warning: There were undefined citations.
 
@@ -1067,10 +1049,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11097 strings out of 495061
- 158538 string characters out of 1182621
- 329038 words of memory out of 3000000
- 12674 multiletter control sequences out of 15000+50000
+ 11172 strings out of 495061
+ 159624 string characters out of 1182621
+ 332896 words of memory out of 3000000
+ 12730 multiletter control sequences out of 15000+50000
  112804 words of font info for 618 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,9n,63p,2583b,900s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1163,9 +1145,9 @@ palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/t
 exmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (127 pages, 15362965 bytes).
+Output written on Thesis.pdf (128 pages, 15389599 bytes).
 PDF statistics:
- 5333 PDF objects out of 6186 (max. 8388607)
- 595 named destinations out of 1000 (max. 500000)
+ 5452 PDF objects out of 6186 (max. 8388607)
+ 614 named destinations out of 1000 (max. 500000)
  60600 words of extra memory for PDF output out of 61914 (max. 10000000)
 
