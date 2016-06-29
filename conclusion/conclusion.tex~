@@ -1,6 +1,6 @@
 \chapter{Conclusion}
 
-We now review the body of evidence from the previous Chapters
+We now review the body of evidence from the previous Chapters to determine if they indeed shed light on 
 
 One of the primary determinants of a merging system's fate is whether or not its remnant has a centrally peaked temperature.  While earlier simulations (\citeal{loreig09}) suggested a centrally peaked temperature, our own 
 
@@ -18,6 +18,8 @@ Mergers
 	- thus, our mergers are likely 
 
 -jI+13 non-local heating through magnetic reconnection?  compression looks mostly to be adiabatic, except near the very end (though they do see a trend of INCREASING temperature toward the center with resolution)
+
+- can we rule out the possibility of the standard Yoon et al. model?  No.
 
 - We lastly stress the importance of observational work in this field: we've noted that sub-Mch merger remnants should become massive WDs, but the space density of these, and a comparison of these values to estimated merger rates from population counts and population synthesis, will give us a much better handle.  Their mass range will do so also, at least with providing a minimum cutoff for things that can explode (we note that there's poorly constrained wind mass loss)
 

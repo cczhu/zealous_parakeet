@@ -140,11 +140,6 @@
 {Clayton}, G.~C. 2012, Journal of the American Association of Variable Star
   Observers (JAAVSO), 40, 539
 
-\bibitem[{{Clayton} {et~al.}(2007){Clayton}, {Geballe}, {Herwig}, {Fryer}, \&
-  {Asplund}}]{clay+07}
-{Clayton}, G.~C., {Geballe}, T.~R., {Herwig}, F., {Fryer}, C., \& {Asplund}, M.
-  2007, \apj, 662, 1220
-
 \bibitem[{{Cullen} \& {Dehnen}(2010)}]{culld10}
 {Cullen}, L., \& {Dehnen}, W. 2010, \mnras, 408, 669
 
@@ -402,6 +397,10 @@
 
 \bibitem[{{Ilkov} \& {Soker}(2012)}]{illks12}
 {Ilkov}, M., \& {Soker}, N. 2012, \mnras, 419, 1695
+
+\bibitem[{{Jeffery}(2014)}]{jeff14}
+{Jeffery}, C.~S. 2014, in IAU Symposium, Vol. 301, Precision Asteroseismology,
+  ed. J.~A. {Guzik}, W.~J. {Chaplin}, G.~{Handler}, \& A.~{Pigulski}, 297--304
 
 \bibitem[{{Ji} {et~al.}(2013){Ji}, {Fisher}, {Garc{\'{\i}}a-Berro},
   {Tzeferacos}, {Jordan}, {Lee}, {Lor{\'e}n-Aguilar}, {Cremer}, \&
@@ -806,6 +805,13 @@
   {Townsley}, \& {Timmes}}]{paxt+15}
 {Paxton}, B., {Marchant}, P., {Schwab}, J., {et~al.} 2015, \apjs, 220, 15
 
+\bibitem[{{Perets} {et~al.}(2010){Perets}, {Gal-Yam}, {Mazzali}, {Arnett},
+  {Kagan}, {Filippenko}, {Li}, {Arcavi}, {Cenko}, {Fox}, {Leonard}, {Moon},
+  {Sand}, {Soderberg}, {Anderson}, {James}, {Foley}, {Ganeshalingam}, {Ofek},
+  {Bildsten}, {Nelemans}, {Shen}, {Weinberg}, {Metzger}, {Piro}, {Quataert},
+  {Kiewe}, \& {Poznanski}}]{pere+10}
+{Perets}, H.~B., {Gal-Yam}, A., {Mazzali}, P.~A., {et~al.} 2010, \nat, 465, 322
+
 \bibitem[{{Perlmutter} {et~al.}(1999){Perlmutter}, {Aldering}, {Goldhaber},
   {Knop}, {Nugent}, {Castro}, {Deustua}, {Fabbro}, {Goobar}, {Groom}, {Hook},
   {Kim}, {Kim}, {Lee}, {Nunes}, {Pain}, {Pennypacker}, {Quimby}, {Lidman},
@@ -909,6 +915,9 @@
 \bibitem[{{Saio} \& {Jeffery}(2000)}]{saioj00}
 {Saio}, H., \& {Jeffery}, C.~S. 2000, \mnras, 313, 671
 
+\bibitem[{{Saio} \& {Jeffery}(2002)}]{saioj02}
+---. 2002, \mnras, 333, 121
+
 \bibitem[{{Saio} \& {Nomoto}(1985)}]{saion85}
 {Saio}, H., \& {Nomoto}, K. 1985, \aap, 150, L21
 
@@ -965,11 +974,18 @@
 {Shen}, K.~J., {Bildsten}, L., {Kasen}, D., \& {Quataert}, E. 2012, \apj, 748,
   35
 
+\bibitem[{{Shen} {et~al.}(2010{\natexlab{a}}){Shen}, {Kasen}, {Weinberg},
+  {Bildsten}, \& {Scannapieco}}]{shen+10heshell}
+{Shen}, K.~J., {Kasen}, D., {Weinberg}, N.~N., {Bildsten}, L., \&
+  {Scannapieco}, E. 2010{\natexlab{a}}, \apj, 715, 767
+
 \bibitem[{{Shen} \& {Moore}(2014)}]{shenm14}
 {Shen}, K.~J., \& {Moore}, K. 2014, \apj, 797, 46
 
-\bibitem[{{Shen} {et~al.}(2010){Shen}, {Wadsley}, \& {Stinson}}]{shen+10}
-{Shen}, S., {Wadsley}, J., \& {Stinson}, G. 2010, \mnras, 407, 1581
+\bibitem[{{Shen} {et~al.}(2010{\natexlab{b}}){Shen}, {Wadsley}, \&
+  {Stinson}}]{shen+10}
+{Shen}, S., {Wadsley}, J., \& {Stinson}, G. 2010{\natexlab{b}}, \mnras, 407,
+  1581
 
 \bibitem[{{Shigeyama} {et~al.}(1992){Shigeyama}, {Nomoto}, {Yamaoka}, \&
   {Thielemann}}]{shig+92}
@@ -1081,6 +1097,10 @@
 
 \bibitem[{{Wadsley} {et~al.}(2004){Wadsley}, {Stadel}, \& {Quinn}}]{wadssq04}
 {Wadsley}, J.~W., {Stadel}, J., \& {Quinn}, T. 2004, \na, 9, 137
+
+\bibitem[{{Waldman} {et~al.}(2011){Waldman}, {Sauer}, {Livne}, {Perets},
+  {Glasner}, {Mazzali}, {Truran}, \& {Gal-Yam}}]{wald+11}
+{Waldman}, R., {Sauer}, D., {Livne}, E., {et~al.} 2011, \apj, 738, 21
 
 \bibitem[{{Watts} {et~al.}(2005){Watts}, {Andersson}, \& {Jones}}]{wattaj05}
 {Watts}, A.~L., {Andersson}, N., \& {Jones}, D.~I. 2005, \apjl, 618, L37

@@ -3,7 +3,7 @@
 To preface Chapter \ref{ch:ch2}, which focuses on the merger remnants, we briefly cover a few topics related to evolution of the CO WD binary leading up to and during the early phases of the merger that are only considered in passing in subsequent chapters.  These include estimates on the typical WD masses involved in a typical CO WD binary merger, and the stability of mass transfer in interacting CO WDs.
 
 \subsection{The CO WD Mass Range}
-\label{ssec:cowd_massrange}
+\label{ssec:c1_cowd_massrange}
 
 While we can roughly estimate the range of masses a CO WD can take as being between $\sim0.4$ and $\sim1.0\,\Msun$ (Sec. \ref{}), what are the typical masses involved in a CO WD merger?
 
@@ -14,7 +14,7 @@ While we can roughly estimate the range of masses a CO WD can take as being betw
 
 
 \subsection{Merger Initial Conditions and Unstable Mass Transfer}
-\label{ssec:stable_mass_transfer}
+\label{ssec:c1_stable_mass_transfer}
 
 For all of the merger simulations we conduct in this thesis, we generate initial conditions by placing two unperturbed spherical WDs, whose rotation are unsynchronized with their orbital period, at an initial separation where the less massive WD's radius is equal to its Roche lobe (the radius around a star within which any material is gravitational bound to the star).  Note that the less massive WD is always the first to initiate mass transfer, since by the WD mass-radius relation,
 
@@ -75,7 +75,7 @@ In the case where spin and orbital angular momentum coupling is instead negligib
 \label{eq:c1_qcrit3}
 \eqend
 
-\noindent well-below any mass ratio for a CO WD binary (from Sec. \ref{ssec:cowd_massrange}).  Eqns. \ref{eq:c1_qcrit} or \ref{eq:c1_qcrit3} represent the upper and lower-bounds of mass transfer stability, as seen in Fig. \ref{fig:c1_stability}: a binary with $\qm > 2/3$ will experience unstable mass transfer even with perfect angular momentum coupling, while a binary with $\qm \lesssim 0.2$ will always be stable, even with no coupling.  The critical $\qm$ for an imperfect coupling will fall somewhere between these two.
+\noindent well-below any mass ratio for a CO WD binary (from Sec. \ref{ssec:c1_cowd_massrange}).  Eqns. \ref{eq:c1_qcrit} or \ref{eq:c1_qcrit3} represent the upper and lower-bounds of mass transfer stability, as seen in Fig. \ref{fig:c1_stability}: a binary with $\qm > 2/3$ will experience unstable mass transfer even with perfect angular momentum coupling, while a binary with $\qm \lesssim 0.2$ will always be stable, even with no coupling.  The critical $\qm$ for an imperfect coupling will fall somewhere between these two.
 
 \begin{figure}
 \centering

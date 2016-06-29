@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: chapter2_zhu+13/chapter2.aux
@@ -6,12 +7,15 @@ A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
 A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 A level-1 auxiliary file: conclusion/conclusion.aux
 The style file: apj.bst
-Reallocated field_info (elt_size=4) to 12384 items from 5000.
+Reallocated field_info (elt_size=4) to 12540 items from 5000.
 Database file #1: AutoBibliography.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "XXX"
 Warning--I didn't find a database entry for "han+02"
 Warning--I didn't find a database entry for "zhanj12"
+Warning--I didn't find a database entry for "wooswk11"
+Warning--I didn't find a database entry for "bild+07"
 Warning--I didn't find a database entry for "moazns14"
 Warning--I didn't find a database entry for "maozns14"
 Warning--I didn't find a database entry for "howe+09"
@@ -21,50 +25,49 @@ Warning--I didn't find a database entry for "none"
 Warning--I didn't find a database entry for "zhu+16"
 Warning--I didn't find a database entry for "kermsk15"
 Warning--I didn't find a database entry for "vlee06"
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in arne96
 Warning--empty publisher in goedp04
 Warning--empty publisher in kippww12
-You've used 271 entries,
+You've used 275 entries,
             3085 wiz_defined-function locations,
-            2433 strings with 65270 characters,
-and the built_in function-call counts, 132318 in all, are:
-= -- 10928
-> -- 9841
-< -- 105
-+ -- 3294
-- -- 3564
-* -- 11404
-:= -- 24961
-add.period$ -- 271
-call.type$ -- 271
-change.case$ -- 1835
-chr.to.int$ -- 264
-cite$ -- 274
-duplicate$ -- 5146
-empty$ -- 7727
-format.name$ -- 3898
-if$ -- 26208
-int.to.chr$ -- 8
+            2462 strings with 66586 characters,
+and the built_in function-call counts, 134665 in all, are:
+= -- 11103
+> -- 10047
+< -- 108
++ -- 3364
+- -- 3636
+* -- 11625
+:= -- 25402
+add.period$ -- 275
+call.type$ -- 275
+change.case$ -- 1863
+chr.to.int$ -- 267
+cite$ -- 278
+duplicate$ -- 5232
+empty$ -- 7854
+format.name$ -- 3977
+if$ -- 26667
+int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 264
-newline$ -- 817
-num.names$ -- 1088
-pop$ -- 1993
+missing$ -- 267
+newline$ -- 829
+num.names$ -- 1105
+pop$ -- 2025
 preamble$ -- 1
-purify$ -- 1835
+purify$ -- 1863
 quote$ -- 0
-skip$ -- 4315
+skip$ -- 4385
 stack$ -- 0
-substring$ -- 5744
-swap$ -- 75
-text.length$ -- 7
+substring$ -- 5840
+swap$ -- 87
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2430
+type$ -- 2466
 warning$ -- 3
-while$ -- 1036
+while$ -- 1053
 width$ -- 0
-write$ -- 2711
-(There were 16 warnings)
+write$ -- 2751
+(There were 18 warnings)
