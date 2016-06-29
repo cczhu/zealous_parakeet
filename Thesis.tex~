@@ -558,7 +558,7 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %citation{phil93}{1993ApJ...413L.105P}		% phillips relation
 %citation{ruizs98}{1998ApJ...500..360R}		% Ruiz-Lapuente's work on positron trapping due to magnetic fields
 %citation{ruiz04}{2004ApJ...612..357R}		% tycho's SN
-%citation{simo+09}{2009ApJ...702.1157S}	% Simon's Na ID paper
+%citation{simo+09}{2009ApJ...702.1157S}		% Simon's Na ID paper
 %citation{stei+10}{2010ApJ...716L.146S}		% eclipsing detached WD binary
 %citation{taub+09}{2011MNRAS.412.2735T}		% slow-moving superchandrasekhar
 %citation{will+13}{2013ApJ...769..123W}		% Williams's DQ paper (though this one is a "warm DQ")
@@ -636,7 +636,7 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %citation{hill+16}{2016ApJ...819..168H}		% maybe it is possible to grow WDs despite he flashes
 %citation{clae+14}{2014A&A...563A..83C}		% joke's BPS study - similar results for total SN rate
 %citation{maoz+11}{2011MNRAS.412.1508M}		% Maoz estimate of total SN rate
-%citation{schw+15}{2015MNRAS.453.1910S}		% Schwab's AIC work
+%citation{schwqb15}{2015MNRAS.453.1910S}	% Schwab's AIC work
 %citation{bran98}{1998ARA&A..36...17B}		% Branch normal definition (see also bran+06)
 %citation{arne96}{1996sunu.book.....A}		% Arnett's book on nucleosynthesis
 %citation{stri+06}{2006A&A...450..241S}		% 56Ni yields
@@ -657,7 +657,7 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %citation{kerz+14ref}{2014ApJ...782...27K}	% wolfgang's search for companions in kepler
 %citation{ollms15}{2015Natur.521..332O}		% kepler telescope shock heated companion
 %citation{magu+16}{2016MNRAS.457.3254M}		% maguire H and He entrained SNe
-%citation{benzth89}{1989ApJ...342..986B}		% benz collisions
+%citation{benzth89}{1989ApJ...342..986B}	% benz collisions
 %citation{katzd12}{2012arXiv1211.4584K}		% three-body interactions generate SNe Ia
 %citation{koza62}{1962AJ.....67..591K}		% kozai-lidov mechanism
 %citation{lido62}{1962P&SS....9..719L}		% kozai-lidov mechanism
@@ -678,7 +678,13 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %citation{jeff14}{2014IAUS..301..297J}		% EHe stars
 
 %citation{wald+11}{2011ApJ...738...21W}		% He shell explosions
-%citation{shen+10}{2010ApJ...715..767S}		% He shell explosions
+%citation{shen+10he}{2010ApJ...715..767S}	% He shell explosions
 %citation{pere+10}{2010Natur.465..322P}		% Ca-rich SN Ib transients
+%citation{miya+80}{1980PASJ...32..303M}		% ONe WD collapse
+%citation{marq+15}{2015A&A...580A.118M}		% ONe WD explosions
+%citation{hurlpt00}{2000MNRAS.315..543H}	% 1.25 Msun CO WD
+%citation{dess+06}{2006ApJ...644.1063D}		% AIC sim
+%citation{dess+07}{2007ApJ...669..585D}		% AIC sim
+%citation{frye+09}{2009ApJ...707..193F}		% AIC sim
 
 %ZZZtion{taub+08}{2008MNRAS.385...75T}		% 1991bg-like

@@ -178,6 +178,14 @@
 \bibitem[{{Dehnen} \& {Aly}(2012)}]{dehna12}
 {Dehnen}, W., \& {Aly}, H. 2012, \mnras, 425, 1068
 
+\bibitem[{{Dessart} {et~al.}(2007){Dessart}, {Burrows}, {Livne}, \&
+  {Ott}}]{dess+07}
+{Dessart}, L., {Burrows}, A., {Livne}, E., \& {Ott}, C.~D. 2007, \apj, 669, 585
+
+\bibitem[{{Dessart} {et~al.}(2006){Dessart}, {Burrows}, {Ott}, {Livne}, {Yoon},
+  \& {Langer}}]{dess+06}
+{Dessart}, L., {Burrows}, A., {Ott}, C.~D., {et~al.} 2006, \apj, 644, 1063
+
 \bibitem[{{Di Stefano}(2010)}]{dist10}
 {Di Stefano}, R. 2010, \apj, 719, 474
 
@@ -253,6 +261,11 @@
   {Kirshner}, {McCully}, {Persson}, {Phillips}, {Reichart}, \&
   {Soderberg}}]{fole+13}
 {Foley}, R.~J., {Challis}, P.~J., {Chornock}, R., {et~al.} 2013, \apj, 767, 57
+
+\bibitem[{{Fryer} {et~al.}(2009){Fryer}, {Brown}, {Bufano}, {Dahl}, {Fontes},
+  {Frey}, {Holland}, {Hungerford}, {Immler}, {Mazzali}, {Milne}, {Scannapieco},
+  {Weinberg}, \& {Young}}]{frye+09}
+{Fryer}, C.~L., {Brown}, P.~J., {Bufano}, F., {et~al.} 2009, \apj, 707, 193
 
 \bibitem[{{Fryxell} {et~al.}(2000){Fryxell}, {Olson}, {Ricker}, {Timmes},
   {Zingale}, {Lamb}, {MacNeice}, {Rosner}, {Truran}, \& {Tufo}}]{fryx+00}
@@ -385,6 +398,9 @@
   {Oser}}]{hu+14}
 {Hu}, C.-Y., {Naab}, T., {Walch}, S., {Moster}, B.~P., \& {Oser}, L. 2014,
   \mnras, 443, 1173
+
+\bibitem[{{Hurley} {et~al.}(2000){Hurley}, {Pols}, \& {Tout}}]{hurlpt00}
+{Hurley}, J.~R., {Pols}, O.~R., \& {Tout}, C.~A. 2000, \mnras, 315, 543
 
 \bibitem[{{Iben} \& {Tutukov}(1984)}]{ibent84}
 {Iben}, Jr., I., \& {Tutukov}, A.~V. 1984, \apjs, 54, 335
@@ -621,6 +637,11 @@
   {Springel}}]{marips14}
 {Marinacci}, F., {Pakmor}, R., \& {Springel}, V. 2014, \mnras, 437, 1750
 
+\bibitem[{{Marquardt} {et~al.}(2015){Marquardt}, {Sim}, {Ruiter}, {Seitenzahl},
+  {Ohlmann}, {Kromer}, {Pakmor}, \& {R{\"o}pke}}]{marq+15}
+{Marquardt}, K.~S., {Sim}, S.~A., {Ruiter}, A.~J., {et~al.} 2015, \aap, 580,
+  A118
+
 \bibitem[{{Marsh}(2011)}]{mars11}
 {Marsh}, T.~R. 2011, Classical and Quantum Gravity, 28, 094019
 
@@ -650,6 +671,10 @@
   \& {Crain}}]{mitc+09}
 {Mitchell}, N.~L., {McCarthy}, I.~G., {Bower}, R.~G., {Theuns}, T., \& {Crain},
   R.~A. 2009, \mnras, 395, 180
+
+\bibitem[{{Miyaji} {et~al.}(1980){Miyaji}, {Nomoto}, {Yokoi}, \&
+  {Sugimoto}}]{miya+80}
+{Miyaji}, S., {Nomoto}, K., {Yokoi}, K., \& {Sugimoto}, D. 1980, \pasj, 32, 303
 
 \bibitem[{{Miyoshi} \& {Kusano}(2005)}]{miyok05}
 {Miyoshi}, T., \& {Kusano}, K. 2005, Journal of Computational Physics, 208, 315
@@ -931,7 +956,8 @@
 \bibitem[{{Scalzo} {et~al.}(2014){Scalzo}, {Ruiter}, \& {Sim}}]{scalzrs14}
 {Scalzo}, R.~A., {Ruiter}, A.~J., \& {Sim}, S.~A. 2014, \mnras, 445, 2535
 
-\bibitem[{{Schwab} {et~al.}(2015){Schwab}, {Quataert}, \& {Bildsten}}]{schw+15}
+\bibitem[{{Schwab} {et~al.}(2015){Schwab}, {Quataert}, \&
+  {Bildsten}}]{schwqb15}
 {Schwab}, J., {Quataert}, E., \& {Bildsten}, L. 2015, \mnras, 453, 1910
 
 \bibitem[{{Schwab} {et~al.}(2016){Schwab}, {Quataert}, \& {Kasen}}]{schw+16}
@@ -975,7 +1001,7 @@
   35
 
 \bibitem[{{Shen} {et~al.}(2010{\natexlab{a}}){Shen}, {Kasen}, {Weinberg},
-  {Bildsten}, \& {Scannapieco}}]{shen+10heshell}
+  {Bildsten}, \& {Scannapieco}}]{shen+10he}
 {Shen}, K.~J., {Kasen}, D., {Weinberg}, N.~N., {Bildsten}, L., \&
   {Scannapieco}, E. 2010{\natexlab{a}}, \apj, 715, 767
 
