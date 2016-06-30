@@ -247,6 +247,11 @@
 \bibitem[{{Filippenko}(1997)}]{fili97}
 {Filippenko}, A.~V. 1997, \araa, 35, 309
 
+\bibitem[{{Fink} {et~al.}(2010){Fink}, {R{\"o}pke}, {Hillebrandt},
+  {Seitenzahl}, {Sim}, \& {Kromer}}]{fink+10}
+{Fink}, M., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010, \aap, 514,
+  A53
+
 \bibitem[{{Fink} {et~al.}(2014){Fink}, {Kromer}, {Seitenzahl},
   {Ciaraldi-Schoolmann}, {R{\"o}pke}, {Sim}, {Pakmor}, {Ruiter}, \&
   {Hillebrandt}}]{fink+14}
@@ -322,6 +327,11 @@
 \bibitem[{{Guerrero} {et~al.}(2004){Guerrero}, {Garc{\'{\i}}a-Berro}, \&
   {Isern}}]{guerig04}
 {Guerrero}, J., {Garc{\'{\i}}a-Berro}, E., \& {Isern}, J. 2004, \aap, 413, 257
+
+\bibitem[{{Guillochon} {et~al.}(2010){Guillochon}, {Dan}, {Ramirez-Ruiz}, \&
+  {Rosswog}}]{guil+10}
+{Guillochon}, J., {Dan}, M., {Ramirez-Ruiz}, E., \& {Rosswog}, S. 2010, \apjl,
+  709, L64
 
 \bibitem[{{Hachisu} {et~al.}(2010){Hachisu}, {Kato}, \& {Nomoto}}]{hachkn10}
 {Hachisu}, I., {Kato}, M., \& {Nomoto}, K. 2010, \apjl, 724, L212
@@ -468,10 +478,15 @@
 \bibitem[{{Keller} {et~al.}(2015){Keller}, {Wadsley}, \& {Couchman}}]{kell+15}
 {Keller}, B.~W., {Wadsley}, J., \& {Couchman}, H.~M.~P. 2015, \mnras, 453, 3499
 
-\bibitem[{{Kerzendorf} {et~al.}(2014){Kerzendorf}, {Taubenberger},
-  {Seitenzahl}, \& {Ruiter}}]{kerz+14}
+\bibitem[{{Kerzendorf} {et~al.}(2014{\natexlab{a}}){Kerzendorf}, {Childress},
+  {Scharw{\"a}chter}, {Do}, \& {Schmidt}}]{kerz+14rem}
+{Kerzendorf}, W.~E., {Childress}, M., {Scharw{\"a}chter}, J., {Do}, T., \&
+  {Schmidt}, B.~P. 2014{\natexlab{a}}, \apj, 782, 27
+
+\bibitem[{{Kerzendorf} {et~al.}(2014{\natexlab{b}}){Kerzendorf},
+  {Taubenberger}, {Seitenzahl}, \& {Ruiter}}]{kerz+14}
 {Kerzendorf}, W.~E., {Taubenberger}, S., {Seitenzahl}, I.~R., \& {Ruiter},
-  A.~J. 2014, \apjl, 796, L26
+  A.~J. 2014{\natexlab{b}}, \apjl, 796, L26
 
 \bibitem[{{Khokhlov}(1991)}]{khok91}
 {Khokhlov}, A.~M. 1991, \aap, 245, 114
@@ -504,6 +519,14 @@
 \bibitem[{{Krause} {et~al.}(2008){Krause}, {Tanaka}, {Usuda}, {Hattori},
   {Goto}, {Birkmann}, \& {Nomoto}}]{krau+08}
 {Krause}, O., {Tanaka}, M., {Usuda}, T., {et~al.} 2008, \nat, 456, 617
+
+\bibitem[{{Kremer} {et~al.}(2015){Kremer}, {Sepinsky}, \&
+  {Kalogera}}]{kremsk15}
+{Kremer}, K., {Sepinsky}, J., \& {Kalogera}, V. 2015, \apj, 806, 76
+
+\bibitem[{{Kromer} {et~al.}(2010){Kromer}, {Sim}, {Fink}, {R{\"o}pke},
+  {Seitenzahl}, \& {Hillebrandt}}]{krom+10}
+{Kromer}, M., {Sim}, S.~A., {Fink}, M., {et~al.} 2010, \apj, 719, 1067
 
 \bibitem[{{Kromer} {et~al.}(2013){Kromer}, {Fink}, {Stanishev}, {Taubenberger},
   {Ciaraldi-Schoolman}, {Pakmor}, {R{\"o}pke}, {Ruiter}, {Seitenzahl}, {Sim},
@@ -578,6 +601,9 @@
 
 \bibitem[{{Livio} \& {Riess}(2003)}]{livir03}
 {Livio}, M., \& {Riess}, A.~G. 2003, \apjl, 594, L93
+
+\bibitem[{{Livne}(1990)}]{livn90}
+{Livne}, E. 1990, \apjl, 354, L53
 
 \bibitem[{{Loken} {et~al.}(2010){Loken}, {Gruner}, {Groer}, {Peltier}, {Bunn},
   {Craig}, {Henriques}, {Dempsey}, {Yu}, {Chen}, {Dursi}, {Chong}, {Northrup},
@@ -694,6 +720,9 @@
 \bibitem[{{Moll} {et~al.}(2014){Moll}, {Raskin}, {Kasen}, \&
   {Woosley}}]{moll+14}
 {Moll}, R., {Raskin}, C., {Kasen}, D., \& {Woosley}, S.~E. 2014, \apj, 785, 105
+
+\bibitem[{{Moll} \& {Woosley}(2013)}]{mollw13}
+{Moll}, R., \& {Woosley}, S.~E. 2013, \apj, 774, 137
 
 \bibitem[{{Monaghan}(2005)}]{mona05}
 {Monaghan}, J.~J. 2005, Reports on Progress in Physics, 68, 1703
@@ -846,6 +875,9 @@
 {Perlmutter}, S., {Aldering}, G., {Goldhaber}, G., {et~al.} 1999, \apj, 517,
   565
 
+\bibitem[{{Peters} \& {Mathews}(1963)}]{petem63}
+{Peters}, P.~C., \& {Mathews}, J. 1963, Physical Review, 131, 435
+
 \bibitem[{{Phillips}(1993)}]{phil93}
 {Phillips}, M.~M. 1993, \apjl, 413, L105
 
@@ -861,6 +893,9 @@
 
 \bibitem[{{Piro}(2011)}]{piro11}
 {Piro}, A.~L. 2011, \apjl, 740, L53
+
+\bibitem[{{Piro} {et~al.}(2014){Piro}, {Thompson}, \& {Kochanek}}]{pirotk14}
+{Piro}, A.~L., {Thompson}, T.~A., \& {Kochanek}, C.~S. 2014, \mnras, 438, 3456
 
 \bibitem[{{Powell} {et~al.}(1999){Powell}, {Roe}, {Linde}, {Gombosi}, \& {De
   Zeeuw}}]{powe+99}
@@ -995,6 +1030,9 @@
 \bibitem[{{Shen}(2015)}]{shen15}
 {Shen}, K.~J. 2015, \apjl, 805, L6
 
+\bibitem[{{Shen} \& {Bildsten}(2014)}]{shenb14}
+{Shen}, K.~J., \& {Bildsten}, L. 2014, \apj, 785, 61
+
 \bibitem[{{Shen} {et~al.}(2012){Shen}, {Bildsten}, {Kasen}, \&
   {Quataert}}]{shen+12}
 {Shen}, K.~J., {Bildsten}, L., {Kasen}, D., \& {Quataert}, E. 2012, \apj, 748,
@@ -1113,6 +1151,9 @@
 \bibitem[{{Vandenbroucke} \& {De Rijcke}(2016)}]{vandr16}
 {Vandenbroucke}, B., \& {De Rijcke}, S. 2016, Astronomy and Computing, 16, 109
 
+\bibitem[{{Verbunt}(1984)}]{verb84}
+{Verbunt}, F. 1984, \mnras, 209, 227
+
 \bibitem[{{Verbunt} \& {Rappaport}(1988)}]{verbr88}
 {Verbunt}, F., \& {Rappaport}, S. 1988, \apj, 332, 193
 
@@ -1158,6 +1199,9 @@
   \& {R{\"o}pke}}]{woos+09}
 {Woosley}, S.~E., {Kerstein}, A.~R., {Sankaran}, V., {Aspden}, A.~J., \&
   {R{\"o}pke}, F.~K. 2009, \apj, 704, 255
+
+\bibitem[{{Woosley} \& {Weaver}(1994)}]{woosw94}
+{Woosley}, S.~E., \& {Weaver}, T.~A. 1994, \apj, 423, 371
 
 \bibitem[{{Yamanaka} {et~al.}(2009){Yamanaka}, {Kawabata}, {Kinugasa},
   {Tanaka}, {Imada}, {Maeda}, {Nomoto}, {Arai}, {Chiyonobu}, {Fukazawa},

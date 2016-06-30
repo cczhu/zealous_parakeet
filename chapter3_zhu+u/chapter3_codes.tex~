@@ -209,7 +209,7 @@ P \\
 \label{eq:c3_gauss_green}
 \eqend
 
-\noindent $\phi({\bf f}_{ij})$ is $\phi$ at $A_{ij}$'s centroid, and can be estimated by appealing to geometric properties of Voronoi cells (see \cite{spri10} Sec 3.1).  The temporal gradient is determined by relating it to the spatial gradient using the Euler equations.  Finally, the flux is resolved from ${\bf W}_\mrm{L,R}^\mrm{interface}$ with a Riemann solver (in all our simulations, the Harten–Lax–van Leer -- Discontinuities, or HLLD, solver; \citealt{miyok05}).  Eqns. \ref{eq:c3_muscl_hancock} and \ref{eq:c3_gauss_green} were replaced in \cite{pakm+16} order to resolve \arepo's angular momentum conservation issue (Sec. \ref{sec:c3_fixingarepo}), but the overall flux calculation procedure remains the same as above.
+\noindent $\phi({\bf f}_{ij})$ is $\phi$ at $A_{ij}$'s centroid, and can be estimated by appealing to geometric properties of Voronoi cells (see \cite{spri10} Sec 3.1).  The temporal gradient is determined by relating it to the spatial gradient using the Euler equations.  Finally, the flux is resolved from ${\bf W}_\mrm{L,R}^\mrm{interface}$ with a Riemann solver (in all our simulations, the Harten-Lax-van Leer -- Discontinuities, or HLLD, solver; \citealt{miyok05}).  Eqns. \ref{eq:c3_muscl_hancock} and \ref{eq:c3_gauss_green} were replaced in \cite{pakm+16} order to resolve \arepo's angular momentum conservation issue (Sec. \ref{sec:c3_fixingarepo}), but the overall flux calculation procedure remains the same as above.
 
 %Once calculated, the gradient estimate is slope-limited before being used in Eqn. \ref{eq:c3_muscl_hancock} (\cite{spri10} Eqns. 28 - 30)
 
