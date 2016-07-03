@@ -86,6 +86,11 @@
 {Briggs}, G.~P., {Ferrario}, L., {Tout}, C.~A., {Wickramasinghe}, D.~T., \&
   {Hurley}, J.~R. 2015, \mnras, 447, 1713
 
+\bibitem[{{Brown} {et~al.}(2010){Brown}, {Kilic}, {Allende Prieto}, \&
+  {Kenyon}}]{brow+10}
+{Brown}, W.~R., {Kilic}, M., {Allende Prieto}, C., \& {Kenyon}, S.~J. 2010,
+  \apj, 723, 1072
+
 \bibitem[{{Brown} {et~al.}(2011){Brown}, {Kilic}, {Hermes}, {Allende Prieto},
   {Kenyon}, \& {Winget}}]{brow+11}
 {Brown}, W.~R., {Kilic}, M., {Hermes}, J.~J., {et~al.} 2011, \apjl, 737, L23
@@ -99,6 +104,11 @@
   {Weinberg}}]{burk+13}
 {Burkart}, J., {Quataert}, E., {Arras}, P., \& {Weinberg}, N.~N. 2013, \mnras,
   433, 332
+
+\bibitem[{{Carrasco} {et~al.}(2014){Carrasco}, {Catal{\'a}n}, {Jordi},
+  {Tremblay}, {Napiwotzki}, {Luri}, {Robin}, \& {Kowalski}}]{carr+14}
+{Carrasco}, J.~M., {Catal{\'a}n}, S., {Jordi}, C., {et~al.} 2014, \aap, 565,
+  A11
 
 \bibitem[{{Centrella} {et~al.}(2001){Centrella}, {New}, {Lowe}, \&
   {Brown}}]{cent+11}
@@ -247,6 +257,9 @@
 \bibitem[{{Filippenko}(1997)}]{fili97}
 {Filippenko}, A.~V. 1997, \araa, 35, 309
 
+\bibitem[{{Fink} {et~al.}(2007){Fink}, {Hillebrandt}, \& {R{\"o}pke}}]{fink+07}
+{Fink}, M., {Hillebrandt}, W., \& {R{\"o}pke}, F.~K. 2007, \aap, 476, 1133
+
 \bibitem[{{Fink} {et~al.}(2010){Fink}, {R{\"o}pke}, {Hillebrandt},
   {Seitenzahl}, {Sim}, \& {Kromer}}]{fink+10}
 {Fink}, M., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010, \aap, 514,
@@ -285,6 +298,14 @@
 \bibitem[{{Gaburov} {et~al.}(2012){Gaburov}, {Johansen}, \& {Levin}}]{gabujl12}
 {Gaburov}, E., {Johansen}, A., \& {Levin}, Y. 2012, \apj, 758, 103
 
+\bibitem[{{Gaensicke} {et~al.}(2015){Gaensicke}, {Tremblay}, {Barstow}, {Bono},
+  {Burleigh}, {Casewell}, {Dhillon}, {Farihi}, {Garcia-Berro}, {Geier},
+  {Gentile-Fusillo}, {Hermes}, {Hollands}, {Istrate}, {Jordan}, {Knigge},
+  {Manser}, {Marsh}, {Nelemans}, {Pala}, {Raddi}, {Tauris}, {Toloza}, {Veras},
+  {Werner}, \& {Wilson}}]{gaen+15}
+{Gaensicke}, B., {Tremblay}, P.-E., {Barstow}, M., {et~al.} 2015, ArXiv
+  e-prints, arXiv:1506.02653
+
 \bibitem[{{Garc{\'{\i}}a-Berro}(2013)}]{garc13}
 {Garc{\'{\i}}a-Berro}, E. 2013, in IAU Symposium, Vol. 281, Binary Paths to
   Type Ia Supernovae Explosions, ed. R.~{Di Stefano}, M.~{Orio}, \& M.~{Moe},
@@ -305,6 +326,15 @@
   {MacFadyen}, \& {Perna}}]{giac+15}
 {Giacomazzo}, B., {Zrake}, J., {Duffell}, P.~C., {MacFadyen}, A.~I., \&
   {Perna}, R. 2015, \apj, 809, 39
+
+\bibitem[{{Giammichele} {et~al.}(2012){Giammichele}, {Bergeron}, \&
+  {Dufour}}]{liebbh05}
+{Giammichele}, N., {Bergeron}, P., \& {Dufour}, P. 2012, \apjs, 199, 29
+
+\bibitem[{{Gianninas} {et~al.}(2015){Gianninas}, {Kilic}, {Brown}, {Canton}, \&
+  {Kenyon}}]{gian+15}
+{Gianninas}, A., {Kilic}, M., {Brown}, W.~R., {Canton}, P., \& {Kenyon}, S.~J.
+  2015, \apj, 812, 167
 
 \bibitem[{{Gilfanov} \& {Bogd{\'a}n}(2010)}]{gilfb10}
 {Gilfanov}, M., \& {Bogd{\'a}n}, {\'A}. 2010, \nat, 463, 924
@@ -507,6 +537,10 @@
   {C{\'o}rsico}}]{klei+13}
 {Kleinman}, S.~J., {Kepler}, S.~O., {Koester}, D., {et~al.} 2013, \apjs, 204, 5
 
+\bibitem[{{Knigge} {et~al.}(2011){Knigge}, {Baraffe}, \&
+  {Patterson}}]{knigbp11}
+{Knigge}, C., {Baraffe}, I., \& {Patterson}, J. 2011, \apjs, 194, 28
+
 \bibitem[{{Knigge} {et~al.}(2009){Knigge}, {Leigh}, \& {Sills}}]{knigs09}
 {Knigge}, C., {Leigh}, N., \& {Sills}, A. 2009, \nat, 457, 288
 
@@ -653,6 +687,9 @@
   {Cappellaro}, {Cresci}, {Maiolino}, {Petrosian}, \& {Turatto}}]{mann+05}
 {Mannucci}, F., {Della Valle}, M., {Panagia}, N., {et~al.} 2005, \aap, 433, 807
 
+\bibitem[{{Maoz} {et~al.}(2012){Maoz}, {Badenes}, \& {Bickerton}}]{maozbb12}
+{Maoz}, D., {Badenes}, C., \& {Bickerton}, S.~J. 2012, \apj, 751, 143
+
 \bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \& {Nelemans}}]{maozmn14}
 {Maoz}, D., {Mannucci}, F., \& {Nelemans}, G. 2014, \araa, 52, 107
 
@@ -739,6 +776,13 @@
 \bibitem[{{Nandez} {et~al.}(2014){Nandez}, {Ivanova}, \& {Lombardi}}]{nandil14}
 {Nandez}, J.~L.~A., {Ivanova}, N., \& {Lombardi}, Jr., J.~C. 2014, \apj, 786,
   39
+
+\bibitem[{{Napiwotzki} {et~al.}(2007){Napiwotzki}, {Karl}, {Nelemans},
+  {Yungelson}, {Christlieb}, {Drechsel}, {Heber}, {Homeier}, {Koester},
+  {Leibundgut}, {Marsh}, {Moehler}, {Renzini}, \& {Reimers}}]{napi+07}
+{Napiwotzki}, R., {Karl}, C.~A., {Nelemans}, G., {et~al.} 2007, in Astronomical
+  Society of the Pacific Conference Series, Vol. 372, 15th European Workshop on
+  White Dwarfs, ed. R.~{Napiwotzki} \& M.~R. {Burleigh}, 387
 
 \bibitem[{{Nelemans}(2010)}]{nele10}
 {Nelemans}, G. 2010, \apss, 329, 25
@@ -941,6 +985,17 @@
 \bibitem[{{Read} {et~al.}(2010){Read}, {Hayfield}, \& {Agertz}}]{readha10}
 {Read}, J.~I., {Hayfield}, T., \& {Agertz}, O. 2010, \mnras, 405, 1513
 
+\bibitem[{{Rebassa-Mansergas} {et~al.}(2015{\natexlab{a}}){Rebassa-Mansergas},
+  {Rybicka}, {Liu}, {Han}, \& {Garc{\'{\i}}a-Berro}}]{reba+15b}
+{Rebassa-Mansergas}, A., {Rybicka}, M., {Liu}, X.-W., {Han}, Z., \&
+  {Garc{\'{\i}}a-Berro}, E. 2015{\natexlab{a}}, \mnras, 452, 1637
+
+\bibitem[{{Rebassa-Mansergas} {et~al.}(2015{\natexlab{b}}){Rebassa-Mansergas},
+  {Liu}, {Cojocaru}, {Yuan}, {Torres}, {Garc{\'{\i}}a-Berro}, {Xiang}, {Huang},
+  {Koester}, {Hou}, {Li}, \& {Zhang}}]{reba+15a}
+{Rebassa-Mansergas}, A., {Liu}, X.-W., {Cojocaru}, R., {et~al.}
+  2015{\natexlab{b}}, \mnras, 450, 743
+
 \bibitem[{{Rice} {et~al.}(2005){Rice}, {Lodato}, \& {Armitage}}]{ricela05}
 {Rice}, W.~K.~M., {Lodato}, G., \& {Armitage}, P.~J. 2005, \mnras, 364, L56
 
@@ -1113,6 +1168,15 @@
 \bibitem[{{Timmes} \& {Swesty}(2000)}]{timms00}
 {Timmes}, F.~X., \& {Swesty}, F.~D. 2000, \apjs, 126, 501
 
+\bibitem[{{Toonen} {et~al.}(2014){Toonen}, {Claeys}, {Mennekens}, \&
+  {Ruiter}}]{toon+14}
+{Toonen}, S., {Claeys}, J.~S.~W., {Mennekens}, N., \& {Ruiter}, A.~J. 2014,
+  \aap, 562, A14
+
+\bibitem[{{Toonen} {et~al.}(2012){Toonen}, {Nelemans}, \& {Portegies
+  Zwart}}]{toonnp12}
+{Toonen}, S., {Nelemans}, G., \& {Portegies Zwart}, S. 2012, \aap, 546, A70
+
 \bibitem[{{T{\'o}th}(2000)}]{toth00}
 {T{\'o}th}, G. 2000, Journal of Computational Physics, 161, 605
 
@@ -1124,6 +1188,11 @@
 
 \bibitem[{{Tremblay} \& {Bergeron}(2009)}]{tremb09}
 {Tremblay}, P.-E., \& {Bergeron}, P. 2009, \apj, 696, 1755
+
+\bibitem[{{Tremblay} {et~al.}(2016){Tremblay}, {Cummings}, {Kalirai},
+  {Gaensicke}, {Gentile-Fusillo}, \& {Raddi}}]{trem+16}
+{Tremblay}, P.-E., {Cummings}, J., {Kalirai}, J.~S., {et~al.} 2016, ArXiv
+  e-prints, arXiv:1606.05292
 
 \bibitem[{{Tricco}(2015)}]{tric15}
 {Tricco}, T. 2015, in American Astronomical Society Meeting Abstracts, Vol.
@@ -1175,6 +1244,9 @@
 \bibitem[{{Webbink}(1984)}]{webb84}
 {Webbink}, R.~F. 1984, \apj, 277, 355
 
+\bibitem[{{Wegg} \& {Phinney}(2012)}]{weggp12}
+{Wegg}, C., \& {Phinney}, E.~S. 2012, \mnras, 426, 427
+
 \bibitem[{{Whelan} \& {Iben}(1973)}]{wheli73}
 {Whelan}, J., \& {Iben}, Jr., I. 1973, \apj, 186, 1007
 
@@ -1215,6 +1287,31 @@
 \bibitem[{{Yoon} {et~al.}(2007){Yoon}, {Podsiadlowski}, \&
   {Rosswog}}]{yoonpr07}
 {Yoon}, S.-C., {Podsiadlowski}, P., \& {Rosswog}, S. 2007, \mnras, 380, 933
+
+\bibitem[{{York} {et~al.}(2000){York}, {Adelman}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski},
+  {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey},
+  {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai},
+  {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms},
+  {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita},
+  {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes},
+  {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull},
+  {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim}, {Kinney},
+  {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt},
+  {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis},
+  {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon},
+  {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan},
+  {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino},
+  {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson},
+  {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn},
+  {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford},
+  {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund},
+  {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs},
+  {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker},
+  {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe},
+  {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{york+00}
+{York}, D.~G., {Adelman}, J., {Anderson}, Jr., J.~E., {et~al.} 2000, \aj, 120,
+  1579
 
 \bibitem[{{Yungelson}(2005)}]{yung05}
 {Yungelson}, L.~R. 2005, in American Institute of Physics Conference Series,

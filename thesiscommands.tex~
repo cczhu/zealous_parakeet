@@ -45,6 +45,7 @@
 \newcommand{\mesa}{\textsc{MESA}}
 
 % intro stuff
+\newcommand{\Mmean}{\domm{\left\langle M \right\rangle}}
 
 % common + zhu+13 stuff
 \newcommand{\azero}{\domm{a_0}}

@@ -187,6 +187,16 @@
 The merger of two carbon-oxygen white dwarfs (CO WDs) can create create massive, rapidly rotating and magnetized white dwarfs, collapse into a neutron star, or, perhaps most spectacularly, a thermonuclear, or type Ia, supernova (SN Ia).  It has traditionally been believed that the latter two outcomes only happen to mergers that are above the Chandrasekhar mass \Mch, where high-density pycnonuclear fusion and electron-capture reactions become significant.  Recently, however, it has been proposed that SNe Ia are caused by thermonuclear fusion during post-merger evolution, which could occur even to mergers that are well below \Mch.  
 
 To investigate the physics and final outcome of CO WD mergers, I conducted a series of hydrodynamic and magnetohydrodynamic simulations and semi-ananlytical calculations.  I
+
+%	In Chapter \ref{ch:ch2}, I use a battery of 3D hydrodynamics simulations using the smoothed-particle hydrodynamics \gasoline\ to characterize the range of possible merger remnant configurations arising from merging CO WD binaries.  I find that the remnant density, temperature and rotational structures are roughly homologous for mergers of WDs with the same difference in mass $\Delta M$, regardless of the total mass of the merger.  In particular, I find that mergers of WDs with $\Delta M \lesssim 0.1\,\Msun$ can be considered ``similar in mass'', and produce remnants that resemble ones from equal-mass mergers.  As discussed in Sec. \ref{sec:c1_vkchannel}, these are potentially SN Ia progenitor candidates via the \citeal{vkercj10} channel.  I also confirm that sub-\Mch\ merger remnants are not hot enough to immediately ignite carbon fusion, and make simple estimates of compressional heating due to post-merger evolution to determine which remnants could later ignite.
+
+%	Smoothed-particle hydrodynamics is used by almost all other studies that simulate WD mergers.  In Chapter \ref{ch:ch3}, I investigate whether using this particular method is affecting the outcome of a merger simulations by simulating the merger of a $0.625 - 0.65\,\Msun$ using either \gasoline\ or the moving-mesh magnetohydrodynamics code \arepo.  I find the two codes produce very similar results up until the WDs complete their coalescence, but while the \gasoline\ merger remnant in rapidly becomes axisymmetric and relatively uniform in temperature in, the \arepo\ remnant features a cold, crescent-shaped core flanked on one side by a hot, underdense ``void'' that survives for hundreds of seconds after the merger.  This configuration launches an $m = 1$ spiral mode within the surrounding disk -- also not seen in the \gasoline\ simulation -- that leads to faster disk angular momentum transport tha predicted in Sec. \ref{sec:c1_vkchannel}.
+
+%	In Chapter \ref{ch:ch4}, I simulate the growth of magnetic fields in the $0.625 - 0.65\,\Msun$ merger using \arepo, finding exponential field growth within Kelvin-Helmholtz instability-generated vortices during the coalescence of the WDs that leads to a $>10^{10}$ G magnetic fields within the merger remnant.  The strong field can influence the growth of magnetic instabilities following the merger, and thus affect the viscous evolution phase of the merger remnant.
+
+%	Lastly, in Chapter \ref{ch:ch5}, we set aside the question of precisely which merger remnants eventually ignite carbon fusion to calculate the evolution of CO WDs experiencing a nuclear runaway at their centers.  While a nuclear runaway inevitably leads to some form of explosion for \Mch\ WDs, in sub-\Mch\ ones it may instead lead to the lifting of degeneracy and expansion into a carbon-burning star.  I use analytical arguments and simple models to determine that the minimum mass required for explosions to be possible is $\Mcrit = 1.135\,\Msun$, and that including moderate solid-body rotation changes this value by $\lesssim0.01\,\Msun$.  For magnetic fields the case is less clear, since interaction with convection is poorly understood, but simple order-of-magnitude arguments suggest a similarly small effect.  While $\Mcrit$ can be reached by the dense cores of sub-\Mch\ merger remnants, in general they appear to be too under-dense to produce explosions.
+
+%	For the most part, I have reproduced exactly the texts of \citeal{zhu+13}, \citeal{zhu+15} and \citeal{zhu+16} in their respective chapters.  The exceptions are the chapter introductions, where I have excised certain paragraphs to eliminate the redundancy of having multiple paragraphs repeating an overview of the \citeal{vkercj10} channel.  The papers' abstracts have also been modified into chapter overviews, and certain figures reformatted for readability.  Any additional changes are noted at the start of each chapter.  Most prominently, we have added a postscript to Chapter \ref{ch:ch2} (Sec. \ref{sec:c2_postscript}) that considers our simple semi-analytical prescription for post-merger viscous evolution in light of new results, and we included an extensive appendix to Chapter \ref{ch:ch5} that details our calculation of convective suppression in magnetized, rotating WDs.
 \end{abstract}
 
 %% Anything placed between the abstract and table of contents will
@@ -289,6 +299,8 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 \input{chapter4_zhu+15/chapter4_discussion.tex}
 \input{chapter4_zhu+15/chapter4_postscript.tex}
 %%ch5
+\include{chapter5_zhu+16/chapter5}
+\input{chapter5_zhu+16/chapter5_intro.tex}
 %%conclusion
 \include{conclusion/conclusion}
 
@@ -695,5 +707,23 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 
 %citation{petem63}{1963PhRv..131..435P}		% grav radiation
 %citation{verb84}{1984MNRAS.209..227V}		% mag braking
+%citation{knigbp11}{2011ApJS..194...28K}	% mag braking
+%citation{toon+14}{2014A&A...562A..14T}		% population synthesis
+%citation{toonnp12}{2012A&A...546A..70T}	% DD merger pop synth
+
+%citation{carr+14}{2014A&A...565A..11C}		% Gaia and WDs
+%citation{gaen+15}{2015arXiv150602653G}		% Gaia and WDs
+%citation{gian+15}{2015ApJ...812..167G}		% ELM survey
+%citation{brow+10}{2010ApJ...723.1072B}		% ELM survey paper I
+%citation{napi+07}{2007ASPC..372..387N}		% SPY survey
+%citation{york+00}{2000AJ....120.1579Y}		% SDSS
+%citation{maozbb12}{2012ApJ...751..143M}	% prelude to badem12
+
+%citation{trem+16}{2016arXiv160605292T}		% newest WD field distribution
+%citation{liebbh05}{2012ApJS..199...29G}	% 1 Msun peak of field WD dist
+%citation{giambd12}{2012ApJS..199...29G}	% 1 Msun peak of field WD dist
+%citation{reba+15a}{2015MNRAS.450..743R}	% 1 Msun peak of field WD dist
+%citation{reba+15b}{2015MNRAS.452.1637R}	% 1 Msun peak of field WD dist
+%citation{weggp12}{2012MNRAS.426..427W}		% 1 Msun peak of field WD dist
 
 %ZZZtion{taub+08}{2008MNRAS.385...75T}		% 1991bg-like

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  30 JUN 2016 23:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  3 JUL 2016 01:55
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -337,7 +337,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 LaTeX Warning: Label `eq:c2a_mfit' multiply defined.
 
 (./chapter3_zhu+u/chapter3.aux) (./chapter4_zhu+15/chapter4.aux)
-(./conclusion/conclusion.aux))
+(./chapter5_zhu+16/chapter5.aux) (./conclusion/conclusion.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
@@ -526,12 +526,12 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 187
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ) [2] [3]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 240.
  [4
 
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 234.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 244.
 
 (./Thesis.toc [5
 
@@ -587,55 +587,55 @@ Underfull \vbox (badness 3826) has occurred while \output is active []
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 24.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 24.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 24.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 24.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 24.
 
-<introduction/figures/dan+12_wdbinmass.pdf, id=790, 552.75558pt x 486.36478pt>
+<introduction/figures/dan+12_wdbinmass.pdf, id=810, 552.75558pt x 486.36478pt>
 File: introduction/figures/dan+12_wdbinmass.pdf Graphic file (type pdf)
 
 <use introduction/figures/dan+12_wdbinmass.pdf>
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 42.
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 36.
  [2 <./introduction/figures/dan+12_wdbinmass.pdf>] [3]
 
-Package natbib Warning: Citation `han+02' on page 4 undefined on input line 67.
+Package natbib Warning: Citation `han+02' on page 4 undefined on input line 66.
 
 
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 67.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 67.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 67.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 67.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 67.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 67.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 66.
 
-Package natbib Warning: Citation `han+02' on page 4 undefined on input line 67.
+Package natbib Warning: Citation `han+02' on page 4 undefined on input line 66.
 
 
 
-Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 67
+Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 66
 .
 
 
-Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 67
+Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 66
 .
 
 
-Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 67
+Package natbib Warning: Citation `zhanj12' on page 4 undefined on input line 66
 .
 
 [4]
 
 Package natbib Warning: Citation `wooswk11' on page 5 undefined on input line 7
-1.
+0.
 
 
-Package natbib Warning: Citation `bild+07' on page 5 undefined on input line 71
+Package natbib Warning: Citation `bild+07' on page 5 undefined on input line 70
 .
 
 [5]) (./introduction/introduction_cowdout.tex
@@ -643,12 +643,7 @@ Package natbib Warning: Citation `bild+07' on page 5 undefined on input line 71
 Package natbib Warning: Citation `maozns14' on page 6 undefined on input line 8
 .
 
-[6]
-
-Package natbib Warning: Citation `maozns14' on page 7 undefined on input line 1
-9.
-
-[7]
+[6] [7]
 
 Package natbib Warning: Citation `maozns14' on page 8 undefined on input line 2
 3.
@@ -662,7 +657,7 @@ Package natbib Warning: Citation `maozns14' on page 8 undefined on input line 2
 7.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4193) has occurred while \output is active []
 
  [8]
 
@@ -671,126 +666,135 @@ Package natbib Warning: Citation `bild+07' on page 9 undefined on input line 42
 
 [9] [10] [11]
 
-Package natbib Warning: Citation `zhu+16' on page 12 undefined on input line 10
-2.
+Package natbib Warning: Citation `giambd12' on page 12 undefined on input line 
+81.
 
 
-LaTeX Warning: Reference `ch:ch5' on page 12 undefined on input line 102.
+Package natbib Warning: Citation `giambd12' on page 12 undefined on input line 
+81.
 
-[12]) (./introduction/introduction_mergerphys.tex [13] [14]
-<introduction/figures/marsns04_stab.pdf, id=1620, 794.97pt x 614.295pt>
+
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+ [12])
+(./introduction/introduction_mergerphys.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+[14] [15] [16]
+<introduction/figures/marsns04_stab.pdf, id=1753, 794.97pt x 614.295pt>
 File: introduction/figures/marsns04_stab.pdf Graphic file (type pdf)
 
-<use introduction/figures/marsns04_stab.pdf> [15 <./introduction/figures/marsns
-04_stab.pdf, page is rotated 90 degrees>]) [16]
+<use introduction/figures/marsns04_stab.pdf>) [17 <./introduction/figures/marsn
+s04_stab.pdf, page is rotated 90 degrees>] [18]
 \openout2 = `chapter2_zhu+13/chapter2.aux'.
 
  (./chapter2_zhu+13/chapter2.tex
 Chapter 2.
-) [17
+) [19
 
 
 ] (./chapter2_zhu+13/chapter2_intro.tex)
 (./chapter2_zhu+13/chapter2_gasoline.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18
+ [20
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 19.
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [19] [20]
+) [21] [22]
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
- [21])
+ [23])
 (./chapter2_zhu+13/chapter2_results.tex
-<chapter2_zhu+13/figures/pt4pt8.pdf, id=1817, 867.24pt x 888.92097pt>
+<chapter2_zhu+13/figures/pt4pt8.pdf, id=1946, 867.24pt x 888.92097pt>
 File: chapter2_zhu+13/figures/pt4pt8.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/pt4pt8.pdf>
 
 LaTeX Warning: Float too large for page by 17.38756pt on input line 14.
 
-<chapter2_zhu+13/figures/pt6pt6.pdf, id=1819, 867.24pt x 888.92097pt>
+<chapter2_zhu+13/figures/pt6pt6.pdf, id=1948, 867.24pt x 888.92097pt>
 File: chapter2_zhu+13/figures/pt6pt6.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/pt6pt6.pdf> [22] [23 <./chapter2_zhu+13/figures/pt
-4pt8.pdf>] [24 <./chapter2_zhu+13/figures/pt6pt6.pdf>] [25]
-<chapter2_zhu+13/figures/constaccretorcomp.pdf, id=2009, 433.62pt x 904.8204pt>
+<use chapter2_zhu+13/figures/pt6pt6.pdf> [24] [25 <./chapter2_zhu+13/figures/pt
+4pt8.pdf>] [26 <./chapter2_zhu+13/figures/pt6pt6.pdf>] [27]
+<chapter2_zhu+13/figures/constaccretorcomp.pdf, id=2137, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/constaccretorcomp.pdf Graphic file (type pdf)
 <use chapter2_zhu+13/figures/constaccretorcomp.pdf>
 
 LaTeX Warning: Float too large for page by 11.93896pt on input line 56.
 
-<chapter2_zhu+13/figures/deltamcomp.pdf, id=2010, 867.24pt x 921.4425pt>
+<chapter2_zhu+13/figures/deltamcomp.pdf, id=2138, 867.24pt x 921.4425pt>
 File: chapter2_zhu+13/figures/deltamcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/deltamcomp.pdf>
-<chapter2_zhu+13/figures/Mrhorelation.pdf, id=2017, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/Mrhorelation.pdf, id=2145, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/Mrhorelation.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/Mrhorelation.pdf> [26] [27 <./chapter2_zhu+13/figu
-res/constaccretorcomp.pdf>] [28 <./chapter2_zhu+13/figures/deltamcomp.pdf>]
-<chapter2_zhu+13/figures/Eqmass.pdf, id=2160, 433.62pt x 361.35pt>
+<use chapter2_zhu+13/figures/Mrhorelation.pdf> [28] [29 <./chapter2_zhu+13/figu
+res/constaccretorcomp.pdf>] [30 <./chapter2_zhu+13/figures/deltamcomp.pdf>]
+<chapter2_zhu+13/figures/Eqmass.pdf, id=2289, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/Eqmass.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Eqmass.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./chapter2_zhu+13/figures/Mrhorelation.pdf>] [30 <./chapter2_zhu+13/figur
+ [31 <./chapter2_zhu+13/figures/Mrhorelation.pdf>] [32 <./chapter2_zhu+13/figur
 es/Eqmass.pdf>]
-<chapter2_zhu+13/figures/StructureTrendsq.pdf, id=2254, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/StructureTrendsq.pdf, id=2382, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/StructureTrendsq.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/StructureTrendsq.pdf> [31] [32 <./chapter2_zhu+13/
+<use chapter2_zhu+13/figures/StructureTrendsq.pdf> [33] [34 <./chapter2_zhu+13/
 figures/StructureTrendsq.pdf>]
-<chapter2_zhu+13/figures/RestofTrendsq.pdf, id=2316, 867.24pt x 939.51pt>
+<chapter2_zhu+13/figures/RestofTrendsq.pdf, id=2444, 867.24pt x 939.51pt>
 File: chapter2_zhu+13/figures/RestofTrendsq.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/RestofTrendsq.pdf>
 
 LaTeX Warning: Float too large for page by 19.73647pt on input line 183.
 
-[33] [34 <./chapter2_zhu+13/figures/RestofTrendsq.pdf>] [35]
-<chapter2_zhu+13/figures/EnergyTrendsq.pdf, id=2427, 433.62pt x 939.51pt>
+[35] [36 <./chapter2_zhu+13/figures/RestofTrendsq.pdf>] [37]
+<chapter2_zhu+13/figures/EnergyTrendsq.pdf, id=2555, 433.62pt x 939.51pt>
 File: chapter2_zhu+13/figures/EnergyTrendsq.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/EnergyTrendsq.pdf> [36] [37 <./chapter2_zhu+13/fig
-ures/EnergyTrendsq.pdf>] [38] [39] [40])
+<use chapter2_zhu+13/figures/EnergyTrendsq.pdf> [38] [39 <./chapter2_zhu+13/fig
+ures/EnergyTrendsq.pdf>] [40] [41] [42])
 (./chapter2_zhu+13/chapter2_variation.tex
-<chapter2_zhu+13/figures/compcomp.pdf, id=2527, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/compcomp.pdf, id=2656, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/compcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/compcomp.pdf>
-<chapter2_zhu+13/figures/distcomp.pdf, id=2531, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/distcomp.pdf, id=2660, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/distcomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/distcomp.pdf> [41] [42 <./chapter2_zhu+13/figures/
-compcomp.pdf>] [43 <./chapter2_zhu+13/figures/distcomp.pdf>]
-<chapter2_zhu+13/figures/synchcomp.pdf, id=2669, 433.62pt x 904.8204pt>
+<use chapter2_zhu+13/figures/distcomp.pdf> [43] [44 <./chapter2_zhu+13/figures/
+compcomp.pdf>] [45 <./chapter2_zhu+13/figures/distcomp.pdf>]
+<chapter2_zhu+13/figures/synchcomp.pdf, id=2797, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/synchcomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/synchcomp.pdf> [44] [45 <./chapter2_zhu+13/figures
+<use chapter2_zhu+13/figures/synchcomp.pdf> [46] [47 <./chapter2_zhu+13/figures
 /synchcomp.pdf>]
-<chapter2_zhu+13/figures/timecomp.pdf, id=2741, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/timecomp.pdf, id=2870, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/timecomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/timecomp.pdf> [46] [47 <./chapter2_zhu+13/figures/
+<use chapter2_zhu+13/figures/timecomp.pdf> [48] [49 <./chapter2_zhu+13/figures/
 timecomp.pdf>]
-<chapter2_zhu+13/figures/viscnumcomp.pdf, id=2814, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/viscnumcomp.pdf, id=2942, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/viscnumcomp.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/viscnumcomp.pdf> [48] [49 <./chapter2_zhu+13/figur
+<use chapter2_zhu+13/figures/viscnumcomp.pdf> [50] [51 <./chapter2_zhu+13/figur
 es/viscnumcomp.pdf>]
-<chapter2_zhu+13/figures/heatingTEC.pdf, id=2897, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/heatingTEC.pdf, id=3025, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/heatingTEC.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/heatingTEC.pdf> [50]
+<use chapter2_zhu+13/figures/heatingTEC.pdf> [52]
 Underfull \vbox (badness 5460) has occurred while \output is active []
 
- [51 <./chapter2_zhu+13/figures/heatingTEC.pdf>]
+ [53 <./chapter2_zhu+13/figures/heatingTEC.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\begingroup' on input line 206.
@@ -819,87 +823,84 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 206.
 
-[52]
-<chapter2_zhu+13/figures/compwithloreig.pdf, id=2969, 433.62pt x 488.5452pt>
+[54]
+<chapter2_zhu+13/figures/compwithloreig.pdf, id=3098, 433.62pt x 488.5452pt>
 File: chapter2_zhu+13/figures/compwithloreig.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/compwithloreig.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./chapter2_zhu+13/figures/compwithloreig.pdf>] [54])
+ [55 <./chapter2_zhu+13/figures/compwithloreig.pdf>] [56])
 (./chapter2_zhu+13/chapter2_discussion.tex
-<chapter2_zhu+13/figures/Willitexplode.pdf, id=3083, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/Willitexplode.pdf, id=3211, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/Willitexplode.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Willitexplode.pdf>
 
 LaTeX Warning: Float too large for page by 17.15363pt on input line 9.
 
-<chapter2_zhu+13/figures/PMEvolution.pdf, id=3091, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/PMEvolution.pdf, id=3219, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/PMEvolution.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/PMEvolution.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-[56 <./chapter2_zhu+13/figures/Willitexplode.pdf>] [57 <./chapter2_zhu+13/figur
-es/PMEvolution.pdf>] [58]
+ [57]
+[58 <./chapter2_zhu+13/figures/Willitexplode.pdf>] [59 <./chapter2_zhu+13/figur
+es/PMEvolution.pdf>] [60]
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [59]
-[60] [61]) (./chapter2_zhu+13/chapter2_postscript.tex
+ [61]
+[62] [63]) (./chapter2_zhu+13/chapter2_postscript.tex
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/8'.
 (microtype)             Ignoring protrusion settings for this character.
- [62]
-
-LaTeX Warning: Reference `ch:ch5' on page 63 undefined on input line 18.
-
-[63] <chapter2_zhu+13/figures/c2a_mcpv.pdf, id=3406, 433.62pt x 361.35pt>
+ [64] [65]
+<chapter2_zhu+13/figures/c2a_mcpv.pdf, id=3536, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/c2a_mcpv.pdf Graphic file (type pdf)
 
-<use chapter2_zhu+13/figures/c2a_mcpv.pdf> [64 <./chapter2_zhu+13/figures/c2a_m
+<use chapter2_zhu+13/figures/c2a_mcpv.pdf> [66 <./chapter2_zhu+13/figures/c2a_m
 cpv.pdf>]
-<chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf, id=3512, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf, id=3642, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>
 Underfull \vbox (badness 1571) has occurred while \output is active []
 
- [65 <./chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>]) [66]
+ [67 <./chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>]) [68]
 \openout2 = `chapter3_zhu+u/chapter3.aux'.
 
 
 (./chapter3_zhu+u/chapter3.tex
 Chapter 3.
-) [67
+) [69
 
 
 ] (./chapter3_zhu+u/chapter3_intro.tex
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
- [68
+ [70
 
 ])
-(./chapter3_zhu+u/chapter3_codes.tex [69]
+(./chapter3_zhu+u/chapter3_codes.tex [71]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [70]
-[71] [72]
-<chapter3_zhu+u/figures/SPHArepoFig.png, id=3922, 963.6pt x 542.025pt>
+ [72]
+[73] [74]
+<chapter3_zhu+u/figures/SPHArepoFig.png, id=4051, 963.6pt x 542.025pt>
 File: chapter3_zhu+u/figures/SPHArepoFig.png Graphic file (type png)
 
-<use chapter3_zhu+u/figures/SPHArepoFig.png> [73]
+<use chapter3_zhu+u/figures/SPHArepoFig.png> [75]
 
-Package natbib Warning: Citation `vlee06' on page 74 undefined on input line 19
+Package natbib Warning: Citation `vlee06' on page 76 undefined on input line 19
 8.
 
-[74 <./chapter3_zhu+u/figures/SPHArepoFig.png>] [75])
+[76 <./chapter3_zhu+u/figures/SPHArepoFig.png>] [77])
 (./chapter3_zhu+u/chapter3_fixarepo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-<chapter3_zhu+u/figures/lz_development.pdf, id=4012, 442.65375pt x 647.71986pt>
+ [78]
+<chapter3_zhu+u/figures/lz_development.pdf, id=4141, 442.65375pt x 647.71986pt>
 File: chapter3_zhu+u/figures/lz_development.pdf Graphic file (type pdf)
 <use chapter3_zhu+u/figures/lz_development.pdf>
 
@@ -909,106 +910,130 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 24.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 24.
 
 
-[77] [78 <./chapter3_zhu+u/figures/lz_development.pdf>]
+[79] [80 <./chapter3_zhu+u/figures/lz_development.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
-<chapter3_zhu+u/figures/lz_development2.pdf, id=4123, 433.62pt x 361.35pt>
+ [81]
+<chapter3_zhu+u/figures/lz_development2.pdf, id=4251, 433.62pt x 361.35pt>
 File: chapter3_zhu+u/figures/lz_development2.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/lz_development2.pdf> [80 <./chapter3_zhu+u/figures/
+<use chapter3_zhu+u/figures/lz_development2.pdf> [82 <./chapter3_zhu+u/figures/
 lz_development2.pdf>]) (./chapter3_zhu+u/chapter3_results.tex
-<chapter3_zhu+u/figures/snapshots.pdf, id=4189, 845.55902pt x 1069.59598pt>
+<chapter3_zhu+u/figures/snapshots.pdf, id=4317, 845.55902pt x 1069.59598pt>
 File: chapter3_zhu+u/figures/snapshots.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/snapshots.pdf> [81] [82 <./chapter3_zhu+u/figures/s
+<use chapter3_zhu+u/figures/snapshots.pdf> [83] [84 <./chapter3_zhu+u/figures/s
 napshots.pdf>]
-<chapter3_zhu+u/figures/curves.pdf, id=4389, 260.17201pt x 904.8204pt>
+<chapter3_zhu+u/figures/curves.pdf, id=4518, 260.17201pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/curves.pdf> [83] [84 <./chapter3_zhu+u/figures/curv
-es.pdf>] <chapter3_zhu+u/figures/Lz.pdf, id=4446, 442.65375pt x 370.38374pt>
+<use chapter3_zhu+u/figures/curves.pdf> [85] [86 <./chapter3_zhu+u/figures/curv
+es.pdf>] <chapter3_zhu+u/figures/Lz.pdf, id=4574, 442.65375pt x 370.38374pt>
 File: chapter3_zhu+u/figures/Lz.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/Lz.pdf> [85 <./chapter3_zhu+u/figures/Lz.pdf>])
-(./chapter3_zhu+u/chapter3_discussion.tex [86]
-<chapter3_zhu+u/figures/curves_res.pdf, id=4508, 433.62pt x 904.8204pt>
+<use chapter3_zhu+u/figures/Lz.pdf> [87 <./chapter3_zhu+u/figures/Lz.pdf>])
+(./chapter3_zhu+u/chapter3_discussion.tex [88]
+<chapter3_zhu+u/figures/curves_res.pdf, id=4636, 433.62pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves_res.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves_res.pdf>
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
- [87]
-[88 <./chapter3_zhu+u/figures/curves_res.pdf>]
+ [89]
+[90 <./chapter3_zhu+u/figures/curves_res.pdf>]
 
 LaTeX Font Warning: Font shape `T1/pplx/bx/sc' undefined
 (Font)              using `T1/pplx/bx/n' instead on input line 36.
 
-[89] [90]) (./chapter3_zhu+u/chapter3_conclusions.tex [91]) [92]
+[91] [92]) (./chapter3_zhu+u/chapter3_conclusions.tex [93]) [94]
 \openout2 = `chapter4_zhu+15/chapter4.aux'.
 
 
 (./chapter4_zhu+15/chapter4.tex
 Chapter 4.
-
-LaTeX Warning: Reference `XXX' on page 93 undefined on input line 12.
-
-) [93
+) [95
 
 
 ] (./chapter4_zhu+15/chapter4_intro.tex)
-(./chapter4_zhu+15/chapter4_methods.tex [94
+(./chapter4_zhu+15/chapter4_methods.tex [96
 
 ])
 (./chapter4_zhu+15/chapter4_results.tex
-<chapter4_zhu+15/figures/snapshots.pdf, id=4750, 507.69673pt x 818.45778pt>
+<chapter4_zhu+15/figures/snapshots.pdf, id=4879, 507.69673pt x 818.45778pt>
 File: chapter4_zhu+15/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/snapshots.pdf>
-<chapter4_zhu+15/figures/bgrowth.pdf, id=4752, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bgrowth.pdf, id=4881, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bgrowth.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bgrowth.pdf>
-<chapter4_zhu+15/figures/remnant.pdf, id=4761, 592.61403pt x 758.835pt>
+<chapter4_zhu+15/figures/remnant.pdf, id=4890, 592.61403pt x 758.835pt>
 File: chapter4_zhu+15/figures/remnant.pdf Graphic file (type pdf)
 
-<use chapter4_zhu+15/figures/remnant.pdf> [95] [96 <./chapter4_zhu+15/figures/s
-napshots.pdf>] [97 <./chapter4_zhu+15/figures/bgrowth.pdf>] [98 <./chapter4_zhu
-+15/figures/remnant.pdf>]) (./chapter4_zhu+15/chapter4_discussion.tex
-<chapter4_zhu+15/figures/bcomp.pdf, id=5002, 442.65375pt x 355.92975pt>
+<use chapter4_zhu+15/figures/remnant.pdf> [97] [98 <./chapter4_zhu+15/figures/s
+napshots.pdf>] [99 <./chapter4_zhu+15/figures/bgrowth.pdf>] [100 <./chapter4_zh
+u+15/figures/remnant.pdf>]) (./chapter4_zhu+15/chapter4_discussion.tex
+<chapter4_zhu+15/figures/bcomp.pdf, id=5130, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bcomp.pdf Graphic file (type pdf)
 
-<use chapter4_zhu+15/figures/bcomp.pdf> [99 <./chapter4_zhu+15/figures/bcomp.pd
-f>] [100] [101]) (./chapter4_zhu+15/chapter4_postscript.tex
+<use chapter4_zhu+15/figures/bcomp.pdf> [101 <./chapter4_zhu+15/figures/bcomp.p
+df>] [102] [103]) (./chapter4_zhu+15/chapter4_postscript.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
- [102]
-<chapter4_zhu+15/figures/bdiv.pdf, id=5157, 375.804pt x 758.835pt>
+ [104]
+<chapter4_zhu+15/figures/bdiv.pdf, id=5285, 375.804pt x 758.835pt>
 File: chapter4_zhu+15/figures/bdiv.pdf Graphic file (type pdf)
 
-<use chapter4_zhu+15/figures/bdiv.pdf>) [103] [104 <./chapter4_zhu+15/figures/b
+<use chapter4_zhu+15/figures/bdiv.pdf>) [105] [106 <./chapter4_zhu+15/figures/b
 div.pdf>]
+\openout2 = `chapter5_zhu+16/chapter5.aux'.
+
+ (./chapter5_zhu+16/chapter5.tex
+Chapter 5.
+) [107
+
+
+] (./chapter5_zhu+16/chapter5_intro.tex
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [108
+
+]
+
+LaTeX Warning: Reference `sec:c5_modelsim' on page 109 undefined on input line 
+14.
+
+
+LaTeX Warning: Reference `sec:c5_results' on page 109 undefined on input line 1
+4.
+
+
+LaTeX Warning: Reference `sec:c5_discussion' on page 109 undefined on input lin
+e 14.
+
+) [109]
 \openout2 = `conclusion/conclusion.aux'.
 
  (./conclusion/conclusion.tex
-Chapter 5.
-[105
+Chapter 6.
+[110
 
 
-] <conclusion/figures/c_MNi.pdf, id=5276, 578.16pt x 578.16pt>
+] <conclusion/figures/c_MNi.pdf, id=5464, 578.16pt x 578.16pt>
 File: conclusion/figures/c_MNi.pdf Graphic file (type pdf)
 
-<use conclusion/figures/c_MNi.pdf>) [106 <./conclusion/figures/c_MNi.pdf>]
-(./Thesis.bbl [107
+<use conclusion/figures/c_MNi.pdf>) [111 <./conclusion/figures/c_MNi.pdf>]
+(./Thesis.bbl [112
 
 
-] [108] [109] [110] [111] [112] [113] [114] [115] [116])
-[117]
+] [113] [114] [115] [116] [117] [118] [119] [120] [121]
+[122]) [123]
 
 Package natbib Warning: There were undefined citations.
 
 (./Thesis.aux (./chapter2_zhu+13/chapter2.aux) (./chapter3_zhu+u/chapter3.aux)
-(./chapter4_zhu+15/chapter4.aux) (./conclusion/conclusion.aux))
+(./chapter4_zhu+15/chapter4.aux) (./chapter5_zhu+16/chapter5.aux)
+(./conclusion/conclusion.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1020,15 +1045,24 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11255 strings out of 495061
- 160932 string characters out of 1182622
- 333561 words of memory out of 3000000
- 12788 multiletter control sequences out of 15000+50000
- 112866 words of font info for 619 fonts, out of 3000000 for 9000
+ 11361 strings out of 495061
+ 162496 string characters out of 1182622
+ 337511 words of memory out of 3000000
+ 12844 multiletter control sequences out of 15000+50000
+ 113512 words of font info for 628 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,9n,63p,2583b,960s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not ex
+ 38i,9n,63p,2583b,1014s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1119,9 +1153,9 @@ palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/t
 exmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (131 pages, 15428719 bytes).
+Output written on Thesis.pdf (137 pages, 15478030 bytes).
 PDF statistics:
- 5626 PDF objects out of 6186 (max. 8388607)
- 639 named destinations out of 1000 (max. 500000)
- 60616 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 5824 PDF objects out of 6186 (max. 8388607)
+ 666 named destinations out of 1000 (max. 500000)
+ 60632 words of extra memory for PDF output out of 61914 (max. 10000000)
 
