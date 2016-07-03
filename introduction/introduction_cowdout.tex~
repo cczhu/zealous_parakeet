@@ -78,24 +78,25 @@ For this scenario to proceed as described, the merger remnant must be heated thr
 
 If the remnant of a double CO WD merger is not eventually destroyed in an explosion, it will live on as a single, massive, rapidly rotating and likely magnetized WD.  If off-center carbon burning is ignited, the WD will be transmuted into an ONe WD over $\sim10^4\,\mrm{yr}$ \citep{nomoi85, shen+12} but will never collapse into a neutron star, since its mass is below \Mch.
 
-A number of studies of the observed mass distribution of field WDs from sky surveys (eg. \citealt{liebbh05, giambd12, klei+13, reba+15a, reba+15b}) note a high-mass peak near $\sim1\,\Msun$ that could be evidence of a population of merger remnants.  This interpretation is controversial, however: \citep{weggp12}.  Moreover, theoretical and observational estimates of the merger rate (eg. \citep{badem12, toonnp12}) indicate that mergers would contribute a much smaller fraction of field WDs than what makes up the high-mass \citep{giambd12, trem+16}. 
+%The mass of a WD can be observationally determined by combining spectroscopically determined effective temperature $T_\mrm{eff}$ and logarithmic gravitational acceleration $log(g)$ with a theoretical WD mass-radius relation (eg. \citealt{klei+13}).  \cite{klei+13} and \cite{trem+16} determine the masses of single non-magnetic DA WDs from the the 
 
-Individual WDs that resemble merger remnants have also been observed 
+%non-magnetic (DA spectral type) CO WDs 
 
-The mass of a WD can be observationally determined by combining spectroscopically determined effective temperature $T_\mrm{eff}$ and logarithmic gravitational acceleration $log(g)$ with a theoretical WD mass-radius relation (eg. \citealt{klei+13}).  \cite{klei+13} and \cite{trem+16} determine the masses of single non-magnetic DA WDs from the the 
+A number of studies of the observed mass distribution of field WDs from sky surveys (eg. \citealt{liebbh05, giambd12, klei+13, reba+15a, reba+15b}) note a high-mass peak near $\sim1\,\Msun$ that is substantially offset from the global peak of the mass distribution at $\sim0.65\,\Msun$ (Sec. \ref{ssec:c1_cowd_massrange}), which could be evidence of a population of merger remnants.  This interpretation is controversial, however: \citep{weggp12}.  Moreover, theoretical and observational estimates of the merger rate (eg. \citep{badem12, toonnp12}) indicate that mergers would contribute a much smaller fraction of field WDs than what makes up the high-mass (\citealt{giambd12, reba+15b, trem+16}, though this discrepancy could simply mean the merger estimates are too low.  Also, studies targeting ``high-field magnetic WDs'' (HFMWDs; \citealt{kawk+07, garc+12, garc+16}), which possess fields of $B \gtrsim1\,\mrm{MG}$, suggest the population's mean mass is $\sim0.8\,\Msun$ (and overall does not resemble the low- and non-magnetic WD mass distribution; \citealt{brig+15}).  The origin of these WDs, though, remains debated \citep{}, as it is possible the fields are a vestige of single-star or binary evolution prior to the WD's formation \citep{}.  The most massive and highly magnetized HFMWDs are more unambiguously merger remnants.
+
+trem+15
+kule+13
+
+The most massive and highly magnetized HFMWDs are more unambiguously merger remnants.  A few of these have been observed
+
+
+(eg. \citealt{dunlc15}), Dunlap and Clements in preparation)
 
 %Sloan Digital Sky Survey \citep{york+00} Data Release 7 (SDSS DR7)
 
-non-magnetic (DA spectral type) CO WDs 
 
 %http://adsabs.harvard.edu/abs/2016ApJ...817...27W
 
-Stable nuclear burning, however,
-
-%The merger of two white dwarfs (WDs) originally in a short-period binary is estimated (eg. \citealt{badem12}) to occur about once every century in a Milky Way-like galaxy, making the products of such events common throughout the universe.  They have been held responsible for producing a variety of stars with strange properties, including helium-burning sdOB stars \citep{saioj00, justph11}, RCrB stars (eg. \citealt{webb84, clay+07, clay13}), and massive and highly magnetized WDs (eg. \citealt{segrcm97, garc+12, kule+13}) that could resemble the hot DQ WDs (eg. \citealt{dunlc15}), Dunlap and Clements in preparation).  They may, however, also be responsible for spectacular transient events including accretion-induced collapses (eg. \citealt{saion85, abdi+10}) and type Ia supernovae (SNe Ia; eg. \citealt{howe11, hill+13, maozmn14}).  Determining the final outcome of a particular merger requires an understanding of the detailed dynamics of the merging process, which cannot directly be seen using current observational capabilities.  Thus, studies of merger physics have primarily utilized hydrodynamic simulations.
-
--Searches for massive remnants have found single instances, possibly statistical bump near 1.2 Msun
--
 
 \section{Thesis Overview}
 
