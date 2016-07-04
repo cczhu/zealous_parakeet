@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {1.3.1}Traditional Formation Scenarios and Their Pitfalls}{7}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Brave New Channels}{9}{subsection.1.3.2}
 \contentsline {section}{\numberline {1.4}The vK10 SN Ia Channel}{11}{section.1.4}
-\contentsline {section}{\numberline {1.5}Hot DQs, High-Field Magnetic WDs, and Other Oddities}{12}{section.1.5}
+\contentsline {section}{\numberline {1.5}Massive Merger Remnants}{12}{section.1.5}
 \contentsline {section}{\numberline {1.6}Thesis Overview}{13}{section.1.6}
 \contentsline {section}{\numberline {1.7}Pre-Merger Evolution}{14}{section.1.7}
 \contentsline {subsection}{\numberline {1.7.1}Typical CO WD Masses}{14}{subsection.1.7.1}

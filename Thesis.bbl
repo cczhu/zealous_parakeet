@@ -245,6 +245,11 @@
   Astronomical Society of the Pacific Conference Series, Vol. 469, 18th
   European White Dwarf Workshop., 167
 
+\bibitem[{{Dunlap} \& {Clemens}(2015)}]{dunlc15}
+{Dunlap}, B.~H., \& {Clemens}, J.~C. 2015, in Astronomical Society of the
+  Pacific Conference Series, Vol. 493, 19th European Workshop on White Dwarfs,
+  ed. P.~{Dufour}, P.~{Bergeron}, \& G.~{Fontaine}, 547
+
 \bibitem[{{Eggleton}(1983)}]{eggl83}
 {Eggleton}, P.~P. 1983, \apj, 268, 368
 
@@ -253,6 +258,10 @@
 
 \bibitem[{{Feiden} \& {Chaboyer}(2012)}]{feidc12}
 {Feiden}, G.~A., \& {Chaboyer}, B. 2012, \apj, 761, 30
+
+\bibitem[{{Ferrario} {et~al.}(2015){Ferrario}, {de Martino}, \&
+  {G{\"a}nsicke}}]{ferrdg15}
+{Ferrario}, L., {de Martino}, D., \& {G{\"a}nsicke}, B.~T. 2015, \ssr, 191, 111
 
 \bibitem[{{Filippenko}(1997)}]{fili97}
 {Filippenko}, A.~V. 1997, \araa, 35, 309
@@ -311,6 +320,11 @@
   Type Ia Supernovae Explosions, ed. R.~{Di Stefano}, M.~{Orio}, \& M.~{Moe},
   52--59
 
+\bibitem[{{Garc{\'{\i}}a-Berro} {et~al.}(2016){Garc{\'{\i}}a-Berro}, {Kilic},
+  \& {Kepler}}]{garc+16}
+{Garc{\'{\i}}a-Berro}, E., {Kilic}, M., \& {Kepler}, S.~O. 2016, International
+  Journal of Modern Physics D, 25, 1630005
+
 \bibitem[{{Garc{\'{\i}}a-Berro} {et~al.}(2012){Garc{\'{\i}}a-Berro},
   {Lor{\'e}n-Aguilar}, {Aznar-Sigu{\'a}n}, {Torres}, {Camacho}, {Althaus},
   {C{\'o}rsico}, {K{\"u}lebi}, \& {Isern}}]{garc+12}
@@ -328,7 +342,7 @@
   {Perna}, R. 2015, \apj, 809, 39
 
 \bibitem[{{Giammichele} {et~al.}(2012){Giammichele}, {Bergeron}, \&
-  {Dufour}}]{liebbh05}
+  {Dufour}}]{giambd12}
 {Giammichele}, N., {Bergeron}, P., \& {Dufour}, P. 2012, \apjs, 199, 29
 
 \bibitem[{{Gianninas} {et~al.}(2015){Gianninas}, {Kilic}, {Brown}, {Canton}, \&
@@ -378,6 +392,11 @@
   {Marsh}}]{han+03}
 {Han}, Z., {Podsiadlowski}, P., {Maxted}, P.~F.~L., \& {Marsh}, T.~R. 2003,
   \mnras, 341, 669
+
+\bibitem[{{Han} {et~al.}(2002){Han}, {Podsiadlowski}, {Maxted}, {Marsh}, \&
+  {Ivanova}}]{han+02}
+{Han}, Z., {Podsiadlowski}, P., {Maxted}, P.~F.~L., {Marsh}, T.~R., \&
+  {Ivanova}, N. 2002, \mnras, 336, 449
 
 \bibitem[{{Hayes} {et~al.}(2006){Hayes}, {Norman}, {Fiedler}, {Bordner}, {Li},
   {Clark}, {ud-Doula}, \& {Mac Low}}]{haye+06}
@@ -508,6 +527,11 @@
 \bibitem[{{Keller} {et~al.}(2015){Keller}, {Wadsley}, \& {Couchman}}]{kell+15}
 {Keller}, B.~W., {Wadsley}, J., \& {Couchman}, H.~M.~P. 2015, \mnras, 453, 3499
 
+\bibitem[{{Kepler} {et~al.}(2013){Kepler}, {Pelisoli}, {Jordan}, {Kleinman},
+  {Koester}, {K{\"u}lebi}, {Pe{\c c}anha}, {Castanheira}, {Nitta}, {Costa},
+  {Winget}, {Kanaan}, \& {Fraga}}]{kepl+13}
+{Kepler}, S.~O., {Pelisoli}, I., {Jordan}, S., {et~al.} 2013, \mnras, 429, 2934
+
 \bibitem[{{Kerzendorf} {et~al.}(2014{\natexlab{a}}){Kerzendorf}, {Childress},
   {Scharw{\"a}chter}, {Do}, \& {Schmidt}}]{kerz+14rem}
 {Kerzendorf}, W.~E., {Childress}, M., {Scharw{\"a}chter}, J., {Do}, T., \&
@@ -525,6 +549,9 @@
   {Weiss}}]{kippww12}
 {Kippenhahn}, R., {Weigert}, A., \& {Weiss}, A. 2012, {Stellar Structure and
   Evolution}, doi:10.1007/978-3-642-30304-3
+
+\bibitem[{{Kissin} \& {Thompson}(2015)}]{kisst15}
+{Kissin}, Y., \& {Thompson}, C. 2015, \apj, 809, 108
 
 \bibitem[{{Kiuchi} {et~al.}(2014){Kiuchi}, {Kyutoku}, {Sekiguchi}, {Shibata},
   \& {Wada}}]{kiuc+14}
@@ -623,6 +650,10 @@
 
 \bibitem[{{Lidov}(1962)}]{lido62}
 {Lidov}, M.~L. 1962, \planss, 9, 719
+
+\bibitem[{{Liebert} {et~al.}(2005){Liebert}, {Bergeron}, \&
+  {Holberg}}]{liebbh05}
+{Liebert}, J., {Bergeron}, P., \& {Holberg}, J.~B. 2005, \apjs, 156, 47
 
 \bibitem[{{LIGO Scientific Collaboration} {et~al.}(2015){LIGO Scientific
   Collaboration}, {Aasi}, {Abbott}, {Abbott}, {Abbott}, {Abernathy}, {Ackley},
@@ -1249,6 +1280,9 @@
 
 \bibitem[{{Whelan} \& {Iben}(1973)}]{wheli73}
 {Whelan}, J., \& {Iben}, Jr., I. 1973, \apj, 186, 1007
+
+\bibitem[{{Wickramasinghe} \& {Ferrario}(2005)}]{wickf05}
+{Wickramasinghe}, D.~T., \& {Ferrario}, L. 2005, \mnras, 356, 1576
 
 \bibitem[{{Wickramasinghe} {et~al.}(2014){Wickramasinghe}, {Tout}, \&
   {Ferrario}}]{wicktf14}
