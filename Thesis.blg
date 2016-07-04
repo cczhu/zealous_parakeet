@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: chapter2_zhu+13/chapter2.aux
 A level-1 auxiliary file: chapter3_zhu+u/chapter3.aux
@@ -6,56 +7,54 @@ A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 A level-1 auxiliary file: chapter5_zhu+16/chapter5.aux
 A level-1 auxiliary file: conclusion/conclusion.aux
 The style file: apj.bst
-Reallocated field_info (elt_size=4) to 13502 items from 5000.
+Reallocated field_info (elt_size=4) to 13450 items from 5000.
 Database file #1: AutoBibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--I didn't find a database entry for "kawk+07"
-Warning--I didn't find a database entry for "kule+10"
-Warning--I didn't find a database entry for "dunl15thesis"
-Warning--I didn't find a database entry for "vlee06"
+Warning--string name "june" is undefined
+--line 6307 of file AutoBibliography.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in arne96
 Warning--empty publisher in goedp04
 Warning--empty publisher in kippww12
-You've used 323 entries,
+You've used 325 entries,
             3085 wiz_defined-function locations,
-            2757 strings with 79401 characters,
-and the built_in function-call counts, 160580 in all, are:
-= -- 13136
-> -- 12278
-< -- 121
-+ -- 4116
-- -- 4453
-* -- 14002
-:= -- 30331
-add.period$ -- 323
-call.type$ -- 323
-change.case$ -- 2216
-chr.to.int$ -- 313
-cite$ -- 326
-duplicate$ -- 6162
-empty$ -- 9219
-format.name$ -- 4845
-if$ -- 31714
+            2763 strings with 79701 characters,
+and the built_in function-call counts, 161227 in all, are:
+= -- 13194
+> -- 12302
+< -- 123
++ -- 4124
+- -- 4459
+* -- 14041
+:= -- 30461
+add.period$ -- 325
+call.type$ -- 325
+change.case$ -- 2226
+chr.to.int$ -- 315
+cite$ -- 328
+duplicate$ -- 6195
+empty$ -- 9271
+format.name$ -- 4853
+if$ -- 31843
 int.to.chr$ -- 11
 int.to.str$ -- 0
-missing$ -- 313
-newline$ -- 973
-num.names$ -- 1299
-pop$ -- 2415
+missing$ -- 314
+newline$ -- 979
+num.names$ -- 1307
+pop$ -- 2423
 preamble$ -- 1
-purify$ -- 2216
+purify$ -- 2226
 quote$ -- 0
-skip$ -- 5145
+skip$ -- 5175
 stack$ -- 0
-substring$ -- 6841
+substring$ -- 6873
 swap$ -- 107
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2898
+type$ -- 2916
 warning$ -- 3
-while$ -- 1239
+while$ -- 1246
 width$ -- 0
-write$ -- 3231
-(There were 7 warnings)
+write$ -- 3251
+(There were 4 warnings)
