@@ -68,6 +68,11 @@
 \bibitem[{{Benz} {et~al.}(1989){Benz}, {Thielemann}, \& {Hills}}]{benzth89}
 {Benz}, W., {Thielemann}, F.-K., \& {Hills}, J.~G. 1989, \apj, 342, 986
 
+\bibitem[{{Bildsten} {et~al.}(2007){Bildsten}, {Shen}, {Weinberg}, \&
+  {Nelemans}}]{bild+07}
+{Bildsten}, L., {Shen}, K.~J., {Weinberg}, N.~N., \& {Nelemans}, G. 2007,
+  \apjl, 662, L95
+
 \bibitem[{{Bloom} {et~al.}(2012){Bloom}, {Kasen}, {Shen}, {Nugent}, {Butler},
   {Graham}, {Howell}, {Kolb}, {Holmes}, {Haswell}, {Burwitz}, {Rodriguez}, \&
   {Sullivan}}]{bloo+12}
@@ -238,6 +243,21 @@
 
 \bibitem[{{Duffell} \& {MacFadyen}(2011)}]{duffm11}
 {Duffell}, P.~C., \& {MacFadyen}, A.~I. 2011, \apjs, 197, 15
+
+\bibitem[{{Dufour} {et~al.}(2011){Dufour}, {Ben Nessib}, {Sahal-Br{\'e}chot},
+  \& {Dimitrijevi{\'c}}}]{dufo+11}
+{Dufour}, P., {Ben Nessib}, N., {Sahal-Br{\'e}chot}, S., \& {Dimitrijevi{\'c}},
+  M.~S. 2011, Baltic Astronomy, 20, 511
+
+\bibitem[{{Dufour} {et~al.}(2008){Dufour}, {Fontaine}, {Liebert}, {Schmidt}, \&
+  {Behara}}]{dufo+08}
+{Dufour}, P., {Fontaine}, G., {Liebert}, J., {Schmidt}, G.~D., \& {Behara}, N.
+  2008, \apj, 683, 978
+
+\bibitem[{{Dufour} {et~al.}(2007){Dufour}, {Liebert}, {Fontaine}, \&
+  {Behara}}]{dufo+07}
+{Dufour}, P., {Liebert}, J., {Fontaine}, G., \& {Behara}, N. 2007, \nat, 450,
+  522
 
 \bibitem[{{Dufour} {et~al.}(2013){Dufour}, {Vornanen}, {Bergeron}, \&
   {Fontaine}}]{dufo+13}
@@ -1289,6 +1309,11 @@
 {Wickramasinghe}, D.~T., {Tout}, C.~A., \& {Ferrario}, L. 2014, \mnras, 437,
   675
 
+\bibitem[{{Williams} {et~al.}(2016){Williams}, {Montgomery}, {Winget},
+  {Falcon}, \& {Bierwagen}}]{will+16}
+{Williams}, K.~A., {Montgomery}, M.~H., {Winget}, D.~E., {Falcon}, R.~E., \&
+  {Bierwagen}, M. 2016, \apj, 817, 27
+
 \bibitem[{{Williams} {et~al.}(2013){Williams}, {Winget}, {Montgomery},
   {Dufour}, {Kepler}, {Hermes}, {Falcon}, {Winget}, {Bolte}, {Rubin}, \&
   {Liebert}}]{will+13}
@@ -1352,6 +1377,9 @@
   Vol. 797, Interacting Binaries: Accretion, Evolution, and Outcomes, ed.
   L.~{Burderi}, L.~A. {Antonelli}, F.~{D'Antona}, T.~{di Salvo}, G.~L.
   {Israel}, L.~{Piersanti}, A.~{Tornamb{\`e}}, \& O.~{Straniero}, 1--10
+
+\bibitem[{{Zhang} \& {Jeffery}(2012)}]{zhanj12}
+{Zhang}, X., \& {Jeffery}, C.~S. 2012, \mnras, 419, 452
 
 \bibitem[{{Zhu} {et~al.}(2013){Zhu}, {Chang}, {van Kerkwijk}, \&
   {Wadsley}}]{zhu+13}
