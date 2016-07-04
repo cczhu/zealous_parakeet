@@ -65,7 +65,7 @@
 \contentsline {subsection}{\numberline {2.6.1}Viscous Evolution and Possible Spin Down}{60}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Possible Explosions?}{63}{subsection.2.6.2}
 \contentsline {section}{\numberline {2.7}Conclusion}{63}{section.2.7}
-\contentsline {section}{\numberline {2.8}Postscript: Post-Merger Evolution Revised}{64}{section.2.8}
+\contentsline {section}{\numberline {2.8}Postscript: Post-Merger Evolution Revisited}{64}{section.2.8}
 \contentsline {chapter}{\numberline {3}White Dwarf Mergers in Smoothed-Particle and Moving Mesh Hydrodynamics}{69}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{70}{section.3.1}
 \contentsline {section}{\numberline {3.2}Codes and Initial Conditions}{71}{section.3.2}
@@ -92,4 +92,8 @@
 \contentsline {chapter}{\numberline {5}The Evolution of Simmering Sub-Chandrasekhar Mass WDs}{107}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{108}{section.5.1}
 \contentsline {chapter}{\numberline {6}Conclusion}{110}{chapter.6}
-\contentsline {chapter}{Bibliography}{112}{figure.6.1}
+\contentsline {section}{\numberline {6.1}Mergers and Early Post-Merger Evolution}{110}{section.6.1}
+\contentsline {section}{\numberline {6.2}Viscous Post-Merger Evolution and the Potential for Nuclear Ignition}{112}{section.6.2}
+\contentsline {section}{\numberline {6.3}Simmering and Explosions}{112}{section.6.3}
+\contentsline {section}{\numberline {6.4}New Avenues of Exploration}{112}{section.6.4}
+\contentsline {chapter}{Bibliography}{113}{section.6.4}

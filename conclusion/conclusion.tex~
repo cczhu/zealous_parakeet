@@ -1,6 +1,24 @@
 \chapter{Conclusion}
 
-We now review the body of evidence from the previous Chapters to determine if they indeed shed light on 
+What, then, has our body of work, as well as the numerous other recent investigations into mergers, their remnants, and post-merger evolution, taught us about the fate of sub-\Mch\ CO WD mergers?  Are there mergers that follow the \citeal{vkercj10} scenario of compressing and heating enough during post-merger evolution to ignite degenerate carbon burning near their centers, and then experiencing nuclear simmering until they explode?  Below, I summarize our current understanding of these systems and the \citeal{vkercj10} scenario, and suggest avenues for future exploration.
+
+\section{Mergers and Early Post-Merger Evolution}
+
+In Ch. \ref{ch:ch2}, we used 3D SPH simulations of double CO WD mergers to explore the range of possible merger remnants to determine which among them are candidates for ignition during post-merger evolution.  The properties most important for post-merger near-central ignition are the temperature and degree of rotational support of the dense remnant core, and we find that dissimilar-mass mergers feature cold, slowly rotating and degeneracy support cores, while similar-mass ones have hotter cores that are partly rotationally supported.  The (rough) dividing line between the two classes is a density ratio between donor and accretor WD of $\qrho\simeq0.6$, equivalently a difference between their masses of $\Delta M \simeq 0.1\,\Msun$.
+
+Since the publication of Ch. \ref{ch:ch2} as \cite{zhu+13}, \cite{dan+14} published their extensive study of remnants from synchronized WD mergers with exact initial conditions.\footnote{Their remnant profiles are available at \url{http://www.hs.uni-hamburg.de/DE/Ins/Per/Dan/wdwd_remnants}.}  They find for all of their merger remnants, even those we deem similar-mass, that the mass enclosed within the radius of maximum temperature is approximately the mass of the accreting WD (i.e. $\MencTmax\simeq\Ma$), and the temperature at the center is a factor of at least a few lower.  Their similar-mass mergers also do not substantially mix, as ours do.  \cite{dan+14} link these differences to their use of synchronized and exact initial conditions -- indeed, their approximate and unsynchronized merger remnants resemble ours -- which is consistent with our findings in Sec. \ref{sec:c2_variation} that synchronization and longer periods of mass-transfer prior to coalescence make merger remnants more dissimilar-looking.
+
+In Ch. \ref{ch:ch3} we compared a similar-mass $0.625-0.65\,\Msun$ merger simulated in SPH with one in the moving mesh code \arepo.  The two simulations produce very similar results, including for the degree of mixing between the two stars, up to coalescence.  Following coalescence, however, the \arepo\ remnant retains a dense core that is a factor of $2-3$ colder than its surroundings until the end of the simulation.
+
+Taken together, these results raise the question of whether having \textit{any} merger remnants that are heated throughout depends on the synchronization of the WDs, the accuracy of the simulation's initial conditions, or hydrodynamic scheme being used.  We stress that the first two problems are separate --
+
+Further complicating matters Ch. \ref{ch:ch4} dramatic amplification of initially insignificant magnetic fields in Ch. \ref{ch:ch3}.  In the same simulation, we find
+
+(Fig. \ref{fig:c2_deltamcomp})
+
+ from those that come from dissimilar-mass mergers and feature a cold, slowly rotating, degeneracy-supported remnant core surrounded by a hot, tenuous envelope and thick sub-Keplerian disk.  A number of other trends are reported in Ch. \ref{ch:ch2}, but the fates of these remnants, the degree of core heating and rotational support is
+
+For a similar-mass merger, with high {\qrho}, an ellipsoidal core is produced along with a small disk, and the entire remnant is hot and partly supported by rotation.  The transition between these two regimes is smooth, but occurs roughly at $\qrho\simeq0.6$, or equivalently a mass difference $\Delta M= \Ma-\Md \simeq 0.1$.  We found that for a fixed {\qrho}, merger remnant curves are roughly homologous.  We also presented trends for a number of merger remnant properties, providing linear scaling relations and best fits for most of them, hoping these can guide theoretical understanding and help analytical estimates.
 
 One of the primary determinants of a merging system's fate is whether or not its remnant has a centrally peaked temperature.  While earlier simulations (\citeal{loreig09}) suggested a centrally peaked temperature, our own 
 
@@ -21,7 +39,13 @@ Mergers
 
 - can we rule out the possibility of the standard Yoon et al. model?  No.
 
-- We lastly stress the importance of observational work in this field: we've noted that sub-Mch merger remnants should become massive WDs, but the space density of these, and a comparison of these values to estimated merger rates from population counts and population synthesis, will give us a much better handle.  Their mass range will do so also, at least with providing a minimum cutoff for things that can explode (we note that there's poorly constrained wind mass loss)
+\section{Viscous Post-Merger Evolution and the Potential for Nuclear Ignition}
+
+Setting aside merger and post-merger evolution up until the remnant becomes axisymmetric, we
+
+\section{Simmering and Explosions}
+
+
 
 \begin{figure}
 \centering
@@ -29,6 +53,12 @@ Mergers
 \caption{Relationships between total ejected mass \Mtot\ and synthesized \Ni\ mass \MNi\ for adiabatic and \dnabconv-inclusive WDs that experience a pure detonation immediately after the end of simmering, estimated using \cite{sim+10}.  Also plotted are the \Mtot\ and \MNi\ yields of $31$ observed SNe Ia from \cite{chil+15}, and the relationship derived by \cite{scalzrs14} from 337 observed SNe Ia.  \cite{chil+15}'s systematic error bars, indicating how much their values can be shifted in unison, are also included.  The dashed magenta line is the relationship for the pure detonation of cold (uniform $10^5$ K) WDs, with the simulation results of \cite{sim+10} overdrawn.}
 \label{fig:c_mcmce_mni}
 \end{figure}
+
+\section{New Avenues of Exploration}
+
+We lastly stress the importance of observational work in this field: we've noted that sub-Mch merger remnants should become massive WDs, but the space density of these, and a comparison of these values to estimated merger rates from population counts and population synthesis, will give us a much better handle.  Their mass range will do so also, at least with providing a minimum cutoff for things that can explode (we note that there's poorly constrained wind mass loss)
+
+These new observational studies, alongside the theoretical and numerical ones, may clarify many of the outstanding questions discussed throughout this chapter.  With luck, they will also lead to a clearer understanding of the fates of CO WD merger products, and SNe Ia.
 
 %-resummarize all papers
 %-don't say what we used to think
@@ -104,19 +134,6 @@ Mergers
 %krom+16 http://adsabs.harvard.edu/doi/10.1093/mnras/stw962
 %bull+16 http://adsabs.harvard.edu/abs/2016MNRAS.455.1060B
 %vros+15 http://adsabs.harvard.edu/abs/2015arXiv151004286V
-
 %papi+15 http://adsabs.harvard.edu/abs/2015MNRAS.449..942P
-
-%NEW CODES:
-%http://adsabs.harvard.edu/abs/2016arXiv160503577D
-%http://adsabs.harvard.edu/abs/2016MNRAS.455...51H
-
-%http://adsabs.harvard.edu/abs/2016ApJ...816L...9O
-
-%http://adsabs.harvard.edu/abs/2015arXiv151203442P
-%http://adsabs.harvard.edu/abs/2016MNRAS.tmp..977F
-%http://adsabs.harvard.edu/abs/2016ApJ...818...26D
-
-%http://adsabs.harvard.edu/abs/2016arXiv160401021F
-%http://adsabs.harvard.edu/abs/2016ApJ...818L..19M
+%pirom15 http://adsabs.harvard.edu/abs/2015arXiv151203442P
 
