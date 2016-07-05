@@ -96,4 +96,4 @@
 \contentsline {section}{\numberline {6.2}Viscous Post-Merger Evolution and the Potential for Nuclear Ignition}{112}{section.6.2}
 \contentsline {section}{\numberline {6.3}Simmering and Explosions}{112}{section.6.3}
 \contentsline {section}{\numberline {6.4}New Avenues of Exploration}{112}{section.6.4}
-\contentsline {chapter}{Bibliography}{113}{section.6.4}
+\contentsline {chapter}{Bibliography}{114}{section.6.4}
