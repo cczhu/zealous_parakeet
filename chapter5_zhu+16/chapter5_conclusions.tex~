@@ -1,0 +1,21 @@
+\section{Conclusions}
+\label{ssec:c5_conclusions}
+
+We investigated using simple estimates the outcome of simmering for sub-\Mch\ WDs, and find that the minimum mass \Mcrit\ that achieves dynamical burning and explodes, rather than expanding and cooling, is $1.135\,\Msun$.  We also estimate that including rotation or $\lesssim 10^{11}\,\mrm{G}$ magnetic fields alters this value by less than $\sim0.01\,\Msun$ and $\sim0.02\,\Msun$, respectively.  Stronger, $\sim10^{12}\,\mrm{G}$ fields, which may be generated through convective dynamo processes, could affect simmering much more substantially, but are beyond the scope of our models.  Examining merger remnants in \citeal{zhu+13}, and the simulation of \cite{ji+13}, we estimate that the majority of sub-\Mch\ post-viscous remnants are too underdense to remain degenerate until dynamical burning if simmering were to set in.  Even if they could explode, they would still produce very little \Ni.  This presents an issue for to the viability of the \citeal{vkercj10} channel, as it suggests most sub-\Mch\ remnants do not explode as SNe Ia.
+
+% We also find that simmering is well-described by approximating the convective zone's temperature profile as adiabatic, with $\Mcrit$ changing by just $\sim0.01\,\Msun$ compared to more accurate models.  and we stress the merit of further study
+
+Ours is a first-order estimate of the simmering process.  Aside from the clear need for more advanced prescriptions of magnetoconvection, future models would also benefit from including eg. modifications to the convective velocity structure resulting from heating or work to expand the WD as it becomes non-degenerate (\citeal{piroc08}, though their effects will primarily be felt far from center of the WD).  A more accurate analysis of the simmering of post-viscous merger remnants could be made by directly using their simulated density, temperature and rotation profiles as initial conditions.  We also use the analytic 1D criterion of \citeal{wooswk04} to determine the end of simmering, and better estimates can be made by taking into account the range of temperatures and velocities of individual convective flows.  This has already been done for \Mch\ WDs using 3D hydrodynamic simulations \citep{kuhlwg06, zing+09, zing+11, nona+12}, which could be extended to lower-mass WDs.
+
+% Zing+09 Fig. 9, 10, gives ignition at slightly lower temperature of 7e8 K.  Zing+11 Fig. 6 gives similar value, as does Nona+12 Fig. 3
+
+We have also estimated the \Mtot-\MNi\ relationship of simmering sub-\Mch\ WDs that reach explosion and find that they, like many other models, do not correspond to the observed SN Ia \Mtot-\MNi\ relationships of \cite{scalzrs14} and \cite{chil+15}.  In particular, our most massive WDs produce too much \Ni\ to reproduce the bottom right of Fig. \ref{fig:c5_mni}, which would not be the case if the temperature structure at the end of simmering were substantially shallower than in our models.  Such a structure could potentially be produced if the burning were not center-lit, but occurred in an off-center shell that remained degenerate throughout the runaway, and we explore this possibility in the companion paper to this work (Heringer et al. in preparation).
+
+\vspace{5mm}
+
+We are very grateful to Ken Shen, whose discussion with MHvK on the existence and value of \Mcrit\ years ago served as the original inspiration for this paper, and to Henk Spruit for his insights into magnetoconvection and its implementation in our models.  We also thank Chris Matzner, Yuri Levin and Chris Thompson for helpful comments, and Suoqing Ji and Robert Fisher for both valuable feedback and for sharing the end-state of their viscous evolution simulation.  Our calculations made extensive use of Frank Timmes' Helmholtz EOS and sections of \mesa\ by Bill Paxton and the \mesa\ consortium, and we them for making these codes publically available.  
+
+%This work was partly based off of and motivated by unpublished work by Philip Chang, Heidi White and Marten H. van Kerkwijk
+
+%Meanwhile, detonations can potentially also be triggered by the collision of two convective flows (independent of the end of simmering criterion), and 1D simulations of the onset of detonation suggest that this could occur in {\charles material with $\rho = XXX$, $T = XXX$}, well short of (Chang et al. in preparation).
+

@@ -91,9 +91,29 @@
 \contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{104}{section.4.6}
 \contentsline {chapter}{\numberline {5}The Evolution of Simmering Sub-Chandrasekhar Mass WDs}{107}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{108}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclusion}{110}{chapter.6}
-\contentsline {section}{\numberline {6.1}Mergers and Early Post-Merger Evolution}{110}{section.6.1}
-\contentsline {section}{\numberline {6.2}Viscous Post-Merger Evolution and the Potential for Nuclear Ignition}{112}{section.6.2}
-\contentsline {section}{\numberline {6.3}Simmering and Explosions}{112}{section.6.3}
-\contentsline {section}{\numberline {6.4}New Avenues of Exploration}{112}{section.6.4}
-\contentsline {chapter}{Bibliography}{114}{section.6.4}
+\contentsline {section}{\numberline {5.2}Modelling Sub-\domm {M_{\rm Ch}}WD Simmering}{109}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Analytical Description}{109}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Semi-Analytical Model}{112}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Results}{114}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Adiabatic Approximation}{115}{subsection.5.3.1}
+\contentsline {subsubsection}{Analysis of Adiabatic Simmering Tracks}{115}{section*.32}
+\contentsline {subsubsection}{Estimate of \domm {M_{\rm crit}}\ and Minimum \domm {M_{\rm Ni}}}{117}{section*.33}
+\contentsline {subsubsection}{Hot Envelopes}{117}{section*.34}
+\contentsline {subsection}{\numberline {5.3.2}Superadiabatic Deviation \domm {\domm {\Delta }_\mathrm {conv}}}{118}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Rotation and Magnetic Fields}{118}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Discussion}{120}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Comparison to Observed \domm {M_{\rm tot}}-\domm {M_{\rm Ni}}\ Relations}{120}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Implications for Mergers as SN Ia Progenitors}{122}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Accuracy of Magnetized Simmering Models}{123}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Conclusions}{124}{section.5.5}
+\contentsline {section}{\numberline {5.6}Appendix: Convective Suppression due to Rotation and Magnetic Fields}{125}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Simmering of Rotating White Dwarfs}{127}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Simmering of Magnetized White Dwarfs}{129}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Sensitivity to Mixing Length Theory Coefficients}{132}{subsection.5.6.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{135}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mergers and Early Post-Merger Evolution}{135}{section.6.1}
+\contentsline {section}{\numberline {6.2}Viscous Evolution and Ignition}{137}{section.6.2}
+\contentsline {section}{\numberline {6.3}Ignition, Simmering and Explosions}{137}{section.6.3}
+\contentsline {section}{\numberline {6.4}What Happens to Sub-\domm {M_{\rm Ch}}\ Mergers?}{138}{section.6.4}
+\contentsline {section}{\numberline {6.5}Observational Avenues of Exploration}{140}{section.6.5}
+\contentsline {chapter}{Bibliography}{141}{section.6.5}

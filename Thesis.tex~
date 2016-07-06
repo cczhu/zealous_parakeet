@@ -214,9 +214,10 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 \vspace*{\fill}
 \begin{center}
 \begin{minipage}[c]{4.75in}
+{\charles
   ``Do or do not; there is no try.''\vspace{2em}
 
-\hfill \emph{--Yoda}
+\hfill \emph{--Yoda}}
 
 \end{minipage}
 \end{center}
@@ -301,6 +302,11 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %%ch5
 \include{chapter5_zhu+16/chapter5}
 \input{chapter5_zhu+16/chapter5_intro.tex}
+\input{chapter5_zhu+16/chapter5_theory.tex}
+\input{chapter5_zhu+16/chapter5_results.tex}
+\input{chapter5_zhu+16/chapter5_discussion.tex}
+\input{chapter5_zhu+16/chapter5_conclusions.tex}
+\input{chapter5_zhu+16/chapter5_appendix.tex}
 %%conclusion
 \include{conclusion/conclusion}
 
