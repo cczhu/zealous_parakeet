@@ -73,13 +73,13 @@
 \contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{74}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{75}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{77}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{79}{section.3.3}
+\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{78}{section.3.3}
 \contentsline {section}{\numberline {3.4}Results}{83}{section.3.4}
 \contentsline {section}{\numberline {3.5}Discussion}{88}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Resolution Test}{88}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{91}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{90}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Sources of Differences Between Simulations}{91}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{93}{section.3.6}
+\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{92}{section.3.6}
 \contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{95}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{96}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{96}{section.4.2}

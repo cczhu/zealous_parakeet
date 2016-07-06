@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  6 JUL 2016 02:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  6 JUL 2016 10:50
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -65,7 +65,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen107
 \Gm@even@mp=\dimen108
 \Gm@dimlist=\toks15
-)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
@@ -812,21 +813,18 @@ Underfull \vbox (badness 2393) has occurred while \output is active []
 
 ])
 (./chapter3_zhu+u/chapter3_codes.tex
-Underfull \vbox (badness 3323) has occurred while \output is active []
+Underfull \vbox (badness 1048) has occurred while \output is active []
 
  [71]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [72]
 [73] [74]
-<chapter3_zhu+u/figures/SPHArepoFig.png, id=4312, 963.6pt x 542.025pt>
+<chapter3_zhu+u/figures/SPHArepoFig.png, id=4313, 963.6pt x 542.025pt>
 File: chapter3_zhu+u/figures/SPHArepoFig.png Graphic file (type png)
 
 <use chapter3_zhu+u/figures/SPHArepoFig.png> [75] [76 <./chapter3_zhu+u/figures
-/SPHArepoFig.png>] [77]) (./chapter3_zhu+u/chapter3_fixarepo.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78]
+/SPHArepoFig.png>] [77]) (./chapter3_zhu+u/chapter3_fixarepo.tex [78]
 <chapter3_zhu+u/figures/lz_development.pdf, id=4406, 442.65375pt x 647.71986pt>
 File: chapter3_zhu+u/figures/lz_development.pdf Graphic file (type pdf)
 <use chapter3_zhu+u/figures/lz_development.pdf>
@@ -841,42 +839,49 @@ LaTeX Font Warning: Command \mathversion invalid in math mode on input line 24.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81]
-<chapter3_zhu+u/figures/lz_development2.pdf, id=4517, 433.62pt x 361.35pt>
+<chapter3_zhu+u/figures/lz_development2.pdf, id=4518, 433.62pt x 361.35pt>
 File: chapter3_zhu+u/figures/lz_development2.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/lz_development2.pdf> [82 <./chapter3_zhu+u/figures/
-lz_development2.pdf>]) (./chapter3_zhu+u/chapter3_results.tex
-<chapter3_zhu+u/figures/snapshots.pdf, id=4583, 845.55902pt x 1069.59598pt>
+<use chapter3_zhu+u/figures/lz_development2.pdf>)
+(./chapter3_zhu+u/chapter3_results.tex
+<chapter3_zhu+u/figures/snapshots.pdf, id=4524, 845.55902pt x 1069.59598pt>
 File: chapter3_zhu+u/figures/snapshots.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/snapshots.pdf> [83] [84 <./chapter3_zhu+u/figures/s
-napshots.pdf>]
-<chapter3_zhu+u/figures/curves.pdf, id=4783, 260.17201pt x 904.8204pt>
+<use chapter3_zhu+u/figures/snapshots.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82 <./chapter3_zhu+u/figures/lz_development2.pdf>]
+<chapter3_zhu+u/figures/curves.pdf, id=4592, 260.17201pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/curves.pdf> [85] [86 <./chapter3_zhu+u/figures/curv
-es.pdf>] <chapter3_zhu+u/figures/Lz.pdf, id=4839, 442.65375pt x 370.38374pt>
+<use chapter3_zhu+u/figures/curves.pdf>
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [83]
+[84 <./chapter3_zhu+u/figures/snapshots.pdf>] [85 <./chapter3_zhu+u/figures/cur
+ves.pdf>] [86]
+<chapter3_zhu+u/figures/Lz.pdf, id=4839, 442.65375pt x 370.38374pt>
 File: chapter3_zhu+u/figures/Lz.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/Lz.pdf> [87 <./chapter3_zhu+u/figures/Lz.pdf>])
-(./chapter3_zhu+u/chapter3_discussion.tex [88]
-<chapter3_zhu+u/figures/curves_res.pdf, id=4902, 433.62pt x 904.8204pt>
+(./chapter3_zhu+u/chapter3_discussion.tex
+<chapter3_zhu+u/figures/curves_res.pdf, id=4897, 433.62pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves_res.pdf Graphic file (type pdf)
 
-<use chapter3_zhu+u/figures/curves_res.pdf>
-Underfull \vbox (badness 4193) has occurred while \output is active []
-
- [89]
-[90 <./chapter3_zhu+u/figures/curves_res.pdf>]
+<use chapter3_zhu+u/figures/curves_res.pdf> [88] [89 <./chapter3_zhu+u/figures/
+curves_res.pdf>]
 
 LaTeX Font Warning: Font shape `T1/pplx/bx/sc' undefined
 (Font)              using `T1/pplx/bx/n' instead on input line 36.
 
-[91] [92]) (./chapter3_zhu+u/chapter3_conclusions.tex [93]) [94]
+[90] [91]) (./chapter3_zhu+u/chapter3_conclusions.tex [92]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [93])
+[94]
 \openout2 = `chapter4_zhu+15/chapter4.aux'.
 
-
-(./chapter4_zhu+15/chapter4.tex
+ (./chapter4_zhu+15/chapter4.tex
 Chapter 4.
 ) [95
 
@@ -886,21 +891,21 @@ Chapter 4.
 
 ])
 (./chapter4_zhu+15/chapter4_results.tex
-<chapter4_zhu+15/figures/snapshots.pdf, id=5143, 507.69673pt x 818.45778pt>
+<chapter4_zhu+15/figures/snapshots.pdf, id=5142, 507.69673pt x 818.45778pt>
 File: chapter4_zhu+15/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/snapshots.pdf>
-<chapter4_zhu+15/figures/bgrowth.pdf, id=5145, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bgrowth.pdf, id=5144, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bgrowth.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bgrowth.pdf>
-<chapter4_zhu+15/figures/remnant.pdf, id=5154, 592.61403pt x 758.835pt>
+<chapter4_zhu+15/figures/remnant.pdf, id=5153, 592.61403pt x 758.835pt>
 File: chapter4_zhu+15/figures/remnant.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/remnant.pdf> [97] [98 <./chapter4_zhu+15/figures/s
 napshots.pdf>] [99 <./chapter4_zhu+15/figures/bgrowth.pdf>] [100 <./chapter4_zh
 u+15/figures/remnant.pdf>]) (./chapter4_zhu+15/chapter4_discussion.tex
-<chapter4_zhu+15/figures/bcomp.pdf, id=5395, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bcomp.pdf, id=5394, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bcomp.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bcomp.pdf> [101 <./chapter4_zhu+15/figures/bcomp.p
@@ -908,7 +913,7 @@ df>] [102] [103]) (./chapter4_zhu+15/chapter4_postscript.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
  [104]
-<chapter4_zhu+15/figures/bdiv.pdf, id=5543, 375.804pt x 758.835pt>
+<chapter4_zhu+15/figures/bdiv.pdf, id=5542, 375.804pt x 758.835pt>
 File: chapter4_zhu+15/figures/bdiv.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bdiv.pdf>) [105] [106 <./chapter4_zhu+15/figures/b
@@ -961,7 +966,7 @@ Underfull \vbox (badness 1067) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
-<chapter5_zhu+16/figures/runaway_rhot.pdf, id=5858, 910.602pt x 722.7pt>
+<chapter5_zhu+16/figures/runaway_rhot.pdf, id=5857, 910.602pt x 722.7pt>
 File: chapter5_zhu+16/figures/runaway_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/runaway_rhot.pdf> [115] [116 <./chapter5_zhu+16/fi
@@ -1037,7 +1042,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-<chapter5_zhu+16/figures/mni.pdf, id=6034, 650.43pt x 650.43pt>
+<chapter5_zhu+16/figures/mni.pdf, id=6033, 650.43pt x 650.43pt>
 File: chapter5_zhu+16/figures/mni.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/mni.pdf> [120] [121 <./chapter5_zhu+16/figures/mni
@@ -1047,17 +1052,17 @@ Underfull \vbox (badness 2027) has occurred while \output is active []
 
  [125]
 [126] [127]
-<chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6324, 650.43pt x 542.025pt
+<chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6323, 650.43pt x 542.025pt
 >
 File: chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf Graphic file (type pdf)
  <use chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf> [128 <./chapter5_zhu+16/
 figures/rot_stev_1pt15_rhot.pdf>] [129]
-<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6439, 650.43pt x 542.025pt>
+<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6438, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/mag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/mag_1pt15_rhot.pdf> [130] [131 <./chapter5_zhu+16/
 figures/mag_1pt15_rhot.pdf>]
-<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6536, 650.43pt x 542.025pt>
+<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6535, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/diag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/diag_1pt15_rhot.pdf>
@@ -1098,7 +1103,7 @@ Chapter 6.
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
  [136]
-[137] <conclusion/figures/c_MNi.pdf, id=6683, 578.16pt x 578.16pt>
+[137] <conclusion/figures/c_MNi.pdf, id=6682, 578.16pt x 578.16pt>
 File: conclusion/figures/c_MNi.pdf Graphic file (type pdf)
 
 <use conclusion/figures/c_MNi.pdf>
@@ -1136,18 +1141,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11961 strings out of 495061
- 172290 string characters out of 1182621
- 355697 words of memory out of 3000000
- 13200 multiletter control sequences out of 15000+50000
+ 11967 strings out of 495061
+ 172510 string characters out of 1182622
+ 356761 words of memory out of 3000000
+ 13203 multiletter control sequences out of 15000+50000
  150703 words of font info for 738 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,13n,63p,2583b,1070s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not ex
+ 38i,13n,63p,2583b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
-t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.37} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1279,9 +1281,9 @@ share/texmf-texlive/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-texl
 ive/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/palatino/uplri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (169 pages, 15972372 bytes).
+Output written on Thesis.pdf (169 pages, 15971465 bytes).
 PDF statistics:
- 7113 PDF objects out of 7423 (max. 8388607)
+ 7112 PDF objects out of 7423 (max. 8388607)
  823 named destinations out of 1000 (max. 500000)
  80281 words of extra memory for PDF output out of 89155 (max. 10000000)
 
