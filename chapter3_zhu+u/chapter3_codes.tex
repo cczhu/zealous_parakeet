@@ -1,7 +1,7 @@
 \section{Codes and Initial Conditions}
 \label{sec:c3_codes}
 
-All hydrodynamic and magnetohydrodynamic codes seek to properly evolve the continuum dynamics of a fluid on a discrete set of points in space and time.  Most astrophysical fluid codes (including the two we use) explore the simpler regimes of ideal hydro- or magnetohydrodynamics, where molecular viscosity and electrical resistance are negligible -- generally the case astrophysical settings outside of planetary interior dynamics.  The coupled partial differential equations of ideal magnetohydrodynamics, in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13, spru13}, \citealt{feidc12} Sec. 3), is
+All hydrodynamic and magnetohydrodynamic codes seek to properly evolve the continuum dynamics of a fluid on a discrete set of points in space and time.  Most astrophysical fluid codes (including the two we use) explore the simpler regimes of ideal hydro- or magnetohydrodynamics, where molecular viscosity and electrical resistance are negligible -- generally the case in astrophysical settings outside of planetary interior dynamics.  The coupled partial differential equations of ideal magnetohydrodynamics, in their conservative form and with Gaussian units (eg. \citealt{goedp04, pakms13, spru13}, \citealt{feidc12} Sec. 3), is
 
 \begin{eqnarray}
 \ptl_t\rho + \ptl_j(\rho u^j) &=& 0 \nonumber \\
@@ -68,11 +68,11 @@ F_s({\bf r}) = \int F({\bf r'})W({\bf r} - {\bf r'}, h)d{\bf r'}.
 \noindent In the (computationally impossible) case of infinite resolution, we can choose $W({\bf r}, h)$ to be a Dirac delta, and $F_s({\bf r}) = F({\bf r})$, but in practice we choose $W({\bf r}, h)$ to extend over some characteristic ``smoothing length'' $h$.  If $W({\bf r}, h)$ were a Gaussian, the $h = \sigma$, the standard deviation.  The most popular form of $W({\bf r}, h)$ is a cubic spline that goes to zero when ${\bf r} > 2h$, and $h$ is generally set to ensure a user-defined number of neighboring particles $N$ fall within the kernel.  For a set of particles with associated mass $m_i$ and known values of $F_i = F({\bf r}_i)$, we can discretize the integral as
 
 \eqbegin
-F_s({\bf r}) = \sum_j\frac{m_j}{\rho_j}F_j W({\bf r} - {\bf r}_j), h).
+F_s({\bf r}) = \sum_j\frac{m_j}{\rho_j}F_j W({\bf r} - {\bf r}_j, h).
 \label{eq:c3_kernelavg}
 \eqend
 
-\noindent where $\rho_i$ can be estimated using $\rho_i = \sum_j m_j W({\bf r}_i - {\bf r}_j), h)$.  Derivatives of the field can also be determined using the gradient of the kernel $\nabla_i W_{ij}$.
+\noindent where $\rho_i$ can be estimated using $\rho_i = \sum_j m_j W({\bf r}_i - {\bf r}_j, h)$.  Derivatives of the field can also be determined using the gradient of the kernel $\nabla_i W_{ij}$.
 
 Meanwhile, the Euler equations (Eqn. \ref{eqn:c3_mhd_eqns_compact} without the gravitational and magnetic terms) can be shown to follow the Lagrangian:
 
@@ -99,7 +99,7 @@ L_\mathrm{SPH} = \sum_i \frac{1}{2}m_i u_i^2 - m_i e_i.
 \label{eqn:c3_spheqne}
 \eqend
 
-\noindent where pressure $P_i$ is determined from $\rho_i$ and $e_i$ using a user-prescribed equation of state.  The left panel of {\charles Fig. \ref{fig:c3_codediag}} summarizes this scheme.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time-dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev} Sec. 2.4 and \citealt{wadssq04} Sec. 2.1) using methods originally developed for $N$-body simulations.  Magnetic fields can also be included (eg. \citealt{pric12}), but the resulting ``SPHMHD'' formulation is not used in this thesis.
+\noindent where pressure $P_i$ is determined from $\rho_i$ and $e_i$ using a user-prescribed equation of state.  The left panel of {\charles Fig. \ref{fig:c3_codediag}} summarizes this scheme.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time-dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev} Sec. 2.4 and \citealt{wadssq04} Sec. 2.1) using methods originally developed for $N$-body simulations.  Magnetic fields can also be included (eg. \citealt{pric12}), but the resulting ``SPHMHD'' formulation is not used in this thesis (and remains troublesome to implement; eg. \citealt{lewibt16}).
 
 % Eqn. \ref{eqn:c3_spheqne} can actually be replaced with $d s_i/dt = 0$, except in the presence of shocks
 
@@ -133,7 +133,7 @@ As given, the SPH equations of motion conserve entropy, but entropy must increas
 
 %{eq:c3_artificialvisc}
 
-As explained in the introduction, SPH's Lagrangian nature allows it to automatically resolve regions of high density, simulate advection without errors, and conserve energy, linear and angular momentum to high accuracy.  These features make it much easier to model mergers in SPH than in Eulerian grid schemes, which discretize the simulation volume on a static grid, and time-evolve the system by tracking fluid fluxes between grid cells.  These traditionally have issues with simulating advection, and adaptively increasing the spatial resolution when following orbiting binaries, except under specific coordinate systems and symmetries (eg. \citep{hopk15}), and thus have very infrequently been used to simulate WD mergers (see \cite{katz+16}, however for recent developments).
+As explained in the introduction, SPH's Lagrangian nature allows it to automatically resolve regions of high density, simulate advection without errors, and conserve energy, linear and angular momentum to high accuracy.  These features make it much easier to model mergers in SPH than in Eulerian grid schemes, which discretize the simulation volume on a static grid, and time-evolve the system by tracking fluid fluxes between grid cells.  These traditionally have issues with simulating advection and adaptively increasing the spatial resolution ahead of moving fluids, such as orbiting binary stars, except under specific coordinate systems and symmetries.  Thus, they have rarely been used to simulate WD mergers (see \cite{katz+16}, however for recent developments).
 
 The limitations of SPH (and Eulerian codes) have also been well-covered in literature (see, eg., the introductions to \citealt{spri10, hopk15, katz+16}).  Chief among them is the artificial viscosity discussed above, which can produce spurious heating and angular momentum transport in shear flows even in codes that utilize the Balsara switch and time-variable viscosity \citep{culld10}.  Classical formulations of SPH have also been known to suppress hydrodynamic instabilties (eg. \citealt{ager+07}) due to poor treatment of contact discontinuities manifesting as a ``surface tension'' (eg. \citealt{readha10, hesss10}).  While this has subsequently been resolved (eg. \citealt{hopk13, hu+14, kell+14}) by introducing artificial mixing terms \citep{pric08} and smoothing the pressure as well as the density across discontinuities (eg. by replacing the $P_i/\rho_i^2 + P_j/\rho_j^2$ term in Eqn. \ref{eqn:c3_spheqnm} with $(P_i + P_j)/(\rho_i\rho_j)$; \citealt{kell+14}) the vast majority of merger simulations in the literature come from before these alterations became widely used.  SPH resolves shocks and steep gradients relatively poorly compared to Eulerian schemes due to kernel smoothing of the density, and can corrupt smooth flows with particle velocity noise \citep{spri10rev}.  Lastly, it suffers from a resolution-independent ``$E_0$'' error associated with Eqn. \ref{eqn:c3_spheqnm} (eg. \citealt{readha10}), which in some situations produces enough noise to drown out large-scale structures \citep{hopk15}.  All of these issues motivate both the further development of SPH and competing hydrodynamic schemes, and simulating mergers in a diversity of codes.
 
