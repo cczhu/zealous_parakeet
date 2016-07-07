@@ -35,7 +35,7 @@ Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc)
 \label{eq:c5_epsccscaling}
 \eqend
 
-\noindent is a steep function of temperature (Eqn. \ref{eq:c5_epsccscaling} was numerically derived using the \texttt{rates} module from the stellar evolution code \mesa\ \citep{paxt+11}).  Thus, the vast majority of the nuclear luminosity is generated within a ``nuclear burning region'' deep within the star.  Like \citeal{wooswk04}, we estimate the burning region's luminosity through the use of a polytropic equation of state and an adiabatic temperature profile -- i.e. $P/P_\mrm{c} = (\rho/\rhoc)^{\gamma_1}$, $T/\Tc = (\rho/\rhoc)^{\gamma_3-1}$.  At $\rho_7 = 3$ and $T_9 = 1.2$, the Helmholtz equation of state (EOS; \citealt{timms00})\footnote{Available at \url{http://cococubed.asu.edu/}.} gives $\gamma_1 = 1.41$, and $\gamma_3 = 1.43$.  We use the standard polytropic rescaling of density and radius (eg. \citealt{kippw12}): 
+\noindent is a steep function of temperature (Eqn. \ref{eq:c5_epsccscaling} was numerically derived using the \texttt{rates} module from the stellar evolution code \mesa\ \citep{paxt+11}).  Thus, the vast majority of the nuclear luminosity is generated within a ``nuclear burning region'' deep within the star.  Like \citeal{wooswk04}, we estimate the burning region's luminosity through the use of a polytropic equation of state and an adiabatic temperature profile -- i.e. $P/P_\mrm{c} = (\rho/\rhoc)^{\gamma_1}$, $T/\Tc = (\rho/\rhoc)^{\gamma_3-1}$.  At $\rho_7 = 3$ and $T_9 = 1.2$, the Helmholtz equation of state (EOS; \citealt{timms00})\footnote{Available at \url{http://cococubed.asu.edu/}.} gives $\gamma_1 = 1.41$, and $\gamma_3 = 1.43$.  We use the standard polytropic rescaling of density and radius (eg. \citealt{kippww12}): 
 
 \begin{eqnarray}
 \theta &\equiv& (\rho/\rho_c)^{\gamma_1 - 1}, \nonumber \\
@@ -100,7 +100,7 @@ where
 
 %See Chang, White & van Kerkwijk Unpublished Eqns. 10 - 18
 
-The convective velocity \vconv\ transporting luminosity \Lconv\ can be calculated with standard mixing length theory (MLT; eg. \citealt{kippw12} Ch. 7):
+The convective velocity \vconv\ transporting luminosity \Lconv\ can be calculated with standard mixing length theory (MLT; eg. \citealt{kippww12} Ch. 7):
 
 \begin{eqnarray}
 \Fconv &=& \frac{\Lconv}{4\pi r^2} = \frac{\rho c_PT}{\gacc\delta l_m} \vconv^3 \nonumber \\
@@ -167,7 +167,7 @@ Finally, we use Eqn. \ref{eq:c5_vconvest2} to estimate the convective timescale
 \label{eq:c5_taudyn}
 \eqend
 
-%using $\bar{\rho}/\rhoc = 54.1825$ for an $n = 3$ polytrope (eg. \citealt{kippw12}, Table 19.1)
+%using $\bar{\rho}/\rhoc = 54.1825$ for an $n = 3$ polytrope (eg. \citealt{kippww12}, Table 19.1)
 
 \noindent Taking $\delta^{1/3} \approx 0.49$, Eqn. \ref{eq:c5_tauconvest} then becomes\footnote{Retaining the density and temperature scaling of $\delta^{-1/3} \propto (\rho_7/3)^{0.21}(T_9/1.2)^{-0.52}$ in Eqn. \ref{eq:c5_tauconvest} does not substantially alter our result, since $\tauconv \propto \delta^{-1/3}(\rho_7/3)^{-0.22}(T_9/1.2)^{-7.41}$ and density changes only by a factor of a few during the runaway.}
 

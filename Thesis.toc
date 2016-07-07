@@ -114,6 +114,6 @@
 \contentsline {section}{\numberline {6.1}Mergers and Early Post-Merger Evolution}{135}{section.6.1}
 \contentsline {section}{\numberline {6.2}Viscous Evolution and Ignition}{137}{section.6.2}
 \contentsline {section}{\numberline {6.3}Ignition, Simmering and Explosions}{137}{section.6.3}
-\contentsline {section}{\numberline {6.4}What Happens to Sub-\domm {M_{\rm Ch}}\ Mergers?}{138}{section.6.4}
+\contentsline {section}{\numberline {6.4}What are the Outcomes of CO WD Mergers?}{140}{section.6.4}
 \contentsline {section}{\numberline {6.5}Observational Avenues of Exploration}{140}{section.6.5}
-\contentsline {chapter}{Bibliography}{141}{section.6.5}
+\contentsline {chapter}{Bibliography}{142}{section.6.5}

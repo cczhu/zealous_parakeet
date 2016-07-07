@@ -291,6 +291,67 @@ ax.axis([0.0,1.05,0.7,1.15])
 
 pylab.savefig("figures/c2a_McMce_vs_qrho.pdf", dpi=150)
 
+########################### MNi Mtot #############################
+
+## Childress points
+#childress = pd.read_table(open("/home/cczhu/GitHubTemp/PaperRunaway/Childress2015.dat", 'r'), sep=" ")
+
+## Scalzo line
+#mtot_scalz, m56ni_scalz = np.array([0.8, 0.95, 1.6]),  np.array([0.35, 0.4, 0.6])
+
+## Zero temperature points
+#mass_zero = cPickle.load(open("/media/DataStorage3/Runaway/outputs/massplot/cold_mass_line.p", 'r'))
+
+#width=8.; height=8.;
+
+#pylab.rc('font', family="serif")
+#pylab.rc('font', size=16)
+#fig = pylab.figure(figsize=(width,height))
+#ax = fig.add_axes([1.0/width, 1.0/height, (width - 1.4)/width, (height - 1.4)/height])
+
+#childress_options = {"mfc": "green", "mec": "None", "marker": "*", "ls": "None"}
+#zero_options = {"color": "#b30059", "ls": ":"}
+#scalz_options = {"color": "r", "ls": ":"}
+#ax.plot(mass_zero["Mtot"], mass_zero["MNi"], lw=5, **zero_options)
+#ax.plot(mtot_scalz, m56ni_scalz, lw=5, **scalz_options)
+#ax.plot(childress["Mej"], childress["MNi"], ms=20, **childress_options)
+
+#est_low_options = {"color": "k", "marker": 'v', "ls": "None", "markersize": 7}
+#est_high_options = {"color": "k", "marker": 'o', "ls": "None", "markersize": 7}
+#arepo_options = {"mfc": "b", "mec": "r", "marker": "*", "ls": "None", "mew": 2, "markersize": 17}
+
+#for i in range(len(Macc)):
+#	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
+#	ax.plot(data.loc[args, "Mtot_new"], data.loc[args, "MNi"], mfc=colorlist[i], **est_low_options)
+#	ax.plot(data.loc[args, "Mtot"], data.loc[args, "MNi"], mfc=colorlist[i], **est_high_options)
+#ax.plot(p_ar["Mtot_new"]/1.9891e33, p_ar["MNi"], **arepo_options)
+#ax.plot(p_ar["Mtot"], p_ar["MNi"], **arepo_options)
+
+#ax.set_xlim(0.6,2.0); ax.set_ylim(-0.05, 1.7)
+#ax.set_xlabel(r"$M_\mathrm{tot}$ ($M_\odot$)", fontsize=20, labelpad=6)
+#ax.set_ylabel(r"$M_\mathrm{Ni}$ ($M_\odot$)", fontsize=20, labelpad=6)
+
+#line_artists = (mlines.Line2D([],[], ms=15, **childress_options),
+#				mlines.Line2D([],[], lw=5, **scalz_options),
+#				mlines.Line2D([],[], lw=5, **zero_options),
+#				mlines.Line2D([],[], lw=5, **est_low_options),
+#				mlines.Line2D([],[], lw=5, **est_high_options),
+#				mlines.Line2D([],[], lw=5, **arepo_options))
+#leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Zhu+13 Low", "Zhu+13 High", "Zhu+15"), loc=2, fontsize=16, numpoints = 1, markerscale=1)
+#leg.draw_frame(False)
+
+## Create systematic error bars
+#systematic_bars = {"color": "#6699ff", "ls": "-", "lw": 5}
+#ax.plot([0.8, 0.8], [0.65, 1.05], **systematic_bars)
+#ax.plot([0.7, 0.9], [0.85, 0.85], **systematic_bars)
+#ax.text(0.85, 0.95, "Systematic\nErrors", fontsize=16, color=systematic_bars["color"])
+#ax.yaxis.set_major_locator(MultipleLocator(0.3))
+#ax.xaxis.set_major_locator(MultipleLocator(0.2))
+#ax.yaxis.set_minor_locator(MultipleLocator(0.15))
+#ax.xaxis.set_minor_locator(MultipleLocator(0.1))
+
+#pylab.savefig('../conclusion/figures/c_MNi.pdf', dpi = 200, edgecolor = 'w')
+
 ########################## MNi Mtot #############################
 
 # Childress points
@@ -312,19 +373,24 @@ ax = fig.add_axes([1.0/width, 1.0/height, (width - 1.4)/width, (height - 1.4)/he
 childress_options = {"mfc": "green", "mec": "None", "marker": "*", "ls": "None"}
 zero_options = {"color": "#b30059", "ls": ":"}
 scalz_options = {"color": "r", "ls": ":"}
+est_line_options = {"marker": "None", "ls": "-", "lw": 0.5}
+
+for i in range(len(Macc)):
+	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
+	argvals = np.arange(len(data["M2 (Msun) "]))[np.array(args)]
+	for j in argvals:
+		ax.plot([data.loc[j, "Mtot_new"], data.loc[j, "Mtot"]], [data.loc[j, "MNi"], data.loc[j, "MNi"]], color=colorlist[i], **est_line_options)
+
 ax.plot(mass_zero["Mtot"], mass_zero["MNi"], lw=5, **zero_options)
 ax.plot(mtot_scalz, m56ni_scalz, lw=5, **scalz_options)
 ax.plot(childress["Mej"], childress["MNi"], ms=20, **childress_options)
 
-est_low_options = {"color": "k", "marker": 'v', "ls": "None", "markersize": 7}
-est_high_options = {"color": "k", "marker": 'o', "ls": "None", "markersize": 7}
+est_options = {"color": "k", "marker": 'o', "ls": "None", "markersize": 7}
 arepo_options = {"mfc": "b", "mec": "r", "marker": "*", "ls": "None", "mew": 2, "markersize": 17}
 
 for i in range(len(Macc)):
 	args = abs(data["M2 (Msun) "] - Macc[i])/Macc[i] < 1e-6
-	ax.plot(data.loc[args, "Mtot_new"], data.loc[args, "MNi"], mfc=colorlist[i], **est_low_options)
-	ax.plot(data.loc[args, "Mtot"], data.loc[args, "MNi"], mfc=colorlist[i], **est_high_options)
-ax.plot(p_ar["Mtot_new"]/1.9891e33, p_ar["MNi"], **arepo_options)
+	ax.plot(data.loc[args, "Mtot"], data.loc[args, "MNi"], mfc=colorlist[i], **est_options)
 ax.plot(p_ar["Mtot"], p_ar["MNi"], **arepo_options)
 
 ax.set_xlim(0.6,2.0); ax.set_ylim(-0.05, 1.7)
@@ -334,10 +400,9 @@ ax.set_ylabel(r"$M_\mathrm{Ni}$ ($M_\odot$)", fontsize=20, labelpad=6)
 line_artists = (mlines.Line2D([],[], ms=15, **childress_options),
 				mlines.Line2D([],[], lw=5, **scalz_options),
 				mlines.Line2D([],[], lw=5, **zero_options),
-				mlines.Line2D([],[], lw=5, **est_low_options),
-				mlines.Line2D([],[], lw=5, **est_high_options),
+				mlines.Line2D([],[], lw=5, **est_options),
 				mlines.Line2D([],[], lw=5, **arepo_options))
-leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Zhu+13 Low", "Zhu+13 High", "Zhu+15"), loc=2, fontsize=16, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Zhu+13", "Zhu+15"), loc=2, fontsize=16, numpoints = 1, markerscale=1)
 leg.draw_frame(False)
 
 # Create systematic error bars
