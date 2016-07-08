@@ -7,7 +7,7 @@ To preface the rest of the thesis, we briefly cover a few topics that are only m
 \subsection{Typical CO WD Masses}
 \label{ssec:c1_cowd_massrange}
 
-While we can roughly estimate that CO WDs masses have a range from $\sim0.4 - 1.0\,\Msun$ (Sec. \ref{ssec:c1_ddwdform}), mergers between CO WDs of certain masses may statistically be more common.  Here we discuss the difficulties in determining these typical masses.
+While we can roughly estimate that CO WDs masses have a range from $\sim0.4 - 1.0\,\Msun$ (Sec. \ref{sec:c1_wdmergers}), mergers between CO WDs of certain masses may statistically be more common.  Here we discuss the difficulties in determining these typical masses.
 
 %\footnote{Note that \cite{trem+16} remove all WDs with $M<0.45\,\Msun$ to prevent contamination from He WDs, while many of the studies in \cite{klei+13} do not.} 
 
@@ -45,14 +45,14 @@ The use of spherical WDs, however, neglects the tidal bulges they develop close 
 
 Because mass transfer rates are overestimated, however, our simulations cannot predict which binaries will experience runaway mass transfer and merge -- indeed, every one of our simulations in Ch. \ref{ch:ch2} does so.  Whether or not mass transfer between two stars is stable has long been studied analytically and semi-analytically, and it is known that it depends critically on the mass ratio $\qm = \Md/\Md$ between the donor star (\Md) and the accretor star (\Ma; from above, $\Ma \geq \Md$ and $\qm \leq 1$ for all mergers), and whether or not spin and orbital angular momentum can be efficiently coupled to each other.  We sketch a simple argument for stability below.
 
-Let us first consider the case in which some dissipative process, such as tidal torquing between the donor and accretor or an accretion disk, is able to return any angular momentum from the WD spin back to orbital angular momentum, thus helping to stabilize mass transfer.  This means that $\dot{J}_\mrm{orb} = 0$.  The orbital angular momentum of a binary system is $J_\mrm{orb} = (\Ma\Md/\Mtot)\sqrt{G\Mtot a}$, where $\Mtot = \Md + \Ma$ and $a$ is the orbital separation.  From this we may derive $\dot{J}_\mrm{orb}/J_\mrm{orb} = \dot{\Md}/\Md + \dot{\Ma}/\Ma - \dot{M}_\mrm{tot}/2\Mtot + \dot{a}/2a$.  We shall assume conservative mass transfer (this is backed by the simulations in Ch. \ref{ch:ch2} and \ref{ch:ch3}, which show less than $1$\% of stellar material becomes unbound), meaning $\dot{\Ma} = -\dot{\Md}$.  Putting this together gives us
+Let us first consider the case in which some dissipative process, such as tidal torquing between the donor and accretor or an accretion disk, is able to return any angular momentum from the WD spin back to orbital angular momentum, thus helping to stabilize mass transfer.  This means that $\dot{L}_\mrm{orb} = 0$.  The orbital angular momentum of a binary system is $L_\mrm{orb} = (\Ma\Md/\Mtot)\sqrt{G\Mtot a}$, where $\Mtot = \Md + \Ma$ and $a$ is the orbital separation.  From this we may derive $\dot{L}_\mrm{orb}/L_\mrm{orb} = \dot{\Md}/\Md + \dot{\Ma}/\Ma - \dot{M}_\mrm{tot}/2\Mtot + \dot{a}/2a$.  We shall assume conservative mass transfer (this is backed by the simulations in Ch. \ref{ch:ch2} and \ref{ch:ch3}, which show less than $1$\% of stellar material becomes unbound), meaning $\dot{\Ma} = -\dot{\Md}$.  Putting this together gives us
 
 \eqbegin
-\dot{J}_\mrm{orb}/J_\mrm{orb} = 2(\qm- 1)\frac{\dot{\Md}}{\Md} - \frac{\dot{a}}{a},
+\dot{L}_\mrm{orb}/L_\mrm{orb} = 2(\qm- 1)\frac{\dot{\Md}}{\Md} - \frac{\dot{a}}{a},
 \label{eq:c1_adotovera}
 \eqend
 
-\noindent noting that $\dot{J}_\mrm{orb}/J_\mrm{orb} = 0$.  We use \cite{pacz71}'s estimate for the Roche lobe of \Md, $R_L \approx 0.46a(\Md/\Mtot)^{1/3}$, valid for $\qm \lesssim 1$ \citep{eggl83}.  Differentiating and using Eqn. \ref{eq:c1_adotovera}, we obtain
+\noindent noting that $\dot{L}_\mrm{orb}/L_\mrm{orb} = 0$.  We use \cite{pacz71}'s estimate for the Roche lobe of \Md, $R_L \approx 0.46a(\Md/\Mtot)^{1/3}$, valid for $\qm \lesssim 1$ \citep{eggl83}.  Differentiating and using Eqn. \ref{eq:c1_adotovera}, we obtain
 
 \eqbegin
 \frac{\dot{R}_\mrm{L}}{R_\mrm{L}} = 2(\qm- \frac{5}{6})\frac{\dot{\Md}}{\Md}.
@@ -68,7 +68,7 @@ Let us first consider the case in which some dissipative process, such as tidal 
 
 \noindent Most of the systems we simulate, in particular the ones between WDs of mass $\sim0.65\,\Msun$, fall well outside of the stable regime, but a number (such as the $0.4 - 1.0\,\Msun$ merger in Ch. \ref{ch:ch2}) do satisfy this, and naively should not merge.
 
-In the case where spin and orbital angular momentum coupling is instead negligible -- which implies that the accretion stream does not form a disk but rather directly impacts the accretor \citep{nele+01} -- a similar analysis can be peformed, using total angular momentum $J = J_\mrm{orb} + J_\mrm{spin} = (\Ma\Md/M)\sqrt{GMa} + J_\mrm{spin}$, from which we may derive $\dot{J}/J_\mrm{orb} = \dot{\Ma}/\Ma + \dot{\Md}/\Md - \dot{M}/2M + \dot{a}/2a + \dot{J}_\mrm{spin}/J_\mrm{orb}$.  Following \cite{marsns04} and \cite{nele+01}, we assume only the spin of the accretor matters for the equation, and use \cite{verbr88}'s representation of the spin-up of the accretor from direct impact accretion, $\dot{J}_\mrm{spin} = -\sqrt{G\Ma R_h}\dot{\Md}$ ($\dot{\Md}$ is negative).  $R_h$ is the effective radius of the matter transferred onto the accretor, and the ratio $r_h = R_h/a$ is given by a fitting formula: $r_h = 0.0883 - 0.04858\log({q}) + 0.11489{\log}^2(\qm) + 0.020475{\log}^3(\qm)$, valid for all plausible WD binary mass ratios \citep{verbr88}.  Dividing this by $J_\mrm{orb}$ to obtain $\dot{J}_\mrm{spin}/J_\mrm{orb} = -\sqrt{(1 + \qm)r_h}\dot{\Md}/\Md$, and assuming conservative mass transfer ($\dot{J} = 0$), we obtain \citep{marsns04,nele+01}
+In the case where spin and orbital angular momentum coupling is instead negligible -- which implies that the accretion stream does not form a disk but rather directly impacts the accretor \citep{nele+01} -- a similar analysis can be peformed, using total angular momentum $L = L_\mrm{orb} + L_\mrm{spin} = (\Ma\Md/M)\sqrt{GMa} + L_\mrm{spin}$, from which we may derive $\dot{L}/L_\mrm{orb} = \dot{\Ma}/\Ma + \dot{\Md}/\Md - \dot{M}/2M + \dot{a}/2a + \dot{L}_\mrm{spin}/L_\mrm{orb}$.  Following \cite{marsns04} and \cite{nele+01}, we assume only the spin of the accretor matters for the equation, and use \cite{verbr88}'s representation of the spin-up of the accretor from direct impact accretion, $\dot{L}_\mrm{spin} = -\sqrt{G\Ma R_h}\dot{\Md}$ ($\dot{\Md}$ is negative).  $R_h$ is the effective radius of the matter transferred onto the accretor, and the ratio $r_h = R_h/a$ is given by a fitting formula: $r_h = 0.0883 - 0.04858\log({q}) + 0.11489{\log}^2(\qm) + 0.020475{\log}^3(\qm)$, valid for all plausible WD binary mass ratios \citep{verbr88}.  Dividing this by $L_\mrm{orb}$ to obtain $\dot{L}_\mrm{spin}/L_\mrm{orb} = -\sqrt{(1 + \qm)r_h}\dot{\Md}/\Md$, and assuming conservative mass transfer ($\dot{L} = 0$), we obtain \citep{marsns04,nele+01}
 
 \eqbegin
 \frac{\dot{a}}{a} = 2\left(\qm- 1 + \sqrt{(1 + \qm)r_h}\right)\frac{\dot{\Md}}{\Md}.

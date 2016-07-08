@@ -235,7 +235,7 @@ We noted above that that \citeal{stev79}'s formulation reproduced the equations 
 \begin{figure}
 \centering
 \includegraphics[angle=0,width=0.8\columnwidth]{chapter5_zhu+16/figures/diag_1pt15_rhot.pdf}
-\caption{Comparison of a simmering track for a non-rotating, unmagnetized $1.15\,\Msun$ WDs calculated using Eqns. \ref{eq:c5_vconv_stev} and \ref{eq:c5_superad_dev_stev} (red line) with the ``default'' $1.15\,\Msun$ one that uses Eqns. \ref{eq:c5_vconv_mlt} and \ref{eq:c5_superad_dev} from Fig. \ref{fig:runaway_rhot} (black).  Also plotted are tracks which use Eqn. \ref{eq:c5_superad_dev} but multiply a prefactor of $2$ (blue) or $1/2$ (cyan) to Eqn. \ref{eq:c5_vconv_mlt}.  Circles along each track indicate their respective \citeal{wooswk04} points.  All other lines and symbols are as in Fig. \ref{fig:c5_rot_stev_1pt15_rhot}.}
+\caption{Comparison of a simmering track for a non-rotating, unmagnetized $1.15\,\Msun$ WDs calculated using Eqns. \ref{eq:c5_vconv_stev} and \ref{eq:c5_superad_dev_stev} (red line) with the ``default'' $1.15\,\Msun$ one that uses Eqns. \ref{eq:c5_vconv_mlt} and \ref{eq:c5_superad_dev} from Fig. \ref{fig:c5_runaway_rhot} (black).  Also plotted are tracks which use Eqn. \ref{eq:c5_superad_dev} but multiply a prefactor of $2$ (blue) or $1/2$ (cyan) to Eqn. \ref{eq:c5_vconv_mlt}.  Circles along each track indicate their respective \citeal{wooswk04} points.  All other lines and symbols are as in Fig. \ref{fig:c5_rot_stev_1pt15_rhot}.}
 \label{fig:c5_mltcoeff_rhot}
 \end{figure}
 
