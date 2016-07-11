@@ -121,6 +121,9 @@
 \bibitem[{{Brun} {et~al.}(2005){Brun}, {Browning}, \& {Toomre}}]{brunbt05}
 {Brun}, A.~S., {Browning}, M.~K., \& {Toomre}, J. 2005, \apj, 629, 461
 
+\bibitem[{{Bulla} {et~al.}(2015){Bulla}, {Sim}, \& {Kromer}}]{bullsk15}
+{Bulla}, M., {Sim}, S.~A., \& {Kromer}, M. 2015, \mnras, 450, 967
+
 \bibitem[{{Burkart} {et~al.}(2013){Burkart}, {Quataert}, {Arras}, \&
   {Weinberg}}]{burk+13}
 {Burkart}, J., {Quataert}, E., {Arras}, P., \& {Weinberg}, N.~N. 2013, \mnras,
@@ -781,6 +784,13 @@
   {Springel}}]{marips14}
 {Marinacci}, F., {Pakmor}, R., \& {Springel}, V. 2014, \mnras, 437, 1750
 
+\bibitem[{{Marion} {et~al.}(2016){Marion}, {Brown}, {Vink{\'o}}, {Silverman},
+  {Sand}, {Challis}, {Kirshner}, {Wheeler}, {Berlind}, {Brown}, {Calkins},
+  {Camacho}, {Dhungana}, {Foley}, {Friedman}, {Graham}, {Howell}, {Hsiao},
+  {Irwin}, {Jha}, {Kehoe}, {Macri}, {Maeda}, {Mandel}, {McCully}, {Pandya},
+  {Rines}, {Wilhelmy}, \& {Zheng}}]{mari+16}
+{Marion}, G.~H., {Brown}, P.~J., {Vink{\'o}}, J., {et~al.} 2016, \apj, 820, 92
+
 \bibitem[{{Marquardt} {et~al.}(2015){Marquardt}, {Sim}, {Ruiter}, {Seitenzahl},
   {Ohlmann}, {Kromer}, {Pakmor}, \& {R{\"o}pke}}]{marq+15}
 {Marquardt}, K.~S., {Sim}, S.~A., {Ruiter}, A.~J., {et~al.} 2015, \aap, 580,
@@ -1036,6 +1046,9 @@
 
 \bibitem[{{Piro} \& {Chang}(2008)}]{piroc08}
 {Piro}, A.~L., \& {Chang}, P. 2008, \apj, 678, 1158
+
+\bibitem[{{Piro} \& {Morozova}(2015)}]{pirom15}
+{Piro}, A.~L., \& {Morozova}, V.~S. 2015, ArXiv e-prints, arXiv:1512.03442
 
 \bibitem[{{Piro} {et~al.}(2014){Piro}, {Thompson}, \& {Kochanek}}]{pirotk14}
 {Piro}, A.~L., {Thompson}, T.~A., \& {Kochanek}, C.~S. 2014, \mnras, 438, 3456
@@ -1366,6 +1379,12 @@
 
 \bibitem[{Van~Leer(2006)}]{vlee06}
 Van~Leer, B. 2006, Communications in Computational Physics, 1, 138
+
+\bibitem[{{van Rossum} {et~al.}(2015){van Rossum}, {Kashyap}, {Fisher},
+  {Wollaeger}, {Garcia-Berro}, {Aznar-Siguan}, {Ji}, \&
+  {Loren-Aguilar}}]{vros+15}
+{van Rossum}, D.~R., {Kashyap}, R., {Fisher}, R., {et~al.} 2015, ArXiv
+  e-prints, arXiv:1510.04286
 
 \bibitem[{{Vandenbroucke} \& {De Rijcke}(2016)}]{vandr16}
 {Vandenbroucke}, B., \& {De Rijcke}, S. 2016, Astronomy and Computing, 16, 109

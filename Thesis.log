@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.15)  10 JUL 2016 21:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.15)  11 JUL 2016 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,14 +605,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7595) has occurred while \output is active []
 
  [14]
-[15])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
- [16] (./introduction/introduction.tex
+
+[16] (./introduction/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
@@ -636,7 +639,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 21.
 
-<introduction/figures/dan+12_wdbinmass.pdf, id=982, 552.75558pt x 486.36478pt>
+<introduction/figures/dan+12_wdbinmass.pdf, id=995, 552.75558pt x 486.36478pt>
 File: introduction/figures/dan+12_wdbinmass.pdf Graphic file (type pdf)
 
 <use introduction/figures/dan+12_wdbinmass.pdf>
@@ -654,8 +657,14 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
  [10]
-[11] [12] [13]) (./introduction/introduction_mergerphys.tex [14] [15] [16]
-<introduction/figures/marsns04_stab.pdf, id=2029, 794.97pt x 614.295pt>
+[11] [12] [13]) (./introduction/introduction_mergerphys.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 2608) has occurred while \output is active []
+
+ [15]
+[16] <introduction/figures/marsns04_stab.pdf, id=2035, 794.97pt x 614.295pt>
 File: introduction/figures/marsns04_stab.pdf Graphic file (type pdf)
 
 <use introduction/figures/marsns04_stab.pdf>
@@ -692,7 +701,7 @@ Underfull \vbox (badness 1596) has occurred while \output is active []
 
  [23])
 (./chapter2_zhu+13/chapter2_results.tex
-<chapter2_zhu+13/figures/pt4pt8.pdf, id=2227, 867.24pt x 888.92097pt>
+<chapter2_zhu+13/figures/pt4pt8.pdf, id=2235, 867.24pt x 888.92097pt>
 File: chapter2_zhu+13/figures/pt4pt8.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/pt4pt8.pdf>
@@ -703,7 +712,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/pt4pt8.pdf used on input line
 
 LaTeX Warning: Float too large for page by 17.38756pt on input line 14.
 
-<chapter2_zhu+13/figures/pt6pt6.pdf, id=2228, 867.24pt x 888.92097pt>
+<chapter2_zhu+13/figures/pt6pt6.pdf, id=2236, 867.24pt x 888.92097pt>
 File: chapter2_zhu+13/figures/pt6pt6.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/pt6pt6.pdf>
@@ -712,7 +721,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/pt6pt6.pdf used on input line
 (pdftex.def)             Requested size: 451.68752pt x 462.98758pt.
  [24] [25 <./chapter2_zhu+13/figures/pt4pt8.pdf>] [26 <./chapter2_zhu+13/figure
 s/pt6pt6.pdf>] [27]
-<chapter2_zhu+13/figures/constaccretorcomp.pdf, id=2420, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/constaccretorcomp.pdf, id=2428, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/constaccretorcomp.pdf Graphic file (type pdf)
 <use chapter2_zhu+13/figures/constaccretorcomp.pdf>
 Package pdftex.def Info: chapter2_zhu+13/figures/constaccretorcomp.pdf used on 
@@ -722,7 +731,7 @@ input line 53.
 
 LaTeX Warning: Float too large for page by 11.93896pt on input line 56.
 
-<chapter2_zhu+13/figures/deltamcomp.pdf, id=2421, 867.24pt x 921.4425pt>
+<chapter2_zhu+13/figures/deltamcomp.pdf, id=2429, 867.24pt x 921.4425pt>
 File: chapter2_zhu+13/figures/deltamcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/deltamcomp.pdf>
@@ -730,7 +739,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/deltamcomp.pdf used on input l
 ine 60.
 (pdftex.def)             Requested size: 867.2379pt x 921.44026pt.
 
-<chapter2_zhu+13/figures/Mrhorelation.pdf, id=2427, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/Mrhorelation.pdf, id=2435, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/Mrhorelation.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Mrhorelation.pdf>
@@ -739,7 +748,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/Mrhorelation.pdf used on input
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
  [28] [29 <./chapter2_zhu+13/figures/constaccretorcomp.pdf>] [30 <./chapter2_zh
 u+13/figures/deltamcomp.pdf>]
-<chapter2_zhu+13/figures/Eqmass.pdf, id=2571, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/Eqmass.pdf, id=2579, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/Eqmass.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Eqmass.pdf>
@@ -751,7 +760,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./chapter2_zhu+13/figures/Mrhorelation.pdf>] [32 <./chapter2_zhu+13/figur
 es/Eqmass.pdf>]
-<chapter2_zhu+13/figures/StructureTrendsq.pdf, id=2665, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/StructureTrendsq.pdf, id=2673, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/StructureTrendsq.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/StructureTrendsq.pdf>
@@ -759,7 +768,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/StructureTrendsq.pdf used on i
 nput line 132.
 (pdftex.def)             Requested size: 433.61894pt x 650.4284pt.
  [33] [34 <./chapter2_zhu+13/figures/StructureTrendsq.pdf>]
-<chapter2_zhu+13/figures/RestofTrendsq.pdf, id=2729, 867.24pt x 939.51pt>
+<chapter2_zhu+13/figures/RestofTrendsq.pdf, id=2737, 867.24pt x 939.51pt>
 File: chapter2_zhu+13/figures/RestofTrendsq.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/RestofTrendsq.pdf>
@@ -771,7 +780,7 @@ t line 180.
 LaTeX Warning: Float too large for page by 19.73647pt on input line 183.
 
 [35] [36 <./chapter2_zhu+13/figures/RestofTrendsq.pdf>] [37]
-<chapter2_zhu+13/figures/EnergyTrendsq.pdf, id=2839, 433.62pt x 939.51pt>
+<chapter2_zhu+13/figures/EnergyTrendsq.pdf, id=2847, 433.62pt x 939.51pt>
 File: chapter2_zhu+13/figures/EnergyTrendsq.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/EnergyTrendsq.pdf>
@@ -780,7 +789,7 @@ t line 243.
 (pdftex.def)             Requested size: 271.01526pt x 587.22098pt.
  [38] [39 <./chapter2_zhu+13/figures/EnergyTrendsq.pdf>] [40] [41] [42])
 (./chapter2_zhu+13/chapter2_variation.tex
-<chapter2_zhu+13/figures/compcomp.pdf, id=2941, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/compcomp.pdf, id=2949, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/compcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/compcomp.pdf>
@@ -788,7 +797,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/compcomp.pdf used on input lin
 e 10.
 (pdftex.def)             Requested size: 433.61894pt x 904.8182pt.
 
-<chapter2_zhu+13/figures/distcomp.pdf, id=2945, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/distcomp.pdf, id=2953, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/distcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/distcomp.pdf>
@@ -797,7 +806,7 @@ e 29.
 (pdftex.def)             Requested size: 433.61894pt x 904.8182pt.
  [43] [44 <./chapter2_zhu+13/figures/compcomp.pdf>] [45 <./chapter2_zhu+13/figu
 res/distcomp.pdf>]
-<chapter2_zhu+13/figures/synchcomp.pdf, id=3083, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/synchcomp.pdf, id=3091, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/synchcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/synchcomp.pdf>
@@ -805,7 +814,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/synchcomp.pdf used on input li
 ne 87.
 (pdftex.def)             Requested size: 433.61894pt x 904.8182pt.
  [46] [47 <./chapter2_zhu+13/figures/synchcomp.pdf>]
-<chapter2_zhu+13/figures/timecomp.pdf, id=3156, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/timecomp.pdf, id=3164, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/timecomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/timecomp.pdf>
@@ -813,7 +822,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/timecomp.pdf used on input lin
 e 110.
 (pdftex.def)             Requested size: 433.61894pt x 904.8182pt.
  [48] [49 <./chapter2_zhu+13/figures/timecomp.pdf>]
-<chapter2_zhu+13/figures/viscnumcomp.pdf, id=3228, 433.62pt x 904.8204pt>
+<chapter2_zhu+13/figures/viscnumcomp.pdf, id=3236, 433.62pt x 904.8204pt>
 File: chapter2_zhu+13/figures/viscnumcomp.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/viscnumcomp.pdf>
@@ -821,7 +830,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/viscnumcomp.pdf used on input
 line 145.
 (pdftex.def)             Requested size: 433.61894pt x 904.8182pt.
  [50] [51 <./chapter2_zhu+13/figures/viscnumcomp.pdf>]
-<chapter2_zhu+13/figures/heatingTEC.pdf, id=3312, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/heatingTEC.pdf, id=3320, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/heatingTEC.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/heatingTEC.pdf>
@@ -861,7 +870,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 206.
 
 [54]
-<chapter2_zhu+13/figures/compwithloreig.pdf, id=3385, 433.62pt x 488.5452pt>
+<chapter2_zhu+13/figures/compwithloreig.pdf, id=3393, 433.62pt x 488.5452pt>
 File: chapter2_zhu+13/figures/compwithloreig.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/compwithloreig.pdf>
@@ -873,7 +882,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55 <./chapter2_zhu+13/figures/compwithloreig.pdf>] [56])
 (./chapter2_zhu+13/chapter2_discussion.tex
-<chapter2_zhu+13/figures/Willitexplode.pdf, id=3500, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/Willitexplode.pdf, id=3508, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/Willitexplode.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/Willitexplode.pdf>
@@ -884,7 +893,7 @@ t line 6.
 
 LaTeX Warning: Float too large for page by 17.15363pt on input line 9.
 
-<chapter2_zhu+13/figures/PMEvolution.pdf, id=3507, 433.62pt x 650.43pt>
+<chapter2_zhu+13/figures/PMEvolution.pdf, id=3515, 433.62pt x 650.43pt>
 File: chapter2_zhu+13/figures/PMEvolution.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/PMEvolution.pdf>
@@ -905,7 +914,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/8'.
 (microtype)             Ignoring protrusion settings for this character.
  [64] [65]
-<chapter2_zhu+13/figures/c2a_mcpv.pdf, id=3826, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/c2a_mcpv.pdf, id=3834, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/c2a_mcpv.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/c2a_mcpv.pdf>
@@ -913,7 +922,7 @@ Package pdftex.def Info: chapter2_zhu+13/figures/c2a_mcpv.pdf used on input lin
 e 24.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
  [66 <./chapter2_zhu+13/figures/c2a_mcpv.pdf>]
-<chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf, id=3932, 433.62pt x 361.35pt>
+<chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf, id=3940, 433.62pt x 361.35pt>
 File: chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf Graphic file (type pdf)
 
 <use chapter2_zhu+13/figures/c2a_McMce_vs_qrho.pdf>
@@ -939,29 +948,30 @@ Underfull \vbox (badness 2393) has occurred while \output is active []
 
 ])
 (./chapter3_zhu+u/chapter3_codes.tex
-Underfull \vbox (badness 1048) has occurred while \output is active []
+Underfull \vbox (badness 3323) has occurred while \output is active []
 
  [71]
-Underfull \vbox (badness 1102) has occurred while \output is active []
+[72] [73] [74]
 
- [72]
-[73] [74]
-<chapter3_zhu+u/figures/SPHArepoFig.png, id=4339, 963.6pt x 542.025pt>
+Package natbib Warning: Citation `rask+13' on page 75 undefined on input line 1
+54.
+
+<chapter3_zhu+u/figures/SPHArepoFig.png, id=4340, 963.6pt x 542.025pt>
 File: chapter3_zhu+u/figures/SPHArepoFig.png Graphic file (type png)
 
 <use chapter3_zhu+u/figures/SPHArepoFig.png>
 Package pdftex.def Info: chapter3_zhu+u/figures/SPHArepoFig.png used on input l
-ine 158.
+ine 165.
 (pdftex.def)             Requested size: 963.59766pt x 542.02367pt.
- [75] [76 <./chapter3_zhu+u/figures/SPHArepoFig.png>] [77]) (./chapter3_zhu+u/c
-hapter3_fixarepo.tex [78]
-<chapter3_zhu+u/figures/lz_development.pdf, id=4432, 442.65375pt x 647.71986pt>
+ [75] [76 <./chapter3_zhu+u/figures/SPHArepoFig.png>] [77] [78]) (./chapter3_zh
+u+u/chapter3_fixarepo.tex
+<chapter3_zhu+u/figures/lz_development.pdf, id=4437, 442.65375pt x 647.71986pt>
 File: chapter3_zhu+u/figures/lz_development.pdf Graphic file (type pdf)
 <use chapter3_zhu+u/figures/lz_development.pdf>
 Package pdftex.def Info: chapter3_zhu+u/figures/lz_development.pdf used on inpu
 t line 16.
 (pdftex.def)             Requested size: 442.65265pt x 647.71828pt.
-
+ [79] [80 <./chapter3_zhu+u/figures/lz_development.pdf>]
 
 LaTeX Font Warning: Command \boldmath invalid in math mode on input line 28.
 
@@ -969,64 +979,65 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 28.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 28.
 
 
-[79] [80 <./chapter3_zhu+u/figures/lz_development.pdf>] [81]
-<chapter3_zhu+u/figures/lz_development2.pdf, id=4545, 433.62pt x 361.35pt>
+[81]
+<chapter3_zhu+u/figures/lz_development2.pdf, id=4549, 433.62pt x 361.35pt>
 File: chapter3_zhu+u/figures/lz_development2.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/lz_development2.pdf>
 Package pdftex.def Info: chapter3_zhu+u/figures/lz_development2.pdf used on inp
 ut line 88.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
-)
+ [82])
 (./chapter3_zhu+u/chapter3_results.tex
-<chapter3_zhu+u/figures/snapshots.pdf, id=4550, 845.55902pt x 1069.59598pt>
+<chapter3_zhu+u/figures/snapshots.pdf, id=4560, 845.55902pt x 1069.59598pt>
 File: chapter3_zhu+u/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/snapshots.pdf>
 Package pdftex.def Info: chapter3_zhu+u/figures/snapshots.pdf used on input lin
 e 8.
 (pdftex.def)             Requested size: 845.55696pt x 1069.59337pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82 <./chapter3_zhu+u/figures/lz_development2.pdf>]
-<chapter3_zhu+u/figures/curves.pdf, id=4618, 260.17201pt x 904.8204pt>
+ [83 <./chapter3_zhu+u/figures/lz_development2.pdf>] [84 <./chapter3_zhu+u/figu
+res/snapshots.pdf>]
+<chapter3_zhu+u/figures/curves.pdf, id=4816, 260.17201pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves.pdf>
 Package pdftex.def Info: chapter3_zhu+u/figures/curves.pdf used on input line 3
 3.
 (pdftex.def)             Requested size: 260.17136pt x 904.8182pt.
- [83] [84 <./chapter3_zhu+u/figures/snapshots.pdf>] [85 <./chapter3_zhu+u/figur
-es/curves.pdf>]
-<chapter3_zhu+u/figures/Lz.pdf, id=4862, 442.65375pt x 370.38374pt>
+ [85] [86 <./chapter3_zhu+u/figures/curves.pdf>] <chapter3_zhu+u/figures/Lz.pdf
+, id=4872, 442.65375pt x 370.38374pt>
 File: chapter3_zhu+u/figures/Lz.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/Lz.pdf>
 Package pdftex.def Info: chapter3_zhu+u/figures/Lz.pdf used on input line 52.
 (pdftex.def)             Requested size: 442.65265pt x 370.38283pt.
- [86])
-(./chapter3_zhu+u/chapter3_discussion.tex [87 <./chapter3_zhu+u/figures/Lz.pdf>
-] <chapter3_zhu+u/figures/curves_res.pdf, id=4926, 433.62pt x 904.8204pt>
+
+Underfull \vbox (badness 4193) has occurred while \output is active []
+
+ [87])
+(./chapter3_zhu+u/chapter3_discussion.tex [88 <./chapter3_zhu+u/figures/Lz.pdf>
+] <chapter3_zhu+u/figures/curves_res.pdf, id=4935, 433.62pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves_res.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves_res.pdf>
 Package pdftex.def Info: chapter3_zhu+u/figures/curves_res.pdf used on input li
 ne 23.
 (pdftex.def)             Requested size: 433.61894pt x 904.8182pt.
- [88] [89 <./chapter3_zhu+u/figures/curves_res.pdf>]
+
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [89]
+[90 <./chapter3_zhu+u/figures/curves_res.pdf>]
 
 LaTeX Font Warning: Font shape `T1/pplx/bx/sc' undefined
 (Font)              using `T1/pplx/bx/n' instead on input line 36.
 
-[90] [91]) (./chapter3_zhu+u/chapter3_conclusions.tex [92]
-Underfull \vbox (badness 4193) has occurred while \output is active []
-
- [93])
-[94]
+[91] [92]) (./chapter3_zhu+u/chapter3_conclusions.tex [93]) [94]
 \openout2 = `chapter4_zhu+15/chapter4.aux'.
 
- (./chapter4_zhu+15/chapter4.tex
+
+(./chapter4_zhu+15/chapter4.tex
 Chapter 4.
 ) [95
 
@@ -1036,7 +1047,7 @@ Chapter 4.
 
 ])
 (./chapter4_zhu+15/chapter4_results.tex
-<chapter4_zhu+15/figures/snapshots.pdf, id=5167, 507.69673pt x 818.45778pt>
+<chapter4_zhu+15/figures/snapshots.pdf, id=5172, 507.69673pt x 818.45778pt>
 File: chapter4_zhu+15/figures/snapshots.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/snapshots.pdf>
@@ -1044,7 +1055,7 @@ Package pdftex.def Info: chapter4_zhu+15/figures/snapshots.pdf used on input li
 ne 6.
 (pdftex.def)             Requested size: 507.6955pt x 818.45578pt.
 
-<chapter4_zhu+15/figures/bgrowth.pdf, id=5168, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bgrowth.pdf, id=5173, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bgrowth.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bgrowth.pdf>
@@ -1052,7 +1063,7 @@ Package pdftex.def Info: chapter4_zhu+15/figures/bgrowth.pdf used on input line
  13.
 (pdftex.def)             Requested size: 442.65265pt x 355.92888pt.
 
-<chapter4_zhu+15/figures/remnant.pdf, id=5176, 592.61403pt x 758.835pt>
+<chapter4_zhu+15/figures/remnant.pdf, id=5181, 592.61403pt x 758.835pt>
 File: chapter4_zhu+15/figures/remnant.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/remnant.pdf>
@@ -1062,7 +1073,7 @@ Package pdftex.def Info: chapter4_zhu+15/figures/remnant.pdf used on input line
  [97] [98 <./chapter4_zhu+15/figures/snapshots.pdf>] [99 <./chapter4_zhu+15/fig
 ures/bgrowth.pdf>] [100 <./chapter4_zhu+15/figures/remnant.pdf>]) (./chapter4_z
 hu+15/chapter4_discussion.tex
-<chapter4_zhu+15/figures/bcomp.pdf, id=5420, 442.65375pt x 355.92975pt>
+<chapter4_zhu+15/figures/bcomp.pdf, id=5425, 442.65375pt x 355.92975pt>
 File: chapter4_zhu+15/figures/bcomp.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bcomp.pdf>
@@ -1074,7 +1085,7 @@ apter4_postscript.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
  [104]
-<chapter4_zhu+15/figures/bdiv.pdf, id=5570, 375.804pt x 758.835pt>
+<chapter4_zhu+15/figures/bdiv.pdf, id=5575, 375.804pt x 758.835pt>
 File: chapter4_zhu+15/figures/bdiv.pdf Graphic file (type pdf)
 
 <use chapter4_zhu+15/figures/bdiv.pdf>
@@ -1121,7 +1132,7 @@ Underfull \vbox (badness 1067) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
-<chapter5_zhu+16/figures/runaway_rhot.pdf, id=5893, 910.602pt x 722.7pt>
+<chapter5_zhu+16/figures/runaway_rhot.pdf, id=5898, 910.602pt x 722.7pt>
 File: chapter5_zhu+16/figures/runaway_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/runaway_rhot.pdf>
@@ -1195,7 +1206,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-<chapter5_zhu+16/figures/mni.pdf, id=6071, 650.43pt x 650.43pt>
+<chapter5_zhu+16/figures/mni.pdf, id=6076, 650.43pt x 650.43pt>
 File: chapter5_zhu+16/figures/mni.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/mni.pdf>
@@ -1208,7 +1219,7 @@ Underfull \vbox (badness 2027) has occurred while \output is active []
 
  [125]
 [126] [127]
-<chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6363, 650.43pt x 542.025pt
+<chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6368, 650.43pt x 542.025pt
 >
 File: chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf Graphic file (type pdf)
  <use chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf>
@@ -1216,7 +1227,7 @@ Package pdftex.def Info: chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf used o
 n input line 110.
 (pdftex.def)             Requested size: 650.4284pt x 542.02367pt.
  [128 <./chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf>] [129]
-<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6479, 650.43pt x 542.025pt>
+<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6484, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/mag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/mag_1pt15_rhot.pdf>
@@ -1224,7 +1235,7 @@ Package pdftex.def Info: chapter5_zhu+16/figures/mag_1pt15_rhot.pdf used on inp
 ut line 184.
 (pdftex.def)             Requested size: 650.4284pt x 542.02367pt.
  [130] [131 <./chapter5_zhu+16/figures/mag_1pt15_rhot.pdf>]
-<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6576, 650.43pt x 542.025pt>
+<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6581, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/diag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/diag_1pt15_rhot.pdf>
@@ -1243,7 +1254,7 @@ Chapter 6.
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
  [136]
-[137] <conclusion/figures/c_MNi.pdf, id=6732, 578.16pt x 578.16pt>
+[137] <conclusion/figures/c_MNi.pdf, id=6738, 578.16pt x 578.16pt>
 File: conclusion/figures/c_MNi.pdf Graphic file (type pdf)
 
 <use conclusion/figures/c_MNi.pdf>
@@ -1258,13 +1269,15 @@ Underfull \vbox (badness 1769) has occurred while \output is active []
 
 ]
 [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
- [154]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
 
-(./Thesis.aux (./chapter2_zhu+13/chapter2.aux) (./chapter3_zhu+u/chapter3.aux)
-(./chapter4_zhu+15/chapter4.aux) (./chapter5_zhu+16/chapter5.aux)
-(./conclusion/conclusion.aux))
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
+[154]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+ (./Thesis.aux (./chapter2_zhu+13/chapter2.aux)
+(./chapter3_zhu+u/chapter3.aux) (./chapter4_zhu+15/chapter4.aux)
+(./chapter5_zhu+16/chapter5.aux) (./conclusion/conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
@@ -1279,13 +1292,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
  ) 
 Here is how much of TeX's memory you used:
- 13091 strings out of 495028
- 191037 string characters out of 6181497
- 400307 words of memory out of 5000000
- 14363 multiletter control sequences out of 15000+600000
- 150841 words of font info for 740 fonts, out of 8000000 for 9000
+ 13105 strings out of 495028
+ 191266 string characters out of 6181497
+ 402080 words of memory out of 5000000
+ 14377 multiletter control sequences out of 15000+600000
+ 150556 words of font info for 736 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 33i,13n,57p,2583b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,13n,57p,2583b,1094s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1427,10 +1440,10 @@ ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Thesis.pdf (170 pages, 15120737 bytes).
+Output written on Thesis.pdf (170 pages, 15124117 bytes).
 PDF statistics:
- 7174 PDF objects out of 7423 (max. 8388607)
- 5365 compressed objects within 54 object streams
- 825 named destinations out of 1000 (max. 500000)
+ 7197 PDF objects out of 7423 (max. 8388607)
+ 5385 compressed objects within 54 object streams
+ 830 named destinations out of 1000 (max. 500000)
  80257 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {1.5}Massive Merger Remnants}{12}{section.1.5}
 \contentsline {section}{\numberline {1.6}Thesis Overview}{13}{section.1.6}
 \contentsline {section}{\numberline {1.7}Pre-Merger Evolution}{14}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Typical CO WD Masses}{14}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Merger Initial Conditions and Unstable Mass Transfer}{15}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.1}Typical CO WD Masses}{15}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Merger Initial Conditions and Unstable Mass Transfer}{16}{subsection.1.7.2}
 \contentsline {chapter}{\numberline {2}A Parameter-Space Study of Carbon-Oxygen White Dwarf Mergers}{19}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{20}{section.2.1}
 \contentsline {section}{\numberline {2.2}Code and Input Physics}{21}{section.2.2}
@@ -69,14 +69,14 @@
 \contentsline {subsection}{\numberline {3.2.1}Traditional Smoothed-Particle Hydrodynamics}{72}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{74}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{75}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{77}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{78}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{78}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{79}{section.3.3}
 \contentsline {section}{\numberline {3.4}Results}{83}{section.3.4}
 \contentsline {section}{\numberline {3.5}Discussion}{88}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Resolution Test}{88}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{90}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Sources of Differences Between Simulations}{91}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{92}{section.3.6}
+\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{91}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Sources of Differences Between Simulations}{92}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{93}{section.3.6}
 \contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{95}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{96}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{96}{section.4.2}
