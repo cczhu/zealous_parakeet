@@ -43,7 +43,7 @@ $(subst .tex,.bbl,$(manuscript)): $(bibliography)
 #Added the first line to generate an .aux where none exists
 AutoBibliography.bib: $(manuscript) $(includes) $(subincludes) fetch_bibliography.py
 	pdflatex $(manuscript)
-	#python fetch_bibliography.py -filename $(manuscript) -addition bib_addition.bib
+	python fetch_bibliography.py -filename $(manuscript) -addition bib_addition.bib
 
 #	cat $(filter %.aux,$(patsubst %.tex,%.aux,$<)) >$(subst .bib,.aux,$@)
 #	ln -sf $< $(subst .bib,.tex,$@)
