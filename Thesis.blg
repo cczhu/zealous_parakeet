@@ -7,12 +7,11 @@ A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 A level-1 auxiliary file: chapter5_zhu+16/chapter5.aux
 A level-1 auxiliary file: conclusion/conclusion.aux
 The style file: apj.bst
-Reallocated field_info (elt_size=4) to 14204 items from 5000.
+Reallocated field_info (elt_size=4) to 14178 items from 5000.
 Database file #1: AutoBibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--string name "june" is undefined
 --line 6530 of file AutoBibliography.bib
-Warning--I didn't find a database entry for "rask+13"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in arne96
 Warning--empty publisher in clars77
@@ -21,7 +20,7 @@ Warning--empty publisher in kippww12
 Warning--empty publisher in tass00
 You've used 353 entries,
             3085 wiz_defined-function locations,
-            2921 strings with 86737 characters,
+            2920 strings with 86730 characters,
 and the built_in function-call counts, 175381 in all, are:
 = -- 14311
 > -- 13483
@@ -60,4 +59,4 @@ warning$ -- 5
 while$ -- 1345
 width$ -- 0
 write$ -- 3529
-(There were 7 warnings)
+(There were 6 warnings)
