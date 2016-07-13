@@ -156,6 +156,7 @@
 
 %% List only down to subsections in the table of contents;
 %% 0=chapter, 1=section, 2=subsection, 3=subsubsection, etc.
+\setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{2}
 
 %% Make each page fill up the entire page.
@@ -518,11 +519,11 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %citation{muhl+14}{2014PhRvD..90j4014M}		% muhlberger's magnetized T/W instability simulation
 %citation{ott+05}{2005ApJ...625L.119O}		% m = 1 spiral in post-bounce SN core
 %citation{papap84}{1984MNRAS.208..721P}		% p&p instability
-%citation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
+%ZZZation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
 %citation{pasc+15}{2015PhRvD..92l1502P}		% spiral mode in NS-NS merger remnant (GR-AMR code)
 %citation{ricela05}{2005MNRAS.364L..56R}	% self-gravitating disk sph simulation
 %citation{rogew12}{2012MNRAS.423.1896R}		% self-gravitating disk sph simulation in Gasoline
-%citation{saibs03}{2003ApJ...595..352S}		% Follow-up to cent+01
+%citation{saijbs03}{2003ApJ...595..352S}	% Follow-up to cent+01
 %citation{shu+90}{1990ApJ...358..495S}		% follow-up to adamrs89
 %citation{radibo16}{2016arXiv160305726R}	% spiral mode in NS-NS merger remnant (GR-AMR code)
 %citation{wattaj05}{2005ApJ...618L..37W}	% T/W instability
