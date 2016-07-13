@@ -268,7 +268,7 @@ H_P = \sqrt{\frac{P}{G\rho^2}},
 
 \noindent when it is smaller than $H_P$ from Eqn. \ref{eq:c5_scaleheight}.
 
-We assume a uniform composition of 50\% carbon, 50\% oxygen by mass.  For simplicity, we do not consider compositional gradients, which \citeal{piroc08} show generate a temperature break at the boundary of the convection zone.  (For merger remnants, these have likely been erased by the merging process long before the simmering phase (\citeal{zhu+13}).)  We also neglect electron capture reactions such as those of the convective Urca process (eg. \citealt{steiw06}) and neutronization \citep{pirob08}, as they are negligible for all but the most massive of our stars.  
+We assume a uniform composition of 50\% carbon, 50\% oxygen by mass.  For simplicity, we do not consider compositional gradients, which \citeal{piroc08} show generate a temperature break at the boundary of the convection zone.  (For merger remnants, these have likely been erased by the merging process long before the simmering phase.)  We also neglect electron capture reactions such as those of the convective Urca process (eg. \citealt{steiw06}) and neutronization \citep{pirob08}, as they are negligible for all but the most massive of our stars.  
 
 %To keep our calculations agnostic to the precise evolution preceding the simmering, we
 

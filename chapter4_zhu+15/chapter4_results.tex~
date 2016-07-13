@@ -31,14 +31,14 @@ By $\sim250$ s many of the vortices have merged together into a hot, rapidly rot
 
 \begin{figure}
 \centering
-\includegraphics[angle=0,width=0.7\columnwidth]{chapter4_zhu+15/figures/remnant.pdf}
+\includegraphics[angle=0,width=0.9\columnwidth]{chapter4_zhu+15/figures/remnant.pdf}
 \caption{From leftmost to rightmost column, equatorial plane (top row) and polar (bottom) logarithmic intensity profiles of density $\rho$, temperature $T$, magnetic field strength \Bmag\ and ratio of magnetic to rotational energy density \eberot\ for the simulation at 400 s ($\sim170$ s after coalescence).  The equatorial plane density plot includes a linear profile of the remnant core (with the same $x$ and $y$ scale as the logarithmic profile) to show its shape.  Arrows in the magnetic field strength plots indicate field directions, with their lengths equal to the fraction of the field that lies along the $xy$ plane (top frame) and $xz$ plane (bottom).}
 \label{fig:c4_remnant}
 \end{figure}
 
 %The core is defined as e_deg/e_tot >= 0.5.  The core essentially consists of all material below r = 7e8 cm, including material at ~3e5 g/cm^3.
 
-In Fig. \ref{fig:c4_remnant} we show the density $\rho$, $T$, \Bmag\ and ratio of magnetic to rotational energy density \eberot\ of the merger remnant at 400 s.  The remnant consists of a dense, degeneracy-supported core containing $\sim60$\% of the remnant's mass, a partly thermally supported hot envelope that surrounds the core, and a rotationally supported disk, a configuration similar to the SPH 0.625-0.65 \Msun\ remnant from \citeal{zhu+13}.  The \arepo\ remnant core, however, has distinctly non-axisymmetric density and temperature structures, unlike the SPH simulation which achieves axisymmetry $\sim170$ s after coalescence (\citeal{zhu+13}, online figure set Fig. 1.16).  The magnetic fields are too weak during the merger to have an effect on merger dynamics, so these contrasts are due to differences in the \textit{hydrodynamic} schemes between \arepo\ and SPH \Zhuprep.
+In Fig. \ref{fig:c4_remnant} we show the density $\rho$, $T$, \Bmag\ and ratio of magnetic to rotational energy density \eberot\ of the merger remnant at 400 s.  The remnant consists of a dense, degeneracy-supported core containing $\sim60$\% of the remnant's mass, a partly thermally supported hot envelope that surrounds the core, and a rotationally supported disk, a configuration similar to the SPH 0.625-0.65 \Msun\ remnant from Ch. \ref{ch:ch2}.  The \arepo\ remnant core, however, has distinctly non-axisymmetric density and temperature structures, unlike the SPH simulation which achieves axisymmetry $\sim170$ s after coalescence (\citealt{zhu+13}, online figure set Fig. 1.16).  The magnetic fields are too weak during the merger to have an effect on merger dynamics, so these contrasts are due to differences in the \textit{hydrodynamic} schemes between \arepo\ and SPH (Ch. \ref{ch:ch3}).
 
 %From data used in Z13, 2.5% non-axisymmetry is achieved at ~270 s (frame 54000), while coalescence finishes at ~100 s.
 
