@@ -185,7 +185,7 @@
 %% *** Put your Abstract here. ***
 %% (At most 150 words for M.Sc. or 350 words for Ph.D.)
 
-The merger of two carbon-oxygen white dwarfs (CO WDs) can create create massive, rapidly rotating and magnetized white dwarfs, collapse into a neutron star, or, perhaps most spectacularly, a thermonuclear, or type Ia, supernova (SN Ia).  It has traditionally been believed that the latter two outcomes only happen to mergers that are above the Chandrasekhar mass \Mch, where high-density pycnonuclear fusion and electron-capture reactions become significant.  Recently, however, it has been proposed that SNe Ia are caused by thermonuclear fusion during post-merger evolution, which could occur even to mergers that are well below \Mch.  
+The merger of two carbon-oxygen white dwarfs (CO WDs) could create create massive, rapidly rotating and magnetized white dwarfs, collapse into a neutron star, or, perhaps most spectacularly, explode as a thermonuclear, or type Ia, supernova (SN Ia).  It has traditionally been believed that the latter two outcomes only happen to mergers that are above the Chandrasekhar mass \Mch, where high-density pycnonuclear fusion and electron-capture reactions become significant.  Recently, however, it has been proposed that SNe Ia are caused by thermonuclear fusion during post-merger evolution, which could occur even to mergers that are well below \Mch.  
 
 To investigate the physics and final outcome of CO WD mergers, I conducted a series of hydrodynamic and magnetohydrodynamic simulations and semi-ananlytical calculations.  I
 
@@ -519,7 +519,6 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %citation{muhl+14}{2014PhRvD..90j4014M}		% muhlberger's magnetized T/W instability simulation
 %citation{ott+05}{2005ApJ...625L.119O}		% m = 1 spiral in post-bounce SN core
 %citation{papap84}{1984MNRAS.208..721P}		% p&p instability
-%ZZZation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
 %citation{pasc+15}{2015PhRvD..92l1502P}		% spiral mode in NS-NS merger remnant (GR-AMR code)
 %citation{ricela05}{2005MNRAS.364L..56R}	% self-gravitating disk sph simulation
 %citation{rogew12}{2012MNRAS.423.1896R}		% self-gravitating disk sph simulation in Gasoline
@@ -772,3 +771,4 @@ To investigate the physics and final outcome of CO WD mergers, I conducted a ser
 %ZZZation{dong+15}{2015MNRAS.454L..61D}		% more collisions
 %ZZZation{han+03}{2003MNRAS.341..669H}		% pop synth for sdB stars
 %ZZZation{kararh15}{2015ApJ...809..184K}	% R CrB
+%ZZZation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
