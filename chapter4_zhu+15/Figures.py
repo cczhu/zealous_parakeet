@@ -231,7 +231,7 @@ def divBerror_time(snapnumber="200", pics=False):
 	print "(Mass-weighted) Average <|div B| r/|B|> between 100 and 400 s: std res = {0:.2e}, low res = {1:.2e}, high res = {2:.2e}".format(mean(bdiv_arh["Bdivrat_abs"][args_hr]), mean(bdiv_arl["Bdivrat_abs"][args_lr]), mean(bdiv_arvh["Bdivrat_abs"][args_vhr]))
 
 
-def divBerror_snap(snapnumber="100", pics=False):
+def divBerror_snap(snapnumber="100"):
 
 	dc = AnalyzerArepo("/media/DataStorage3/ArepoMagnetic/merger62565-arh-RK2-production/output/snapshot_" + snapnumber, verbose=False)
 	getderivedvalues(dc, "Bmag")
@@ -263,10 +263,10 @@ def divBerror_snap(snapnumber="100", pics=False):
 	quiet = axc1.axis([-limit,limit,-limit,limit])
 	axc1.set_ylabel(r'$y$ ($10^9$ cm)', fontsize = 14, labelpad=5)
 	axc1.set_xticklabels([''])
-	axc1.yaxis.set_major_locator(MultipleLocator(2.))
-	axc1.yaxis.set_minor_locator(MultipleLocator(1.))
-	axc1.xaxis.set_major_locator(MultipleLocator(2.))
-	axc1.xaxis.set_minor_locator(MultipleLocator(1.))
+	axc1.yaxis.set_major_locator(MultipleLocator(1.))
+	axc1.yaxis.set_minor_locator(MultipleLocator(0.5))
+	axc1.xaxis.set_major_locator(MultipleLocator(1.))
+	axc1.xaxis.set_minor_locator(MultipleLocator(0.5))
 
 	cb.ax.set_position([3.85/length,7./height, 0.25/length, 3./height])
 	cb.ax.set_ylabel(r'$B$ (G)',fontsize = 14)
@@ -276,10 +276,10 @@ def divBerror_snap(snapnumber="100", pics=False):
 	quiet = axc2.axis([-limit,limit,-limit,limit])
 	axc2.set_ylabel(r'$y$ ($10^9$ cm)', fontsize = 14, labelpad=5)
 	axc2.set_xticklabels([''])
-	axc2.yaxis.set_major_locator(MultipleLocator(2.))
-	axc2.yaxis.set_minor_locator(MultipleLocator(1.))
-	axc2.xaxis.set_major_locator(MultipleLocator(2.))
-	axc2.xaxis.set_minor_locator(MultipleLocator(1.))
+	axc2.yaxis.set_major_locator(MultipleLocator(1.))
+	axc2.yaxis.set_minor_locator(MultipleLocator(0.5))
+	axc2.xaxis.set_major_locator(MultipleLocator(1.))
+	axc2.xaxis.set_minor_locator(MultipleLocator(0.5))
 
 	cb.ax.set_position([3.85/length,4.0/height, 0.25/length, 3.0/height])
 	cb.ax.set_ylabel(r'$\mathbf{\nabla\cdot B}(V_\mathrm{cell})^{1/3}/B$',fontsize = 14)
@@ -293,10 +293,10 @@ def divBerror_snap(snapnumber="100", pics=False):
 	quiet = axc3.axis([-limit,limit,-limit,limit])
 	axc3.set_ylabel(r'$y$ ($10^9$ cm)', fontsize = 14, labelpad=5)
 	axc3.set_xlabel(r'$x$ ($10^9$ cm)', fontsize = 14, labelpad=5)
-	axc3.yaxis.set_major_locator(MultipleLocator(2.))
-	axc3.yaxis.set_minor_locator(MultipleLocator(1.))
-	axc3.xaxis.set_major_locator(MultipleLocator(2.))
-	axc3.xaxis.set_minor_locator(MultipleLocator(1.))
+	axc3.yaxis.set_major_locator(MultipleLocator(1.))
+	axc3.yaxis.set_minor_locator(MultipleLocator(0.5))
+	axc3.xaxis.set_major_locator(MultipleLocator(1.))
+	axc3.xaxis.set_minor_locator(MultipleLocator(0.5))
 
 	cb.ax.set_position([3.85/length,1.0/height, 0.25/length, 3.0/height])
 	cb.ax.set_ylabel(r'$|\mathbf{\nabla\cdot B}|(V_\mathrm{cell})^{1/3}/B$',fontsize = 14)
