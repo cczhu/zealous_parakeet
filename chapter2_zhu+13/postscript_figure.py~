@@ -229,7 +229,7 @@ line_artists = (mlines.Line2D([],[], mfc="k", ms=10, **zhu13_options),
 				mlines.Line2D([],[], ms=20, **arepo_options),
 				mlines.Line2D([],[], ms=10, **schwab_options),
 				mlines.Line2D([],[], ms=10, **ji_options))
-leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+13 Fit", "Zhu+15 Arepo", "Schwab+12", "Ji+13"), loc=1, fontsize=13, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Estimate", "Fit", "Arepo MHD", "Schwab+12", "Ji+13"), loc=1, fontsize=13, numpoints = 1, markerscale=1)
 vp = leg._legend_box._children[-1]._children[0] 
 for c in vp._children: 
     c._children.reverse() 
@@ -243,6 +243,7 @@ ax.set_xlim(0.,2.5); ax.set_ylim(0.6, 1.0)
 
 print "mean(Mtot_new - Mtot_fit)_schw12 = {0:.3e}".format(np.mean(abs(schw12["Mtot_new"] - fitfunc(schw12["Mtot"]))))
 print "(Mtot_new - Mtot_fit)_ji13 = {0:.3e}".format(ji13["m_privcom"] - fitfunc(1.2))
+print "Mtot_new_schw12_69 - Mtot_model_z13 = {0:.3e}".format(schw12["Mtot_new"][4] - data["Mtot_new"][i_pt6pt9])
 print "Mtot_new_ji13 - Mtot_model_z13 = {0:.3e}".format(ji13["m_privcom"] - data["Mtot_new"][i_pt6pt6])
 
 pylab.savefig("figures/c2a_mcpv.pdf", dpi=150)
@@ -270,7 +271,7 @@ ax.plot(np.array([data["qrho"][i_pt6pt9]]), schw12["Mtot_new"][4]/data["Mce"][i_
 #ax.plot(np.array([1.2]), np.array(ji13["m"][max(np.where(ji13["r"] <= 2e9)[0])]/1.9891e33), markersize=10, **ji_options)
 ax.plot(np.array([data["qrho"][i_pt6pt6]]), np.array([ji13["m_privcom"]/1.1]), markersize=10, **ji_options)
 
-fit_out = np.polyfit(data.loc[args, "qrho"], data.loc[args, "Mtot_new"]/data.loc[args, "Mce"], 1)
+fit_out = np.polyfit(data["qrho"], data["Mtot_new"]/data["Mce"], 1)
 print "Fit y = {0:.3e}x + {1:.3e}".format(fit_out[0],fit_out[1])
 fitx = np.arange(0.,1.2,0.01)
 fitfunc = lambda x: fit_out[1] + fit_out[0]*x
@@ -282,7 +283,7 @@ line_artists = (mlines.Line2D([],[], mfc="k", ms=10, **zhu13_options),
 				mlines.Line2D([],[], ms=20, **arepo_options),
 				mlines.Line2D([],[], ms=10, **schwab_options),
 				mlines.Line2D([],[], ms=10, **ji_options))
-leg = ax.legend(line_artists, ("Zhu+13 Estimate", "Zhu+13 Fit", "Zhu+15 Arepo", "Schwab+12 $0.6-0.9\,M_\odot$", "Ji+13"), loc=3, fontsize=13, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Estimate", "Fit", "Arepo MHD", "Schwab+12 $0.6-0.9\,M_\odot$", "Ji+13"), loc=3, fontsize=13, numpoints = 1, markerscale=1)
 leg.draw_frame(False)
 ax.set_xlabel(r"$\rho_\mathrm{c,d}/\rho_\mathrm{c,a}$")
 ax.tick_params(axis='x', which='major', pad=7)
@@ -402,7 +403,7 @@ line_artists = (mlines.Line2D([],[], ms=15, **childress_options),
 				mlines.Line2D([],[], lw=5, **zero_options),
 				mlines.Line2D([],[], lw=5, **est_options),
 				mlines.Line2D([],[], lw=5, **arepo_options))
-leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Zhu+13", "Zhu+15"), loc=2, fontsize=16, numpoints = 1, markerscale=1)
+leg = ax.legend(line_artists, ("Childress+ 2015", "Scalzo+ 2014", "Cold WD", "Estimate", "Arepo MHD"), loc=2, fontsize=16, numpoints = 1, markerscale=1)
 leg.draw_frame(False)
 
 # Create systematic error bars
