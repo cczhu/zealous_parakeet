@@ -35,7 +35,7 @@ Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc)
 \label{eq:c5_epsccscaling}
 \eqend
 
-\noindent is a steep function of temperature (Eqn. \ref{eq:c5_epsccscaling} was numerically derived using the \texttt{rates} module from the stellar evolution code \mesa\ \citep{paxt+11}).  Thus, the vast majority of the nuclear luminosity is generated within a ``nuclear burning region'' deep within the star.  Like \citeal{wooswk04}, we estimate the burning region's luminosity through the use of a polytropic equation of state and an adiabatic temperature profile -- i.e. $P/P_\mrm{c} = (\rho/\rhoc)^{\gamma_1}$, $T/\Tc = (\rho/\rhoc)^{\gamma_3-1}$.  At $\rho_7 = 3$ and $T_9 = 1.2$, the Helmholtz equation of state (EOS; \citealt{timms00})\footnote{Available at \url{http://cococubed.asu.edu/}.} gives $\gamma_1 = 1.41$, and $\gamma_3 = 1.43$.  We use the standard polytropic rescaling of density and radius (eg. \citealt{kippww12}): 
+\noindent is a steep function of temperature (Eqn. \ref{eq:c5_epsccscaling} was numerically derived using the \texttt{rates} module from the stellar evolution code \mesa\ \citep{paxt+11}).  Thus, the vast majority of the nuclear luminosity is generated within a ``nuclear burning region'' deep within the star.  Like \citeal{wooswk04}, we estimate the burning region's luminosity through the use of a polytropic equation of state and an adiabatic temperature profile -- i.e. $P/P_\mrm{c} = (\rho/\rhoc)^{\gamma_1}$, $T/\Tc = (\rho/\rhoc)^{\gamma_3-1}$.  At $\rho_7 = 3$ and $T_9 = 1.2$, the Helmholtz equation of state (EOS; \citealt{timms00}) gives $\gamma_1 = 1.41$, and $\gamma_3 = 1.43$.  We use the standard polytropic rescaling of density and radius (eg. \citealt{kippww12}): 
 
 \begin{eqnarray}
 \theta &\equiv& (\rho/\rho_c)^{\gamma_1 - 1}, \nonumber \\
@@ -43,7 +43,7 @@ Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc)
 \label{eq:c5_poly_def}
 \end{eqnarray}
 
-where
+\noindent where
 
 \eqbegin
 \alpha \equiv \sqrt{\frac{\gamma_1 - 1}{\gamma_1}\frac{4\pi G\rhoc^2}{P_\mathrm{c}}},
