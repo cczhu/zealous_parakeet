@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.15)  15 JUL 2016 15:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.15)  15 JUL 2016 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,14 +568,14 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
  [2]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 223.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 214.
 LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplx/b/it' tried instead on input line 226.
+(Font)              Font shape `T1/pplx/b/it' tried instead on input line 217.
  [3] [4
 
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 251.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 242.
 
 (./Thesis.toc [5
 
@@ -641,7 +641,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 21.
 
-<introduction/figures/dan+12_wdbinmass.pdf, id=1016, 552.75558pt x 486.36478pt>
+<introduction/figures/dan+12_wdbinmass.pdf, id=1015, 552.75558pt x 486.36478pt>
 File: introduction/figures/dan+12_wdbinmass.pdf Graphic file (type pdf)
 <use introduction/figures/dan+12_wdbinmass.pdf>
 Package pdftex.def Info: introduction/figures/dan+12_wdbinmass.pdf used on inpu
@@ -667,7 +667,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 [15] [16]
-<introduction/figures/marsns04_stab.pdf, id=2059, 794.97pt x 614.295pt>
+<introduction/figures/marsns04_stab.pdf, id=2058, 794.97pt x 614.295pt>
 File: introduction/figures/marsns04_stab.pdf Graphic file (type pdf)
 
 <use introduction/figures/marsns04_stab.pdf>
@@ -1263,17 +1263,17 @@ Underfull \vbox (badness 1769) has occurred while \output is active []
 
 ]
 [144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
  [155]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
 
 (./Thesis.aux (./chapter2_zhu+13/chapter2.aux) (./chapter3_zhu+u/chapter3.aux)
 (./chapter4_zhu+15/chapter4.aux) (./chapter5_zhu+16/chapter5.aux)
 (./conclusion/conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7CB84265977155D6EE71713EFEF18722;6691.
+(rerunfilecheck)             Checksum: 97954A27F767CFE2B132C5329C17EE19;6690.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1281,12 +1281,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 334.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
  13119 strings out of 495028
  191484 string characters out of 6181497
- 409517 words of memory out of 5000000
+ 408322 words of memory out of 5000000
  14374 multiletter control sequences out of 15000+600000
  151549 words of font info for 750 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1429,7 +1429,7 @@ ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Thesis.pdf (172 pages, 15142304 bytes).
+Output written on Thesis.pdf (172 pages, 15142706 bytes).
 PDF statistics:
  7259 PDF objects out of 7423 (max. 8388607)
  5434 compressed objects within 55 object streams

@@ -97,7 +97,7 @@ In the case where spin and orbital angular momentum coupling is instead negligib
 
 \begin{figure}
 \centering
-\includegraphics[angle=0,width=0.7\columnwidth]{introduction/figures/marsns04_stab.pdf}
+\includegraphics[angle=0,width=0.65\columnwidth]{introduction/figures/marsns04_stab.pdf}
 \caption{Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor{marsns04} (\citeyear{marsns04}; their Fig. 1).  $M_1$ is \Ma\, and $M_2$ is \Md.  The upper dashed line is a more accurate estimate for Eqn. \ref{eq:c1_qcrit}, and the lower dashed one that for Eqn. \ref{eq:c1_qcrit2}.  The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion.  Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau_\mrm{s}$ is $1000$, $10$ and $0.1\,\mrm{yr}$.}
 \label{fig:c1_stability}
 \end{figure}

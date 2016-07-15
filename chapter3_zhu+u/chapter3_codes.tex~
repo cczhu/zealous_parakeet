@@ -136,7 +136,7 @@ As given, the SPH equations of motion conserve entropy, but entropy must increas
 \label{eq:c3_timevariablealpha}
 \eqend
 
-\noindent where $\tau_i = h_i/(c_i l)$, $l$ is a tuneable parameter of order unity, $S_i$ is a source term that becomes large in the prescence of shocks, and $\alpha_\mrm{min} > 0$ is a minimum $\alpha$ value to negate noise and spurious particle interpenetration in smooth flows.  Eqn. \ref{eq:c3_timevariablealpha} exponentially damps $\alpha_i$ to its minimum value over timescale $\tau_i$ in the absence of shocks, and increases it via the source term when shocks are present.  Both these methods are used in \gasoline.
+\noindent where $\tau_i = h_i/(c_i l)$, $l$ is a tunable parameter of order unity, $S_i$ is a source term that becomes large in the presence of shocks, and $\alpha_\mrm{min} > 0$ is a minimum $\alpha$ value to negate noise and spurious particle interpenetration in smooth flows.  Eqn. \ref{eq:c3_timevariablealpha} exponentially damps $\alpha_i$ to its minimum value over timescale $\tau_i$ in the absence of shocks, and increases it via the source term when shocks are present.  Both these methods are used in \gasoline.
 
 %{eq:c3_artificialvisc}
 
