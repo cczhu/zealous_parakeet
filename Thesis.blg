@@ -20,36 +20,36 @@ Warning--empty publisher in kippww12
 Warning--empty publisher in tass00
 You've used 352 entries,
             3085 wiz_defined-function locations,
-            2915 strings with 86573 characters,
-and the built_in function-call counts, 174963 in all, are:
-= -- 14272
-> -- 13461
+            2915 strings with 86620 characters,
+and the built_in function-call counts, 174912 in all, are:
+= -- 14269
+> -- 13451
 < -- 132
-+ -- 4514
-- -- 4878
-* -- 15274
-:= -- 33094
++ -- 4510
+- -- 4874
+* -- 15267
+:= -- 33083
 add.period$ -- 352
 call.type$ -- 352
-change.case$ -- 2417
+change.case$ -- 2415
 chr.to.int$ -- 340
 cite$ -- 357
 duplicate$ -- 6703
-empty$ -- 10026
-format.name$ -- 5314
-if$ -- 34513
+empty$ -- 10027
+format.name$ -- 5310
+if$ -- 34506
 int.to.chr$ -- 13
 int.to.str$ -- 0
 missing$ -- 342
 newline$ -- 1060
 num.names$ -- 1414
-pop$ -- 2642
+pop$ -- 2640
 preamble$ -- 1
-purify$ -- 2417
+purify$ -- 2415
 quote$ -- 0
-skip$ -- 5572
+skip$ -- 5573
 stack$ -- 0
-substring$ -- 7371
+substring$ -- 7374
 swap$ -- 105
 text.length$ -- 9
 text.prefix$ -- 0
