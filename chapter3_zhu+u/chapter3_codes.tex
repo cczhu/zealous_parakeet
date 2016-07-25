@@ -106,7 +106,7 @@ L_\mathrm{SPH} = \sum_i \frac{1}{2}m_i u_i^2 - m_i e_i.
 \label{eqn:c3_spheqne}
 \eqend
 
-\noindent where pressure $P_i$ is determined from $\rho_i$ and $e_i$ using a user-prescribed equation of state.  The left panel of Fig. \ref{fig:c3_codediag} summarizes this scheme.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time-dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev}, Sec. 2.4, and \citealt{wadssq04}, Sec. 2.1) using methods originally developed for $N$-body simulations.  Magnetic fields can also be included (eg. \citealt{pric12, lewibt16}), but the resulting ``SPHMHD'' formulation is not used in this thesis.
+\noindent where pressure $P_i$ is determined from $\rho_i$ and $e_i$ using a user-prescribed equation of state.  The left panel of Fig. \ref{fig:c3_codediag} summarizes this scheme.  Note that since Eqn. \ref{eqn:c3_lagrangian} has no time-dependence and is translationally and rotationally invariant, SPH naturally conserves total energy, momentum and angular momentum.  Self-gravity can be added as an additional force to Eqn. \ref{eqn:c3_spheqnm} (see \citealt{spri10rev}, Sec. 2.4, and \citealt{wadssq04}, Sec. 2.1) using methods originally developed for $N$-body simulations.  Magnetic fields can also be included (eg. \citealt{pric12, lewibt16}), but the resulting ``SPMHD'' formulation is not used in this thesis.
 
 % Eqn. \ref{eqn:c3_spheqne} can actually be replaced with $d s_i/dt = 0$, except in the presence of shocks
 
