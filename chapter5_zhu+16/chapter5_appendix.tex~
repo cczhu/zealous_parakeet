@@ -11,7 +11,7 @@ In this appendix, we detail our calculations of rotating and magnetized simmerin
 \label{eq:c5_stev79dispersion}
 \end{eqnarray}
 
-\noindent in the limit of zero magnetic dissipation; $\sigma$ is the temporal growth rate of a given mode and $N_*^2 = -g\delta\Delta/H_P$ is the Brunt-V\"{a}is\"{a}l\"{a} (buoyancy) frequency.  \citeal{stev79} then assumes that, for modes with $\sigma > 0$, the non-linear terms in the Boussinesq equations eventually limit their growth, leading to $\sigma$ equalling the nonlinear cascade rate $\sim kv$ at the convective steady state \citep{barkdl14}.  He also assumes convection at steady state is dominated by the mode that transports the greatest heat flux.  The former assumption leads to a relationship between $\sigma$, the mode velocity $v$ (equivalent to \vconv) and wavevector ${\bf k}$:
+\noindent in the limit of zero magnetic dissipation; $\sigma$ is the temporal growth rate of a given mode and $N_*^2 = -g\delta\Delta/H_P$ is the Brunt-V\"{a}is\"{a}l\"{a} (buoyancy) frequency.  \citeal{stev79} then assumes that, for modes with $\sigma > 0$, the non-linear terms in the Boussinesq equations eventually limit their growth, leading to $\sigma$ equaling the nonlinear cascade rate $\sim kv$ at the convective steady state \citep{barkdl14}.  He also assumes convection at steady state is dominated by the mode that transports the greatest heat flux.  The former assumption leads to a relationship between $\sigma$, the mode velocity $v$ (equivalent to \vconv) and wavevector ${\bf k}$:
 
 \eqbegin
 \sigma = v/k.
@@ -39,7 +39,7 @@ For non-rotating, unmagnetized WDs, this formulation reproduces Eqns. \ref{eq:c5
 \label{eq:c5_superad_dev_stev}
 \eqend
 
-\noindent \citeal{stev79} point out that, for his formulation to reproduce the current age, luminosity and effective temperature of the Sun within a 1D stellar evolution model, it must be calibrated by using $l_m \approx 3H_P$.  In order to be consistent with our non-rotating and unmagnetized results from before, we shall contine to use Eqns. \ref{eq:c5_vconv_mlt} and \ref{eq:c5_superad_dev} rather than Eqns. \ref{eq:c5_vconv_stev} and \ref{eq:c5_superad_dev_stev} when considering rotation and magnetic fields below.  We consider the result of using these modified coefficients in Sec. \ref{ssec:c5_sensitive_apdx}.
+\noindent \citeal{stev79} point out that, for his formulation to reproduce the current age, luminosity and effective temperature of the Sun within a 1D stellar evolution model, it must be calibrated by using $l_m \approx 3H_P$.  In order to be consistent with our non-rotating and unmagnetized results from before, we shall continue to use Eqns. \ref{eq:c5_vconv_mlt} and \ref{eq:c5_superad_dev} rather than Eqns. \ref{eq:c5_vconv_stev} and \ref{eq:c5_superad_dev_stev} when considering rotation and magnetic fields below.  We consider the result of using these modified coefficients in Sec. \ref{ssec:c5_sensitive_apdx}.
 
 %leading to Eqns. \ref{eq:vconv_stev_hp} and \ref{eq:superad_dev_stev_hp}
 
@@ -105,7 +105,7 @@ Notably, this formulation has been tested in the $\rossby \ll 1$ limit by \cite{
 
 % of the first model above the $\taucc = \taunu$ ignition line
 
-Conservation of angular momentum and solid-body rotation are both assumed for the entirety of the runaway, constraining $\Omega$ such that it only needs to be specified for one model along the simmering track; naturally, we choose the one at the start of simmering.  This is done by specifying the model's \Sc\ to be that for the start of simmering in the (non-rotating) adiabatic track of the same mass WD.  Since we show below that rotation does not substantially affect the runaway, this is a reasonable approximation for the start of simmering \Sc\ in the rotating case.  We then set the WD angular speed at this point, \Ominit, to some fraction of its critical value \Omcrit.  To determine \Omcrit, profiles are generated with increasing angular speed until a pressure inversion ($dP/dm > 0$) is detected during integration.  By Eqn. \ref{eq:c5_hydroeq}, this means that the layer $dm$ is spinning at near-Keplerian speeds; the corresponding angular speed \Omcrit\ is then analagous to the solid-body break-up angular speed (though not equal to it, since Eqn. \ref{eq:c5_hydroeq} assumes spherical symmetry).  Note that this procedure is only done to set $\Omega$ to a reasonable fraction of the break-up angular speed near the start of simmering, and does not otherwise affect our runaway calculations.
+Conservation of angular momentum and solid-body rotation are both assumed for the entirety of the runaway, constraining $\Omega$ such that it only needs to be specified for one model along the simmering track; naturally, we choose the one at the start of simmering.  This is done by specifying the model's \Sc\ to be that for the start of simmering in the (non-rotating) adiabatic track of the same mass WD.  Since we show below that rotation does not substantially affect the runaway, this is a reasonable approximation for the start of simmering \Sc\ in the rotating case.  We then set the WD angular speed at this point, \Ominit, to some fraction of its critical value \Omcrit.  To determine \Omcrit, profiles are generated with increasing angular speed until a pressure inversion ($dP/dm > 0$) is detected during integration.  By Eqn. \ref{eq:c5_hydroeq}, this means that the layer $dm$ is spinning at near-Keplerian speeds; the corresponding angular speed \Omcrit\ is then analogous to the solid-body break-up angular speed (though not equal to it, since Eqn. \ref{eq:c5_hydroeq} assumes spherical symmetry).  Note that this procedure is only done to set $\Omega$ to a reasonable fraction of the break-up angular speed near the start of simmering, and does not otherwise affect our runaway calculations.
 
 \begin{figure}
 \centering
@@ -168,7 +168,7 @@ A = \frac{v_A^2}{\vconvzero^2} = \frac{B^2}{4\pi\rho\vconvzero^2}
 \label{eq:c5_mag_apx}
 \end{eqnarray}
 
-\noindent Exponents $6/5$ and $-13/4$ were obtained by empirically minimizing these functional forms to the numerically calculated exact solutions over a range $10^{-4} < A < 10^4$.  $\dnabmag/\dnabconvzero$ in Eqn. \ref{eq:c5_mag_apx} is accurate to within $2$\% of its exact solution, and $\vconv/\vconvzero$ to within $3$\%.  We assume the magnetic field is frozen to its corresponding mass shell $m$ throughout the runaway, changing in strength to satisfy conservation of flux $d\Phi \propto B r^2$ (i.e. $B(m) \propto 1/r(m)^2$), meaning that, analagous to the rotation case above, the magnetic field only needs to be specified for one model in the runaway.  We again take the \Sc\ of this model to be that for the start of simmering in the equivalent adiabatic simmering track.  We set the initial field profile $B_0(m)$ to be one where
+\noindent Exponents $6/5$ and $-13/4$ were obtained by empirically minimizing these functional forms to the numerically calculated exact solutions over a range $10^{-4} < A < 10^4$.  $\dnabmag/\dnabconvzero$ in Eqn. \ref{eq:c5_mag_apx} is accurate to within $2$\% of its exact solution, and $\vconv/\vconvzero$ to within $3$\%.  We assume the magnetic field is frozen to its corresponding mass shell $m$ throughout the runaway, changing in strength to satisfy conservation of flux $d\Phi \propto B r^2$ (i.e. $B(m) \propto 1/r(m)^2$), meaning that, analogous to the rotation case above, the magnetic field only needs to be specified for one model in the runaway.  We again take the \Sc\ of this model to be that for the start of simmering in the equivalent adiabatic simmering track.  We set the initial field profile $B_0(m)$ to be one where
 
 \eqbegin
 \dmag = \frac{B_0^2}{8\pi P}
@@ -253,7 +253,7 @@ The \citeal{stev79} coefficients only modify \vconv\ by $15$\%, so the deviation
 
 We thus find that changing MLT coefficients leads to changes in the simmering tracks and to \Mcrit\ on par with including the convective superadiabaticity \dnabconv\ in Sec. \ref{ssec:c5_runaway_superad}.  Likewise, these deviations are also ultimately too small to significantly change our results.
 
-%making more accurate modelling of convection at the end of simmering, as important to determining the fate of simmering WDs.
+%making more accurate modeling of convection at the end of simmering, as important to determining the fate of simmering WDs.
 
 %but ones that are as large, or larger than, the changes seen when switching from the adiabatic approximation to more complex formulations, including adding rotation and magnetic fields, in previous sections.  Accurately modelling convection close to the end of simmering, then, is likely to be as or more important to determining the fate of simmering WDs as including rotation or magnetic fields from prior evolution.
 
