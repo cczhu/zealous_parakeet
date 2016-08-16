@@ -211,10 +211,13 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 \vspace*{\fill}
 \begin{center}
 \begin{minipage}[c]{4.75in}
-{\charles
-  ``Quote...''\vspace{2em}
+``Models of supernovae have often been more noted for the imagination displayed in their creation than for their intrinsic plausibility -- like dragons.''\vspace{2em}
 
-\hfill \emph{--Someone}}
+\hfill \emph{--David Arnett, Supernovae and Nucleosynthesis}\vspace{4em}
+
+``But nature is \textit{always} more subtle, more intricate, more elegant than what we are able to imagine.  Given our manifest human limitations, what is surprising is that we have been able to penetrate so far into the secrets of nature.''\vspace{2em}
+
+\hfill \emph{--Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark}
 
 \end{minipage}
 \end{center}
@@ -243,7 +246,7 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 
 %% This generates the List of Tables (on a separate page), if needed
 %% (uncomment to have it appear in the document).
-\listoftables
+%\listoftables
 
 %% This generates the List of Figures (on a separate page), if needed
 %% (uncomment to have it appear in the document).

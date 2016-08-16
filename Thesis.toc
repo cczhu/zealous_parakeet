@@ -21,30 +21,30 @@
 \contentsline {subsection}{\numberline {2.3.2}Merger Trends}{28}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}What Constitutes Similar-Mass?}{28}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Structural Trends}{32}{subsubsection.2.3.2.2}
-\contentsline {paragraph}{The rotational axis central scaleheight.}{32}{section*.6}
-\contentsline {paragraph}{The equatorial plane central scaleheight.}{33}{section*.7}
-\contentsline {paragraph}{The central density of the remnant.}{33}{section*.8}
+\contentsline {paragraph}{The rotational axis central scaleheight.}{32}{section*.5}
+\contentsline {paragraph}{The equatorial plane central scaleheight.}{33}{section*.6}
+\contentsline {paragraph}{The central density of the remnant.}{33}{section*.7}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Mass Distributions}{33}{subsubsection.2.3.2.3}
-\contentsline {paragraph}{The masses of the core-envelope and disk.}{33}{section*.9}
-\contentsline {paragraph}{The mass enclosing 50\% of the donor material.}{33}{section*.10}
-\contentsline {paragraph}{The accretor mass enclosing 50\% of the donor material.}{33}{section*.11}
-\contentsline {paragraph}{The region over which the donor is spread.}{35}{section*.12}
+\contentsline {paragraph}{The masses of the core-envelope and disk.}{33}{section*.8}
+\contentsline {paragraph}{The mass enclosing 50\% of the donor material.}{33}{section*.9}
+\contentsline {paragraph}{The accretor mass enclosing 50\% of the donor material.}{33}{section*.10}
+\contentsline {paragraph}{The region over which the donor is spread.}{35}{section*.11}
 \contentsline {subsubsection}{\numberline {2.3.2.4}Energy Balance}{35}{subsubsection.2.3.2.4}
-\contentsline {paragraph}{Energy balance of the entire remnant.}{35}{section*.13}
-\contentsline {paragraph}{Energy balance of the core-envelope.}{37}{section*.14}
-\contentsline {paragraph}{Energy balance of the disk.}{37}{section*.15}
+\contentsline {paragraph}{Energy balance of the entire remnant.}{35}{section*.12}
+\contentsline {paragraph}{Energy balance of the core-envelope.}{37}{section*.13}
+\contentsline {paragraph}{Energy balance of the disk.}{37}{section*.14}
 \contentsline {subsubsection}{\numberline {2.3.2.5}Temperature and Thermal Energy}{38}{subsubsection.2.3.2.5}
-\contentsline {paragraph}{The maximum temperature.}{38}{section*.16}
-\contentsline {paragraph}{The density at the point of maximum temperature.}{38}{section*.17}
-\contentsline {paragraph}{The mass enclosed within the radius of maximum temperature.}{40}{section*.18}
-\contentsline {paragraph}{The mass enclosing half the remnant thermal energy.}{40}{section*.19}
-\contentsline {paragraph}{The width of the remnant thermal energy.}{41}{section*.20}
+\contentsline {paragraph}{The maximum temperature.}{38}{section*.15}
+\contentsline {paragraph}{The density at the point of maximum temperature.}{38}{section*.16}
+\contentsline {paragraph}{The mass enclosed within the radius of maximum temperature.}{40}{section*.17}
+\contentsline {paragraph}{The mass enclosing half the remnant thermal energy.}{40}{section*.18}
+\contentsline {paragraph}{The width of the remnant thermal energy.}{41}{section*.19}
 \contentsline {subsubsection}{\numberline {2.3.2.6}Angular Velocity and Rotational Energy}{41}{subsubsection.2.3.2.6}
-\contentsline {paragraph}{The maximum angular velocity.}{41}{section*.21}
-\contentsline {paragraph}{The ratio of core-envelope to total angular momentum.}{41}{section*.22}
-\contentsline {paragraph}{The mass enclosed inside the radius of maximum angular velocity.}{41}{section*.23}
-\contentsline {paragraph}{The mass enclosing half the remnant rotational energy.}{42}{section*.24}
-\contentsline {paragraph}{The width of the remnant rotational energy.}{42}{section*.25}
+\contentsline {paragraph}{The maximum angular velocity.}{41}{section*.20}
+\contentsline {paragraph}{The ratio of core-envelope to total angular momentum.}{41}{section*.21}
+\contentsline {paragraph}{The mass enclosed inside the radius of maximum angular velocity.}{41}{section*.22}
+\contentsline {paragraph}{The mass enclosing half the remnant rotational energy.}{42}{section*.23}
+\contentsline {paragraph}{The width of the remnant rotational energy.}{42}{section*.24}
 \contentsline {subsection}{\numberline {2.3.3}A Qualitative Picture of the Merger}{42}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Variation of Merger Parameters and Robustness of Results}{43}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Changing the Composition}{43}{subsection.2.4.1}
