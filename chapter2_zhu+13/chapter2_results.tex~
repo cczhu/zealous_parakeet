@@ -9,7 +9,7 @@ With our 48 simulated mergers in hand, we try to determine scaling relations of 
 \begin{figure}
 \centering
 \includegraphics[width=1.0\columnwidth]{chapter2_zhu+13/figures/pt4pt8.pdf}
-\caption{Structure of a 0.4 - 0.8 {\Msun} merger remnant, representing the general outcome of a merger of white dwarfs with dissimilar mass.  Upper left and middle -- binned maps of density $\rho$ and temperature $T$ along slices in the $xy$ and $xz$-planes.  Lower left -- binned maps and contours of density, temperature, and angular frequency $\Omega$ in the $(\varpi,z)$ plane, averaged over cylindrical coordinate $\phi$ and over $\pm z$ (with 1 added to $\Omega$ to avoid problems with the logarithmic intensity scale).  Middle -- enclosed masses of donor and accretor material {\Md} and {\Ma} (solid red and blue, resp.), and fraction of donor material \fdon\ at a particular mass shell (dashed magenta).  Middle, one but lowest -- temperature-density profile with enclosed masses in 0.2\,\Msun\ increments indicated, both along the equatorial plane (solid curve, squares) and along the rotational axis (dot-dashed curve, circles).  Middle, bottom -- enclosed mass as a function of $r$, with the total mass indicated by the horizontal dashed red line.  Right-hand column, top to bottom - density, temperature, entropy, angular (cyan) and Keplerian (blue) frequency, and degeneracy (blue), thermal (red) and rotational (cyan) specific energies as a function of enclosed mass $M$, both along the equatorial plane and along the rotational axis (solid and dot-dashed curves, respectively).  In all graphs, the start of the disk (where the centrifugal acceleration equals half the gravitational one) and the equatorial radius (or mass enclosed within) of maximum temperature are marked by vertical green and blue dashed lines, respectively. [{\em See the electronic edition of \cite{zhu+13} for other remnants}.]}
+\caption{Structure of a 0.4 - 0.8 {\Msun} merger remnant, representing the general outcome of a merger of white dwarfs with dissimilar mass.  Upper left and middle -- binned maps of density $\rho$ and temperature $T$ along slices in the $xy$ and $xz$-planes.  Lower left -- binned maps and contours of density, temperature, and angular frequency $\Omega$ in the $(\varpi,z)$ plane, averaged over cylindrical coordinate $\phi$ and over $\pm z$ (with 1 added to $\Omega$ to avoid problems with the logarithmic intensity scale).  Middle -- enclosed masses of donor and accretor material {\Md} and {\Ma} (solid red and blue, resp.), and fraction of donor material \fdon\ at a particular mass shell (dashed magenta).  Middle, one but lowest -- temperature-density profile with enclosed masses in 0.2\,\Msun\ increments indicated, both along the equatorial plane (solid curve, squares) and along the rotational axis (dot-dashed curve, circles).  Middle, bottom -- enclosed mass as a function of $r$, with the total mass indicated by the horizontal dashed red line.  Right-hand column, top to bottom - density, temperature, entropy, angular (cyan) and Keplerian (blue) frequency, and degeneracy (blue), thermal (red) and rotational (cyan) specific energies as a function of enclosed mass $M$, both along the equatorial plane and along the rotational axis (solid and dot-dashed curves, respectively).  In all graphs, the start of the disk (where the centrifugal acceleration equals half the gravitational one) and the equatorial radius (or mass enclosed within) of maximum temperature are marked by vertical green and blue dashed lines, respectively. [{\em See the electronic edition of \cite{zhu+13} for the other remnants}.]}
 \label{fig:c2_mergersampling1}
 \end{figure}
 
@@ -144,9 +144,9 @@ The merger mixes material between the donor and accretor.  Here, we describe how
 \frac{\Mrem}{\Ma} = 1 + 0.81\qrho
 \qquad(\pm0.03),
 \eqend
-if the 1.0 - 1.0 {\Msun} merger is neglected, and the fit's y-intercept is forced to unity.  See Fig.~\ref{fig:c2_restoftrends}a.
+if the 1.0 - 1.0 {\Msun} merger is neglected, and the fit's $y$-intercept is forced to unity.  See Fig.~\ref{fig:c2_restoftrends}a.
 
-(see the dashed green line in Figs.~\ref{fig:c2_mergersampling1} and~\ref{fig:c2_mergersampling2})
+%(see the dashed green line in Figs.~\ref{fig:c2_mergersampling1} and~\ref{fig:c2_mergersampling2})
 
 \paragraph{The mass enclosing 50\% of the donor material.}  The further the donor penetrates, the smaller will be the mass enclosing half the donor's material, \MMfifty.  For mergers with $\qrho\lesssim0.8$, $\MMfifty/\Ma\,\simeq\,1.30$, with an RMS residual of 0.03 (Fig.~\ref{fig:c2_restoftrends}c).  We present this trend mostly because we discuss similar thermodynamic and rotational enclosed masses, but it is somewhat difficult to interpret physically, since \MMfifty\ increases with donor mass but decreases with mixing, which also depends on donor mass.  The trend is easier to interpret using enclosed accretor mass rather enclosed total mass, as done below.
 
@@ -277,7 +277,7 @@ Since for dissimilar-mass mergers, \zTmax\ is located near the tenuous outermost
 \frac{\MencTmax}{\Ma} = 1-0.28\qrho
 \qquad(\pm 0.01),
 \eqend
-where the fit's y-intercept is forced to unity.  Note that maximum temperature occurs near the bottom of the mixed zone, which is why \MencTmax\ is substantially smaller than \MMfifty.  The reasons it starts to deviate from a tight trend at $\qrho\simeq0.6$ are the same as those for \rhoTmax: the break-down of the simple mixing picture and the difficulty in determining the location of peak temperature for a broader plateau.
+where the fit's $y$-intercept is forced to unity.  Note that maximum temperature occurs near the bottom of the mixed zone, which is why \MencTmax\ is substantially smaller than \MMfifty.  The reasons it starts to deviate from a tight trend at $\qrho\simeq0.6$ are the same as those for \rhoTmax: the break-down of the simple mixing picture and the difficulty in determining the location of peak temperature for a broader plateau.
 
 Since $\MencTmax<\Ma$, it may be surprising that \rhoTmax\ is not higher than \rhocd.  This is because the additional thermal and rotational support against gravity reduces the density gradient that would be required if degeneracy pressure were the only source of support.
 
@@ -297,7 +297,7 @@ While smaller than \MMfifty, \MEthermfifty\ is always larger than \MencTmax.  Th
 \frac{\MEthermthick}{\Ma} = 0.11+0.94\qrho
 \qquad(\pm0.03).
 \eqend
-Here, we did not force the y-intercept to go to zero, which is expected physically but gives a substantially poorer trend.
+Here, we did not force the $y$-intercept to go to zero, which is expected physically but gives a substantially poorer trend.
 
 %{\bf MHvK: please clarify the next sentence; what is the point?} {\MEthermthick} is also about \emph{DOUBLE???} the width of the ``bumps'' of high temperature seen in Fig.~\ref{fig:c2_constacc}.  
 

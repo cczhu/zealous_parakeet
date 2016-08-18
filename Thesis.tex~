@@ -201,14 +201,19 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %% the table of contents starts with \clearpage.  Use \cleardoublepage
 %% for anything that you want to appear on a right-hand page.
 
-%% This generates a "dedication" section, if needed -- just a paragraph
-%% formatted flush right (uncomment to have it appear in the document).
-%\begin{dedication}
-%To my parents.
-%\end{dedication}
-%\clearpage
+%% This generates a "dedication" section
+\vspace*{\fill}
+\begin{center}
+\begin{minipage}[c]{3.75in}
+\begin{center}
+\textit{For my parents.}
+\end{center}
+\end{minipage}
+\end{center}
+\vspace*{\fill}
+\clearpage
 
-% Here's Mubdi's version
+% Epigram
 \vspace*{\fill}
 \begin{center}
 \begin{minipage}[c]{4.75in}
@@ -239,7 +244,18 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %% This generates an "acknowledgements" section, if needed
 %% (uncomment to have it appear in the document).
 \begin{acknowledgements}
-{\charles some acknowledgements.}
+{\charles
+
+\begin{itemize}
+	\item Marten
+	\item Phil, Ruediger
+	\item Kelly, Wolfgang, Epson
+	\item JD, Etsuko, Yevgeni, Jamil, Ilana, Mubdi, Sherry, Heidi, Lisa, Lauren, Miranda, Pegah, Mike Williams, Alex, Robert
+	\item Stephen, Ari, Jielai
+	\item Tiffany, Mo
+	\item Parents
+\end{itemize}
+}
 \end{acknowledgements}
 
 %% This generates the Table of Contents (on a separate page).
@@ -395,14 +411,19 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{fink+10}{2010A&A...514A..53F}		% fink's d-det work
 %citation{frye+10}{2010ApJ...725..296F}		% Fryer double degenerate light curves.
 %citation{holc+13}{2013ApJ...771...14H}		% holcomb's He hotspot detonation
+%citation{krom+10}{2010ApJ...719.1067K}		% DDet spectra
+%citation{livn90}{1990ApJ...354L..53L}		% double detonation proposal
 %citation{mazumw77}{1977ApJ...213..518M}	% mazurek early work on detonations
+%citation{mollw13}{2013ApJ...774..137M}		% can He detonation  travel into CO core?
 %citation{rask+14}{2014ApJ...788...75R}		% Cody's tamped explosion models.
+%citation{ropk+11}{2011PrPNP..66..309R}		% Ropke's comparison of violent mergers
 %citation{seit+09}{2009ApJ...696..515S}		% seitenzahl detonation paper
 %citation{seitcr11}{2011MNRAS.414.2709S}	% dtd
 %citation{shig+92}{1992ApJ...386L..13S}		% sub-Ch -> right nucleosyn/energetics
 %citation{shenb14}{2014ApJ...785...61S}		% converging shocks in ddets
 %citation{shenm14}{2014ApJ...797...46S}		% conditions for He detonation
 %citation{sim+10}{2010ApJ...714L..52S}		% stuart's zero-temperature pure detonations
+%citation{woosw94}{1994ApJ...423..371W}		% double detonation proposal
 %citation{woos+09}{2009ApJ...704..255W}		% deflagration, density effects
 %citation{woos+11}{2011ApJ...734...37W}		% ...
 
@@ -481,15 +502,25 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %%%% Other simulations (pop synth) %%%%
 %citation{abdi+10}{2010PhRvD..81d4012A} 	% GR simulation of AIC
 %citation{brig+15}{2015MNRAS.447.1713B}		% brigg's population synthesis for HFMWDs CHECKED
+%citation{dess+06}{2006ApJ...644.1063D}		% AIC sim
+%citation{dess+07}{2007ApJ...669..585D}		% AIC sim
+%citation{frye+09}{2009ApJ...707..193F}		% AIC sim
 %citation{hayw+14}{2014MNRAS.442.1992H}		% Galaxy mergers in Arepo
 %citation{marips14}{2014MNRAS.437.1750M}	% Galaxy formation in cosmo sims
+%citation{marq+15}{2015A&A...580A.118M}		% ONe WD explosions
 %citation{mitc+09}{2009MNRAS.395..180M}		% SPH/Eulerian code comparison for galaxy cluster formation
 %citation{nele+01}{2001A&A...368..939N}		% pop synth for detached WD binaries for AM CVn systems
 %citation{nele+01a}{2001A&A...365..491N}	% as above, except for close detached WD binaries
 %citation{ohlm+16}{2016ApJ...816L...9O}		% common envelope Arepo sim
 %citation{ruitbf09}{2009ApJ...699.2026R}	% Ruiter population synthesis
+%citation{ruit+11}{2011MNRAS.417..408R}		% ...
+%citation{ruit+13}{2013MNRAS.429.1425R}		% ...
+%citation{ruit+14}{2014MNRAS.440L.101R}		% ...
+%citation{shen+10he}{2010ApJ...715..767S}	% He shell explosions
 %citation{tracsp07}{2007MNRAS.377..997T}	% SPH/Eulerian code comparison for stellar collisions
+%citation{wald+11}{2011ApJ...738...21W}		% He shell explosions
 %citation{woosk11}{2011ApJ...734...38W}		% woosley double detonation minimum He mass
+
 
 %%%% Magnetic growth theory papers %%%%
 %citation{balbh91}{1991ApJ...376..214B}		% MRI paper
@@ -534,6 +565,7 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{mann+05}{2005A&A...433..807M}		% mannucci sn ia rate (from NIR galaxy obs)
 %citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
 %citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
+%citation{pirotk14}{2014MNRAS.438.3456P}	% 56Ni distribution in context of mergers
 %citation{prichs08}{2008ApJ...683L..25P}	% pritchet's estimate for the SN Ia/WD formation rate ratio
 %citation{scalzrs14}{2014MNRAS.445.2535S} 	% scalzo's M_56 vs M_tot relationship paper
 %citation{scalz+14}{2014MNRAS.440.1498S} 	% scalzo's M_tot vs stretch relation
@@ -543,7 +575,9 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
 %citation{belo14}{2014MNRAS.438..169B}		% belobodorov's semi-analytical work on post-merger evolution transients
 %citation{eggl83}{1983ApJ...268..368E}		% Eggleton roche overflow radius estimate
+%citation{hurlpt00}{2000MNRAS.315..543H}	% 1.25 Msun CO WD (ref from marq+15)
 %citation{levasg15}{2015MNRAS.447.2803L}	% levanon's estimate of effect on early light curve
+%citation{miya+80}{1980PASJ...32..303M}		% ONe WD collapse
 %citation{pacz71}{1971ARA&A...9..183P}		% Paczynski roche overflow estimate
 %citation{pirom15}{2015arXiv151203442P} 	% tony's double-peaked SN Ia due to envelope
 %citation{saioj00}{2000MNRAS.313..671S}		% saio and jeffrey He - He merger
@@ -559,6 +593,7 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{bran+06}{2006PASP..118..560B} 	% branch definition of normal SNe Ia
 %citation{brow+11}{2011ApJ...737L..23B}		% eclipsing 12-min WD binary
 %citation{chur+14}{2014Natur.512..406C}		% 56Co detection in ejecta
+%citation{clars77}{1977hisu.book.....C}		% tycho's SN reference
 %citation{dist10}{2010ApJ...719..474D}		% di Stefano's SSS work
 %citation{dufo+13}{2013ASPC..469..167D}		% Patrick's work on hot DQs 
 %citation{dunlc15}{2015ASPC..493..547D} 	% bart and chris's work published in conference proceeding
@@ -568,12 +603,13 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{hama97}{1997IAUS..180...91H}		% [WR] wind mass loss rates
 %citation{kerz+14}{2014ApJ...796L..26K}		% Wolfgang's late-time observations of positron trapping in SN Ia
 %citation{khok91}{1991A&A...245..114K} 		% DDT paper
-%citation{clars77}{1977hisu.book.....C}		% tycho's SN reference
 %citation{kube+10}{2010A&A...524A..36K}		% REJ 0317
 %citation{lawr+13}{2013MNRAS.433.1599L}		% Lawrie's long-period (probably spin) hot DQ
+%citation{lepok13}{2013ApJ...771...13L}		% Kelly's work on rapidly accreting WDs
 %citation{maed+10a}{2010ApJ...708.1703M}	% slow-moving 58Ni
 %citation{maed+10b}{2010Natur.466...82M}	% ...
 %citation{pata+07}{2007Sci...317..924P}		% patat's NaID work
+%citation{pere+10}{2010Natur.465..322P}		% Ca-rich SN Ib transients
 %citation{phil93}{1993ApJ...413L.105P}		% phillips relation
 %citation{ruizs98}{1998ApJ...500..360R}		% Ruiz-Lapuente's work on positron trapping due to magnetic fields
 %citation{ruiz04}{2004ApJ...612..357R}		% tycho's SN
@@ -633,10 +669,6 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{woos99}{1999ApJ...525C.924W}		% woosley on hoyle
 %citation{yung05}{2005AIPC..797....1Y}		% yungelson's overview of binary evolution and population synthesis
 
-%ZZZitation{rappds94}{1994ApJ...426..692R}
-
-
-
 
 %citation{bloo+12}{2012ApJ...744L..17B} 	% 2011fe shock breakout
 %citation{nuge+11}{2011Natur.480..344N}		% 2011fe shock breakout
@@ -691,21 +723,6 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{clay12}{2012JAVSO..40..539C}		% R CrB
 %citation{jeff14}{2014IAUS..301..297J}		% EHe stars
 
-%citation{wald+11}{2011ApJ...738...21W}		% He shell explosions
-%citation{shen+10he}{2010ApJ...715..767S}	% He shell explosions
-%citation{pere+10}{2010Natur.465..322P}		% Ca-rich SN Ib transients
-%citation{miya+80}{1980PASJ...32..303M}		% ONe WD collapse
-%citation{marq+15}{2015A&A...580A.118M}		% ONe WD explosions
-%citation{hurlpt00}{2000MNRAS.315..543H}	% 1.25 Msun CO WD (ref from marq+15)
-%citation{dess+06}{2006ApJ...644.1063D}		% AIC sim
-%citation{dess+07}{2007ApJ...669..585D}		% AIC sim
-%citation{frye+09}{2009ApJ...707..193F}		% AIC sim
-%citation{livn90}{1990ApJ...354L..53L}		% double detonation proposal
-%citation{woosw94}{1994ApJ...423..371W}		% double detonation proposal
-%citation{mollw13}{2013ApJ...774..137M}		% can He detonation  travel into CO core?
-%citation{krom+10}{2010ApJ...719.1067K}		% DDet spectra
-%citation{ropk+11}{2011PrPNP..66..309R}		% Ropke's comparison of violent mergers
-%citation{pirotk14}{2014MNRAS.438.3456P}	% 56Ni distribution in context of mergers
 
 %citation{petem63}{1963PhRv..131..435P}		% grav radiation
 %citation{verb84}{1984MNRAS.209..227V}		% mag braking
@@ -751,16 +768,13 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %citation{vros+15}{2015arXiv151004286V}		% Kash+15 detonation
 %citation{ries+96}{1996ApJ...473...88R}		% Color-luminosity relation
 
-%citation{lepok13}{2013ApJ...771...13L}		% Kelly's work on rapidly accreting WDs
 %citation{rask+10}{2010ApJ...724..111R}		% Raskin's collision work
 
 %citation{soke98}{1998AJ....116.1308S}		% RGB-planet merger to make single sdB
 %citation{zhanj12b}{2012MNRAS.426L..81Z}	% RCrB from He-He merger
 %citation{zhan+14}{2014MNRAS.445..660Z}		% RCrB
 %citation{pier+14}{2014MNRAS.445.3239P}		% He accretion
-%citation{ruit+11}{2011MNRAS.417..408R}
-%citation{ruit+13}{2013MNRAS.429.1425R}
-%citation{ruit+14}{2014MNRAS.440L.101R}
+
 
 %citation{bullsk15}{2015MNRAS.450..967B}
 %citation{mari+16}{2016ApJ...820...92M}
