@@ -181,7 +181,7 @@ Therefore, during the simmering phase, convection transports energy away on a ti
 In reality, the end of simmering and birth of a thermonuclear ``flame'' occurs earlier than when $\taucc = \taudyn$.  \citeal{wooswk04} argue it happens when an individual convective blob in the nuclear burning region heats faster from burning than it cools through adiabatic expansion, i.e. when the integral
 
 \eqbegin
-\int\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}dr
+\int\left(\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}\right)dr
 \label{eq:c5_wooscriterion}
 \eqend
 %(invalidating the assumption of instantaneous convective energy transport)
@@ -190,7 +190,7 @@ In reality, the end of simmering and birth of a thermonuclear ``flame'' occurs e
 \noindent diverges.  This occurs shortly after Eqn. \ref{eq:c5_wooscriterion} becomes positive, when the contribution of the (always positive) $\epscc$ term begins to outweigh the (always negative) $dT/dr$ term.  We thus use
 
 \eqbegin
-\int_0^{\Rcc}\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}dr > 0
+\int_0^{\Rcc}\left(\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}\right)dr > 0
 \label{eq:c5_endofsimmering}
 \eqend
 
@@ -289,7 +289,7 @@ To account for this effect, we add another condition that $s(m)$ must always be 
 \label{eq:c5_temp_profile_endsimmer}
 \eqend
 
-\noindent setting a explicit temporal order to the sequence of models.  In practice, $s_\mrm{old}(m)$ is obtained by fitting a spline to the previous model's entropy profile, meaning it is possible our chosen discretization of $d\log_{10}(\Sc) = 5 \times 10^{-3}$ affects model sequences that use Eqn. \ref{eq:c5_temp_profile_endsimmer}.  We tested if this was the case by generating sequences for a $1.2\,\Msun$ WD that halved or doubled the discretization step, and found changes in \rhoc\ and \Tc\ of $\lesssim0.3$\%, orders of magnitude smaller than the changes presented in subsequent sections.
+\noindent setting an explicit temporal order to the sequence of models.  In practice, $s_\mrm{old}(m)$ is obtained by fitting a spline to the previous model's entropy profile, meaning it is possible our chosen discretization of $d\log_{10}(\Sc) = 5 \times 10^{-3}$ affects model sequences that use Eqn. \ref{eq:c5_temp_profile_endsimmer}.  We tested if this was the case by generating sequences for a $1.2\,\Msun$ WD that halved or doubled the discretization step, and found changes in \rhoc\ and \Tc\ of $\lesssim0.3$\%, orders of magnitude smaller than the changes presented in subsequent sections.
 
 % I've also checked that the magnetized and rotating runs are insensitive to changes in d\log_{10}(\Sc) (1.2Msun WD for both; magnetized numbers similar numberes to the unmagnetized case, 50% critical rotation numbers are all within 0.5% of each other, but there isn't any convergence with increasing dS resolution, so this difference is likely due to the accuracy of setting the initial omega); Changing the mass step dm by a factor of 4 or 1/4 (python Runaway/runaway_diagnostics.py -rundmstep) leads to changes of less than 0.5% in either central density or temperature over the course of the entire simmering track.
 
