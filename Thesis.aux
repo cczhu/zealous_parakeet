@@ -312,6 +312,7 @@
 \citation{marsns04}
 \citation{marsns04}
 \citation{marsns04}
+\citation{marsns04}
 \citation{lubos75}
 \citation{nele+01}
 \newlabel{eq:c1_adotovera}{{1.4}{17}{Merger Initial Conditions and Unstable Mass Transfer\relax }{equation.1.7.4}{}}
@@ -327,8 +328,8 @@
 \citation{marsns04,gokhpf07,kremsk15}
 \citation{dan+11,dan+12}
 \citation{shen15,brow+16}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor  {marsns04} (\citeyear  {marsns04}; their Fig. 1). $M_1$ is \domm  {M_{\rm  a}}\tmspace  +\thinmuskip {.1667em} and $M_2$ is \domm  {M_{\rm  d}}. The upper dashed line is a more accurate estimate for Eqn. \ref  {eq:c1_qcrit}, and the lower dashed one that for Eqn. \ref  {eq:c1_qcrit2}. The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion. Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau _\mathrm  {s}$ is $1000$, $10$ and $0.1\tmspace  +\thinmuskip {.1667em}\mathrm  {yr}$.}}{18}{figure.1.2}}
-\newlabel{fig:c1_stability}{{1.2}{18}{Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor {marsns04} (\citeyear {marsns04}; their Fig. 1). $M_1$ is \Ma \, and $M_2$ is \Md . The upper dashed line is a more accurate estimate for Eqn. \ref {eq:c1_qcrit}, and the lower dashed one that for Eqn. \ref {eq:c1_qcrit2}. The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion. Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau _\mrm {s}$ is $1000$, $10$ and $0.1\,\mrm {yr}$}{figure.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor  {marsns04} (\citeyear  {marsns04}; their Fig. 1). $M_1$ is \domm  {M_{\rm  a}}\tmspace  +\thinmuskip {.1667em} and $M_2$ is \domm  {M_{\rm  d}}. The upper dashed line is a more accurate estimate for Eqn. \ref  {eq:c1_qcrit} {\color  {magenta}\bf  (that accounts for the accretor's moment of inertia)}, and the lower dashed one that for Eqn. \ref  {eq:c1_qcrit2}. The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion. Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau _\mathrm  {s}$ is $1000$, $10$ and $0.1\tmspace  +\thinmuskip {.1667em}\mathrm  {yr}$.}}{18}{figure.1.2}}
+\newlabel{fig:c1_stability}{{1.2}{18}{Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor {marsns04} (\citeyear {marsns04}; their Fig. 1). $M_1$ is \Ma \, and $M_2$ is \Md . The upper dashed line is a more accurate estimate for Eqn. \ref {eq:c1_qcrit} {\charles (that accounts for the accretor's moment of inertia)}, and the lower dashed one that for Eqn. \ref {eq:c1_qcrit2}. The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion. Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau _\mrm {s}$ is $1000$, $10$ and $0.1\,\mrm {yr}$}{figure.1.2}{}}
 \@input{chapter2_zhu+13/chapter2.aux}
 \citation{saion98}
 \citation{yoonpr07}
@@ -712,12 +713,11 @@
 \newlabel{fig:c3_codediag}{{3.1}{76}{Schematics for the SPH and \arepo \ hydrodynamic schemes. In SPH (left), the fluid is discretized into particles, each of which possesses a position ${\bf r}_i$, mass $m_i$, velocity ${\bf u}_i$ and specific internal energy $e_i$. The density $\rho _i$ of a given particle (red point) is determined by kernel sampling its neighbors (blue) within a smoothing length $h_i$ (Eqn. \ref {eq:c3_kernelavg_rho}); pressure $P_i$ is then obtained using the density and internal energy. The particle is evolved by kernel sampling nearby pressures and densities, and applying the SPH equations of motion (Eqns. \ref {eqn:c3_spheqnm} and \ref {eqn:c3_spheqne}). In \arepo \ (right), the fluid is discretized using an unstructured mesh defined by Voronoi tessellation. Each Voronoi cell possesses a mesh-generating point ${\bf r}_i$ and a set of conserved quantities equivalent to ``primitive variables'' ${\bf W}_i = \left (\rho _i, {\bf u}_i, P_i, {\bf B}_i\right )$, i.e. the values of density, velocity, pressure and magnetic field amplitude at the cell's center of mass ${\bf s}_i$. Note that ${\bf r}_i \neq {\bf s}_i$, but their separation is typically a few percent of the cell's radius, and has been exaggerated above. Fluxes between two cells $\mrm {L}$ and $\mrm {R}$ are calculated by propagating their primitive variables ${\bf W}_\mrm {L,R}$ to the centroid of their interface ${\bf f}$ to obtain ${\bf W}_\mrm {L,R}^\mrm {interface}$ (Eqn. \ref {eq:c3_muscl_hancock}, or Eqn. \ref {eq:c3_rk2_timeevo} following \citealt {pakm+16}), and then solving the Riemann problem (in the frame of the interface). The mesh is evolved by moving the mesh generating points ${\bf r}_i$ at roughly the fluid velocity ${\bf u}_i$, calculating fluxes between all cells, and then updating each cell's conserved quantities. While evolving an SPH particle requires the use of dozens of its neighbors for kernel averaging, evolving an \arepo \ cell only requires those neighbors directly adjacent to it}{figure.3.1}{}}
 \citation{spri10}
 \citation{vlee06}
+\newlabel{eq:c3_arepo_timeadv}{{3.17}{77}{AREPO Moving Mesh Code\relax }{equation.3.2.17}{}}
+\newlabel{eq:c3_muscl_hancock}{{3.19}{77}{AREPO Moving Mesh Code\relax }{equation.3.2.19}{}}
 \citation{spri10}
 \citation{miyok05}
 \citation{pakm+16}
-\newlabel{eq:c3_arepo_timeadv}{{3.17}{77}{AREPO Moving Mesh Code\relax }{equation.3.2.17}{}}
-\newlabel{eq:c3_muscl_hancock}{{3.19}{77}{AREPO Moving Mesh Code\relax }{equation.3.2.19}{}}
-\newlabel{eq:c3_gauss_green}{{3.20}{77}{AREPO Moving Mesh Code\relax }{equation.3.2.20}{}}
 \citation{spri10}
 \citation{voge+12}
 \citation{tremb09,klei+13}
@@ -725,6 +725,7 @@
 \citation{spri10rev}
 \citation{eggl83}
 \citation{dan+11}
+\newlabel{eq:c3_gauss_green}{{3.20}{78}{AREPO Moving Mesh Code\relax }{equation.3.2.20}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{78}{subsection.3.2.4}}
 \newlabel{ssec:c3_initcond}{{3.2.4}{78}{Initial Conditions and Completion Time\relax }{subsection.3.2.4}{}}
 \citation{pakm+12,rask+14}
@@ -760,8 +761,8 @@
 \newlabel{fig:c3_angmo}{{3.6}{88}{Time evolution of $z$-axis angular momentum \Lz \ for \arepo \ (solid lines) and \gasoline \ (dashed) simulations. The purple line represents total \Lz , while the others represent angular momentum within concentric cylinders aligned along the rotation axis and with radii $\varpi = 5\times 10^8$ (red), $7.5\times 10^8$ (yellow), $1\times 10^9$ (green), $1.5\times 10^9$ (cyan), $3\times 10^9$ (blue) and $6\times 10^9\,\mrm {cm}$ (magenta)}{figure.3.6}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}Discussion}{88}{section.3.5}}
 \newlabel{sec:c3_discussion}{{3.5}{88}{Discussion\relax }{section.3.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{88}{subsection.3.5.1}}
-\newlabel{ssec:c3_restest}{{3.5.1}{88}{Resolution Test\relax }{subsection.3.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{89}{subsection.3.5.1}}
+\newlabel{ssec:c3_restest}{{3.5.1}{89}{Resolution Test\relax }{subsection.3.5.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Merger remnant profiles, as in Fig. \ref  {fig:c3_curves}, for \textsc  {Gasoline}\ (left column) and \textsc  {Arepo}\ (right) simulations of various (initial, for \textsc  {Arepo}) mass resolutions. The resolutions are $5\times 10^{28}\tmspace  +\thinmuskip {.1667em}\mathrm  {g}$ (equivalent to $5.1\times 10^4$ particles or cells; red lines), $1\times 10^{28}\tmspace  +\thinmuskip {.1667em}\mathrm  {g}$ ($2.6\times 10^{5}$; green), $2\times 10^{27}\tmspace  +\thinmuskip {.1667em}\mathrm  {g}$ ($1.3\times 10^{6}$; cyan), and $1\times 10^{27}\tmspace  +\thinmuskip {.1667em}\mathrm  {g}$ ($2.6\times 10^{6}$; blue).}}{90}{figure.3.7}}
 \newlabel{fig:c3_res_curves}{{3.7}{90}{Merger remnant profiles, as in Fig. \ref {fig:c3_curves}, for \gasoline \ (left column) and \arepo \ (right) simulations of various (initial, for \arepo ) mass resolutions. The resolutions are $5\times 10^{28}\,\mrm {g}$ (equivalent to $5.1\times 10^4$ particles or cells; red lines), $1\times 10^{28}\,\mrm {g}$ ($2.6\times 10^{5}$; green), $2\times 10^{27}\,\mrm {g}$ ($1.3\times 10^{6}$; cyan), and $1\times 10^{27}\,\mrm {g}$ ($2.6\times 10^{6}$; blue)}{figure.3.7}{}}
 \citation{dan+14}
@@ -786,6 +787,7 @@
 \citation{kash+15}
 \citation{ricela05,merub10,rogew12}
 \citation{hesss10}
+\citation{hopk15}
 \@writefile{toc}{\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{93}{section.3.6}}
 \newlabel{sec:c3_conclusion}{{3.6}{93}{Conclusions and Ramifications for Mergers\relax }{section.3.6}{}}
 \citation{vkercj10}
