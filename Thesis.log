@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  25 AUG 2016 22:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  26 AUG 2016 00:04
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -65,7 +65,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen107
 \Gm@even@mp=\dimen108
 \Gm@dimlist=\toks15
-)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
@@ -1095,8 +1096,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11990 strings out of 495061
- 172695 string characters out of 1182621
+ 11993 strings out of 495061
+ 172866 string characters out of 1182622
  366691 words of memory out of 3000000
  13210 multiletter control sequences out of 15000+50000
  149648 words of font info for 750 fonts, out of 3000000 for 9000
