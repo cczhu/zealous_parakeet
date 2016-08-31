@@ -10,52 +10,53 @@ Reallocated field_info (elt_size=4) to 14152 items from 5000.
 Database file #1: AutoBibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--string name "june" is undefined
---line 6518 of file AutoBibliography.bib
+--line 6504 of file AutoBibliography.bib
+Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in arne96
 Warning--empty publisher in clars77
 Warning--empty publisher in goedp04
 Warning--empty publisher in kippww12
 Warning--empty publisher in tass00
-You've used 352 entries,
+You've used 351 entries,
             3085 wiz_defined-function locations,
-            2915 strings with 86620 characters,
-and the built_in function-call counts, 174912 in all, are:
-= -- 14269
-> -- 13451
+            2909 strings with 86446 characters,
+and the built_in function-call counts, 174453 in all, are:
+= -- 14228
+> -- 13421
 < -- 132
-+ -- 4510
-- -- 4874
-* -- 15267
-:= -- 33083
-add.period$ -- 352
-call.type$ -- 352
-change.case$ -- 2415
-chr.to.int$ -- 340
-cite$ -- 357
-duplicate$ -- 6703
-empty$ -- 10027
-format.name$ -- 5310
-if$ -- 34506
++ -- 4500
+- -- 4863
+* -- 15229
+:= -- 32998
+add.period$ -- 351
+call.type$ -- 351
+change.case$ -- 2408
+chr.to.int$ -- 339
+cite$ -- 356
+duplicate$ -- 6684
+empty$ -- 9999
+format.name$ -- 5298
+if$ -- 34414
 int.to.chr$ -- 13
 int.to.str$ -- 0
-missing$ -- 342
-newline$ -- 1060
-num.names$ -- 1414
-pop$ -- 2640
+missing$ -- 341
+newline$ -- 1057
+num.names$ -- 1410
+pop$ -- 2633
 preamble$ -- 1
-purify$ -- 2415
+purify$ -- 2408
 quote$ -- 0
-skip$ -- 5573
+skip$ -- 5557
 stack$ -- 0
-substring$ -- 7374
+substring$ -- 7353
 swap$ -- 105
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3153
+type$ -- 3144
 warning$ -- 5
-while$ -- 1341
+while$ -- 1337
 width$ -- 0
-write$ -- 3519
-(There were 6 warnings)
+write$ -- 3509
+(There were 7 warnings)
