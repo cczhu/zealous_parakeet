@@ -6,57 +6,56 @@ A level-1 auxiliary file: chapter4_zhu+15/chapter4.aux
 A level-1 auxiliary file: chapter5_zhu+16/chapter5.aux
 A level-1 auxiliary file: conclusion/conclusion.aux
 The style file: apj.bst
-Reallocated field_info (elt_size=4) to 14152 items from 5000.
+Reallocated field_info (elt_size=4) to 14230 items from 5000.
 Database file #1: AutoBibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--string name "june" is undefined
---line 6504 of file AutoBibliography.bib
-Warning--I didn't find a database entry for ""
+--line 6565 of file AutoBibliography.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in arne96
 Warning--empty publisher in clars77
 Warning--empty publisher in goedp04
 Warning--empty publisher in kippww12
 Warning--empty publisher in tass00
-You've used 351 entries,
+You've used 355 entries,
             3085 wiz_defined-function locations,
-            2909 strings with 86446 characters,
-and the built_in function-call counts, 174453 in all, are:
-= -- 14228
-> -- 13421
+            2934 strings with 87270 characters,
+and the built_in function-call counts, 176453 in all, are:
+= -- 14403
+> -- 13564
 < -- 132
-+ -- 4500
-- -- 4863
-* -- 15229
-:= -- 32998
-add.period$ -- 351
-call.type$ -- 351
-change.case$ -- 2408
-chr.to.int$ -- 339
-cite$ -- 356
-duplicate$ -- 6684
-empty$ -- 9999
-format.name$ -- 5298
-if$ -- 34414
++ -- 4549
+- -- 4917
+* -- 15400
+:= -- 33370
+add.period$ -- 355
+call.type$ -- 355
+change.case$ -- 2440
+chr.to.int$ -- 343
+cite$ -- 360
+duplicate$ -- 6760
+empty$ -- 10113
+format.name$ -- 5355
+if$ -- 34811
 int.to.chr$ -- 13
 int.to.str$ -- 0
-missing$ -- 341
-newline$ -- 1057
-num.names$ -- 1410
-pop$ -- 2633
+missing$ -- 345
+newline$ -- 1069
+num.names$ -- 1426
+pop$ -- 2668
 preamble$ -- 1
-purify$ -- 2408
+purify$ -- 2440
 quote$ -- 0
-skip$ -- 5557
+skip$ -- 5620
 stack$ -- 0
-substring$ -- 7353
+substring$ -- 7443
 swap$ -- 105
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3144
+type$ -- 3180
 warning$ -- 5
-while$ -- 1337
+while$ -- 1353
 width$ -- 0
-write$ -- 3509
-(There were 7 warnings)
+write$ -- 3549
+(There were 6 warnings)

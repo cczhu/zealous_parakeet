@@ -547,6 +547,11 @@
 {Kaiser}, N., {Burgett}, W., {Chambers}, K., {et~al.} 2010, in \procspie, Vol.
   7733, Ground-based and Airborne Telescopes III, 77330E
 
+\bibitem[{{Kalirai} {et~al.}(2007){Kalirai}, {Bergeron}, {Hansen}, {Kelson},
+  {Reitzel}, {Rich}, \& {Richer}}]{kali+07}
+{Kalirai}, J.~S., {Bergeron}, P., {Hansen}, B.~M.~S., {et~al.} 2007, \apj, 671,
+  748
+
 \bibitem[{{Kashi} \& {Soker}(2011)}]{kashs11}
 {Kashi}, A., \& {Soker}, N. 2011, \mnras, 417, 1466
 
@@ -799,6 +804,9 @@
 \bibitem[{{Marsh}(2011)}]{mars11}
 {Marsh}, T.~R. 2011, Classical and Quantum Gravity, 28, 094019
 
+\bibitem[{{Marsh} {et~al.}(1995){Marsh}, {Dhillon}, \& {Duck}}]{mars95}
+{Marsh}, T.~R., {Dhillon}, V.~S., \& {Duck}, S.~R. 1995, \mnras, 275, 828
+
 \bibitem[{{Marsh} {et~al.}(2004){Marsh}, {Nelemans}, \& {Steeghs}}]{marsns04}
 {Marsh}, T.~R., {Nelemans}, G., \& {Steeghs}, D. 2004, \mnras, 350, 113
 
@@ -889,6 +897,10 @@
   {Portegies Zwart}, \& {Verbunt}}]{nele+01a}
 {Nelemans}, G., {Yungelson}, L.~R., {Portegies Zwart}, S.~F., \& {Verbunt}, F.
   2001{\natexlab{c}}, \aap, 365, 491
+
+\bibitem[{{Nelson} {et~al.}(2004){Nelson}, {Dubeau}, \&
+  {MacCannell}}]{nelsdm04}
+{Nelson}, L.~A., {Dubeau}, E., \& {MacCannell}, K.~A. 2004, \apj, 616, 1124
 
 \bibitem[{{Nielsen} {et~al.}(2014){Nielsen}, {Gilfanov}, {Bogd{\'a}n}, {Woods},
   \& {Nelemans}}]{niel+14}
@@ -1046,6 +1058,10 @@
 
 \bibitem[{{Piro} {et~al.}(2014){Piro}, {Thompson}, \& {Kochanek}}]{pirotk14}
 {Piro}, A.~L., {Thompson}, T.~A., \& {Kochanek}, C.~S. 2014, \mnras, 438, 3456
+
+\bibitem[{{Podsiadlowski} {et~al.}(2002){Podsiadlowski}, {Rappaport}, \&
+  {Pfahl}}]{podsrp02}
+{Podsiadlowski}, P., {Rappaport}, S., \& {Pfahl}, E.~D. 2002, \apj, 565, 1107
 
 \bibitem[{{Powell} {et~al.}(1999){Powell}, {Roe}, {Linde}, {Gombosi}, \& {De
   Zeeuw}}]{powe+99}

@@ -1,13 +1,13 @@
 % Citation tricks
 \defcitealias{vkercj10}{vK10}
 \defcitealias{loreig09}{LIG09}
-\defcitealias{ji+13}{J13}
-\defcitealias{zhu+13}{Z13}
-\defcitealias{zhu+15}{Z15}
+%\defcitealias{ji+13}{J13}
+%\defcitealias{zhu+13}{Z13}
+%\defcitealias{zhu+15}{Z15}
 \defcitealias{wooswk04}{WWK04}
 \defcitealias{piroc08}{PC08}
 \defcitealias{stev79}{S79}
-\defcitealias{schw+12}{S12}
+%\defcitealias{schw+12}{S12}
 \newcommand{\citeal}{\citetalias}
 
 \newcommand{\bobjiprivcomm}{Suoqing Ji and Robert Fisher private communication, 2016}
