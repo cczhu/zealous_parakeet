@@ -60,4 +60,4 @@ test:
 	@echo $(manuscript) $(includes) $(subincludes) $(figures)
 
 clean:
-	rm -rf Thesis.pdf *.aux *.dvi *.bib *.bbl *.blg
+	rm -rf Thesis.pdf *.aux *.dvi AutoBibliography.bib *.bbl *.blg
