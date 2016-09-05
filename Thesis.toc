@@ -10,107 +10,107 @@
 \contentsline {section}{\numberline {1.7}Pre-Merger Evolution}{15}{section.1.7}
 \contentsline {subsection}{\numberline {1.7.1}Typical CO WD Masses}{15}{subsection.1.7.1}
 \contentsline {subsection}{\numberline {1.7.2}Merger Initial Conditions and Unstable Mass Transfer}{16}{subsection.1.7.2}
-\contentsline {chapter}{\numberline {2}A Parameter-Space Study of Carbon-Oxygen White Dwarf Mergers}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{20}{section.2.1}
-\contentsline {section}{\numberline {2.2}Code and Input Physics}{21}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The SPH Code}{21}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Initial Conditions}{22}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Merger Completion Time}{24}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Results}{24}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Representative Mergers}{24}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Merger Trends}{28}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}What Constitutes Similar-Mass?}{28}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Structural Trends}{32}{subsubsection.2.3.2.2}
-\contentsline {paragraph}{The rotational axis central scaleheight.}{32}{section*.5}
-\contentsline {paragraph}{The equatorial plane central scaleheight.}{33}{section*.6}
-\contentsline {paragraph}{The central density of the remnant.}{33}{section*.7}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Mass Distributions}{33}{subsubsection.2.3.2.3}
-\contentsline {paragraph}{The masses of the core-envelope and disk.}{33}{section*.8}
-\contentsline {paragraph}{The mass enclosing 50\% of the donor material.}{33}{section*.9}
-\contentsline {paragraph}{The accretor mass enclosing 50\% of the donor material.}{33}{section*.10}
-\contentsline {paragraph}{The region over which the donor is spread.}{35}{section*.11}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Energy Balance}{35}{subsubsection.2.3.2.4}
-\contentsline {paragraph}{Energy balance of the entire remnant.}{35}{section*.12}
-\contentsline {paragraph}{Energy balance of the core-envelope.}{37}{section*.13}
-\contentsline {paragraph}{Energy balance of the disk.}{37}{section*.14}
-\contentsline {subsubsection}{\numberline {2.3.2.5}Temperature and Thermal Energy}{38}{subsubsection.2.3.2.5}
-\contentsline {paragraph}{The maximum temperature.}{38}{section*.15}
-\contentsline {paragraph}{The density at the point of maximum temperature.}{38}{section*.16}
-\contentsline {paragraph}{The mass enclosed within the radius of maximum temperature.}{40}{section*.17}
-\contentsline {paragraph}{The mass enclosing half the remnant thermal energy.}{40}{section*.18}
-\contentsline {paragraph}{The width of the remnant thermal energy.}{41}{section*.19}
-\contentsline {subsubsection}{\numberline {2.3.2.6}Angular Velocity and Rotational Energy}{41}{subsubsection.2.3.2.6}
-\contentsline {paragraph}{The maximum angular velocity.}{41}{section*.20}
-\contentsline {paragraph}{The ratio of core-envelope to total angular momentum.}{41}{section*.21}
-\contentsline {paragraph}{The mass enclosed inside the radius of maximum angular velocity.}{41}{section*.22}
-\contentsline {paragraph}{The mass enclosing half the remnant rotational energy.}{42}{section*.23}
-\contentsline {paragraph}{The width of the remnant rotational energy.}{42}{section*.24}
-\contentsline {subsection}{\numberline {2.3.3}A Qualitative Picture of the Merger}{42}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Variation of Merger Parameters and Robustness of Results}{43}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Changing the Composition}{43}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Varying the Initial Binary Separation}{43}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Synchronization}{46}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Running the Simulation Longer}{48}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Viscosity Prescription}{50}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}Spurious Heating}{50}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}Resolution}{52}{subsection.2.4.7}
-\contentsline {section}{\numberline {2.5}Comparison With Others}{54}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Comparison With \cite {loreig09}}{54}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Comparison with Others}{56}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}The Importance of Accurate Initial Conditions}{56}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Post-Merger Evolution}{60}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Viscous Evolution and Possible Spin Down}{60}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Possible Explosions?}{63}{subsection.2.6.2}
-\contentsline {section}{\numberline {2.7}Conclusion}{63}{section.2.7}
-\contentsline {section}{\numberline {2.8}Postscript: Post-Merger Evolution Revisited}{64}{section.2.8}
-\contentsline {chapter}{\numberline {3}Mergers in Smoothed-Particle and Moving Mesh Hydrodynamics}{69}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{70}{section.3.1}
-\contentsline {section}{\numberline {3.2}Codes and Initial Conditions}{71}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Traditional Smoothed-Particle Hydrodynamics}{72}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{74}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{75}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{78}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{79}{section.3.3}
-\contentsline {section}{\numberline {3.4}Results}{83}{section.3.4}
-\contentsline {section}{\numberline {3.5}Discussion}{89}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{90}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{92}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Sources of Differences Between Simulations}{93}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{94}{section.3.6}
-\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{97}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{98}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{98}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{99}{section.4.3}
-\contentsline {section}{\numberline {4.4}Robustness Tests}{103}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{103}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{104}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Discussion}{104}{section.4.5}
-\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{106}{section.4.6}
-\contentsline {chapter}{\numberline {5}The Evolution of Simmering Sub-Chandrasekhar Mass WDs}{109}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{110}{section.5.1}
-\contentsline {section}{\numberline {5.2}Modeling Sub-\domm {M_{\rm Ch}}WD Simmering}{111}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Analytical Description}{111}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Semi-Analytical Model}{114}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Results}{116}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Adiabatic Approximation}{117}{subsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.1.1}Analysis of Adiabatic Simmering Tracks}{117}{subsubsection.5.3.1.1}
-\contentsline {subsubsection}{\numberline {5.3.1.2}Estimate of \domm {M_{\rm crit}}\ and Minimum \domm {M_{\rm Ni}}}{119}{subsubsection.5.3.1.2}
-\contentsline {subsubsection}{\numberline {5.3.1.3}Hot Envelopes}{119}{subsubsection.5.3.1.3}
-\contentsline {subsection}{\numberline {5.3.2}Superadiabatic Deviation \domm {\domm {\Delta }_\mathrm {conv}}}{120}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Rotation and Magnetic Fields}{120}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Discussion}{122}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Comparison to Observed \domm {M_{\rm tot}}-\domm {M_{\rm Ni}}\ Relations}{122}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Implications for Mergers as SN Ia Progenitors}{124}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Accuracy of Magnetized Simmering Models}{125}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Conclusions}{126}{section.5.5}
-\contentsline {section}{\numberline {5.6}Appendix: Convective Suppression due to Rotation and Magnetic Fields}{127}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Simmering of Rotating White Dwarfs}{129}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Simmering of Magnetized White Dwarfs}{131}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Sensitivity to Mixing Length Theory Coefficients}{134}{subsection.5.6.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{137}{chapter.6}
-\contentsline {section}{\numberline {6.1}Mergers and Early Post-Merger Evolution}{137}{section.6.1}
-\contentsline {section}{\numberline {6.2}Viscous Evolution and Ignition}{139}{section.6.2}
-\contentsline {section}{\numberline {6.3}Ignition, Simmering and Explosions}{139}{section.6.3}
-\contentsline {section}{\numberline {6.4}What are the Outcomes of CO WD Mergers?}{142}{section.6.4}
-\contentsline {section}{\numberline {6.5}Observational Avenues of Exploration}{142}{section.6.5}
-\contentsline {chapter}{Bibliography}{144}{section.6.5}
+\contentsline {chapter}{\numberline {2}A Parameter-Space Study of Carbon-Oxygen White Dwarf Mergers}{20}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{21}{section.2.1}
+\contentsline {section}{\numberline {2.2}Code and Input Physics}{22}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The SPH Code}{22}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Initial Conditions}{23}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Merger Completion Time}{25}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Results}{25}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Representative Mergers}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Merger Trends}{29}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}What Constitutes Similar-Mass?}{29}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Structural Trends}{33}{subsubsection.2.3.2.2}
+\contentsline {paragraph}{The rotational axis central scaleheight.}{33}{section*.5}
+\contentsline {paragraph}{The equatorial plane central scaleheight.}{34}{section*.6}
+\contentsline {paragraph}{The central density of the remnant.}{34}{section*.7}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Mass Distributions}{34}{subsubsection.2.3.2.3}
+\contentsline {paragraph}{The masses of the core-envelope and disk.}{34}{section*.8}
+\contentsline {paragraph}{The mass enclosing 50\% of the donor material.}{34}{section*.9}
+\contentsline {paragraph}{The accretor mass enclosing 50\% of the donor material.}{34}{section*.10}
+\contentsline {paragraph}{The region over which the donor is spread.}{36}{section*.11}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Energy Balance}{36}{subsubsection.2.3.2.4}
+\contentsline {paragraph}{Energy balance of the entire remnant.}{36}{section*.12}
+\contentsline {paragraph}{Energy balance of the core-envelope.}{38}{section*.13}
+\contentsline {paragraph}{Energy balance of the disk.}{38}{section*.14}
+\contentsline {subsubsection}{\numberline {2.3.2.5}Temperature and Thermal Energy}{39}{subsubsection.2.3.2.5}
+\contentsline {paragraph}{The maximum temperature.}{39}{section*.15}
+\contentsline {paragraph}{The density at the point of maximum temperature.}{39}{section*.16}
+\contentsline {paragraph}{The mass enclosed within the radius of maximum temperature.}{41}{section*.17}
+\contentsline {paragraph}{The mass enclosing half the remnant thermal energy.}{41}{section*.18}
+\contentsline {paragraph}{The width of the remnant thermal energy.}{42}{section*.19}
+\contentsline {subsubsection}{\numberline {2.3.2.6}Angular Velocity and Rotational Energy}{42}{subsubsection.2.3.2.6}
+\contentsline {paragraph}{The maximum angular velocity.}{42}{section*.20}
+\contentsline {paragraph}{The ratio of core-envelope to total angular momentum.}{42}{section*.21}
+\contentsline {paragraph}{The mass enclosed inside the radius of maximum angular velocity.}{42}{section*.22}
+\contentsline {paragraph}{The mass enclosing half the remnant rotational energy.}{43}{section*.23}
+\contentsline {paragraph}{The width of the remnant rotational energy.}{43}{section*.24}
+\contentsline {subsection}{\numberline {2.3.3}A Qualitative Picture of the Merger}{43}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Variation of Merger Parameters and Robustness of Results}{44}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Changing the Composition}{44}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Varying the Initial Binary Separation}{44}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Synchronization}{47}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Running the Simulation Longer}{49}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Viscosity Prescription}{51}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Spurious Heating}{51}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}Resolution}{53}{subsection.2.4.7}
+\contentsline {section}{\numberline {2.5}Comparison With Others}{55}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Comparison With \cite {loreig09}}{55}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Comparison with Others}{57}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}The Importance of Accurate Initial Conditions}{57}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Post-Merger Evolution}{61}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Viscous Evolution and Possible Spin Down}{61}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Possible Explosions?}{64}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Conclusion}{64}{section.2.7}
+\contentsline {section}{\numberline {2.8}Postscript: Post-Merger Evolution Revisited}{65}{section.2.8}
+\contentsline {chapter}{\numberline {3}Mergers in Smoothed-Particle and Moving Mesh Hydrodynamics}{70}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{71}{section.3.1}
+\contentsline {section}{\numberline {3.2}Codes and Initial Conditions}{72}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Traditional Smoothed-Particle Hydrodynamics}{73}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}GASOLINE SPH Code}{75}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}AREPO Moving Mesh Code}{76}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Initial Conditions and Completion Time}{79}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Improving Angular Momentum Conservation in Arepo}{80}{section.3.3}
+\contentsline {section}{\numberline {3.4}Results}{84}{section.3.4}
+\contentsline {section}{\numberline {3.5}Discussion}{91}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Resolution Test}{91}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Varying Viscosity in \textsc {Gasoline}}{93}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Sources of Differences Between Simulations}{94}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Conclusions and Ramifications for Mergers}{95}{section.3.6}
+\contentsline {chapter}{\numberline {4}Magnetized Moving Mesh Merger of a Carbon-Oxygen White Dwarf Binary}{98}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{99}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{99}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results}{100}{section.4.3}
+\contentsline {section}{\numberline {4.4}Robustness Tests}{104}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Resolution Test}{104}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{105}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Discussion}{105}{section.4.5}
+\contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{107}{section.4.6}
+\contentsline {chapter}{\numberline {5}The Evolution of Simmering Sub-Chandrasekhar Mass WDs}{110}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{111}{section.5.1}
+\contentsline {section}{\numberline {5.2}Modeling Sub-\domm {M_{\rm Ch}}WD Simmering}{112}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Analytical Description}{112}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Semi-Analytical Model}{115}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Results}{117}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Adiabatic Approximation}{118}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Analysis of Adiabatic Simmering Tracks}{118}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Estimate of \domm {M_{\rm crit}}\ and Minimum \domm {M_{\rm Ni}}}{120}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Hot Envelopes}{120}{subsubsection.5.3.1.3}
+\contentsline {subsection}{\numberline {5.3.2}Superadiabatic Deviation \domm {\domm {\Delta }_\mathrm {conv}}}{121}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Rotation and Magnetic Fields}{121}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Discussion}{123}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Comparison to Observed \domm {M_{\rm tot}}-\domm {M_{\rm Ni}}\ Relations}{123}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Implications for Mergers as SN Ia Progenitors}{125}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Accuracy of Magnetized Simmering Models}{126}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Conclusions}{127}{section.5.5}
+\contentsline {section}{\numberline {5.6}Appendix: Convective Suppression due to Rotation and Magnetic Fields}{128}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Simmering of Rotating White Dwarfs}{130}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Simmering of Magnetized White Dwarfs}{132}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Sensitivity to Mixing Length Theory Coefficients}{135}{subsection.5.6.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{138}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mergers and Early Post-Merger Evolution}{138}{section.6.1}
+\contentsline {section}{\numberline {6.2}Viscous Evolution and Ignition}{140}{section.6.2}
+\contentsline {section}{\numberline {6.3}Ignition, Simmering and Explosions}{140}{section.6.3}
+\contentsline {section}{\numberline {6.4}What are the Outcomes of CO WD Mergers?}{143}{section.6.4}
+\contentsline {section}{\numberline {6.5}Observational Avenues of Exploration}{143}{section.6.5}
+\contentsline {chapter}{Bibliography}{145}{section.6.5}
