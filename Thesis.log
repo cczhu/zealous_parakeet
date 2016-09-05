@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  4 SEP 2016 22:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.7.21)  5 SEP 2016 13:46
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -65,8 +65,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen107
 \Gm@even@mp=\dimen108
 \Gm@dimlist=\toks15
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
@@ -879,11 +878,8 @@ es.pdf>] <chapter3_zhu+u/figures/Lz.pdf, id=5067, 442.65375pt x 370.38374pt>
 File: chapter3_zhu+u/figures/Lz.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/Lz.pdf> [89])
-(./chapter3_zhu+u/chapter3_discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90 <./chapter3_zhu+u/figures/Lz.pdf>]
-<chapter3_zhu+u/figures/curves_res.pdf, id=5129, 433.62pt x 904.8204pt>
+(./chapter3_zhu+u/chapter3_discussion.tex [90 <./chapter3_zhu+u/figures/Lz.pdf>
+] <chapter3_zhu+u/figures/curves_res.pdf, id=5129, 433.62pt x 904.8204pt>
 File: chapter3_zhu+u/figures/curves_res.pdf Graphic file (type pdf)
 
 <use chapter3_zhu+u/figures/curves_res.pdf> [91] [92 <./chapter3_zhu+u/figures/
@@ -1099,9 +1095,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12016 strings out of 495061
- 173335 string characters out of 1182622
- 367386 words of memory out of 3000000
+ 12013 strings out of 495061
+ 173164 string characters out of 1182621
+ 367381 words of memory out of 3000000
  13225 multiletter control sequences out of 15000+50000
  151117 words of font info for 751 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -1242,7 +1238,7 @@ share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-texli
 ve/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Thesis.pdf (174 pages, 18787697 bytes).
+Output written on Thesis.pdf (174 pages, 18788413 bytes).
 PDF statistics:
  7373 PDF objects out of 7423 (max. 8388607)
  835 named destinations out of 1000 (max. 500000)
