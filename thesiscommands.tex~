@@ -13,7 +13,7 @@
 \newcommand{\bobjiprivcomm}{Suoqing Ji and Robert Fisher private communication, 2016}
 
 % Charles highlighting
-\newcommand{\charles}{\color{blue}\bf}
+\newcommand{\charles}{\color{purple}\bf}
 
 % Define math environment
 \DeclareRobustCommand{\domm}[1]{\ifmmode #1\else$#1$\fi}
