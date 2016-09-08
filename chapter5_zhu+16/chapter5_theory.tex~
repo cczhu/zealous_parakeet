@@ -1,7 +1,7 @@
-\section{Modelling Sub-\Mch WD Simmering}
+\section{Modeling Sub-\Mch WD Simmering}
 \label{sec:c5_modelsim}
 
-Simmering in near-\Mch\ WDs has been extensively studied with 1D semi-analytical calculations by eg. \citeauthor{wooswk04} (\citeyear{wooswk04}; hereafter \citeal{wooswk04}), \cite{lesa+06, piro08}, and \citeauthor{piroc08}; (\citeyear{piroc08}; hereafter \citeal{piroc08}).  We adapt the analytical machinery of \citeal{wooswk04} and \citeal{piroc08} to sub-\Mch\ WDs.  In Sec. \ref{ssec:c5_simmer} we show that the simmering phase can be approximated well by a sequence of hydrostatic WD models, and in Sec. \ref{ssec:c5_numericalmodels} we detail our model implementation.
+Simmering in near-\Mch\ WDs has been extensively studied with 1D semi-analytical calculations by eg. \citeauthor{wooswk04} (\citeyear{wooswk04}; hereafter \citeal{wooswk04}), \cite{lesa+06, piro08}, and \citeauthor{piroc08}; (\citeyear{piroc08}; hereafter \citeal{piroc08}).  We adapt the analytical machinery of \citeal{wooswk04} {\charles Sec. 2} and \citeal{piroc08} to sub-\Mch\ WDs.  In Sec. \ref{ssec:c5_simmer} we show that the simmering phase can be approximated well by a sequence of hydrostatic WD models, and in Sec. \ref{ssec:c5_numericalmodels} we detail our model implementation.
 
 \subsection{Analytical Description}
 \label{ssec:c5_simmer}
@@ -28,14 +28,14 @@ We will need the timescale for convective energy transport, \tauconv, which requ
 
 \noindent In a simmering WD part of \Lcc\ is diverted into heating the WD, and to perform work expanding it once degeneracy begins to be lifted, reducing the convective luminosity in the upper convection zone (\citeal{piroc08}).  For simplicity, and because we mainly consider convective velocities near the center of the WD, we do not consider this effect in our models.  
 
-Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc) = 3$ and $T_9 = (T/10^9\,\mrm{K}) = 1.2$, and the specific energy generation rate
+Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc) = 3$ and $T_9 = (T/10^9\,\mrm{K}) = 1.2$, and the specific energy generation rate {\charles for material composed of $50$\% C and $50$\% O by mass,}
 
 \eqbegin
 \epscc \approx 1.3\times10^{15} \left(\rho_7/3\right)^{1.3}\left(T_9/1.2\right)^{23.6}\,\mrm{erg}\,\,\mrm{g}^{-1}\,\mrm{s}^{-1}
 \label{eq:c5_epsccscaling}
 \eqend
 
-\noindent is a steep function of temperature (Eqn. \ref{eq:c5_epsccscaling} was numerically derived using the \texttt{rates} module from the stellar evolution code \mesa\ \citep{paxt+11}).  Thus, the vast majority of the nuclear luminosity is generated within a ``nuclear burning region'' deep within the star.  Like \citeal{wooswk04}, we estimate the burning region's luminosity through the use of a polytropic equation of state and an adiabatic temperature profile -- i.e. $P/P_\mrm{c} = (\rho/\rhoc)^{\gamma_1}$, $T/\Tc = (\rho/\rhoc)^{\gamma_3-1}$.  At $\rho_7 = 3$ and $T_9 = 1.2$, the Helmholtz equation of state (EOS; \citealt{timms00}) gives $\gamma_1 = 1.41$, and $\gamma_3 = 1.43$.  We use the standard polytropic rescaling of density and radius (eg. \citealt{kippww12}): 
+\noindent is a steep function of temperature (Eqn. \ref{eq:c5_epsccscaling} was numerically derived using the \texttt{rates} module from the stellar evolution code \mesa\ \citep{paxt+11}).  Thus, the vast majority of the nuclear luminosity is generated within a ``nuclear burning region'' deep within the star.  Following \citeal{wooswk04}, we estimate the burning region's luminosity through the use of a polytropic equation of state and an adiabatic temperature profile -- i.e. $P/P_\mrm{c} = (\rho/\rhoc)^{\gamma_1}$, $T/\Tc = (\rho/\rhoc)^{\gamma_3-1}$.  At $\rho_7 = 3$ and $T_9 = 1.2$, the Helmholtz equation of state (EOS; \citealt{timms00}) gives $\gamma_1 = 1.41$, and $\gamma_3 = 1.43$.  We use the standard polytropic rescaling of density and radius (eg. \citealt{kippww12}): 
 
 \begin{eqnarray}
 \theta &\equiv& (\rho/\rho_c)^{\gamma_1 - 1}, \nonumber \\
@@ -70,25 +70,7 @@ Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc)
 \label{eq:c5_theta_approx}
 \eqend
 
-\noindent to third order, which implies the integrand of Eqn. \ref{eq:c5_lconvpolytrope} has a maximum at $\xi_1 = \sqrt{6/b}$.  Integrating numerically,
-
-%%%%%%%%%%%%% IF YOU USE THIS, REVISE NUMBERS BELOW!!! %%%%%%%%%%%%%%%%%%%
-
-%\begin{eqnarray}
-%\Lconv \approx \rhoc\epscentral\frac{0.045}{\alpha^3} &=& 4.26\times10^{22}\rhoc\epscentral \nonumber \\
-%&=& \frac{4}{3}\pi\Rcce^3\rhoc\epscentral,
-%\label{eq:convlumred}
-%\end{eqnarray}
-
-%\noindent where the estimate for the outer boundary of the nuclear burning region
-
-%\eqbegin
-%\Rcce = 2.2\times10^7\,\mrm{cm} \approx 0.1H_P,
-%\eqend
-
-%\noindent using the fact that for a white dwarf of $\Mwd \approx 1.2\Msun$, $H_P \approx 2\times10^8\,\mrm{cm}$.  
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent to third order, which implies the integrand of Eqn. \ref{eq:c5_lconvpolytrope} has a maximum at $\xi_1 = \sqrt{6/b}$.  Integrating {\charles up to this point} numerically,
 
 \begin{eqnarray}
 \Lconv &\approx& 0.20\frac{\rhoc\epscentral}{\alpha^3}  \nonumber \\
@@ -117,7 +99,7 @@ H_P \equiv -\frac{P}{dP/dr}.
 \label{eq:c5_scaleheight}
 \eqend
 
-\noindent A coefficient of order a few generally included in Eqn. \ref{eq:c5_vconv_mlt} has been set to unity to be consistent with \citeal{piroc08}.  Combining Eqns. \ref{eq:c5_convlumred} and Eqn. \ref{eq:c5_vconv_mlt}, we estimate the convective velocity at $r = H_P/2$:
+\noindent A coefficient of order a few often included in Eqn. \ref{eq:c5_vconv_mlt} has been set to unity to be consistent with \citeal{piroc08}.  Combining Eqns. \ref{eq:c5_convlumred} and Eqn. \ref{eq:c5_vconv_mlt}, we estimate the convective velocity at $r = H_P/2$:
 
 \begin{eqnarray}
 \vconv &\approx& \left(\frac{e^{\gamma_3/2\gamma_1}}{\pi}\frac{\delta \gacc}{c_P \Tc}\frac{\Lconv}{H_P \rhoc}\right)^{1/3} \nonumber \\
@@ -178,29 +160,16 @@ Finally, we use Eqn. \ref{eq:c5_vconvest2} to estimate the convective timescale
 
 Therefore, during the simmering phase, convection transports energy away on a timescale much smaller than the fusion heating timescale.  \taucc\ only reaches parity with \tauconv\ when they become approximately equal to the WD's dynamical adjustment time \taudyn, after which nuclear burning deposits energy faster than the WD can dynamically respond, and an explosive event becomes inevitable.  Since during the simmering phase $\taudyn \ll \tauconv \ll \taucc$, it can be traced using a sequence of hydrostatic models where convection is able to redistribute energy over a negligible timescale.
 
-In reality, the end of simmering and birth of a thermonuclear ``flame'' occurs earlier than when $\taucc = \taudyn$.  \citeal{wooswk04} argue it happens when an individual convective blob in the nuclear burning region heats faster from burning than it cools through adiabatic expansion, i.e. when the integral
+In reality, the end of simmering and birth of a thermonuclear {\charles burning wave} occurs earlier than when $\taucc = \taudyn$.  \citeal{wooswk04} argue it happens when an individual convective blob in the nuclear burning region heats faster from burning than it cools through adiabatic expansion, i.e. when the integral
 
 \eqbegin
-\int\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}dr
+\int\left(\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}\right)dr
 \label{eq:c5_wooscriterion}
 \eqend
 %(invalidating the assumption of instantaneous convective energy transport)
 %\footnote{Other reasonable criteria exist \citep{lesa+06}, but due to the extreme dependence of the nuclear burning on temperature this choice negligibly affects our models.}
 
-\noindent diverges.  This occurs shortly after Eqn. \ref{eq:c5_wooscriterion} becomes positive, when the contribution of the (always positive) $\epscc$ term begins to outweigh the (always negative) $dT/dr$ term.  We thus use
-
-\eqbegin
-\int_0^{\Rcc}\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}dr > 0
-\label{eq:c5_endofsimmering}
-\eqend
-
-\noindent as our criterion for the end of the simmering phase, where values in the integrand are taken from the WD's stellar profile,\footnote{Eqn. \ref{eq:c5_vconv_mlt} gives $\vconv(r = 0) = 0$, leading to a singularity in Eqn. \ref{eq:c5_endofsimmering}.  To avoid this, we set $\vconv(r = 0)$ to its value at the next step in the integration, where $r \sim 10^6\,\mrm{cm}$.} and $\Rcc$, the outer boundary of the nuclear burning region, is estimated with the implicit equation
-
-\eqbegin
-\frac{\Lcc(\Rcc)}{\Lcc} = \frac{\int_0^{\Rcc}4\pi r^2\rho \epscc dr}{\int_0^{\Rwd}4\pi r^2 \rho \epscc dr} = 0.95.
-\label{eq:c5_eos_rcc}
-\eqend
-
+\noindent diverges {\charles along a convective path.}
 %While in some models this only changes slightly the point at which Eqn. \ref{eq:wooscriterion} is satisfied, in others \vconv\ is used to set the WD temperature profile, and this assumption could have more substantial effects.
 
 \subsection{Semi-Analytical Model}
@@ -242,7 +211,7 @@ We generate 1D hydrostatic models by solving the stellar structure differential 
 \label{eq:c5_dldm}
 \eqend
 
-\noindent with \epscc\ values provided by \mesa's \texttt{rates} module.  To obtain a model WD, we employ a shooting method that calculates a stellar profile given \rhoc, central specific entropy \Sc, and vary \rhoc\ until a profile is obtained where mass has a relative deviation of $\lesssim 10^{-6}$ from its desired values.  For the solid-body rotating WDs considered in Sec. \ref{ssec:c5_rotmag}, the bracketed term in Eqn. \ref{eq:c5_hydroeq} -- a 1D approximation to rotational support valid when deviations from spherical symmetry are small -- becomes non-zero, and $\Omega$ is also altered during shooting until the angular momentum relative deviation is $\lesssim 10^{-6}$.
+\noindent with \epscc\ values provided by \mesa's \texttt{rates} module.  To obtain a model WD, we employ a shooting method that calculates a stellar profile given \rhoc\ and central specific entropy \Sc, and vary \rhoc\ until a profile is obtained where mass has a relative deviation of $\lesssim 10^{-6}$ from its desired value.  For the solid-body rotating WDs considered in Sec. \ref{ssec:c5_rotmag}, the bracketed term in Eqn. \ref{eq:c5_hydroeq} -- a 1D approximation to rotational support valid when deviations from spherical symmetry are small -- becomes non-zero, and $\Omega$ is also altered during shooting until the angular momentum relative deviation is $\lesssim 10^{-6}$ from its desired value.
 
 Within the convection zone, the temperature profile is given by
 
@@ -258,7 +227,7 @@ Within the convection zone, the temperature profile is given by
 \label{eq:c5_superad_dev}
 \eqend
 
-\noindent where a coefficient has again been set to unity for consistency with \citeal{piroc08}.  We shall see in Sec. \ref{ssec:c5_runaway_superad} that $\dnabconv/\nablaad \ll 1$ -- as usual in stellar interiors -- except near the very end of simmering.
+\noindent where{\charles convecting elements themselves are assumed to be adiabatic}, and a coefficient has again been set to unity for consistency with \citeal{piroc08}.  We shall see in Sec. \ref{ssec:c5_runaway_superad} that $\dnabconv/\nablaad \ll 1$ -- as usual in stellar interiors -- except near the very end of simmering.
 
 The scale height, as defined by Eqn. \ref{eq:c5_scaleheight}, diverges as $r\rightarrow0$.  To alleviate issues with expressions that have it in the denominator, we follow \cite{paxt+11} in using an alternate scale height,
 
@@ -274,7 +243,7 @@ We assume a uniform composition of 50\% carbon, 50\% oxygen by mass.  For simpli
 
 Like in \citeal{piroc08}, we assume an isothermal zone of temperature \tempiso\ above the convection zone; given our assumption of uniform composition, the convection boundary location is set by where the temperature of the convection zone reaches \tempiso.  By default, we set $\tempiso = 1\times10^5\,\mrm{K}$; we discuss the effects of increasing it in Sec. \ref{sssec:c5_runaway_ad_hot}.
 
-As we showed, the evolution of a simmering WD can be represented by a sequence of hydrostatic models.  The sequence can be parameterized by the WD's central specific entropy \Sc, which increases as the nuclear runaway unfolds.\footnote{Central temperature \Tc cannot be used this way, as it is not monotonic for lower-mass WDs that expand and cool rather than explode.}  We vary \Sc\ between models in discrete logarithmic steps of $d\log_{10}(\Sc) = 5 \times 10^{-3}$.  If $\nabla = \nablaad$ is assumed, each model along the sequence can be calculated independently of others, but when using Eqns. \ref{eq:c5_tempgrad} and \ref{eq:c5_superad_dev}, the strong dependence of \vconv\ on the convective luminosity can lead to $\deltanab \sim \nablaad$ when $\Tc \gtrsim 1.2\times10^9\,\mrm{K}$.  In extreme cases, the temperature gradient -- equivalently the entropy gradient -- steepens to the point where the specific entropy $s(m)$ for a mass shell $m$ is actually lower than $s_\mrm{old}(m)$ from the previous model in the sequence.  This physically corresponds to the shell cooling off, which is impossible over convective timescales.  Instead, convection is simply unable to transport the convective luminosity through $m$, and \dnabconv\ is no longer valid.
+As we showed, the evolution of a simmering WD can be represented by a sequence of hydrostatic models.  The sequence can be parameterized by the WD's central specific entropy \Sc, which increases as the nuclear runaway unfolds.\footnote{Central temperature \Tc\ cannot be used this way, as it is not monotonic for WDs that expand and cool rather than explode.}  We vary \Sc\ between models in discrete logarithmic steps of $d\log_{10}(\Sc) = 5 \times 10^{-3}$.  If $\nabla = \nablaad$ is assumed, each model along the sequence can be calculated independently of others, but when using Eqns. \ref{eq:c5_tempgrad} and \ref{eq:c5_superad_dev}, the strong dependence of \vconv\ on the convective luminosity can lead to $\deltanab \sim \nablaad$ when $\Tc \gtrsim 1.2\times10^9\,\mrm{K}$.  In extreme cases, the temperature gradient -- equivalently the entropy gradient -- steepens to the point where the specific entropy $s(m)$ for a mass shell $m$ is actually lower than $s_\mrm{old}(m)$ from the previous model in the sequence.  This physically corresponds to the shell cooling off, which is impossible over convective timescales.  Instead, convection is simply unable to transport the convective luminosity through $m$, and \deltanab\ is no longer valid.
 
 %\footnote{{\charles A similar effect occurs when $\tau_\mathrm{CC}$ is small enough very late in simmering, but preliminary tests done a while ago suggest these effects are small and on par with the superadiabatic deviation from Stevenson in the non-rotating, non-magnetized case.}}
 
@@ -289,7 +258,23 @@ To account for this effect, we add another condition that $s(m)$ must always be 
 \label{eq:c5_temp_profile_endsimmer}
 \eqend
 
-\noindent setting a explicit temporal order to the sequence of models.  In practice, $s_\mrm{old}(m)$ is obtained by fitting a spline to the previous model's entropy profile, meaning it is possible our chosen discretization of $d\log_{10}(\Sc) = 5 \times 10^{-3}$ affects model sequences that use Eqn. \ref{eq:c5_temp_profile_endsimmer}.  We tested if this was the case by generating sequences for a $1.2\,\Msun$ WD that halved or doubled the discretization step, and found changes in \rhoc\ and \Tc\ of $\lesssim0.3$\%, orders of magnitude smaller than the changes presented in subsequent sections.
+\noindent setting an explicit temporal order to the sequence of models.  In practice, $s_\mrm{old}(m)$ is obtained by fitting a spline to the previous model's entropy profile, meaning it is possible our chosen discretization of $d\log_{10}(\Sc) = 5 \times 10^{-3}$ affects model sequences that use Eqn. \ref{eq:c5_temp_profile_endsimmer}.  We tested if this was the case by generating sequences for a $1.2\,\Msun$ WD that halved or doubled the discretization step, and found changes in \rhoc\ and \Tc\ of $\lesssim0.3$\%, orders of magnitude smaller than the changes presented in subsequent sections.
+
+{\charles To estimate when simmering ends, we loosely follow Eqn. \ref{eq:c5_wooscriterion} by using the condition
+
+\eqbegin
+\int_0^{\Rcc}\left(\frac{dT}{dr} + \frac{\epscc}{c_P\vconv}\right)dr = 0,
+\label{eq:c5_endofsimmering}
+\eqend 
+
+\noindent where values in the integrand are taken from the WD's stellar profile, rather than for a single convective element.\footnote{Eqn. \ref{eq:c5_vconv_mlt} gives $\vconv(r = 0) = 0$, leading to a singularity in Eqn. \ref{eq:c5_endofsimmering}.  To avoid this, we set $\vconv(r = 0)$ to its value at the next step in the integration, where $r \sim 10^6\,\mrm{cm}$.}  $\Rcc$, the outer boundary of the nuclear burning region, is estimated with the implicit equation
+
+\eqbegin
+\frac{\Lcc(\Rcc)}{\Lcc} = \frac{\int_0^{\Rcc}4\pi r^2\rho \epscc dr}{\int_0^{\Rwd}4\pi r^2 \rho \epscc dr} = 0.95.
+\label{eq:c5_eos_rcc}
+\eqend
+
+\noindent Eqn. \ref{eq:c5_endofsimmering} can be rewritten as $\int_0^{\Rcc}\frac{\epscc}{c_P}\left(\frac{c_P}{\epscc}\frac{dT}{dr} + \frac{1}{\vconv}\right)dr = 0$, showing that it estimates when the heating timescale within the nuclear burning region is equal to the convective transport time across it, or equivalently when the average convecting element is heated as much as it cools across the region.}
 
 % I've also checked that the magnetized and rotating runs are insensitive to changes in d\log_{10}(\Sc) (1.2Msun WD for both; magnetized numbers similar numberes to the unmagnetized case, 50% critical rotation numbers are all within 0.5% of each other, but there isn't any convergence with increasing dS resolution, so this difference is likely due to the accuracy of setting the initial omega); Changing the mass step dm by a factor of 4 or 1/4 (python Runaway/runaway_diagnostics.py -rundmstep) leads to changes of less than 0.5% in either central density or temperature over the course of the entire simmering track.
 

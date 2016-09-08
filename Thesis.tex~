@@ -123,6 +123,9 @@
 \usepackage[sc]{mathpazo}
 \usepackage[T1]{fontenc}
 \usepackage{color}
+\usepackage[normalem]{ulem}
+%\usepackage{soul}
+%\setstcolor{red}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                                                    %%
@@ -219,11 +222,11 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 \begin{minipage}[c]{4.75in}
 ``Models of supernovae have often been more noted for the imagination displayed in their creation than for their intrinsic plausibility -- like dragons.''\vspace{2em}
 
-\hfill \emph{--David Arnett, Supernovae and Nucleosynthesis}\vspace{4em}
+\hfill --David Arnett, \emph{Supernovae and Nucleosynthesis}\vspace{4em}
 
-``But nature is \textit{always} more subtle, more intricate, more elegant than what we are able to imagine.  Given our manifest human limitations, what is surprising is that we have been able to penetrate so far into the secrets of nature.''\vspace{2em}
+``But nature is \textit{always} more subtle, more intricate, more elegant than what we are able to imagine.  Given our manifest human limitations, what is surprising is that we have been able to penetrate so far into the secrets of Nature.''\vspace{2em}
 
-\hfill \emph{--Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark}
+\hfill --Carl Sagan, \emph{The Demon-Haunted World: Science as a Candle in the Dark}
 
 \end{minipage}
 \end{center}
@@ -254,9 +257,9 @@ This thesis also would not exist without my de-facto second supervisor Philip Ch
 
 %This thesis also would not exist without my de-facto second supervisor Philip Chang and long-time collaborator R\"{u}diger Pakmor, both of whom were always willing to lend their effort and expertise.  Thank you for clarifying the intricacies of so many concepts from magnetic field instabilities to the inaccuracies of hydro solvers, and for making time for me no matter what.
 
-To the past and present members of the ``Van Kerkwijk White Dwarf Group'', thank you for being in our little research community.  Thanks especially to Wolfgang Kerzendorf for being my go-to programming guru and Epson Heringer for being a research partner and interlocutor on supernova physics.  I am grateful to my thesis committee members, Ue-Li Pen and Chris Matzner, for their helpful insights; special thanks to Chris Matzner for lending his expertise on hydrodynamics whenever I found a particularly confusing result.  A huge thanks also goes to the administrative staff -- especially Angie Ho and Margaret Meaney -- for ensuring meetings and examinations all ran according to plan.
+To the past and present members of the ``Van Kerkwijk White Dwarf Group'', thank you for being part of our little research community.  Thanks especially to Wolfgang Kerzendorf for sharing his programming expertise and Epson Heringer for being a collaborator and interlocutor on supernova physics.  I am grateful to my thesis committee members, Ue-Li Pen and Chris Matzner, for their helpful insights; special thanks to Chris Matzner for lending his expertise on hydrodynamics whenever I found a particularly confusing result.  A huge thanks also goes to the administrative staff -- especially Angie Ho and Margaret Meaney -- for ensuring meetings and examinations all ran according to plan.
 
-To my fellow graduate students, your friendship, comaraderie and mutual support made this department a home away from home, and I will miss dearly being among you.  Thanks in particular go to my graduate cohort -- JD Emberson, Yevgeni Kissin and Etsuko Mieda -- for overcoming together the courses and qualifiers; to Robert Main, Andrey Vayner and Ari Silburt for productive science discussions and inane office shenanigans; to Mubdi Rahman, Jamil Shariff and Ilana Macdonald for not only being fast friends but role models in science outreach; and to Stephen Ro for being there for me in times of doubt.
+To my fellow graduate students, your friendship, comaraderie and mutual support made this department a home away from home, and I will miss dearly being among you.  Thanks in particular go to my graduate cohort -- JD Emberson, Yevgeni Kissin and Etsuko Mieda -- for overcoming together the courses and qualifiers; to Lisa Esteves, Ilana Macdonald, Mubdi Rahman, Jamil Shariff, Heidi White and Jielai Zhang for not only being fast friends but role models and partners in science outreach; to Robert Main, Stephen Ro, Ari Silburt and Andrey Vayner for productive science discussions, inane office shenanigans and comaraderie; and to so many of you for being there for me in times of doubt.
 
 Lastly, to my parents, who nurtured my curiosity of the universe and raised me to value hard work and determination: this thesis is dedicated to you.
 
@@ -358,6 +361,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{zhu+15}{2015ApJ...806L...1Z}
 %citation{pakm+16}{2016MNRAS.455.1134P}		% Improving Arepo
 
+
 %%%% Code papers %%%%
 %citation{ager+07}{2007MNRAS.380..963A} 	% SPH instability failure paper
 %citation{bals95}{1995JCoPh.121..357B} 		% balsara switch
@@ -410,28 +414,39 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{voge+12}{2012MNRAS.425.3024V}		% arepo explicit refinement for maintaining fixed mass
 %citation{wadssq04}{2004NewA....9..137W}	% Gasoline paper
 
+
 %%%% Explosion modeling %%%%
+%citation{bullsk15}{2015MNRAS.450..967B}	% mattia and stuart's SN polarization sims
 %citation{fink+07}{2007A&A...476.1133F} 	% fink's ddet paper
 %citation{fink+10}{2010A&A...514A..53F}		% fink's d-det work
+%citation{fink+14}{2014MNRAS.438.1762F}		% SNe IaX pure deflagration
 %citation{frye+10}{2010ApJ...725..296F}		% Fryer double degenerate light curves.
+%citation{garc+13}{2013MNRAS.436.3413G}		% WD collision simulation
 %citation{holc+13}{2013ApJ...771...14H}		% holcomb's He hotspot detonation
 %citation{krom+10}{2010ApJ...719.1067K}		% DDet spectra
+%citation{krom+13}{2013MNRAS.429.2287K}		% SNe IaX pure deflagration
+%citation{kush+13}{2013ApJ...778L..37K}		% WD collision simulation
 %citation{livn90}{1990ApJ...354L..53L}		% double detonation proposal
 %citation{mazumw77}{1977ApJ...213..518M}	% mazurek early work on detonations
 %citation{mollw13}{2013ApJ...774..137M}		% can He detonation  travel into CO core?
 %citation{rask+14}{2014ApJ...788...75R}		% Cody's tamped explosion models.
 %citation{ropk+11}{2011PrPNP..66..309R}		% Ropke's comparison of violent mergers
+%citation{sato+16}{2016ApJ...821...67S}		% violent merger lower limits
 %citation{seit+09}{2009ApJ...696..515S}		% seitenzahl detonation paper
 %citation{seitcr11}{2011MNRAS.414.2709S}	% dtd
+%citation{seit+16}{2016arXiv160600089S}		% GCD makes 91T?
 %citation{shig+92}{1992ApJ...386L..13S}		% sub-Ch -> right nucleosyn/energetics
 %citation{shenb14}{2014ApJ...785...61S}		% converging shocks in ddets
 %citation{shenm14}{2014ApJ...797...46S}		% conditions for He detonation
 %citation{sim+10}{2010ApJ...714L..52S}		% stuart's zero-temperature pure detonations
+%citation{vros+15}{2015arXiv151004286V}		% Kash+15 detonation
 %citation{woosw94}{1994ApJ...423..371W}		% double detonation proposal
 %citation{woos+09}{2009ApJ...704..255W}		% deflagration, density effects
 %citation{woos+11}{2011ApJ...734...37W}		% ...
 
+
 %%%% WD merger theory/sim papers %%%%
+%citation{benzth89}{1989ApJ...342..986B}	% benz collisions
 %citation{benz+90}{1990ApJ...348..647B}		% benz's early SPH work
 %citation{brow+16}{2016ApJ...824...46B}		% every interacting DWD may merge
 %citation{burk+13}{2013MNRAS.433..332B}		% tidal resonance leads to WD corotation
@@ -444,6 +459,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{fulll14}{2014MNRAS.444.3488F}		% follow-up to fulll12
 %citation{gokhpf07}{2007ApJ...655.1010G}	% update to marsns04
 %citation{guerig04}{2004A&A...413..257G}	% guerrero's 2004 sims
+%citation{guil+10}{2010ApJ...709L..64G}		% guillochon shows you can violently ignite a He detonation in a merger
 %citation{kash+15}{2015ApJ...800L...7K}		% rahul, ji and bob's work on spiral waves in remnants 
 %citation{katz+16}{2016ApJ...819...94K} 	% katz and zingale work on amr WD mergers
 %citation{kremsk15}{2015ApJ...806...76K}	% update to marsns04
@@ -460,6 +476,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{pakm+12sph}{2012MNRAS.424.2222P}	% Stellar gadget (also approximate vs accurate ics)
 %citation{pakm+13}{2013ApJ...770L...8P} 	% ruediger's helium detonation in violent mergers
 %citation{piro11}{2011ApJ...740L..53P}		% tony's work on tides in WD binaries
+%citation{rask+10}{2010ApJ...724..111R}		% Raskin's collision work
 %citation{rask+12}{2012ApJ...746...62R}		% Cody's work
 %citation{segrcm97}{1997ApJ...481..355S}	% segretain's early SPH mergers
 %citation{shen15}{2015ApJ...805L...6S}		% every interacting DWD may merge
@@ -467,12 +484,15 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{verbr88}{1988ApJ...332..193V}		% WD mass transfer stability
 %citation{yoonpr07}{2007MNRAS.380..933Y}	% Yoon's massive WD sim + post-merger work (1D sub-Edd)
 
+
 %%%% WD post-merger evolution %%%%
 %citation{ji+13}{2013ApJ...773..136J}		% ji and bob's MHD PME work, shows ignition
 %citation{nomoi85}{1985ApJ...297..531N}		% nomoto's old slow accretion sim
 %citation{schw+12}{2012MNRAS.427..190S}		% josiah's post merger stuff
+%citation{schwqb15}{2015MNRAS.453.1910S}	% Schwab's AIC work
 %citation{schw+16}{2016arXiv160602300S}		% josiah's thermal evolution stuff.
 %citation{shen+12}{2012ApJ...748...35S}		% ken's semi-analytical work
+
 
 %%%%%% Convection and (rot/mag) simmering %%%%%%%
 %citation{augubt16}{2016arXiv160303659A} 	% augustson massive star convection
@@ -503,9 +523,11 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{zing+09}{2009ApJ...704..196Z}		% zingale's hydro convection sims
 %citation{zing+11}{2011ApJ...740....8Z}		% same, but with rotation
 
+
 %%%% Other simulations (pop synth) %%%%
 %citation{abdi+10}{2010PhRvD..81d4012A} 	% GR simulation of AIC
 %citation{brig+15}{2015MNRAS.447.1713B}		% brigg's population synthesis for HFMWDs CHECKED
+%citation{clae+14}{2014A&A...563A..83C}		% joke's BPS study - similar results for total SN rate
 %citation{dess+06}{2006ApJ...644.1063D}		% AIC sim
 %citation{dess+07}{2007ApJ...669..585D}		% AIC sim
 %citation{frye+09}{2009ApJ...707..193F}		% AIC sim
@@ -521,6 +543,8 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{ruit+13}{2013MNRAS.429.1425R}		% ...
 %citation{ruit+14}{2014MNRAS.440L.101R}		% ...
 %citation{shen+10he}{2010ApJ...715..767S}	% He shell explosions
+%citation{toonnp12}{2012A&A...546A..70T}	% DD merger pop synth
+%citation{toon+14}{2014A&A...562A..14T}		% population synthesis
 %citation{tracsp07}{2007MNRAS.377..997T}	% SPH/Eulerian code comparison for stellar collisions
 %citation{wald+11}{2011ApJ...738...21W}		% He shell explosions
 %citation{woosk11}{2011ApJ...734...38W}		% woosley double detonation minimum He mass
@@ -539,6 +563,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{spru02}{2002A&A...381..923S}		% Tayler-Spurit paper
 %citation{wicktf14}{2014MNRAS.437..675W}	% wickramasinghe's simple dynamo estimate
 %citation{zrakm13}{2013ApJ...769L..29Z}		% zrake and macfayden's turbulent MHD dynamo
+
 
 %%%%%%%%%% Spiral wave theory & sim %%%%%%%%%%%
 %citation{adamrs89}{1989ApJ...347..959A}	% adams's work on the SLING instability around YSOs
@@ -562,66 +587,147 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{radibo16}{2016arXiv160305726R}	% spiral mode in NS-NS merger remnant (GR-AMR code)
 %citation{wattaj05}{2005ApJ...618L..37W}	% T/W instability
 
+
 %%%%%% Population statistics and DTDs %%%%%%%%%%
 %citation{chil+15}{2015MNRAS.454.3816C} 	% childress's M_56 vs M_tot relationship paper
+%citation{ferrdg15}{2015SSRv..191..111F}	% massive maagnetic WDs
+%citation{garc+16}{2016IJMPD..2530005G}		% HFMWDs
+%citation{giambd12}{2012ApJS..199...29G}	% 1 Msun peak of field WD dist
+%citation{kepl+13}{2013MNRAS.429.2934K}		% HFMWDs
 %citation{klei+13}{2013ApJS..204....5K}		% SDSS DR7 WD catalog, has mass distribution
+%citation{liebbh05}{2005ApJS..156...47L}	% 1 Msun peak of field WD dist
+%citation{lieb+15}{2015ApJ...804...93L}		% HFMWDs need friends to form
 %citation{li+11}{2011MNRAS.412.1441L}		% lick team nearby supernova statistics
 %citation{mann+05}{2005A&A...433..807M}		% mannucci sn ia rate (from NIR galaxy obs)
 %citation{maozsg10}{2010ApJ...722.1879M}	% maoz dtd
+%citation{maoz+11}{2011MNRAS.412.1508M}		% Maoz estimate of total SN rate
 %citation{menn+10}{2010ASPC..435...33M}		% mennekens dtd
 %citation{pirotk14}{2014MNRAS.438.3456P}	% 56Ni distribution in context of mergers
 %citation{prichs08}{2008ApJ...683L..25P}	% pritchet's estimate for the SN Ia/WD formation rate ratio
+%citation{reba+15a}{2015MNRAS.450..743R}	% 1 Msun peak of field WD dist
+%citation{reba+15b}{2015MNRAS.452.1637R}	% 1 Msun peak of field WD dist
 %citation{scalzrs14}{2014MNRAS.445.2535S} 	% scalzo's M_56 vs M_tot relationship paper
 %citation{scalz+14}{2014MNRAS.440.1498S} 	% scalzo's M_tot vs stretch relation
 %citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
+%citation{trem+16}{2016arXiv160605292T}		% newest WD field distribution
+%citation{weggp12}{2012MNRAS.426..427W}		% 1 Msun peak of field WD dist
+%citation{wickf05}{2005MNRAS.356.1576W}		% HFMWDs
+
+
+%%%%%%%%% Hot DQs %%%%%%%%%%%%%
+%citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
+%citation{dufo+07}{2007Natur.450..522D}		% Hot DQs
+%citation{dufo+08}{2008ApJ...683..978D}		% Hot DQs
+%citation{dufo+13}{2013ASPC..469..167D}		% Patrick's work on hot DQs 
+%citation{dunlc15}{2015ASPC..493..547D} 	% bart and chris's work published in conference proceeding
+%citation{lawr+13}{2013MNRAS.433.1599L}		% Lawrie's long-period (probably spin) hot DQ
+%citation{will+16}{2016ApJ...817...27W}		% Hot DQ rapid rotation
+%citation{dufo+11}{2011BaltA..20..511D}		% Really preliminary log g measurements
+%citation{will+13}{2013ApJ...769..123W}		% Williams's DQ paper (though this one is a "warm DQ")
+
 
 %%%% Other theory papers %%%%
-%citation{alth+09}{2009ApJ...693L..23A}		% Single star formation channel for hot DQs
 %citation{belo14}{2014MNRAS.438..169B}		% belobodorov's semi-analytical work on post-merger evolution transients
+%citation{bild+07}{2007ApJ...662L..95B} 	% .Ias
+%citation{chio+15}{2015MNRAS.448.2100C}		% single WD channel to sne ia?
+%citation{clay+07}{2007ApJ...662.1220C}		% clayton's earlier work on RCrBs
+%citation{clay12}{2012JAVSO..40..539C}		% R CrB
+%citation{clay13}{2013ASPC..469..133C} 		% Clayton's review on mergers making rCB stars
 %citation{eggl83}{1983ApJ...268..368E}		% Eggleton roche overflow radius estimate
+%citation{fishj15}{2015ApJ...805..150F}		% bob's overluminous Mch
+%citation{han+02}{2002MNRAS.336..449H}		% He - He mergers make sdBs
+%citation{hill+16}{2016ApJ...819..168H}		% maybe it is possible to grow WDs despite he flashes
+%citation{hoylf60}{1960ApJ...132..565H}		% hoyle & fowler nucleosynthetics of SNe
 %citation{hurlpt00}{2000MNRAS.315..543H}	% 1.25 Msun CO WD (ref from marq+15)
+%citation{ibent84}{1984ApJS...54..335I}		% the other DD paper
+%citation{ibent85}{1985ApJS...58..661I}		% iben & tutukov's exhaustive survey of stellar evolution
+%citation{idanss13}{2013MNRAS.433.2884I}	% he flashes
+%citation{illks12}{2012MNRAS.419.1695I}		% spin-down through magnetic dipole radiation
+%citation{kashs11}{2011MNRAS.417.1466K}		% kashi & soker's CD channel
+%citation{katzd12}{2012arXiv1211.4584K}		% three-body interactions generate SNe Ia
 %citation{levasg15}{2015MNRAS.447.2803L}	% levanon's estimate of effect on early light curve
+%citation{livir03}{2003ApJ...594L..93L}		% core degenerate founding paper
 %citation{miya+80}{1980PASJ...32..303M}		% ONe WD collapse
 %citation{pacz71}{1971ARA&A...9..183P}		% Paczynski roche overflow estimate
+%citation{pier+14}{2014MNRAS.445.3239P}		% He accretion
 %citation{pirom15}{2015arXiv151203442P} 	% tony's double-peaked SN Ia due to envelope
 %citation{saioj00}{2000MNRAS.313..671S}		% saio and jeffrey He - He merger
 %citation{saioj02}{2002MNRAS.333..121S}		% saio and jeffrey He - CO merger
 %citation{saion85}{1985A&A...150L..21S}		% edge-lit ignition
 %citation{saion98}{1998ApJ...500..388S}		% saio/nomoto ONe production following merger
 %citation{shaks73}{1973A&A....24..337S}		% shakura/sunyaev alpha visc
+%citation{townsb04}{2004ApJ...600..390T}	% nova shell mass loss
+%citation{webb84}{1984ApJ...277..355W}		% webbink's seminal merger paper for SN Ia and He - CO -> RCB
+%citation{wheli73}{1973ApJ...186.1007W}		% first mention of SD channel
+%citation{woos99}{1999ApJ...525C.924W}		% woosley on hoyle
+%citation{zhanj12}{2012MNRAS.419..452Z}		% He - He merger
+%citation{zhanj12b}{2012MNRAS.426L..81Z}	% RCrB from He-He merger
+%citation{zhan+14}{2014MNRAS.445..660Z}		% RCrB
+
 
 %%%% Other observational papers %%%%
 %citation{aspd+11}{2011ApJ...738...94A}		% rising deflagration bubbles
 %citation{badem12}{2012ApJ...749L..11B}		% Badenes and Moaz's paper on galactic WD merger rate from SDSS
 %citation{bars+95}{1995MNRAS.277..971B}		% RE J 0317 
+%citation{bloo+12}{2012ApJ...744L..17B} 	% 2011fe shock breakout
+%citation{bran98}{1998ARA&A..36...17B}		% Branch normal definition (see also bran+06)
 %citation{bran+06}{2006PASP..118..560B} 	% branch definition of normal SNe Ia
+%citation{brow+10}{2010ApJ...723.1072B}		% ELM survey paper I
 %citation{brow+11}{2011ApJ...737L..23B}		% eclipsing 12-min WD binary
 %citation{chur+14}{2014Natur.512..406C}		% 56Co detection in ejecta
 %citation{clars77}{1977hisu.book.....C}		% tycho's SN reference
+%citation{dild+12}{2012Sci...337..942D}		% PTF 11kx
 %citation{dist10}{2010ApJ...719..474D}		% di Stefano's SSS work
-%citation{dufo+13}{2013ASPC..469..167D}		% Patrick's work on hot DQs 
-%citation{dunlc15}{2015ASPC..493..547D} 	% bart and chris's work published in conference proceeding
+%citation{distfg15}{2015arXiv150107837D}	% planets make SNe Ia
+%citation{fole+13}{2013ApJ...767...57F}		% 2002cx type
 %citation{gera+07}{2007ApJ...661..995G}		% slow-moving 58Ni
 %citation{geroh89}{1989ApJS...70..661G}		% rapidly rotating WDs
+%citation{gian+15}{2015ApJ...812..167G}		% ELM survey
 %citation{gilfb10}{2010Natur.463..924G}		% gilfanov's SSS rates from UV backgrd
+%citation{hachkn10}{2010ApJ...724L.212H}	% maybe SSS WDs spend time in a third phase that's optically thick?
 %citation{hama97}{1997IAUS..180...91H}		% [WR] wind mass loss rates
+%citation{hamu+00}{2000AJ....120.1479H}		% Sn Ia host galaxy dependence
+%citation{joha+14}{2014MNRAS.442.1079J}		% counter to hachisu
 %citation{kali+07}{2007ApJ...671..748K}		% metal rich RGB stars can create He WDs?
 %citation{kerz+14}{2014ApJ...796L..26K}		% Wolfgang's late-time observations of positron trapping in SN Ia
+%citation{kerz+14rem}{2014ApJ...782...27K}	% wolfgang's search for companions in kepler
 %citation{khok91}{1991A&A...245..114K} 		% DDT paper
 %citation{kube+10}{2010A&A...524A..36K}		% REJ 0317
-%citation{lawr+13}{2013MNRAS.433.1599L}		% Lawrie's long-period (probably spin) hot DQ
 %citation{lepok13}{2013ApJ...771...13L}		% Kelly's work on rapidly accreting WDs
+%citation{lieb+93}{1993AJ....105..301L}		% 1991bg
+%citation{li+02}{2003PASP..115..453L}		% 2002cx
+%citation{li+11cpn}{2011Natur.480..348L}	% pre-explosion companion search of 2011fe
 %citation{maed+10a}{2010ApJ...708.1703M}	% slow-moving 58Ni
 %citation{maed+10b}{2010Natur.466...82M}	% ...
+%citation{magu+16}{2016MNRAS.457.3254M}		% maguire H and He entrained SNe
+%citation{maozbb12}{2012ApJ...751..143M}	% prelude to badem12
+%citation{mari+16}{2016ApJ...820...92M}		% Excess early blue light at 15-16 days before max B-brightness
+%citation{mars95}{1995MNRAS.275..828M}		% low-mass white dwarfs need friends
+%citation{mazz+97}{1997MNRAS.284..151M}		% 1991bg
+%citation{moed16}{2016arXiv160605347M}		% max moe and rosanne di stefano's work on binary star distributions
+%citation{moros09}{2009A&A...507.1575P}		% low-mass CO WD
+%citation{napi+07}{2007ASPC..372..387N}		% SPY survey
+%citation{nielvn13}{2013MNRAS.435..187N}	% pre-explosion companion search
+%citation{niel+14}{2014MNRAS.442.3400N}		% pre-explosion companion search of 2014j
+%citation{nuge+11}{2011Natur.480..344N}		% 2011fe shock breakout
+%citation{ollms15}{2015Natur.521..332O}		% kepler telescope shock heated companion
 %citation{pata+07}{2007Sci...317..924P}		% patat's NaID work
 %citation{pere+10}{2010Natur.465..322P}		% Ca-rich SN Ib transients
 %citation{phil93}{1993ApJ...413L.105P}		% phillips relation
+%citation{phil+07}{2007PASP..119..360P}		% SNe IaX pure deflagration
+%citation{ries+96}{1996ApJ...473...88R}		% Color-luminosity relation
 %citation{ruizs98}{1998ApJ...500..360R}		% Ruiz-Lapuente's work on positron trapping due to magnetic fields
 %citation{ruiz04}{2004ApJ...612..357R}		% tycho's SN
 %citation{simo+09}{2009ApJ...702.1157S}		% Simon's Na ID paper
+%citation{soke13}{2013MNRAS.431.1541S}		% Soker's explanation for PTF 11kx
 %citation{stei+10}{2010ApJ...716L.146S}		% eclipsing detached WD binary
+%citation{stri+06}{2006A&A...450..241S}		% 56Ni yields
+%citation{sull+10}{2010MNRAS.406..782S}		% Sn Ia host galaxy dependence
 %citation{taub+09}{2011MNRAS.412.2735T}		% slow-moving superchandrasekhar
-%citation{will+13}{2013ApJ...769..123W}		% Williams's DQ paper (though this one is a "warm DQ")
+%citation{xavi+13}{2013MNRAS.434.1443X}		% Sn Ia host galaxy dependence
+%citation{yama+09}{2009ApJ...707L.118Y}		% 2009dc
+%citation{zorosg11}{2011A&A...536A..42Z}	% recurrent novae gain mass?
+
 
 %%%% SN Ia review papers %%%%
 %citation{fili97}{1997ARA&A..35..309F}		% optical spectra of SNe Ia
@@ -632,159 +738,59 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{tsebs15}{2015MNRAS.447.2568T}		% not a review, but excellent introduction
 %citation{vker12}{2012arXiv1206.1605V}		% marten's review of Mch problems
 
+
 %%%% Gravitational Wave Stuff %%%%%
 %citation{amar+13}{2013GWN.....6....4A}		% eLISA
 %citation{ligo+15}{2015CQGra..32g4001L}		% aLIGO
 %citation{mars11}{2011CQGra..28i4019M}		% Marsh's primary on GW DWDs
 %citation{neleyp01}{2001A&A...375..890N}	% Nelemans' GW estimate
 
+
 %%%% Misc/General %%%%
 %citation{andrpt06}{2006ApJ...646.1160A}	% andronov theoretical model for blue straggler formation
+%citation{arne96}{1996sunu.book.....A}		% Arnett's book on nucleosynthesis
+%citation{blum+06}{2006AJ....132.2034B}		% Extreme AGB stars
+%citation{carr+14}{2014A&A...565A..11C}		% Gaia and WDs
 %citation{chan31}{1931ApJ....74...81C}		% chandrasekhar mass
-%citation{chio+15}{2015MNRAS.448.2100C}		% single WD channel to sne ia?
-%citation{clay+07}{2007ApJ...662.1220C}		% clayton's earlier work on RCrBs
-%citation{clay13}{2013ASPC..469..133C} 		% Clayton's review on mergers making rCB stars
-%citation{distfg15}{2015arXiv150107837D}	% planets make SNe Ia
 %citation{garc13}{2013IAUS..281...52G}		% enrique's review on oxygen-neon
+%citation{gaen+15}{2015arXiv150602653G}		% Gaia and WDs
 %citation{goedp04}{2004prma.book.....G} 	% goedbloed's MHD textbook
 %citation{hebe16}{2016arXiv160407749H}		% subdwarf stars
 %citation{herw05}{2005ARA&A..43..435H}		% AGB and super-AGB evolution
-%citation{hoylf60}{1960ApJ...132..565H}		% hoyle & fowler nucleosynthetics of SNe
-%citation{ibent85}{1985ApJS...58..661I}		% iben & tutukov's exhaustive survey of stellar evolution
+%citation{jeff14}{2014IAUS..301..297J}		% EHe stars
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs
 %citation{justpv14}{2014ApJ...796..121J}	% justham's merger origins of LBVs
 %citation{kais+10}{2010SPIE.7733E..0EK}		% Pan-STARRS instrument paper
 %citation{kippww12}{2012sse..book.....K}	% Kippehahn
+%citation{kisst15}{2015ApJ...809..108K}		% Yevgeni's work on PMS dynamos
 %citation{knigs09}{2009Natur.457..288K}		% knigge & sills on whether blue stragglers are collisional or due to RLOF 
-%citation{loke+10}{2010JPhCS.256a2026L}		% SciNet paper
+%citation{koza62}{1962AJ.....67..591K}		% kozai-lidov mechanism
+%citation{lewibt16}{2016arXiv160606972L}	% SPMHD
+%citation{lido62}{1962P&SS....9..719L}		% kozai-lidov mechanism
 %citation{ligo16}{2016PhRvL.116m1102A}		% ligo BBH-merger discovery paper
+%citation{loke+10}{2010JPhCS.256a2026L}		% SciNet paper
 %citation{lsst09}{2009arXiv0912.0201L}		% lsst science book 2.0
-%citation{mars95}{1995MNRAS.275..828M}		% low-mass white dwarfs need friends
 %citation{mink41}{1941PASP...53..224M}		% minkowski spectroscopic separation
-%citation{moros09}{2009A&A...507.1575P}		% low-mass CO WD
 %citation{nele10}{2010Ap&SS.329...25N}		% pop synth for sdB stars
 %citation{nelsdm04}{2004ApJ...616.1124N}	% Lorne's work on siphoning off RGB envelopes to make He WDs (for DDs and XRBs)
 %citation{nandil14}{2014ApJ...786...39N}	% nandez's SPH work on V1309 Sco
 %citation{perl+99}{1999ApJ...517..565P}		% Perlmutter dark energy paper
+%citation{petem63}{1963PhRv..131..435P}		% grav radiation
 %citation{podsrp02}{2002ApJ...565.1107P}	% L/IMXB formation, but has section (4.1) on mass distribution of He/CO WD secondaries
 %citation{rau+09}{2009PASP..121.1334R}		% PTF instrument paper
 %citation{ries+98}{1998AJ....116.1009R}		% Riess dark energy paper
 %citation{ross15}{2015IJMPD..2430012R}		% rosswog binary compact merger review
+%citation{soke98}{1998AJ....116.1308S}		% RGB-planet merger to make single sdB
 %citation{spru13}{2013arXiv1301.5572S}		% henk's MHD textbook
 %citation{tyle+11}{2011A&A...528A.114T}		% tylenda's V1309 Sco paper
-%citation{webb84}{1984ApJ...277..355W}		% webbink's seminal merger paper for SN Ia and He - CO -> RCB
-%citation{woos99}{1999ApJ...525C.924W}		% woosley on hoyle
+%citation{york+00}{2000AJ....120.1579Y}		% SDSS
 %citation{yung05}{2005AIPC..797....1Y}		% yungelson's overview of binary evolution and population synthesis
 
 
-%citation{bloo+12}{2012ApJ...744L..17B} 	% 2011fe shock breakout
-%citation{nuge+11}{2011Natur.480..344N}		% 2011fe shock breakout
-
-%citation{wheli73}{1973ApJ...186.1007W}		% first mention of SD channel
-%citation{ibent84}{1984ApJS...54..335I}		% the other DD paper
-%citation{townsb04}{2004ApJ...600..390T}	% nova shell mass loss
-%citation{zorosg11}{2011A&A...536A..42Z}	% recurrent novae gain mass?
-%citation{hachkn10}{2010ApJ...724L.212H}	% maybe SSS WDs spend time in a third phase that's optically thick?
-%citation{joha+14}{2014MNRAS.442.1079J}		% counter to hachisu
-%citation{idanss13}{2013MNRAS.433.2884I}	% he flashes
-%citation{hill+16}{2016ApJ...819..168H}		% maybe it is possible to grow WDs despite he flashes
-%citation{clae+14}{2014A&A...563A..83C}		% joke's BPS study - similar results for total SN rate
-%citation{maoz+11}{2011MNRAS.412.1508M}		% Maoz estimate of total SN rate
-%citation{schwqb15}{2015MNRAS.453.1910S}	% Schwab's AIC work
-%citation{bran98}{1998ARA&A..36...17B}		% Branch normal definition (see also bran+06)
-%citation{arne96}{1996sunu.book.....A}		% Arnett's book on nucleosynthesis
-%citation{stri+06}{2006A&A...450..241S}		% 56Ni yields
-%citation{fishj15}{2015ApJ...805..150F}		% bob's overluminous Mch
-%citation{phil+07}{2007PASP..119..360P}		% SNe IaX pure deflagration
-%citation{krom+13}{2013MNRAS.429.2287K}		% SNe IaX pure deflagration
-%citation{fink+14}{2014MNRAS.438.1762F}		% SNe IaX pure deflagration
-%citation{sull+10}{2010MNRAS.406..782S}		% Sn Ia host galaxy dependence
-%citation{hamu+00}{2000AJ....120.1479H}		% Sn Ia host galaxy dependence
-%citation{xavi+13}{2013MNRAS.434.1443X}		% Sn Ia host galaxy dependence
-%citation{li+02}{2003PASP..115..453L}		% 2002cx
-%citation{fole+13}{2013ApJ...767...57F}		% 2002cx type
-%citation{mazz+97}{1997MNRAS.284..151M}		% 1991bg
-%citation{yama+09}{2009ApJ...707L.118Y}		% 2009dc
-%citation{nielvn13}{2013MNRAS.435..187N}	% pre-explosion companion search
-%citation{li+11cpn}{2011Natur.480..348L}	% pre-explosion companion search of 2011fe
-%citation{niel+14}{2014MNRAS.442.3400N}		% pre-explosion companion search of 2014j
-%citation{kerz+14rem}{2014ApJ...782...27K}	% wolfgang's search for companions in kepler
-%citation{ollms15}{2015Natur.521..332O}		% kepler telescope shock heated companion
-%citation{magu+16}{2016MNRAS.457.3254M}		% maguire H and He entrained SNe
-%citation{benzth89}{1989ApJ...342..986B}	% benz collisions
-%citation{katzd12}{2012arXiv1211.4584K}		% three-body interactions generate SNe Ia
-%citation{koza62}{1962AJ.....67..591K}		% kozai-lidov mechanism
-%citation{lido62}{1962P&SS....9..719L}		% kozai-lidov mechanism
-%citation{garc+13}{2013MNRAS.436.3413G}		% WD collision simulation
-%citation{kush+13}{2013ApJ...778L..37K}		% WD collision simulation
-%citation{seit+16}{2016arXiv160600089S}		% GCD makes 91T?
-%citation{sato+16}{2016ApJ...821...67S}		% violent merger lower limits
-%citation{lieb+93}{1993AJ....105..301L}		% 1991bg
-%citation{illks12}{2012MNRAS.419.1695I}		% spin-down through magnetic dipole radiation
-%citation{dild+12}{2012Sci...337..942D}		% PTF 11kx
-%citation{soke13}{2013MNRAS.431.1541S}		% Soker's explanation for PTF 11kx
-%citation{livir03}{2003ApJ...594L..93L}		% core degenerate founding paper
-%citation{kashs11}{2011MNRAS.417.1466K}		% kashi & soker's CD channel
-%citation{guil+10}{2010ApJ...709L..64G}		% guillochon shows you can violently ignite a He detonation in a merger
-
-%citation{clay12}{2012JAVSO..40..539C}		% R CrB
-%citation{jeff14}{2014IAUS..301..297J}		% EHe stars
 
 
-%citation{petem63}{1963PhRv..131..435P}		% grav radiation
-%citation{verb84}{1984MNRAS.209..227V}		% mag braking
-%citation{knigbp11}{2011ApJS..194...28K}	% mag braking
-%citation{toon+14}{2014A&A...562A..14T}		% population synthesis
-%citation{toonnp12}{2012A&A...546A..70T}	% DD merger pop synth
-
-%citation{carr+14}{2014A&A...565A..11C}		% Gaia and WDs
-%citation{gaen+15}{2015arXiv150602653G}		% Gaia and WDs
-%citation{gian+15}{2015ApJ...812..167G}		% ELM survey
-%citation{brow+10}{2010ApJ...723.1072B}		% ELM survey paper I
-%citation{napi+07}{2007ASPC..372..387N}		% SPY survey
-%citation{york+00}{2000AJ....120.1579Y}		% SDSS
-%citation{maozbb12}{2012ApJ...751..143M}	% prelude to badem12
-
-%citation{trem+16}{2016arXiv160605292T}		% newest WD field distribution
-%citation{liebbh05}{2005ApJS..156...47L}	% 1 Msun peak of field WD dist
-%citation{giambd12}{2012ApJS..199...29G}	% 1 Msun peak of field WD dist
-%citation{reba+15a}{2015MNRAS.450..743R}	% 1 Msun peak of field WD dist
-%citation{reba+15b}{2015MNRAS.452.1637R}	% 1 Msun peak of field WD dist
-%citation{weggp12}{2012MNRAS.426..427W}		% 1 Msun peak of field WD dist
-%citation{han+02}{2002MNRAS.336..449H}		% He - He mergers
-
-%citation{trem+15}{2015ApJ...812...19T}		% HFMWDs
-%citation{garc+16}{2016IJMPD..2530005G}		% HFMWDs
-%citation{kepl+13}{2013MNRAS.429.2934K}		% HFMWDs
-%citation{wickf05}{2005MNRAS.356.1576W}		% HFMWDs
-%citation{kisst15}{2015ApJ...809..108K}		% Yevgeni's work on PMS dynamos
-%citation{ferrdg15}{2015SSRv..191..111F}	% massive maagnetic WDs
-%citation{lieb+15}{2015ApJ...804...93L}		% HFMWDs need friends to form
-
-%citation{zhanj12}{2012MNRAS.419..452Z}		% He - He merger
-
-%citation{dufo+07}{2007Natur.450..522D}		% Hot DQs
-%citation{dufo+08}{2008ApJ...683..978D}		% Hot DQs
-%citation{will+16}{2016ApJ...817...27W}		% Hot DQ rapid rotation
-%citation{dufo+11}{2011BaltA..20..511D}		% Really preliminary log g measurements
-
-%citation{bild+07}{2007ApJ...662L..95B} 	% .Ias
-%citation{blum+06}{2006AJ....132.2034B}		% Extreme AGB stars
-
-%citation{lewibt16}{2016arXiv160606972L}	% SPMHD
-%citation{vros+15}{2015arXiv151004286V}		% Kash+15 detonation
-%citation{ries+96}{1996ApJ...473...88R}		% Color-luminosity relation
-
-%citation{rask+10}{2010ApJ...724..111R}		% Raskin's collision work
-
-%citation{soke98}{1998AJ....116.1308S}		% RGB-planet merger to make single sdB
-%citation{zhanj12b}{2012MNRAS.426L..81Z}	% RCrB from He-He merger
-%citation{zhan+14}{2014MNRAS.445..660Z}		% RCrB
-%citation{pier+14}{2014MNRAS.445.3239P}		% He accretion
 
 
-%citation{bullsk15}{2015MNRAS.450..967B}
-%citation{mari+16}{2016ApJ...820...92M}
 
 %ZZZion{kawk+07}{2007ApJ...654..499K}		% HFMWDs
 %ZZZtion{taub+08}{2008MNRAS.385...75T}		% 1991bg-like
@@ -793,3 +799,6 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %ZZZation{han+03}{2003MNRAS.341..669H}		% pop synth for sdB stars
 %ZZZation{kararh15}{2015ApJ...809..184K}	% R CrB
 %ZZZation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
+%zzzitation{verb84}{1984MNRAS.209..227V}		% mag braking
+%zzzitation{knigbp11}{2011ApJS..194...28K}	% mag braking
+%ZZZitation{trem+15}{2015ApJ...812...19T}		% HFMWDs

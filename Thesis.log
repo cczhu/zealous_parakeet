@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  5 SEP 2016 20:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  8 SEP 2016 12:38
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -331,7 +331,18 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 (/usr/share/texmf-texlive/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)) (./thesiscommands.tex)
+))
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/ulem.sty
+\UL@box=\box28
+\UL@hyphenbox=\box29
+\UL@skip=\skip54
+\UL@hook=\toks24
+\UL@pe=\count116
+\UL@pixel=\dimen124
+\ULC@box=\box30
+Package: ulem 2000/05/26
+\ULdepth=\dimen125
+) (./thesiscommands.tex)
 (./Thesis.aux (./chapter2_zhu+13/chapter2.aux)
 
 LaTeX Warning: Label `eq:c2a_mfit' multiply defined.
@@ -340,21 +351,21 @@ LaTeX Warning: Label `eq:c2a_mfit' multiply defined.
 (./chapter5_zhu+16/chapter5.aux) (./conclusion/conclusion.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 170.
 
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1pplx.fd
@@ -403,18 +414,18 @@ driver: pdftex
 -----------------------
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen124
-\scratchbox=\box28
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen125
-\MPnumerator=\count120
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count117
+\scratchdimen=\dimen126
+\scratchbox=\box31
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen127
+\MPnumerator=\count121
+\everyMPtoPDFconversion=\toks26
 )
-LaTeX Info: Redefining \microtypecontext on input line 169.
+LaTeX Info: Redefining \microtypecontext on input line 170.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -427,7 +438,7 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/share/texmf-texlive/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-Package hyperref Info: Link coloring ON on input line 169.
+Package hyperref Info: Link coloring ON on input line 170.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -435,91 +446,91 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count121
+\c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 169.
-LaTeX Info: Redefining \pageref on input line 169.
+LaTeX Info: Redefining \ref on input line 170.
+LaTeX Info: Redefining \pageref on input line 170.
  (./Thesis.out)
 (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box32
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 176
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 177
 .
-LaTeX Font Info:    No file OMSpplx.fd. on input line 176.
+LaTeX Font Info:    No file OMSpplx.fd. on input line 177.
 
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 176.
+(Font)              using `OMS/cmsy/m/n' instead on input line 177.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 185.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 189
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 186.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 190
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 189
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 190
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 189
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 190
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 189
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 190
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 189.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 190.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 189.
+(Font)              scaled to size 10.42007pt on input line 190.
 
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 189.
+(Font)              scaled to size 7.91925pt on input line 190.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 189.
+(Font)              scaled to size 6.25204pt on input line 190.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 189.
+(Font)              scaled to size 10.42007pt on input line 190.
 
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 189.
+(Font)              scaled to size 7.91925pt on input line 190.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 189.
+(Font)              scaled to size 6.25204pt on input line 190.
 
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
  (RS)
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 189.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 190.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 189.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 189
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 190.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 190
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1zplm.fd
@@ -534,7 +545,7 @@ Package microtype Info: Character `029' is missing
 
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 266.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 267.
 
 (./Thesis.toc
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
@@ -573,43 +584,42 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/sc' in size <10> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-[15])
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
 
-Underfull \vbox (badness 1694) has occurred while \output is active []
-
- [16]
 [17] (./introduction/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 5.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 5.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7397) has occurred while \output is active []
 
  [1
 
 
 ]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 23.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 23.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 23.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 23.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 23.
-
 <introduction/figures/dan+12_wdbinmass.pdf, id=1012, 552.75558pt x 486.36478pt>
 File: introduction/figures/dan+12_wdbinmass.pdf Graphic file (type pdf)
 <use introduction/figures/dan+12_wdbinmass.pdf>
-LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10> not available
 (Font)              Font shape `T1/pplx/m/it' tried instead on input line 39.
  [2 <./introduction/figures/dan+12_wdbinmass.pdf>] [3] [4] [5]) (./introduction
@@ -962,15 +972,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[112]
-Underfull \vbox (badness 8132) has occurred while \output is active []
-
- [113]
-[114] [115] [116]) (./chapter5_zhu+16/chapter5_results.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [117]
-<chapter5_zhu+16/figures/runaway_rhot.pdf, id=6082, 910.602pt x 722.7pt>
+[112] [113] [114] [115] [116]) (./chapter5_zhu+16/chapter5_results.tex [117]
+<chapter5_zhu+16/figures/runaway_rhot.pdf, id=6084, 910.602pt x 722.7pt>
 File: chapter5_zhu+16/figures/runaway_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/runaway_rhot.pdf> [118] [119 <./chapter5_zhu+16/fi
@@ -1041,27 +1044,37 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-<chapter5_zhu+16/figures/mni.pdf, id=6257, 650.43pt x 650.43pt>
+<chapter5_zhu+16/figures/mni.pdf, id=6247, 650.43pt x 650.43pt>
 File: chapter5_zhu+16/figures/mni.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/mni.pdf> [123] [124 <./chapter5_zhu+16/figures/mni
-.pdf>] [125] [126]) (./chapter5_zhu+16/chapter5_conclusions.tex [127])
-(./chapter5_zhu+16/chapter5_appendix.tex
-Underfull \vbox (badness 2027) has occurred while \output is active []
+.pdf>] [125]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126])
+(./chapter5_zhu+16/chapter5_conclusions.tex [127]
+
+Package natbib Warning: Alias undefined for citation `zhu+13' 
+(natbib)                on page 128 on input line 12.
+
+) (./chapter5_zhu+16/chapter5_appendix.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [128]
 [129] [130]
 <chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6547, 650.43pt x 542.025pt
 >
 File: chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf Graphic file (type pdf)
- <use chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf> [131 <./chapter5_zhu+16/
-figures/rot_stev_1pt15_rhot.pdf>] [132]
-<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6660, 650.43pt x 542.025pt>
+ <use chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf> [131] [132 <./chapter5_z
+hu+16/figures/rot_stev_1pt15_rhot.pdf>] [133]
+<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6668, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/mag_1pt15_rhot.pdf Graphic file (type pdf)
 
-<use chapter5_zhu+16/figures/mag_1pt15_rhot.pdf> [133] [134 <./chapter5_zhu+16/
-figures/mag_1pt15_rhot.pdf>]
-<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6758, 650.43pt x 542.025pt>
+<use chapter5_zhu+16/figures/mag_1pt15_rhot.pdf>
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+ [134 <./chapter5_zhu+16/figures/mag_1pt15_rhot.pdf>]
+<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6761, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/diag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/diag_1pt15_rhot.pdf> [135] [136 <./chapter5_zhu+16
@@ -1073,21 +1086,31 @@ Chapter 6.
 [138
 
 
-] [139] [140] <conclusion/figures/c_MNi.pdf, id=6915, 578.16pt x 578.16pt>
+]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [139]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+<conclusion/figures/c_MNi.pdf, id=6925, 578.16pt x 578.16pt>
 File: conclusion/figures/c_MNi.pdf Graphic file (type pdf)
 
 <use conclusion/figures/c_MNi.pdf>
-Underfull \vbox (badness 1769) has occurred while \output is active []
+Underfull \vbox (badness 1377) has occurred while \output is active []
 
  [141]
-[142 <./conclusion/figures/c_MNi.pdf>] [143]) [144] (./Thesis.bbl [145
+[142 <./conclusion/figures/c_MNi.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [143])
+[144] (./Thesis.bbl [145
 
 
-]
-[146] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156]) [157]
-(./Thesis.aux (./chapter2_zhu+13/chapter2.aux) (./chapter3_zhu+u/chapter3.aux)
-(./chapter4_zhu+15/chapter4.aux) (./chapter5_zhu+16/chapter5.aux)
-(./conclusion/conclusion.aux))
+] [146] [147] [148] [149] [150] [151] [152] [153]
+[154] [155] [156]) [157] (./Thesis.aux (./chapter2_zhu+13/chapter2.aux)
+(./chapter3_zhu+u/chapter3.aux) (./chapter4_zhu+15/chapter4.aux)
+(./chapter5_zhu+16/chapter5.aux) (./conclusion/conclusion.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1096,15 +1119,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12016 strings out of 495061
- 173335 string characters out of 1182622
- 367391 words of memory out of 3000000
- 13225 multiletter control sequences out of 15000+50000
- 151117 words of font info for 751 fonts, out of 3000000 for 9000
+ 12093 strings out of 495061
+ 174056 string characters out of 1182622
+ 374651 words of memory out of 3000000
+ 13301 multiletter control sequences out of 15000+50000
+ 150894 words of font info for 748 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,13n,63p,2708b,1070s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1239,9 +1265,9 @@ share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-texli
 ve/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Thesis.pdf (174 pages, 14802624 bytes).
+Output written on Thesis.pdf (174 pages, 14816421 bytes).
 PDF statistics:
- 7373 PDF objects out of 7423 (max. 8388607)
- 835 named destinations out of 1000 (max. 500000)
+ 7382 PDF objects out of 7423 (max. 8388607)
+ 837 named destinations out of 1000 (max. 500000)
  80262 words of extra memory for PDF output out of 89155 (max. 10000000)
 
