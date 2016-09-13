@@ -11,7 +11,7 @@ In this appendix, we detail our calculations of rotating and magnetized simmerin
 \label{eq:c5_stev79dispersion}
 \end{eqnarray}
 
-\noindent in the limit of zero magnetic dissipation; $\sigma$ is the temporal growth rate of a given mode and $N_*^2 = -g\delta(\nabla - \nablaad)/H_P = -g\delta\Delta/H_P$ is the Brunt-V\"{a}is\"{a}l\"{a} (buoyancy) frequency.  \citeal{stev79} then assumes that, for modes with $\sigma > 0$, the non-linear terms in the Boussinesq equations eventually limit their growth, leading to $\sigma$ equaling the nonlinear cascade rate $\sim kv$ at the convective steady state \citep{barkdl14}.  He also assumes convection at steady state is dominated by the mode that transports the greatest heat flux.  Thus,
+\noindent in the limit of zero magnetic dissipation; $\sigma$ is the temporal growth rate of a given mode and $N_*^2 = -g\delta(\nabla - \nablaad)/H_P = -g\delta\Delta/H_P$ is the Brunt-V\"{a}is\"{a}l\"{a} (buoyancy) frequency.  \citeal{stev79} then assumes that, for modes with $\sigma > 0$, the non-linear terms in the Boussinesq equations eventually limit their growth, leading to $\sigma$ equaling the non-linear cascade rate $\sim kv$ at the convective steady state \citep{barkdl14}.  He also assumes convection at steady state is dominated by the mode that transports the greatest heat flux.  Thus,
 
 %The former assumption leads to a relationship between $\sigma$, the mode velocity $v$ (equivalent to \vconv) and wavevector ${\bf k}$:
 
@@ -81,7 +81,7 @@ The exact solution in the rotating case is given by \citeal{stev79}:
 \label{eq:c5_rot_nabrat_apx_low}
 \eqend
 
-\noindent Eqn. \ref{eq:c5_rot_nabrat_apx} is accurate to within 3\% of the exact $\dnabrot/\dnabconvzero$ for all \rossby, and $\vconv/\vconvzero = (\dnabrot/\dnabconvzero)^{-1/4}$ to within 1\%.  Eqn. \ref{eq:c5_rot_nabrat_apx_low} can be approximated by $\dnabrot \sim \delta^{-1}(H_P\Omega/c_s)(\vconv/c_s)$, which can be compared to a na\"{i}ve implementation of the (1D analog of the) Solberg-H{\o}iland stability criterion {\charles when $\Omega$ is constant, $\Delta_\mrm{Solberg} \sim \delta^{-1}(H_P\Omega/c_s)^2$ (eg. \citealt{maed09} Sec. 6.4).}  The replacement of one $H_P\Omega/c_s$ term with $\vconv/c_s$ accounts for the lack of suppression along the axis of rotation, and the turbulent cascade of polar convection into modes orthogonal to the rotation axis in the nonlinear regime \citep{barkdl14}.
+\noindent Eqn. \ref{eq:c5_rot_nabrat_apx} is accurate to within 3\% of the exact $\dnabrot/\dnabconvzero$ for all \rossby, and $\vconv/\vconvzero = (\dnabrot/\dnabconvzero)^{-1/4}$ to within 1\%.  Eqn. \ref{eq:c5_rot_nabrat_apx_low} can be approximated by $\dnabrot \sim \delta^{-1}(H_P\Omega/c_s)(\vconv/c_s)$, which can be compared to a na\"{i}ve implementation of the (1D analog of the) Solberg-H{\o}iland stability criterion {\charles when $\Omega$ is constant, $\Delta_\mrm{Solberg} \sim \delta^{-1}(H_P\Omega/c_s)^2$ (eg. \citealt{maed09} Sec. 6.4).}  The replacement of one $H_P\Omega/c_s$ term with $\vconv/c_s$ accounts for the lack of suppression along the axis of rotation, and the turbulent cascade of polar convection into modes orthogonal to the rotation axis in the non-linear regime \citep{barkdl14}.
 
 %In the limits of very large and very small \rossby, Eqn. \ref{eq:rot_exactsoln} can be approximated by
 
@@ -103,7 +103,7 @@ The exact solution in the rotating case is given by \citeal{stev79}:
 %\label{eq:rot_approxsoln_dnab}
 %\eqend
 
-Notably, this formulation has been tested in the $\rossby \ll 1$ limit by \cite{barkdl14}, who show through simulations of rotating Rayleigh-B\'{e}nard convection that $\dnabrot \propto \Omega^{4/5}$ and $\vconv \propto \Omega^{-1/5}$ over $10^{-4} \lesssim \rossby \lesssim 10^{-1}$, consistent with \citeal{stev79}.  While not a simulation of a convecting star, this lends credence to \citeal{stev79}'s assumptions for convective transport and nonlinear mode saturation.
+Notably, this formulation has been tested in the $\rossby \ll 1$ limit by \cite{barkdl14}, who show through simulations of rotating Rayleigh-B\'{e}nard convection that $\dnabrot \propto \Omega^{4/5}$ and $\vconv \propto \Omega^{-1/5}$ over $10^{-4} \lesssim \rossby \lesssim 10^{-1}$, consistent with \citeal{stev79}.  While not a simulation of a convecting star, this lends credence to \citeal{stev79}'s assumptions for convective transport and non-linear mode saturation.
 
 % of the first model above the $\taucc = \taunu$ ignition line
 
