@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  12 SEP 2016 23:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.2)  13 SEP 2016 01:03
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -1062,7 +1062,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [128]
 [129] [130]
-<chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6543, 650.43pt x 542.025pt
+<chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf, id=6540, 650.43pt x 542.025pt
 >
 File: chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf Graphic file (type pdf)
  <use chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf>
@@ -1070,14 +1070,14 @@ Underfull \vbox (badness 2065) has occurred while \output is active []
 
  [131]
 [132 <./chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf>] [133]
-<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6665, 650.43pt x 542.025pt>
+<chapter5_zhu+16/figures/mag_1pt15_rhot.pdf, id=6662, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/mag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/mag_1pt15_rhot.pdf>
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
  [134 <./chapter5_zhu+16/figures/mag_1pt15_rhot.pdf>]
-<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6758, 650.43pt x 542.025pt>
+<chapter5_zhu+16/figures/diag_1pt15_rhot.pdf, id=6755, 650.43pt x 542.025pt>
 File: chapter5_zhu+16/figures/diag_1pt15_rhot.pdf Graphic file (type pdf)
 
 <use chapter5_zhu+16/figures/diag_1pt15_rhot.pdf> [135] [136 <./chapter5_zhu+16
@@ -1096,7 +1096,7 @@ Underfull \vbox (badness 1769) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [140]
-<conclusion/figures/c_MNi.pdf, id=6922, 578.16pt x 578.16pt>
+<conclusion/figures/c_MNi.pdf, id=6919, 578.16pt x 578.16pt>
 File: conclusion/figures/c_MNi.pdf Graphic file (type pdf)
 
 <use conclusion/figures/c_MNi.pdf>
@@ -1265,9 +1265,9 @@ share/texmf-texlive/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-texli
 ve/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on Thesis.pdf (174 pages, 14812848 bytes).
+Output written on Thesis.pdf (174 pages, 14812277 bytes).
 PDF statistics:
- 7379 PDF objects out of 7423 (max. 8388607)
+ 7376 PDF objects out of 7423 (max. 8388607)
  836 named destinations out of 1000 (max. 500000)
  80262 words of extra memory for PDF output out of 89155 (max. 10000000)
 
