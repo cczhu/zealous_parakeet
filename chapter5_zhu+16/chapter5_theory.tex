@@ -22,7 +22,7 @@ For a center-lit nuclear runaway, carbon ignition is achieved when material near
 We will need the timescale for convective energy transport, \tauconv, which requires the convective luminosity $\Lconv$.  In steady state convection, this is equal to the nuclear luminosity, i.e.
 
 \eqbegin
-\Lconv = \Lcc = \int_0^{\Rwd} 4\pi r^2\rho \epscc(\rho, T)dr.
+\Lconv(r) = \Lcc(r) = \int_0^{r} 4\pi r'^2\rho \epscc(\rho, T)dr'.
 \label{eq:c5_convlum}
 \eqend
 
@@ -56,7 +56,7 @@ Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc)
 %\label{eq:poly_alpha}
 %\end{eqnarray}
 
-\noindent to obtain $\rho\epscc(\rho, T) = \rhoc\epscentral\theta^{b - 1}$, where $b = (\gamma_1 - 1)^{-1}(25.3\gamma_3 - 22.9) + 1$ and $\epscentral = \epscc(\rhoc, \Tc)$.  Eqn. \ref{eq:c5_convlum} then reduces to
+\noindent along with Eqn. \ref{eq:c5_epsccscaling} to obtain $\rho\epscc(\rho, T) = \rhoc\epscentral\theta^{b - 1}$, where $b = (\gamma_1 - 1)^{-1}(23.6\gamma_3 - 21.3) + 1$ and $\epscentral = \epscc(\rhoc, \Tc)$.  When calculating the total luminosity, Eqn. \ref{eq:c5_convlum} then reduces to
 
 \eqbegin
 \Lconv \approx 4\pi\rhoc\epscentral\frac{1}{\alpha^3}\int_0^{\xi_1} \xi^2 \theta^{b - 1} d\xi.
@@ -78,7 +78,7 @@ Near the center, and closer to the end of simmering, $\rho_7 = (\rho/10^7\,\gcc)
 \label{eq:c5_convlumred}
 \end{eqnarray}
 
-\noindent For the scaling relation above, and for Eqn. \ref{eq:c5_vconvest2} below, we use the Helmholtz EOS to numerically expand $\alpha \approx 7.0(\rho_7/3)^{0.33}(T_9/1.2)^{-0.08}\,\mrm{cm}^{-1}$.
+\noindent For the scaling relation above, and for Eqn. \ref{eq:c5_vconvest2} below, we use the Helmholtz EOS to numerically expand $\alpha \approx 7.0\times10^{-9}(\rho_7/3)^{0.33}(T_9/1.2)^{-0.08}\,\mrm{cm}^{-1}$.
 
 %See Chang, White & van Kerkwijk Unpublished Eqns. 10 - 18
 
@@ -99,7 +99,7 @@ H_P \equiv -\frac{P}{dP/dr}.
 \label{eq:c5_scaleheight}
 \eqend
 
-\noindent A coefficient of order a few often included in Eqn. \ref{eq:c5_vconv_mlt} has been set to unity to be consistent with \citeal{piroc08}.  Combining Eqns. \ref{eq:c5_convlumred} and Eqn. \ref{eq:c5_vconv_mlt}, we estimate the convective velocity at $r = H_P/2$:
+\noindent A coefficient of order a few often included in Eqn. \ref{eq:c5_vconv_mlt} has been set to unity to be consistent with \citeal{piroc08}.  Combining Eqns. \ref{eq:c5_convlumred} and \ref{eq:c5_vconv_mlt}, we estimate the convective velocity at $r = H_P/2$:
 
 \begin{eqnarray}
 \vconv &\approx& \left(\frac{e^{\gamma_3/2\gamma_1}}{\pi}\frac{\delta \gacc}{c_P \Tc}\frac{\Lconv}{H_P \rhoc}\right)^{1/3} \nonumber \\
@@ -125,7 +125,7 @@ m\left(H_P/2\right) &=& \int_0^{H_P/2} 4\pi r^2\rho dr \approx 4\pi\frac{\rhoc}{
 \label{eq:c5_poly_mhp2}
 \end{eqnarray}
 
-\noindent calculated using the same procedure to estimate \Lconv.  Combining Eqns. \ref{eq:c5_poly_xihp2} with \ref{eq:c5_poly_mhp2},
+\noindent calculated using the same procedure to estimate \Lconv.  Combining Eqns. \ref{eq:c5_vconvest} with \ref{eq:c5_poly_mhp2},
 
 \begin{eqnarray}
 \vconv &\approx& \frac{0.57}{\alpha}\left(\delta G\rhoc\frac{\epscentral}{c_P \Tc}\right)^{1/3} \nonumber \\
@@ -133,12 +133,12 @@ m\left(H_P/2\right) &=& \int_0^{H_P/2} 4\pi r^2\rho dr \approx 4\pi\frac{\rhoc}{
 \label{eq:c5_vconvest2}
 \end{eqnarray}
 
-\noindent where we use the Helmholtz EOS again to expand $c_P \approx 4.9\times10^7(\rho_7/3)^{-0.32}(T_9/1.2)^{0.84}\,\mrm{erg}\,\mrm{K}^{-1}$ and $\delta = 1.2\times10^{-1}(\rho_7/3)^{-0.64}(T_9/1.2)^{1.58}$.
+\noindent where we use the Helmholtz EOS again to expand $c_P \approx 4.9\times10^7(\rho_7/3)^{-0.32}(T_9/1.2)^{0.84}\,\mrm{erg}\,\mrm{g}^{-1}\,\mrm{K}^{-1}$ and $\delta = 1.2\times10^{-1}(\rho_7/3)^{-0.64}(T_9/1.2)^{1.58}$.
 
 Finally, we use Eqn. \ref{eq:c5_vconvest2} to estimate the convective timescale
 
 \eqbegin
-\tauconv \sim \frac{H_P}{\vconv} \approx \frac{2.2}{\delta^{1/3}}\left(\frac{1}{G\rhoc}\right)^{1/3}\left(\frac{c_P\Tc}{\epscentral}\right)^{1/3}
+\tauconv \sim \frac{H_P}{\vconv} \approx \frac{2.1}{\delta^{1/3}}\left(\frac{1}{G\rhoc}\right)^{1/3}\left(\frac{c_P\Tc}{\epscentral}\right)^{1/3}
 \label{eq:c5_tauconvest}
 \eqend
 
@@ -151,10 +151,10 @@ Finally, we use Eqn. \ref{eq:c5_vconvest2} to estimate the convective timescale
 
 %using $\bar{\rho}/\rhoc = 54.1825$ for an $n = 3$ polytrope (eg. \citealt{kippww12}, Table 19.1)
 
-\noindent Taking $\delta^{1/3} \approx 0.49$, Eqn. \ref{eq:c5_tauconvest} then becomes\footnote{Retaining the density and temperature scaling of $\delta^{-1/3} \propto (\rho_7/3)^{0.21}(T_9/1.2)^{-0.52}$ in Eqn. \ref{eq:c5_tauconvest} does not substantially alter our result, since $\tauconv \propto \delta^{-1/3}(\rho_7/3)^{-0.22}(T_9/1.2)^{-7.41}$ and density changes only by a factor of a few during the runaway.}
+\noindent Taking $\delta^{1/3} \approx 0.49$, Eqn. \ref{eq:c5_tauconvest} then becomes\footnote{Retaining the density and temperature scaling of $\delta^{-1/3} \propto (\rho_7/3)^{0.21}(T_9/1.2)^{-0.53}$ in Eqn. \ref{eq:c5_tauconvest} does not substantially alter our result, since $\tauconv \propto \delta^{-1/3}(\rho_7/3)^{-0.67}(T_9/1.2)^{-7.78}$ and density changes only by a factor of a few during the runaway.}
 
 \eqbegin
-\tauconv \approx 4.4\taudyn^{2/3}\taucc^{1/3}.
+\tauconv \approx 4.3\taudyn^{2/3}\taucc^{1/3}.
 \label{eq:c5_tauconvest2}
 \eqend
 
@@ -178,7 +178,7 @@ In reality, the end of simmering and birth of a thermonuclear {\charles burning 
 We generate 1D hydrostatic models by solving the stellar structure differential equations
 
 \eqbegin
-\frac{dP}{dm} = -\frac{Gm}{4\pi r^4}\,\left(\,+ \frac{1}{6\pi}\frac{\Omega^2}{r}\right)
+\frac{dP}{dm} = -\frac{Gm}{4\pi r^4}\,\,\,\left(\,+\, \frac{1}{6\pi}\frac{\Omega^2}{r}\right)
 \label{eq:c5_hydroeq}
 \eqend
 
@@ -227,7 +227,7 @@ Within the convection zone, the temperature profile is given by
 \label{eq:c5_superad_dev}
 \eqend
 
-\noindent where{\charles convecting elements themselves are assumed to be adiabatic}, and a coefficient has again been set to unity for consistency with \citeal{piroc08}.  We shall see in Sec. \ref{ssec:c5_runaway_superad} that $\dnabconv/\nablaad \ll 1$ -- as usual in stellar interiors -- except near the very end of simmering.
+\noindent where {\charles convecting elements themselves are assumed to be adiabatic}, and a coefficient has again been set to unity for consistency with \citeal{piroc08}.  We shall see in Sec. \ref{ssec:c5_runaway_superad} that $\dnabconv/\nablaad \ll 1$ -- as usual in stellar interiors -- except near the very end of simmering.
 
 The scale height, as defined by Eqn. \ref{eq:c5_scaleheight}, diverges as $r\rightarrow0$.  To alleviate issues with expressions that have it in the denominator, we follow \cite{paxt+11} in using an alternate scale height,
 
@@ -267,7 +267,7 @@ To account for this effect, we add another condition that $s(m)$ must always be 
 \label{eq:c5_endofsimmering}
 \eqend 
 
-\noindent where values in the integrand are taken from the WD's stellar profile, rather than for a single convective element.\footnote{Eqn. \ref{eq:c5_vconv_mlt} gives $\vconv(r = 0) = 0$, leading to a singularity in Eqn. \ref{eq:c5_endofsimmering}.  To avoid this, we set $\vconv(r = 0)$ to its value at the next step in the integration, where $r \sim 10^6\,\mrm{cm}$.}  $\Rcc$, the outer boundary of the nuclear burning region, is estimated with the implicit equation
+\noindent where values in the integrand are taken from the WD's stellar profile, rather than for a single convective element.\footnote{Eqn. \ref{eq:c5_vconv_mlt} gives $\vconv(r = 0) = 0$, leading to a singularity in Eqn. \ref{eq:c5_endofsimmering}.  To avoid this, we set $\vconv(r = 0)$ to its value at the next step in the integration, where $r \sim 10^5-10^6\,\mrm{cm}$.}  $\Rcc$, the outer boundary of the nuclear burning region, is estimated with the implicit equation
 
 \eqbegin
 \frac{\Lcc(\Rcc)}{\Lcc} = \frac{\int_0^{\Rcc}4\pi r^2\rho \epscc dr}{\int_0^{\Rwd}4\pi r^2 \rho \epscc dr} = 0.95.

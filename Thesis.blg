@@ -10,25 +10,25 @@ Reallocated field_info (elt_size=4) to 14282 items from 5000.
 Database file #1: AutoBibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--string name "june" is undefined
---line 6527 of file AutoBibliography.bib
+--line 6508 of file AutoBibliography.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in arne96
 Warning--empty publisher in clars77
 Warning--empty publisher in goedp04
 Warning--empty note in herizv16
 Warning--empty publisher in kippww12
-Warning--empty publisher in tass00
+Warning--empty publisher in maed09
 You've used 357 entries,
             3085 wiz_defined-function locations,
-            2942 strings with 87648 characters,
-and the built_in function-call counts, 177237 in all, are:
-= -- 14473
+            2943 strings with 87717 characters,
+and the built_in function-call counts, 177242 in all, are:
+= -- 14474
 > -- 13616
 < -- 133
 + -- 4566
 - -- 4935
-* -- 15462
-:= -- 33521
+* -- 15464
+:= -- 33522
 add.period$ -- 357
 call.type$ -- 357
 change.case$ -- 2453
@@ -37,13 +37,13 @@ cite$ -- 363
 duplicate$ -- 6796
 empty$ -- 10161
 format.name$ -- 5378
-if$ -- 34962
+if$ -- 34963
 int.to.chr$ -- 13
 int.to.str$ -- 0
 missing$ -- 346
 newline$ -- 1075
 num.names$ -- 1434
-pop$ -- 2684
+pop$ -- 2683
 preamble$ -- 1
 purify$ -- 2453
 quote$ -- 0
@@ -58,5 +58,5 @@ type$ -- 3198
 warning$ -- 6
 while$ -- 1359
 width$ -- 0
-write$ -- 3567
+write$ -- 3568
 (There were 7 warnings)

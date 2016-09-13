@@ -771,6 +771,10 @@
 {Maeda}, K., {Benetti}, S., {Stritzinger}, M., {et~al.} 2010{\natexlab{b}},
   \nat, 466, 82
 
+\bibitem[{{Maeder}(2009)}]{maed09}
+{Maeder}, A. 2009, {Physics, Formation and Evolution of Rotating Stars},
+  doi:10.1007/978-3-540-76949-1
+
 \bibitem[{{Maguire} {et~al.}(2016){Maguire}, {Taubenberger}, {Sullivan}, \&
   {Mazzali}}]{magu+16}
 {Maguire}, K., {Taubenberger}, S., {Sullivan}, M., \& {Mazzali}, P.~A. 2016,
@@ -1330,9 +1334,6 @@
   {Wadsley}}]{tamb+15}
 {Tamburello}, V., {Mayer}, L., {Shen}, S., \& {Wadsley}, J. 2015, \mnras, 453,
   2490
-
-\bibitem[{{Tassoul}(2000)}]{tass00}
-{Tassoul}, J.-L. 2000, {Stellar Rotation}
 
 \bibitem[{{Taubenberger} {et~al.}(2011){Taubenberger}, {Benetti}, {Childress},
   {Pakmor}, {Hachinger}, {Mazzali}, {Stanishev}, {Elias-Rosa}, {Agnoletto},
