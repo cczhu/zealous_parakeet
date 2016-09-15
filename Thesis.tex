@@ -187,13 +187,13 @@ and Their Possible Link to Thermonuclear Supernovae}
 %% *** Put your Abstract here. ***
 %% (At most 150 words for M.Sc. or 350 words for Ph.D.)
 
-The merger of two carbon-oxygen white dwarfs (CO WDs) can either create a more massive WD, lead to collapse into a neutron star, or explode spectacularly as a thermonuclear, or Type Ia, supernova (SN Ia).  It has traditionally been believed that SNe Ia result only from mergers at or above the Chandrasekhar mass (\Mch), as these can subsequently become dense enough to trigger runaway fusion.  Recently, however, it has been proposed that the merged product, or ``remnant'', might instead ignite fusion from high temperatures reached during post-merger evolution.  This opens the possibility of SNe Ia arising even from sub-\Mch\ mergers.  
+The merger of two carbon-oxygen white dwarfs (CO WDs) can either create a more massive WD, lead to collapse into a neutron star, or explode spectacularly as a thermonuclear, or Type Ia, supernova (SN Ia).  It has traditionally been believed that SNe Ia result only from mergers at or above the Chandrasekhar mass (\Mch), as these can subsequently become dense enough to trigger runaway fusion.  Recently, however, it has been proposed that the merged product, or ``remnant'', might instead subsequently ignite fusion from high temperatures.  This opens the possibility of SNe Ia arising even from sub-\Mch\ mergers.  
 
-To investigate the outcome of double CO WD mergers, I conducted a series of hydrodynamic simulations of the merging process.  I first performed simulations spanning the range of possible mergers using the smoothed-particle hydrodynamics code \gasoline, finding that remnant configurations are roughly homologous for mergers of WDs with the same difference in mass $\Delta M$.  In particular, ``similar-mass'' mergers with $\Delta M \lesssim 0.1\,\Msun$ generate remnants that are heated throughout their dense cores, making them candidates for subsequent explosion.
+To investigate this, I conducted a series of hydrodynamic simulations of the merging process.  I first performed simulations spanning the range of possible mergers using the smoothed-particle hydrodynamics code \gasoline, finding that remnant configurations are roughly homologous for mergers of WDs with the same difference in mass $\Delta M$.  In particular, ``similar-mass'' mergers with $\Delta M \lesssim 0.1\,\Msun$ generate remnants that are heated throughout their dense cores, making them candidates for subsequent explosion.
 
 These results are challenged by my simulations of a $0.625 - 0.65\,\Msun$ merger using the moving-mesh code \arepo.  Unlike in \gasoline, the merger remnant in \arepo\ not only has a relatively cold core, but one that is crescent-shaped and launches a one-armed spiral wave into its surroundings.  I also insert weak magnetic fields into the WDs in \arepo, and find exponential field growth during their merger, leading to a $>10^{10}$ G field within the remnant.  Further study is required to understand how these novel features alter post-merger evolution.
 
-Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nuclear burning in their centers, which ends either with an explosion or expansion into a carbon-burning star.  I determine the minimum mass for an explosion to be $\Mcrit = 1.135\,\Msun$, which can be reached by the dense cores of some sub-\Mch\ merger remnants.  These remnants, however, are likely too underdense to explode.
+Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nuclear burning in their centers, which ends either with an explosion or expansion into a carbon-burning star.  I determine the minimum mass for an explosion to be $\Mcrit \approx 1.15\,\Msun$, which can be reached by the dense cores of some sub-\Mch\ merger remnants.  These remnants, however, are likely too underdense to explode, leaving only mergers with masses $\gtrsim\Mch$ that can.
 
 \end{abstract}
 
@@ -248,7 +248,7 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 
 %I acknowledge financial support from the University of Toronto and Ontario Ministry of Advanced Education and Skills Development via the Ontario Graduate Scholarship, and from the Natural Sciences and Engineering Research Council of Canada through the Alexander Graham Bell and Vanier Canada Graduate Scholarships.
 
-This Ph.D. thesis would not exist without my supervisor, Marten van Kerkwijk.  I am deeply indebted to him for introducing me to the challenging and engrossing world of Type Ia supernovae research, for his many years of support in both research and professional development, and for always being welcome recipient of my many (and occasionally inane) questions.  Marten, I am constantly amazed at your ability to understand and insightfully analyze topics both in and far removed from stellar astrophysics.  Thank you for being both a mentor and an inspiration over the years.
+This Ph.D. thesis would not exist without my supervisor, Marten van Kerkwijk.  I am deeply indebted to him for introducing me to the challenging and engrossing world of Type Ia supernovae research, for his many years of support in both research and professional development, and for always being a welcome recipient of my many (and occasionally inane) questions.  Marten, I am constantly amazed at your ability to understand and insightfully analyze topics both in and far removed from stellar astrophysics.  Thank you for being both a mentor and an inspiration over the years.
 % and hope that at least a bit of that keen physical intuition has passed on to me over the years.
 
 This thesis also would not exist without my de-facto second supervisor Philip Chang, who is always able to cut through all the technical jargon of a theoretical concept to elucidate its core physics.  Thank you for helping me understand everything from magnetic field instabilities to self-sustaining detonations, and for making time for me no matter what.  To my long-time collaborator R\"{u}diger Pakmor, thank you for being my guide to the intricacies of both the \arepo\ code and the simulations it produces; it was a privilege working with such an talented and gracious numericist.  Thanks also to James Wadsley, whose support and advice for the \gasoline\ code were invaluable.
@@ -555,7 +555,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{kiuc+14}{2014PhRvD..90d1502K}		% kiuchi's run - higher resolution than the giacomazzo group, and slightly greater amplification 
 %citation{kule+13}{2013MNRAS.431.2778K}		% kulebi's disk/remnant coupling model, which attempts to predict final HFMWD 
 %citation{oberam10}{2010A&A...515A..30O}	% obergaulinger's study on turbulent MHD dynamo
-%citation{pricr06}{2006Sci...312..719P}		% price and rosswog's MHDSPH NS simulation - note pric12 states this simulation is WRONG
+%citation{pricr06}{2006Sci...312..719P}		% price and rosswog's SPMHD NS simulation - note pric12 states this simulation is WRONG
 %citation{pric12}{2012JCoPh.231..759P} 		% price's 2012 SPH review
 %citation{spru02}{2002A&A...381..923S}		% Tayler-Spurit paper
 %citation{wicktf14}{2014MNRAS.437..675W}	% wickramasinghe's simple dynamo estimate
@@ -606,7 +606,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{scalzrs14}{2014MNRAS.445.2535S} 	% scalzo's M_56 vs M_tot relationship paper
 %citation{scalz+14}{2014MNRAS.440.1498S} 	% scalzo's M_tot vs stretch relation
 %citation{tremb09}{2009ApJ...696.1755T}		% field WD mass distribution
-%citation{trem+16}{2016arXiv160605292T}		% newest WD field distribution
+%citation{trem+16}{2016MNRAS.461.2100T}		% newest WD field distribution
 %citation{weggp12}{2012MNRAS.426..427W}		% 1 Msun peak of field WD dist
 %citation{wickf05}{2005MNRAS.356.1576W}		% HFMWDs
 
@@ -752,7 +752,7 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{garc13}{2013IAUS..281...52G}		% enrique's review on oxygen-neon
 %citation{gaen+15}{2015arXiv150602653G}		% Gaia and WDs
 %citation{goedp04}{2004prma.book.....G} 	% goedbloed's MHD textbook
-%citation{hebe16}{2016arXiv160407749H}		% subdwarf stars
+%citation{hebe16}{2016PASP..128h2001H}		% subdwarf stars
 %citation{herw05}{2005ARA&A..43..435H}		% AGB and super-AGB evolution
 %citation{jeff14}{2014IAUS..301..297J}		% EHe stars
 %citation{justph11}{2011MNRAS.410..984J}	% justham's work on sdOs

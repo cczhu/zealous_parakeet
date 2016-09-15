@@ -305,9 +305,6 @@
 {Featherstone}, N.~A., {Browning}, M.~K., {Brun}, A.~S., \& {Toomre}, J. 2009,
   \apj, 705, 1000
 
-\bibitem[{{Feiden} \& {Chaboyer}(2012)}]{feidc12}
-{Feiden}, G.~A., \& {Chaboyer}, B. 2012, \apj, 761, 30
-
 \bibitem[{{Ferrario} {et~al.}(2015){Ferrario}, {de Martino}, \&
   {G{\"a}nsicke}}]{ferrdg15}
 {Ferrario}, L., {de Martino}, D., \& {G{\"a}nsicke}, B.~T. 2015, \ssr, 191, 111
@@ -456,7 +453,7 @@
   {Vogelsberger}, M. 2014, \mnras, 442, 1992
 
 \bibitem[{{Heber}(2016)}]{hebe16}
-{Heber}, U. 2016, ArXiv e-prints, arXiv:1604.07749
+{Heber}, U. 2016, \pasp, 128, 082001
 
 \bibitem[{{Heringer} {et~al.}(in preparation){Heringer}, {Zhu}, \& {van
   Kerkwijk}}]{herizv16}
@@ -1368,9 +1365,9 @@
 {Tremblay}, P.-E., \& {Bergeron}, P. 2009, \apj, 696, 1755
 
 \bibitem[{{Tremblay} {et~al.}(2016){Tremblay}, {Cummings}, {Kalirai},
-  {Gaensicke}, {Gentile-Fusillo}, \& {Raddi}}]{trem+16}
-{Tremblay}, P.-E., {Cummings}, J., {Kalirai}, J.~S., {et~al.} 2016, ArXiv
-  e-prints, arXiv:1606.05292
+  {G{\"a}nsicke}, {Gentile-Fusillo}, \& {Raddi}}]{trem+16}
+{Tremblay}, P.-E., {Cummings}, J., {Kalirai}, J.~S., {et~al.} 2016, \mnras,
+  461, 2100
 
 \bibitem[{{Tricco}(2015)}]{tric15}
 {Tricco}, T. 2015, in American Astronomical Society Meeting Abstracts, Vol.
