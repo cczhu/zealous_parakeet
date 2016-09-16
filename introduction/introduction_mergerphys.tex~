@@ -95,12 +95,12 @@ In the case where spin and orbital angular momentum coupling is instead negligib
 \label{eq:c1_qcrit3}
 \eqend
 
-\noindent well-below any mass ratio for a CO WD binary (Sec. \ref{ssec:c1_cowd_massrange}).  Eqns. \ref{eq:c1_qcrit} or \ref{eq:c1_qcrit3} represent the upper and lower-bounds of mass transfer stability, as seen in Fig. \ref{fig:c1_stability} (from \citealt{marsns04}): a binary with $\qm > 2/3$ will experience unstable mass transfer even with perfect angular momentum coupling, while a binary with $\qm \lesssim 0.2$ will always be stable, even with no coupling.  The critical $\qm$ for an imperfect coupling will fall somewhere between these two.
+\noindent well below any mass ratio for a CO WD binary (Sec. \ref{ssec:c1_cowd_massrange}).  Eqns. \ref{eq:c1_qcrit} or \ref{eq:c1_qcrit3} represent the upper and lower-bounds of mass transfer stability, as seen in Fig. \ref{fig:c1_stability} (from \citealt{marsns04}): a binary with $\qm > 2/3$ will experience unstable mass transfer even with perfect angular momentum coupling, while a binary with $\qm \lesssim 0.2$ will always be stable, even with no coupling.  The critical $\qm$ for an imperfect coupling will fall somewhere between these two.
 
 \begin{figure}
 \centering
 \includegraphics[angle=0,width=0.65\columnwidth]{introduction/figures/marsns04_stab.pdf}
-\caption{Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor{marsns04} (\citeyear{marsns04}; their Fig. 1).  $M_1$ is \Ma\, and $M_2$ is \Md.  The upper dashed line is a more accurate estimate for Eqn. \ref{eq:c1_qcrit} {\charles (that accounts for the accretor's moment of inertia)}, and the lower dashed one that for Eqn. \ref{eq:c1_qcrit2}.  The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion.  Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau_\mrm{s}$ is $1000$, $10$ and $0.1\,\mrm{yr}$.}
+\caption{Regions of stable and unstable mass transfer for the WD merger parameter space from \citeauthor{marsns04} (\citeyear{marsns04}; their Fig. 1).  $M_1$ is \Ma\, and $M_2$ is \Md.  The upper dashed line is a more accurate estimate for Eqn. \ref{eq:c1_qcrit} (that accounts for the accretor's moment of inertia), and the lower dashed one that for Eqn. \ref{eq:c1_qcrit2}.  The solid ``Direct/Disc'' line represents the transition between direct impact and disk accretion.  Dotted lines represent the boundary between stable and unstable mass transfer when the tidal synchronization timescale $\tau_\mrm{s}$ is $1000$, $10$ and $0.1\,\mrm{yr}$.}
 \label{fig:c1_stability}
 \end{figure}
 

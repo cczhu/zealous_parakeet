@@ -11,7 +11,7 @@ In this appendix, we detail our calculations of rotating and magnetized simmerin
 \label{eq:c5_stev79dispersion}
 \end{eqnarray}
 
-\noindent in the limit of zero magnetic dissipation; $\sigma$ is the temporal growth rate of a given mode and $N_*^2 = -g\delta(\nabla - \nablaad)/H_P = -g\delta\Delta/H_P$ is the Brunt-V\"{a}is\"{a}l\"{a} (buoyancy) frequency.  \citeal{stev79} then assumes that, for modes with $\sigma > 0$, the non-linear terms in the Boussinesq equations eventually limit their growth, leading to $\sigma$ equaling the non-linear cascade rate $\sim kv$ at the convective steady state \citep{barkdl14}.  He also assumes convection at steady state is dominated by the mode that transports the greatest heat flux.  Thus,
+\noindent in the limit of zero magnetic dissipation; $\sigma$ is the temporal growth rate of a given mode and $N_*^2 = -g\delta(\nabla - \nablaad)/H_P = -g\delta\Delta/H_P$ is the Brunt-V\"{a}is\"{a}l\"{a} (buoyancy) frequency.  \citeal{stev79} then assumes that, for modes with $\sigma > 0$, the non-linear terms in the Boussinesq equations eventually limit their growth, leading to $\sigma$ equalling the non-linear cascade rate $\sim kv$ at the convective steady state \citep{barkdl14}.  He also assumes convection at steady state is dominated by the mode that transports the greatest heat flux.  Thus,
 
 %The former assumption leads to a relationship between $\sigma$, the mode velocity $v$ (equivalent to \vconv) and wavevector ${\bf k}$:
 
@@ -81,7 +81,7 @@ The exact solution in the rotating case is given by \citeal{stev79}:
 \label{eq:c5_rot_nabrat_apx_low}
 \eqend
 
-\noindent Eqn. \ref{eq:c5_rot_nabrat_apx} is accurate to within 3\% of the exact $\dnabrot/\dnabconvzero$ for all \rossby, and $\vconv/\vconvzero = (\dnabrot/\dnabconvzero)^{-1/4}$ to within 1\%.  Eqn. \ref{eq:c5_rot_nabrat_apx_low} can be approximated by $\dnabrot \sim \delta^{-1}(H_P\Omega/c_s)(\vconv/c_s)$, which can be compared to a na\"{i}ve implementation of the (1D analog of the) Solberg-H{\o}iland stability criterion {\charles when $\Omega$ is constant, $\Delta_\mrm{Solberg} \sim \delta^{-1}(H_P\Omega/c_s)^2$ (eg. \citealt{maed09} Sec. 6.4).}  The replacement of one $H_P\Omega/c_s$ term with $\vconv/c_s$ accounts for the lack of suppression along the axis of rotation, and the turbulent cascade of polar convection into modes orthogonal to the rotation axis in the non-linear regime \citep{barkdl14}.
+\noindent Eqn. \ref{eq:c5_rot_nabrat_apx} is accurate to within 3\% of the exact $\dnabrot/\dnabconvzero$ for all \rossby, and $\vconv/\vconvzero = (\dnabrot/\dnabconvzero)^{-1/4}$ to within 1\%.  Eqn. \ref{eq:c5_rot_nabrat_apx_low} can be approximated by $\dnabrot \sim \delta^{-1}(H_P\Omega/c_s)(\vconv/c_s)$, which can be compared to a na\"{i}ve implementation of the (1D analog of the) Solberg-H{\o}iland stability criterion when $\Omega$ is constant, $\Delta_\mrm{Solberg} \sim \delta^{-1}(H_P\Omega/c_s)^2$ (eg. \citealt{maed09} Sec. 6.4).  The replacement of one $H_P\Omega/c_s$ term with $\vconv/c_s$ accounts for the lack of suppression along the axis of rotation, and the turbulent cascade of polar convection into modes orthogonal to the rotation axis in the non-linear regime \citep{barkdl14}.
 
 %In the limits of very large and very small \rossby, Eqn. \ref{eq:rot_exactsoln} can be approximated by
 
@@ -112,7 +112,7 @@ Conservation of angular momentum and solid-body rotation are both assumed for th
 \begin{figure}
 \centering
 \includegraphics[angle=0,width=0.8\columnwidth]{chapter5_zhu+16/figures/rot_stev_1pt15_rhot.pdf}
-\caption{Simmering tracks for (unmagnetized) solid-body rotating $1.15\,\Msun$ WDs.  Track color represents $\Ominit/\Omcrit$, the ratio of the WD's angular speed at the start of simmering to its numerically determined break-up value, and the thicker black track is the non-rotating \dnabconv-inclusive $1.15\,\Msun$ one from Fig. \ref{fig:c5_runaway_rhot}.  End of simmering points are a black circle for the non-rotating track and orange squares for the rotating ones; the curves with $\Ominit/\Omcrit > 0.75$ never satisfy Eqn. \ref{eq:c5_endofsimmering}.  Dash-dotted track segments indicate solutions that cannot be reached during simmering.  All other lines and symbols are as in Fig. \ref{fig:c5_runaway_rhot}.}
+\caption{Simmering tracks for (unmagnetized) solid-body rotating $1.15\,\Msun$ WDs.  Track colour represents $\Ominit/\Omcrit$, the ratio of the WD's angular speed at the start of simmering to its numerically determined break-up value, and the thicker black track is the non-rotating \dnabconv-inclusive one from Fig. \ref{fig:c5_runaway_rhot}.  End of simmering points are a black circle for the non-rotating track and orange squares for the rotating ones; the curves with $\Ominit/\Omcrit > 0.75$ never satisfy Eqn. \ref{eq:c5_endofsimmering}.  Dash-dotted track segments indicate solutions that cannot be reached during simmering.  All other lines and symbols are as in Fig. \ref{fig:c5_runaway_rhot}.}
 \label{fig:c5_rot_stev_1pt15_rhot}
 \end{figure}
 
@@ -120,12 +120,12 @@ Conservation of angular momentum and solid-body rotation are both assumed for th
 %\deltanab_\mrm{GTSH} = \deltanab_\mrm{GT} + \deltanab_\mrm{SH}.
 %\eqend
 
-In Fig. \ref{fig:c5_rot_stev_1pt15_rhot}, we plot the simmering tracks of $1.15\,\Msun$ WDs with $\Ominit/\Omcrit$ varying from 25\% - 85\% of $\Omcrit = 0.61\,\mrm{s}^{-1}$ ($1.15\,\Msun$ is chosen for its proximity to the adiabatic \Mcrit\ value).  Below $10^{8}\,\mrm{K}$, the rotating WD tracks shift leftward (in density) from the non-rotating one (thick black line) -- a decrease of $\sim3$\% for $\Ominit/\Omcrit = 0.25$ to $\sim50$\% for $\Ominit/\Omcrit = 0.85$ -- due to centrifugal support supplementing degeneracy pressure.  This partial lifting of degeneracy competes with the convective suppression effects of rotation.  \citeal{stev79} notes the suppressive effect can be estimated by combining Eqns. \ref{eq:c5_superad_dev} and \ref{eq:c5_rot_nabrat_apx_low}: {\charles
+In Fig. \ref{fig:c5_rot_stev_1pt15_rhot}, we plot the simmering tracks of $1.15\,\Msun$ WDs with $\Ominit/\Omcrit$ varying from 25\% - 85\% of $\Omcrit = 0.61\,\mrm{s}^{-1}$ ($1.15\,\Msun$ is chosen for its proximity to the adiabatic \Mcrit\ value).  Below $10^{8}\,\mrm{K}$, the rotating WD tracks shift leftward (in density) from the non-rotating one (thick black line) -- a decrease of $\sim3$\% for $\Ominit/\Omcrit = 0.25$ to $\sim50$\% for $\Ominit/\Omcrit = 0.85$ -- due to centrifugal support supplementing degeneracy pressure.  This partial lifting of degeneracy competes with the convective suppression effects of rotation.  \citeal{stev79} notes the suppressive effect can be estimated by combining Eqns. \ref{eq:c5_superad_dev} and \ref{eq:c5_rot_nabrat_apx_low}:
 
 \eqbegin
 \dnabrot \sim \rossby^{-4/5}\dnabconvzero \sim \left(\frac{\Omega H_P}{\vconvzero}\right)^{4/5}\frac{\vconvzero^2}{g\delta H_P} = \frac{\dnabconvzero^{3/5}}{\delta^{2/5}}\left(\frac{\Omega^2 H_P}{g}\right)^{2/5}.
 \label{eq:c5_rot_limitapprox}
-\eqend}
+\eqend
 
 % get_rot_simple_estimate() shows that the interior \Omega^2 H_P/g ~ 10^-2.5 at the end of simmering for \Ominit/\Omcrit = 0.25, but the estimate below is from "first principles"
 
@@ -133,7 +133,7 @@ In Fig. \ref{fig:c5_rot_stev_1pt15_rhot}, we plot the simmering tracks of $1.15\
 
 %These are lower than what Eqn. \ref{eq:c5_rot_limitapprox} predicts because for small values of $\Ominit$
 
-The convective velocity, meanwhile, has a very shallow dependency on $\dnabrot/\dnabconvzero$.  At the end of simmering, $\vconvrcc = 1.1\times10^7\,\cmpsec$ for both the $\Ominit/\Omcrit = 0.25$ and $\Ominit/\Omcrit = 0.50$ tracks, comparable to the non-rotating value of $\vconvrcc = 1.3\times10^7\,\cmpsec$ (Sec. \ref{ssec:c5_runaway_superad}).  The $\sim20$\% difference in \vconvrcc\ is due to the sensitivity of \epscc\ and the \citeal{wooswk04} criterion to changes in temperature. 
+The convective velocity, meanwhile, has a very shallow dependency on $\dnabrot/\dnabconvzero$.  At the end of simmering, $\vconvrcc = 1.1\times10^7\,\cmpsec$ for both the $\Ominit/\Omcrit = 0.25$ and $\Ominit/\Omcrit = 0.50$ tracks, comparable to the non-rotating value of $\vconvrcc = 1.3\times10^7\,\cmpsec$ (Sec. \ref{ssec:c5_runaway_superad}).  The $\sim20$\% difference in \vconvrcc\ is due to the sensitivity of \epscc\ and the end of simmering criterion (Eqn. \ref{eq:c5_endofsimmering}) to changes in temperature. 
 
 %-- near the end of simmering small changes in temperature lead to large changes in \vconvrcc.
 
@@ -183,14 +183,14 @@ A = \frac{v_A^2}{\vconvzero^2} = \frac{B^2}{4\pi\rho\vconvzero^2}
 
 % papercalc_arepo.py plots the spherical field profile of the 0.625 - 0.65 Msun remnant at 200, 600 and 1000 s after coalescence - we see that the B vs. m profile vaguely in broad strokes looks similar to a \dmag profile for a hydrostatic WD, but the \dmag vs. m profile increases with radius, peaking at ~0.7M_tot and then decreasing sharply.  We shouldn't take these comparisons too seriously, since we cannot compare a non-rotating equilibrated WD with a rotating one recently birthed from a merger.
 
-\noindent is held constant, suggested by \cite{macdm09}, who use it to study magnetic convective suppression in brown dwarfs, as a reasonable profile for a star whose density does not vary wildly over most of its interior.  The spherically averaged magnetic field profile of the merger remnant in Ch. \ref{ch:ch4} also resembles Eqn. \ref{eq:c5_cdev} near the center of its core, though caution must be used comparing a recently formed merger remnant with a hydrostatic simmering WD.  The central initial field strength \Binit\ is restricted to below $10^{12}\,\mrm{G}$ to keep $\dmag \ll 1$ ($\dmag = 0.01$ when $\Binit = 2.0\times10^{12}\,\mrm{G}$ for a $1.15\,\Msun$ WD at the ignition line).  This allows us to leave out magnetic terms in Eqn. \ref{eq:c5_hydroeq}.
+\noindent is held constant, suggested by \cite{macdm09}, who use it to study magnetic convective suppression in brown dwarfs, as a reasonable profile for a star whose density does not vary wildly over most of its interior.  The spherically averaged magnetic field profile of the merger remnant in Ch. \ref{ch:ch4} also resembles Eqn. \ref{eq:c5_cdev} near the centre of its core, though caution must be used comparing a recently formed merger remnant with a hydrostatic simmering WD.  The central initial field strength \Binit\ is restricted to below $10^{12}\,\mrm{G}$ to keep $\dmag \ll 1$ ($\dmag = 0.01$ when $\Binit = 2.0\times10^{12}\,\mrm{G}$ for a $1.15\,\Msun$ WD at the ignition line).  This allows us to leave out magnetic terms in Eqn. \ref{eq:c5_hydroeq}.
 
 %As we know of no reasonable scenario to form a WD where $\Pmag/\Pgas \sim 0.1 - 1$, even in a process as violent as a merger \citep{vkercj10,wicktf14,ji+13, zhu+15}, this is unlikely to be a prohibitive restriction.
 
 \begin{figure}
 \centering
 \includegraphics[angle=0,width=0.8\columnwidth]{chapter5_zhu+16/figures/mag_1pt15_rhot.pdf}
-\caption{Simmering tracks for (non-rotating) magnetized $1.15\,\Msun$ WDs.  Track color represents the central magnetic field strength at the start of simmering, \Binit, and the thicker black dotted track is the non-magnetized \dnabconv-inclusive $1.15\,\Msun$ one from Fig. \ref{fig:c5_runaway_rhot}.  All other lines and symbols are as in Fig. \ref{fig:c5_rot_stev_1pt15_rhot}, except that the orange circles represent end of simmering points for the magnetized (rather than rotating) tracks.}
+\caption{Simmering tracks for (non-rotating) magnetized $1.15\,\Msun$ WDs.  Track color represents the central magnetic field strength at the start of simmering, \Binit, and the thicker black track is the non-magnetized \dnabconv-inclusive one from Fig. \ref{fig:c5_runaway_rhot}.  All other lines and symbols are as in Fig. \ref{fig:c5_rot_stev_1pt15_rhot}, except that the orange circles represent end of simmering points for the magnetized (rather than rotating) tracks.}
 \label{fig:c5_mag_1pt15_rhot}
 \end{figure}
 
@@ -201,13 +201,13 @@ Fig. \ref{fig:c5_mag_1pt15_rhot} depicts simmering tracks for $1.15\,\Msun$ WDs 
 \label{eq:c5_mag_apx_high}
 \eqend
 
-\noindent or $\dmag/2\delta$.  Note that Eqn. \ref{eq:c5_mag_apx_high} is identical to Eqn. \ref{eq:c5_dnabmag_est}, obtained by balancing the buoyancy and Lorentz forces, and a similar expression is derived in \cite{macdm09} based on one from \cite{gougt66}.  Since we consider fields with $\dmag < 10^{-2}$, \dnabmag\ is large only when $1/\delta$ is.  This is the case close to the $\taucc = \taunu$ line, leading to $\dnabmag/\nablaad \sim 0.2$ for the $\Binit = 10^{12}\,\mrm{G}$ track, but for colder and highly degenerate WDs their temperature profile has little influence on their density profile.  When $T\gtrsim10^9\,\mrm{K}$, $1/\delta$ is much smaller and \dnabmag\ approaches \dnabconv\ in value.
+\noindent or $\dmag/2\delta$.  Note that Eqn. \ref{eq:c5_mag_apx_high} is nearly identical to Eqn. \ref{eq:c5_dnabmag_est}, obtained by balancing the buoyancy and Lorentz forces, and a similar expression is derived in \cite{macdm09} based on one from \cite{gougt66}.  Since we consider fields with $\dmag < 10^{-2}$, \dnabmag\ is large only when $1/\delta$ is.  This is the case close to the $\taucc = \taunu$ line, leading to $\dnabmag/\nablaad \sim 0.2$ for the $\Binit = 10^{12}\,\mrm{G}$ track, but for colder and highly degenerate WDs their temperature profile has little influence on their density profile.  When $T\gtrsim10^9\,\mrm{K}$, $1/\delta$ is much smaller and \dnabmag\ approaches \dnabconv\ in value.
 
-\vconv, however, is proportional to $A^{-1/2}$ when $A \gg 1$, and can be many orders of magnitude smaller than \vconvzero\ during the earlier phases of simmering.  For the $\Binit = 1\times10^{12}\,\mrm{G}$ track, \vconv\ is reduced so much that Eqn. \ref{eq:c5_endofsimmering} is satisfied at $\rhoc = 5.9\times10^7\,\gcc$, $\Tc = 8.0\times10^8\,\mrm{K}$, well-below the adiabatic end of simmering line.  At this point, $A \sim 3\times10^3$, and hence $\vconvrcc = 1.3\times10^{4}\,\cmpsec$, a factor of $\sim40$ smaller than \vconvzero\ and $\sim10^3$ smaller than \vconvrcc\ at the end of simmering for the unmagnetized track.  This reduction appears only for $\Binit \gtrsim 3\times10^{11}\,\mrm{G}$; for the $\Binit = 1\times10^{11}\,\mrm{G}$ one, simmering ends when $A \sim 10^{-1}$, and \rhoc\ and \Tc\ deviate from their non-rotating values by $14$\% and $4$\%, respectively.
+\vconv, however, is proportional to $A^{-1/2}$ when $A \gg 1$, and can be many orders of magnitude smaller than \vconvzero\ during the earlier phases of simmering.  For the $\Binit = 1\times10^{12}\,\mrm{G}$ track, \vconv\ is reduced so much that Eqn. \ref{eq:c5_endofsimmering} is satisfied at $\rhoc = 5.9\times10^7\,\gcc$, $\Tc = 8.0\times10^8\,\mrm{K}$, well below the adiabatic end of simmering line.  At this point, $A \sim 3\times10^3$, and $\vconvrcc = 1.3\times10^{4}\,\cmpsec$, a factor of $\sim40$ smaller than \vconvzero\ and $\sim10^3$ smaller than \vconvrcc\ at the end of simmering for the unmagnetized track.  This reduction becomes significant only for $\Binit \gtrsim 3\times10^{11}\,\mrm{G}$; for the $\Binit = 1\times10^{11}\,\mrm{G}$ track, simmering ends when $A \sim 10^{-1}$, and \rhoc\ and \Tc\ deviate from their non-rotating values by $14$\% and $4$\%, respectively.
 
 %at $\rhoc = 3.1\times10^7\,\gcc$, $\Tc = 1.1\times10^9\,\mrm{K}$
 
-We perform a parameter space search of WDs with either low or high-strength magnetic fields.  Strength is defined as the magnetic to total energy ratio \EBEtot; ``low'' means $\EBEtot = 2.9\times10^{-5}$ and ``high'' means $\EBEtot = 2.8\times10^{-3}$, equivalent to $\Binit = 1\times10^{11}\,\mrm{G}$ and $\Binit = 1\times10^{12}\,\mrm{G}$, respectively, for a $1.15\,\Msun$ WD at the start of simmering.  Similar to the non-rotating case, the low field search yields $\Mcrit = 1.13\,\Msun$.  The high field search yields $\Mcrit = 1.02\,\Msun$, a reduction of more than $0.1\,\Msun$ from the non-magnetized case.  The latter estimates are the most uncertain out of all those in this work, which is discussed at length in the main paper.  
+We perform a parameter space search of WDs with either low or high-strength magnetic fields.  Strength is defined as the magnetic to total energy ratio \EBEtot; ``low'' means $\EBEtot = 2.9\times10^{-5}$ and ``high'' means $\EBEtot = 2.8\times10^{-3}$, equivalent to $\Binit = 1\times10^{11}\,\mrm{G}$ and $\Binit = 1\times10^{12}\,\mrm{G}$, respectively, for a $1.15\,\Msun$ WD at the start of simmering.  The low field search yields $\Mcrit = 1.13\,\Msun$, similar to the non-magnetized case.  The high field search yields $\Mcrit = 1.02\,\Msun$, a reduction of more than $0.1\,\Msun$ from the non-magnetized case.
 
 %and $\MNi = 0.21\,\Msun$
 
@@ -215,7 +215,7 @@ We perform a parameter space search of WDs with either low or high-strength magn
 
 %and \MNi\ rapidly grows to $0.51\,\Msun$ for a $1.15\,\Msun$ WD
 
-However, we have already mentioned in Sec. \ref{ssec:c5_magaccuracy} that these results, particularly those at the high-field limit, must be treated with caution.  \citeal{stev79}'s magnetic formulation has not yet been numerically tested and may not accurately reflect non-linear magnetoconvection, except perhaps in the case of weak fields.  Moreover, dynamo processes are likely to be efficient in simmering WDs and will likely lead to $\sim10^{12}\,\mrm{G}$ fields near the end of simmering, dominating over any fossil fields from prior evolution.
+However, we have already mentioned in Sec. \ref{ssec:c5_magaccuracy} that these results, particularly those at the high-field limit, must be treated with caution.  \citeal{stev79}'s magnetic formulation has not yet been numerically tested and may not accurately reflect non-linear magnetoconvection, except perhaps in the case of weak fields.  Moreover, dynamo processes are likely to be efficient in simmering WDs and will likely lead to $\sim10^{12}\,\mrm{G}$ fields near the end of simmering, dominating over any fossil fields from prior evolution.  The \Mcrit\ estimates above are thus are the most uncertain out of all those in this work.  
 
 %Our \Mcrit\ and \MNi\ values are instead estimates of the maximum possible effect, equivalent to assuming the simmering track becomes vertical once reaching the end of simmering point.  While our results then show that extremely strong magnetic fields can potentially reduce \Mcrit\ by more than $0.1\,\Msun$, $10^{12}$ G is more than an order of magnitude higher than the peak field strength produced during or after a merger \citep{ji+13,zhu+15}.  A $10^{11}\,\mrm{G}$ field is likely to be more realistic, and results in a much less extreme deviation from the non-rotating case.
 
@@ -259,7 +259,7 @@ The \citeal{stev79} coefficients only modify \vconv\ by $15$\%, so the deviation
 
 We thus find that changing MLT coefficients leads to changes in the simmering tracks and to \Mcrit\ on par with including the convective superadiabaticity \dnabconv\ in Sec. \ref{ssec:c5_runaway_superad}.  Likewise, these deviations are also ultimately too small to significantly change our results.
 
-%making more accurate modeling of convection at the end of simmering, as important to determining the fate of simmering WDs.
+%making more accurate modelling of convection at the end of simmering, as important to determining the fate of simmering WDs.
 
 %but ones that are as large, or larger than, the changes seen when switching from the adiabatic approximation to more complex formulations, including adding rotation and magnetic fields, in previous sections.  Accurately modelling convection close to the end of simmering, then, is likely to be as or more important to determining the fate of simmering WDs as including rotation or magnetic fields from prior evolution.
 

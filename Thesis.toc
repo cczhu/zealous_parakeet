@@ -101,9 +101,9 @@
 \contentsline {section}{\numberline {5.4}Discussion}{123}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Comparison to Observed \domm {M_{\rm tot}}-\domm {M_{\rm Ni}}\ Relations}{123}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Implications for Mergers as SN Ia Progenitors}{125}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Accuracy of Magnetized Simmering Models}{127}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.3}Accuracy of Magnetized Simmering Models}{126}{subsection.5.4.3}
 \contentsline {section}{\numberline {5.5}Conclusions}{127}{section.5.5}
-\contentsline {section}{\numberline {5.6}Appendix: Convective Suppression due to Rotation and Magnetic Fields}{129}{section.5.6}
+\contentsline {section}{\numberline {5.6}Appendix: Convective Suppression due to Rotation and Magnetic Fields}{128}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Simmering of Rotating White Dwarfs}{130}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Simmering of Magnetized White Dwarfs}{133}{subsection.5.6.2}
 \contentsline {subsection}{\numberline {5.6.3}Sensitivity to Mixing Length Theory Coefficients}{135}{subsection.5.6.3}
