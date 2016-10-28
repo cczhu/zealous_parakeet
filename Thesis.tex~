@@ -246,18 +246,13 @@ Lastly, I calculate the evolution of idealized CO WDs experiencing runaway nucle
 %% (uncomment to have it appear in the document).
 \begin{acknowledgements}
 
-%I acknowledge financial support from the University of Toronto and Ontario Ministry of Advanced Education and Skills Development via the Ontario Graduate Scholarship, and from the Natural Sciences and Engineering Research Council of Canada through the Alexander Graham Bell and Vanier Canada Graduate Scholarships.
-
 This Ph.D. thesis would not exist without my supervisor, Marten van Kerkwijk.  I am deeply indebted to him for introducing me to the challenging and engrossing world of Type Ia supernovae research, for his many years of support in both research and professional development, and for always being a welcome recipient of my many (and occasionally inane) questions.  Marten, I am constantly amazed at your ability to understand and insightfully analyze topics both in and far removed from stellar astrophysics.  Thank you for being both a mentor and an inspiration over the years.
-% and hope that at least a bit of that keen physical intuition has passed on to me over the years.
 
 This thesis also would not exist without my de-facto second supervisor Philip Chang, who is always able to cut through all the technical jargon of a theoretical concept to elucidate its core physics.  Thank you for helping me understand everything from magnetic field instabilities to self-sustaining detonations, and for making time for me no matter what.  To my long-time collaborator R\"{u}diger Pakmor, thank you for being my guide to the intricacies of both the \arepo\ code and the simulations it produces; it was a privilege working with such an talented and gracious numericist.  Thanks also to James Wadsley, whose support and advice for the \gasoline\ code were invaluable.
 
-%This thesis also would not exist without my de-facto second supervisor Philip Chang and long-time collaborator R\"{u}diger Pakmor, both of whom were always willing to lend their effort and expertise.  Thank you for clarifying the intricacies of so many concepts from magnetic field instabilities to the inaccuracies of hydro solvers, and for making time for me no matter what.
-
 To the past and present members of the ``Van Kerkwijk White Dwarf Group'', thank you for being part of our little research community.  Thanks especially to Kelly Lepo for thoughtful research and science outreach discussion as well as being a conference partner-in-crime, Wolfgang Kerzendorf for sharing his programming and network administration expertise and Epson Heringer for being a collaborator and interlocutor on supernova physics.  I am grateful to my thesis committee members, Ue-Li Pen and Chris Matzner, and external appraiser, Lorne Nelson, for their helpful insights; special thanks to Chris Matzner for lending his expertise on hydrodynamics whenever I found a particularly confusing result.  A huge thanks also goes to the administrative staff -- especially Angie Ho and Margaret Meaney -- for ensuring meetings and examinations all ran according to plan.
 
-To my fellow graduate students, your friendship, camaraderie and mutual support made this department a home away from home, and I will miss dearly being among you.  Thanks in particular go to my graduate cohort -- JD Emberson, Yevgeni Kissin and Etsuko Mieda -- for overcoming together the courses and qualifiers; to Lisa Esteves, Ilana Macdonald, Mubdi Rahman, Jamil Shariff, Heidi White and Jielai Zhang for not only being fast friends but role models and partners in science outreach; to Robert Main, Stephen Ro, Ari Silburt and Andrey Vayner for productive science discussions, office shenanigans and enduring camaraderie; and to so many of you for being there for me in times of doubt.
+To my fellow graduate students, your friendship, camaraderie and mutual support made this department a home away from home, and I will miss dearly being among you.  Thanks in particular go to my graduate cohort -- JD Emberson, Yevgeni Kissin and Etsuko Mieda -- for overcoming together the courses and qualifiers; to Lisa Esteves, Ilana MacDonald, Mubdi Rahman, Jamil Shariff, Heidi White and Jielai Zhang for not only being fast friends but role models and partners in science outreach; to Robert Main, Stephen Ro, Ari Silburt and Andrey Vayner for productive science discussions, office shenanigans and enduring camaraderie; and to so many of you for being there for me in times of doubt.
 
 Lastly, to my parents, who nurtured my curiosity of the universe and raised me to value hard work and determination: this thesis is dedicated to you.
 
@@ -353,134 +348,134 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %%% Categorized, then sorted alphabetically
 
 %%%% Core works (includes Marten's) %%%%
-%citation{vkercj10}{2010ApJ...722L.157V}	% vKCJ channel
+%citation{vkercj10}{2010ApJ...722L.157V}
 %citation{vker13}{2013RSPTA.37120236V}
 %citation{zhu+13}{2013ApJ...767..164Z}
 %citation{zhu+15}{2015ApJ...806L...1Z}
-%citation{pakm+16}{2016MNRAS.455.1134P}		% Improving Arepo
+%citation{pakm+16}{2016MNRAS.455.1134P}
 
 
 %%%% Code papers %%%%
-%citation{ager+07}{2007MNRAS.380..963A} 	% SPH instability failure paper
-%citation{bals95}{1995JCoPh.121..357B} 		% balsara switch
-%citation{chaw16}{2016MNRAS.458..480C} 		% Godunov SPH
-%citation{culld10}{2010MNRAS.408..669C}		% critique of time-dependent alpha viscosity
-%citation{dehna12}{2012MNRAS.425.1068D} 	% SPH pair-generating instability
-%citation{dedn+02}{2002JCoPh.175..645D}		% dedner divergence cleaning
-%citation{dola+05}{2005MNRAS.364..753D} 	% time-dependent alpha viscosity
-%citation{duffm11}{2011ApJS..197...15D}		% TESS
-%citation{dube+09}{2009arXiv0903.4875D}		% FLASH update
-%citation{evanh88}{1988ApJ...332..659E}		% constrained transport
-%citation{floc+10}{2010A&A...516A..26F}		% test of MRI simulations across wide range of codes
-%citation{fryx+00}{2000ApJS..131..273F}		% Flash paper
-%citation{gabujl12}{2012ApJ...758..103G} 	% another moving mesh code
-%citation{gingm77}{1977MNRAS.181..375G}		% SPH origin paper 1
-%citation{gove+15}{2015MNRAS.448..792G} 	% GASOLINE chaNGa
-%citation{haye+06}{2006ApJS..165..188H}		% ZEUS-MP2 paper
-%citation{hernk89}{1989ApJS...70..419H}		% Gasoline's kernel
-%citation{hesss10}{2010MNRAS.406.2289H}		% SPH surface tension
-%citation{hopk13}{2013MNRAS.428.2840H}		% pressure-entropy formulation of SPH
-%citation{hopk15}{2015MNRAS.450...53H}		% Gizmo paper
-%citation{hopkr16}{2016MNRAS.455...51H}		% divergence cleaning for Gizmo MHD
-%citation{hu+14}{2014MNRAS.443.1173H}		% modern pressure-entropy SPH
-%citation{kell+14}{2014MNRAS.442.3013K} 	% updates to hydro schemes for Gasoline2
-%citation{kell+15}{2015MNRAS.453.3499K}		% Gasoline 2
-%citation{lucy77}{1977AJ.....82.1013L}		% SPH origin paper 2
-%citation{miyok05}{2005JCoPh.208..315M} 	% HLLD Solver
-%citation{moczvh14}{2014MNRAS.442...43M}	% constrained transport in unstructured grid
-%citation{mocz+16}{2016arXiv160602310M}		% arepo's CT solver
-%citation{mona05}{2005RPPh...68.1703M}		% Monaghan SPH review
-%citation{morrm97}{1997JCoPh.136...41M}		% time-dependent alpha viscosity
-%citation{pakmbs11}{2011MNRAS.418.1392P}	% ruediger's original magnetic fields paper
-%citation{pakms13}{2013MNRAS.432..176P}		% ruediger's galactic magnetic fields paper
-%citation{paxt+11}{2011ApJS..192....3P}		% MESA paper
-%citation{paxt+13}{2013ApJS..208....4P}		% MESA paper 2
-%citation{paxt+15}{2015ApJS..220...15P}		% MESA paper 3
-%citation{powe+99}{1999JCoPh.154..284P}		% powell's divergence cleaner CHECKED
-%citation{pric08}{2008JCoPh.22710040P}		% artificial entropy mixing in SPH
-%citation{readha10}{2010MNRAS.405.1513R}	% E0 and surface tension issues with SPH
-%citation{ross09}{2009NewAR..53...78R}		% rosswog's sph review
-%citation{shen+10}{2010MNRAS.407.1581S} 	% Gasoline's new thermal diffusion term
-%citation{spri05}{2005MNRAS.364.1105S} 		% Gadget2
-%citation{spri10rev}{2010ARA&A..48..391S}	% volker SPH review
-%citation{spri10}{2010MNRAS.401..791S}		% AREPO
-%citation{tamb+15}{2015MNRAS.453.2490T} 	% Gasoline 2
-%citation{timms00}{2000ApJS..126..501T}		% Helmholtz EOS paper
-%citation{toth00}{2000JCoPh.161..605T}		% divergence cleaning overview
-%citation{tric15}{2015AAS...22521106T}		% Terry's talk comparing MHDSPH to Arepo
-%citation{vandr16}{2016A&C....16..109V}		% SHADOWFAX moving mesh code
-%citation{voge+12}{2012MNRAS.425.3024V}		% arepo explicit refinement for maintaining fixed mass
-%citation{wadssq04}{2004NewA....9..137W}	% Gasoline paper
+%citation{ager+07}{2007MNRAS.380..963A}
+%citation{bals95}{1995JCoPh.121..357B} 
+%citation{chaw16}{2016MNRAS.458..480C} 
+%citation{culld10}{2010MNRAS.408..669C}
+%citation{dehna12}{2012MNRAS.425.1068D}
+%citation{dedn+02}{2002JCoPh.175..645D}
+%citation{dola+05}{2005MNRAS.364..753D}
+%citation{duffm11}{2011ApJS..197...15D}
+%citation{dube+09}{2009arXiv0903.4875D}
+%citation{evanh88}{1988ApJ...332..659E}
+%citation{floc+10}{2010A&A...516A..26F}
+%citation{fryx+00}{2000ApJS..131..273F}
+%citation{gabujl12}{2012ApJ...758..103G}
+%citation{gingm77}{1977MNRAS.181..375G}
+%citation{gove+15}{2015MNRAS.448..792G}
+%citation{haye+06}{2006ApJS..165..188H}
+%citation{hernk89}{1989ApJS...70..419H}
+%citation{hesss10}{2010MNRAS.406.2289H}
+%citation{hopk13}{2013MNRAS.428.2840H}
+%citation{hopk15}{2015MNRAS.450...53H}
+%citation{hopkr16}{2016MNRAS.455...51H}
+%citation{hu+14}{2014MNRAS.443.1173H}
+%citation{kell+14}{2014MNRAS.442.3013K}
+%citation{kell+15}{2015MNRAS.453.3499K}
+%citation{lucy77}{1977AJ.....82.1013L}
+%citation{miyok05}{2005JCoPh.208..315M}
+%citation{moczvh14}{2014MNRAS.442...43M}
+%citation{mocz+16}{2016arXiv160602310M}
+%citation{mona05}{2005RPPh...68.1703M}
+%citation{morrm97}{1997JCoPh.136...41M}
+%citation{pakmbs11}{2011MNRAS.418.1392P}
+%citation{pakms13}{2013MNRAS.432..176P}
+%citation{paxt+11}{2011ApJS..192....3P}
+%citation{paxt+13}{2013ApJS..208....4P}
+%citation{paxt+15}{2015ApJS..220...15P}
+%citation{powe+99}{1999JCoPh.154..284P}
+%citation{pric08}{2008JCoPh.22710040P}
+%citation{readha10}{2010MNRAS.405.1513R}
+%citation{ross09}{2009NewAR..53...78R}
+%citation{shen+10}{2010MNRAS.407.1581S}
+%citation{spri05}{2005MNRAS.364.1105S}
+%citation{spri10rev}{2010ARA&A..48..391S}
+%citation{spri10}{2010MNRAS.401..791S}
+%citation{tamb+15}{2015MNRAS.453.2490T}
+%citation{timms00}{2000ApJS..126..501T}
+%citation{toth00}{2000JCoPh.161..605T}
+%citation{tric15}{2015AAS...22521106T}
+%citation{vandr16}{2016A&C....16..109V}
+%citation{voge+12}{2012MNRAS.425.3024V}
+%citation{wadssq04}{2004NewA....9..137W}
 
 
 %%%% Explosion modeling %%%%
-%citation{bullsk15}{2015MNRAS.450..967B}	% mattia and stuart's SN polarization sims
-%citation{fink+07}{2007A&A...476.1133F} 	% fink's ddet paper
-%citation{fink+10}{2010A&A...514A..53F}		% fink's d-det work
-%citation{fink+14}{2014MNRAS.438.1762F}		% SNe IaX pure deflagration
-%citation{frye+10}{2010ApJ...725..296F}		% Fryer double degenerate light curves.
-%citation{garc+13}{2013MNRAS.436.3413G}		% WD collision simulation
-%citation{holc+13}{2013ApJ...771...14H}		% holcomb's He hotspot detonation
-%citation{krom+10}{2010ApJ...719.1067K}		% DDet spectra
-%citation{krom+13}{2013MNRAS.429.2287K}		% SNe IaX pure deflagration
-%citation{kush+13}{2013ApJ...778L..37K}		% WD collision simulation
-%citation{livn90}{1990ApJ...354L..53L}		% double detonation proposal
-%citation{mazumw77}{1977ApJ...213..518M}	% mazurek early work on detonations
-%citation{mollw13}{2013ApJ...774..137M}		% can He detonation  travel into CO core?
-%citation{rask+14}{2014ApJ...788...75R}		% Cody's tamped explosion models.
-%citation{ropk+11}{2011PrPNP..66..309R}		% Ropke's comparison of violent mergers
-%citation{sato+16}{2016ApJ...821...67S}		% violent merger lower limits
-%citation{seit+09}{2009ApJ...696..515S}		% seitenzahl detonation paper
-%citation{seitcr11}{2011MNRAS.414.2709S}	% dtd
-%citation{seit+16}{2016arXiv160600089S}		% GCD makes 91T?
-%citation{shig+92}{1992ApJ...386L..13S}		% sub-Ch -> right nucleosyn/energetics
-%citation{shenb14}{2014ApJ...785...61S}		% converging shocks in ddets
-%citation{shenm14}{2014ApJ...797...46S}		% conditions for He detonation
-%citation{sim+10}{2010ApJ...714L..52S}		% stuart's zero-temperature pure detonations
-%citation{vros+15}{2015arXiv151004286V}		% Kash+15 detonation
-%citation{woosw94}{1994ApJ...423..371W}		% double detonation proposal
-%citation{woos+09}{2009ApJ...704..255W}		% deflagration, density effects
-%citation{woos+11}{2011ApJ...734...37W}		% ...
+%citation{bullsk15}{2015MNRAS.450..967B}
+%citation{fink+07}{2007A&A...476.1133F}
+%citation{fink+10}{2010A&A...514A..53F}
+%citation{fink+14}{2014MNRAS.438.1762F}
+%citation{frye+10}{2010ApJ...725..296F}
+%citation{garc+13}{2013MNRAS.436.3413G}
+%citation{holc+13}{2013ApJ...771...14H}
+%citation{krom+10}{2010ApJ...719.1067K}
+%citation{krom+13}{2013MNRAS.429.2287K}
+%citation{kush+13}{2013ApJ...778L..37K}
+%citation{livn90}{1990ApJ...354L..53L}
+%citation{mazumw77}{1977ApJ...213..518M}
+%citation{mollw13}{2013ApJ...774..137M}
+%citation{rask+14}{2014ApJ...788...75R}
+%citation{ropk+11}{2011PrPNP..66..309R}
+%citation{sato+16}{2016ApJ...821...67S}
+%citation{seit+09}{2009ApJ...696..515S}
+%citation{seitcr11}{2011MNRAS.414.2709S}
+%citation{seit+16}{2016arXiv160600089S}
+%citation{shig+92}{1992ApJ...386L..13S}
+%citation{shenb14}{2014ApJ...785...61S}
+%citation{shenm14}{2014ApJ...797...46S}
+%citation{sim+10}{2010ApJ...714L..52S}
+%citation{vros+15}{2015arXiv151004286V}
+%citation{woosw94}{1994ApJ...423..371W}
+%citation{woos+09}{2009ApJ...704..255W}
+%citation{woos+11}{2011ApJ...734...37W}
 
 
 %%%% WD merger theory/sim papers %%%%
-%citation{benzth89}{1989ApJ...342..986B}	% benz collisions
-%citation{benz+90}{1990ApJ...348..647B}		% benz's early SPH work
-%citation{brow+16}{2016ApJ...824...46B}		% every interacting DWD may merge
-%citation{burk+13}{2013MNRAS.433..332B}		% tidal resonance leads to WD corotation
-%citation{dan+11}{2011ApJ...737...89D}		% dan's exact intial condition work
-%citation{dan+12}{2012MNRAS.422.2417D} 		% dan's merger param space
-%citation{dan+14}{2014MNRAS.438...14D} 		% dan's merger remnant param space
-%citation{dan+15}{2015MNRAS.454.4411D}		% detonations in mergers
-%citation{dsou+06}{2006ApJ...643..381D}		% d'souza's exact initial condition work (eulerian)
-%citation{fulll12}{2012MNRAS.421..426F}		% fuller's tidal analysis for cortation
-%citation{fulll14}{2014MNRAS.444.3488F}		% follow-up to fulll12
-%citation{gokhpf07}{2007ApJ...655.1010G}	% update to marsns04
-%citation{guerig04}{2004A&A...413..257G}	% guerrero's 2004 sims
-%citation{guil+10}{2010ApJ...709L..64G}		% guillochon shows you can violently ignite a He detonation in a merger
-%citation{kash+15}{2015ApJ...800L...7K}		% rahul, ji and bob's work on spiral waves in remnants 
-%citation{katz+16}{2016ApJ...819...94K} 	% katz and zingale work on amr WD mergers
-%citation{kremsk15}{2015ApJ...806...76K}	% update to marsns04
-%citation{lairs94}{1994ApJ...437..742L}		% compressible ellipsoid models of wd binaries
-%citation{loreig09}{2009A&A...500.1193L}	% loren-aguilar's sims
-%citation{loreig10}{2010MNRAS.406.2749L} 	% loren-aguilar's collision work
-%citation{lubos75}{1975ApJ...198..383L}		% transition from disk to direct impact accretion
-%citation{marsns04}{2004MNRAS.350..113M}	% marsh's merger mass trans stability
-%citation{mochl89}{1989A&A...209..111M}		% turbulent viscosity synchronization of WD binaries
-%citation{moll+14}{2014ApJ...785..105M}		% Part 1 of Cody et al's recent merger work
-%citation{pakm+10}{2010Natur.463...61P}		% Ruediger's violent mergers - subluminous
-%citation{pakm+11}{2011A&A...528A.117P}		% Ruediger's violent mergers - dissimilar mass
-%citation{pakm+12}{2012ApJ...747L..10P}		% Ruediger's violent mergers - normal Ia
-%citation{pakm+12sph}{2012MNRAS.424.2222P}	% Stellar gadget (also approximate vs accurate ics)
-%citation{pakm+13}{2013ApJ...770L...8P} 	% ruediger's helium detonation in violent mergers
-%citation{piro11}{2011ApJ...740L..53P}		% tony's work on tides in WD binaries
-%citation{rask+10}{2010ApJ...724..111R}		% Raskin's collision work
-%citation{rask+12}{2012ApJ...746...62R}		% Cody's work
-%citation{segrcm97}{1997ApJ...481..355S}	% segretain's early SPH mergers
-%citation{shen15}{2015ApJ...805L...6S}		% every interacting DWD may merge
-%citation{uryue98}{1998ApJS..118..563U}		% equilibrium solution for corotating wd binary
-%citation{verbr88}{1988ApJ...332..193V}		% WD mass transfer stability
-%citation{yoonpr07}{2007MNRAS.380..933Y}	% Yoon's massive WD sim + post-merger work (1D sub-Edd)
+%citation{benzth89}{1989ApJ...342..986B}
+%citation{benz+90}{1990ApJ...348..647B}
+%citation{brow+16}{2016ApJ...824...46B}
+%citation{burk+13}{2013MNRAS.433..332B}
+%citation{dan+11}{2011ApJ...737...89D}
+%citation{dan+12}{2012MNRAS.422.2417D}
+%citation{dan+14}{2014MNRAS.438...14D}
+%citation{dan+15}{2015MNRAS.454.4411D}
+%citation{dsou+06}{2006ApJ...643..381D}
+%citation{fulll12}{2012MNRAS.421..426F}
+%citation{fulll14}{2014MNRAS.444.3488F}
+%citation{gokhpf07}{2007ApJ...655.1010G}
+%citation{guerig04}{2004A&A...413..257G}
+%citation{guil+10}{2010ApJ...709L..64G}
+%citation{kash+15}{2015ApJ...800L...7K}
+%citation{katz+16}{2016ApJ...819...94K}
+%citation{kremsk15}{2015ApJ...806...76K}
+%citation{lairs94}{1994ApJ...437..742L}
+%citation{loreig09}{2009A&A...500.1193L}
+%citation{loreig10}{2010MNRAS.406.2749L}
+%citation{lubos75}{1975ApJ...198..383L}
+%citation{marsns04}{2004MNRAS.350..113M}
+%citation{mochl89}{1989A&A...209..111M}
+%citation{moll+14}{2014ApJ...785..105M}
+%citation{pakm+10}{2010Natur.463...61P}
+%citation{pakm+11}{2011A&A...528A.117P}
+%citation{pakm+12}{2012ApJ...747L..10P}
+%citation{pakm+12sph}{2012MNRAS.424.2222P}
+%citation{pakm+13}{2013ApJ...770L...8P}
+%citation{piro11}{2011ApJ...740L..53P}
+%citation{rask+10}{2010ApJ...724..111R}
+%citation{rask+12}{2012ApJ...746...62R}
+%citation{segrcm97}{1997ApJ...481..355S}
+%citation{shen15}{2015ApJ...805L...6S}
+%citation{uryue98}{1998ApJS..118..563U}
+%citation{verbr88}{1988ApJ...332..193V}
+%citation{yoonpr07}{2007MNRAS.380..933Y}
 
 
 %%%% WD post-merger evolution %%%%
@@ -782,22 +777,3 @@ Lastly, to my parents, who nurtured my curiosity of the universe and raised me t
 %citation{tyle+11}{2011A&A...528A.114T}		% tylenda's V1309 Sco paper
 %citation{york+00}{2000AJ....120.1579Y}		% SDSS
 %citation{yung05}{2005AIPC..797....1Y}		% yungelson's overview of binary evolution and population synthesis
-
-
-
-
-
-
-
-%ZZZion{kawk+07}{2007ApJ...654..499K}		% HFMWDs
-%ZZZtion{taub+08}{2008MNRAS.385...75T}		% 1991bg-like
-%ZZZitation{leib00}{2000A&ARv..10..179L}	% bruno Leibundgut's 2000 work
-%ZZZation{dong+15}{2015MNRAS.454L..61D}		% more collisions
-%ZZZation{han+03}{2003MNRAS.341..669H}		% pop synth for sdB stars
-%ZZZation{kararh15}{2015ApJ...809..184K}	% R CrB
-%ZZZation{papal95}{1995ARA&A..33..505P} 	% spiral and MHD wave review
-%zzzitation{verb84}{1984MNRAS.209..227V}		% mag braking
-%zzzitation{knigbp11}{2011ApJS..194...28K}	% mag braking
-%ZZZiation{tass00}{2000stro.book.....T} 		% Tassoul's variational derivation of the SH criterion
-%ZZZitation{trem+15}{2015ApJ...812...19T}		% HFMWDs
-%ZZZitation{maed+13}{2013A&A...553A...1M}		% Maeder's paper on general instability criteria
