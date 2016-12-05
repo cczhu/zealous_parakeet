@@ -86,7 +86,7 @@
 \contentsline {subsection}{\numberline {4.4.2}Changing the Seed Field Strength}{105}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Discussion}{105}{section.4.5}
 \contentsline {section}{\numberline {4.6}Postscript: Reconsidering Divergence Cleaning in \textsc {Arepo}}{107}{section.4.6}
-\contentsline {chapter}{\numberline {5}The Evolution of Simmering Sub-Chandrasekhar Mass WDs}{110}{chapter.5}
+\contentsline {chapter}{\numberline {5}The Evolution of Simmering Sub-Chandrasekhar Mass White Dwarfs}{110}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{111}{section.5.1}
 \contentsline {section}{\numberline {5.2}Modeling Sub-\domm {M_{\rm Ch}}WD Simmering}{112}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Analytical Description}{112}{subsection.5.2.1}
